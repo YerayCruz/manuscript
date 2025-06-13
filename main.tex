@@ -1,0 +1,121 @@
+\documentclass[12pt,twoside]{book}
+
+\listfiles % create a listing in the log of all needed files
+
+%====================================================================
+% LaTeX packages
+%====================================================================
+\usepackage{csquotes}
+\usepackage{caption}
+\captionsetup{format=hang, margin=10pt, font=small, labelfont=bf}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{amsmath,amsfonts,amssymb,physics}
+\usepackage{xcolor}
+\usepackage[bookmarks=true]{hyperref}
+
+\definecolor{linkscolor}{rgb}{0.36,0.54,0.66}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkscolor,
+  urlcolor=linkscolor,
+  citecolor=linkscolor,
+  pdfauthor={Yeray Cruz Ruiz},
+  pdftitle={Active Bath},
+  pdfsubject={Master Thesis},
+  pdfkeywords={soft matter, statistical physics, colloidal models},
+  pdfproducer={LaTeX},
+  pdfcreator={pdfLaTeX},
+}
+\usepackage[english]{babel}
+\usepackage{ifthen}
+\usepackage{times} % font style
+\usepackage{fullpage} % page size
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\inlinenote}[1]{\todo[inline]{#1}}
+
+\makeindex % activate index-making
+
+%====================================================================
+% Formatting
+%====================================================================
+
+\headsep = 25 pt % avoid the top margin problem
+
+% set linespace to 1.2 for readability
+\renewcommand{\baselinestretch}{1.2}
+
+% Reset page margins properly for doublesided pages
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparsep}{0pt}
+\setlength{\oddsidemargin}{0.125in}
+\setlength{\evensidemargin}{0.125in}
+\setlength{\textwidth}{6.375in}
+\raggedbottom
+
+%====================================================================
+% Custom commands
+%====================================================================
+
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\kb}{k_{B}}
+
+\newenvironment{where}[1]   % Equation symbol lists
+ {\begin{list}{}%
+  {\renewcommand{\makelabel}[1]{\hfill\textnormal{##1 =}}%
+   \settowidth{\labelwidth}{\textnormal{#1 =}}%
+   \setlength{\leftmargin}{\labelwidth}%
+   \addtolength{\leftmargin}{\labelsep}%
+   \setlength{\itemsep}{-\parsep}}}%
+ {\end{list}}
+
+%====================================================================
+% Document
+%====================================================================
+
+\begin{document}
+%----- FRONT MATERIAL -----%
+
+\pagenumbering{roman}
+
+\include{frontpage}
+
+\pagenumbering{arabic}
+%----- MAIN BODY -----%
+
+% Put the document title and page numbers in the header
+\pagestyle{myheadings}
+\normalsize
+
+% Chapters
+\include{chapters/ch1_intro}
+\include{chapters/ch2_backgroung}
+\include{Stateofart2}
+
+%----- END MATERIAL -----%
+
+% Appendices-----------------------------------------------------------
+
+% \appendix
+%
+\include{apps/app1}
+\include{apps/app2}
+
+%
+% References-----------------------------------------------------------
+\markright{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{unsrtnat} % in order of appearance
+\bibliography{references.bib}
+
+% Index ---------------------------------------------------------------
+
+\printindex
+
+\include{RMMCV}
+
+\end{document}
+%======================================================================

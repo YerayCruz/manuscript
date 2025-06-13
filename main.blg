@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: frontpage.aux
+A level-1 auxiliary file: chapters/ch1_intro.aux
+A level-1 auxiliary file: chapters/ch2_backgroung.aux
+A level-1 auxiliary file: Stateofart2.aux
+A level-1 auxiliary file: apps/app1.aux
+A level-1 auxiliary file: apps/app2.aux
+The style file: unsrtnat.bst
+A level-1 auxiliary file: RMMCV.aux
+Database file #1: references.bib
+Warning--I didn't find a database entry for "Moody92"
+Warning--I didn't find a database entry for "Sjoberg95"
+You've used 1 entry,
+            2481 wiz_defined-function locations,
+            569 strings with 4750 characters,
+and the built_in function-call counts, 477 in all, are:
+= -- 46
+> -- 7
+< -- 2
++ -- 4
+- -- 2
+* -- 24
+:= -- 70
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 2
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 29
+empty$ -- 49
+format.name$ -- 3
+if$ -- 108
+int.to.chr$ -- 1
+int.to.str$ -- 2
+missing$ -- 1
+newline$ -- 13
+num.names$ -- 3
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 1
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 26
+swap$ -- 10
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 7
+warning$ -- 0
+while$ -- 5
+width$ -- 0
+write$ -- 21
+(There were 2 warnings)

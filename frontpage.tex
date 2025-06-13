@@ -1,0 +1,160 @@
+\thispagestyle{empty} % No headers or page numbers
+
+\begin{center}
+\large { Instituto Tecnológico y de Estudios Superiores de Monterrey\\}
+\vspace*{0.5em}
+\normalsize { Campus Monterrey } \\
+\vspace*{0.5em}
+\large{School of Engineering and Sciences\\}
+\vspace*{1em}
+
+\begin{figure}[!h]
+ \begin{center}
+  \includegraphics[scale=0.2]{pics/LogoTec.jpg}
+ \end{center}
+\end{figure}
+\vspace*{0.6cm}
+
+\Large {Induced Rotation of Ratchets in Passive Environments}
+
+\vspace*{0.5em}
+\normalsize{A thesis presented by}\\
+\vspace*{0.5em}
+\large{Yeray Cruz Ruiz}\\
+\vspace*{1.5cm}
+\normalsize
+
+Submitted to the\\
+School of Engineering and Sciences\\
+in partial fulfillment of the requirements for the degree of\\
+\vspace*{1em}
+\large{Master} \\
+\large{In} \\
+\large{Nanotechnology} \\
+\normalsize
+\vfill
+Monterrey, Nuevo León, México, Nov 2025\\
+\end{center}
+
+\newpage %-------------------------------------------- -----------------PAGE iii
+
+\begin{center}
+
+\large { Instituto Tecnológico y de Estudios Superiores de Monterrey\\}
+\normalsize {Campus Monterrey}
+\normalsize {School of Engineering and Sciences}
+\vspace*{1em}
+
+The commitee members, hereby, certify that have read the thesis presented by {\bf Yeray Cruz Ruiz} and that it is fully adequate in scope and quality as a partial requirement for the degree of Master in Nanotechnology.\\
+\vspace*{3em}
+
+\raggedleft{
+{---------------------------------} \\
+Antonio Ortiz Ambriz, PhD \\
+Thesis Advisor\\
+School of Engineering Sciences, Tecnológico de Monterrey\\
+\vspace*{2em}
+{---------------------------------}\\
+Someone, PhD  \\
+Sinodal member  \\
+Affiliation\\
+\vspace*{2em}
+{---------------------------------}\\
+Someone, PhD  \\
+Sinodal member  \\
+Affiliation\\
+\vspace*{2em}
+{---------------------------------}\\
+Someone, PhD  \\
+Sinodal member  \\
+Affiliation\\
+\vspace*{2em}
+}
+
+\center{
+\vfill
+{--------------------------------------------------} \\
+Dr. Elisa Virginia Vázquez Lepe\\
+Graduate Studiates Director\\
+School of Engineering and Sciences}\\
+Monterrey, Nuevo León, México, May 2025
+\end{center}
+
+\newpage %------------------------------------------PAGE iv
+
+\begin{center}
+\bf{Declaration of Authorship}
+\end{center}
+
+I, Yeray Cruz Ruiz (student), declare that this thesis titled, \enquote{Induced Rotation of Ratchets in Passive Environments} and the work presented in it are my own. I confirm that:
+
+\begin{itemize}
+  \item This work was done wholly or mainly while in candidature for a research degree at this University.
+  \item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+  \item Where I have consulted the published work of others, this is always clearly stated.
+  \item Where I have quoted from the work of others, the source is always given. Apart from such quotations, this thesis is entirely my own work.
+  \item I have acknowledged all main sources of help.
+  \item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.
+\end{itemize}
+
+\vspace{5em}
+
+\begin{flushright}
+{-------------------------------------------------} \\
+Yeray Cruz Ruiz (Student) \\
+Monterrey, Nuevo León, México, May 2025
+\end{flushright}
+
+\vfill
+\begin{center}
+\large {\copyright 2025 by Yeray Cruz Ruiz}\\
+\large{All Rights reserved}
+\end{center}
+
+
+\newpage %------------------------------------------PAGE iv
+
+\Huge {\bf Dedication}
+
+\vfill
+\normalsize To my parents for their unwavering support, to my friends for making this journey easier, and especially to Dr. Antonio, who always believed in me and was an incredible mentor. 
+\vfill
+
+
+\newpage %------------------------------------------PAGE vi
+\Huge {\bf Acknowledgements} \\
+\normalsize
+
+For those who come after.
+
+\vspace{5em}
+
+\newpage %------------------------------------------PAGE vii
+\begin{center}
+  \large {{\bf Induced Rotation of Ratchets in Passive Environments}\\
+  by\\
+Yeray Cruz Ruiz}
+\end{center}
+\addcontentsline{toc}{chapter}{Abstract}
+\Huge{{\bf Abstract}} \\
+\normalsize
+\vspace*{0em}
+
+Swimming at the mesoscale has been a topic of interest for the past two decades because of the complexity of motion at a low Reynolds number, a regime where the viscous forces dominate over the inertial ones. The scallop theorem is a principle that follows these complex ideas and states that a scallop, which has only one degree of freedom, must be unable to have net displacement in this regime due to the lack of time-reversal symmetry of the Navier-Stokes equations. Indifferent to our mathematical understanding, nature was capable of creating biological beings that are able to displace under these circumstances by developing what we call nonreciprocal motion. The esquerichia coli, for example, has a flagellum that rotates in one direction, pushing the fluid backwards and therefore moving the bacteria forwards. Inspired by these ideas, researcher have taken interest in generating motion at those scales. One example are bacterial micromotors, where a dented ratchet is immersed into a bacterial bath where they convert energy from their surroundings into movement. This movement normally follows a ballistic trajectory and in time some of them, will collide into the ratchet transferring their kinetic energy, and therefore making the motor spin thanks to the geometry of the ratchet. Unfortunately, the nutrients they absorb will end and in time the system's medium will need to be replaced, stopping the whole process, therfore being an inneficient process. This is a type of active matter that gets energy from its medium. But, Can we do the same with passive matter?
+
+In this work, we analsze paramagnetic colloids, manipulated by an external precessing magnetic field. The system is confined betwen the \textit{z} axis and presents periodic boundary conditions in \textit{x}, and \textit{y} axis. When multiple particles are present, dipole-dipole interactions arise, leading to either attraction or repulsion depending on their head-to-tail alignment. The particles' internal fields also rotate, dynamically altering their interactions over time. We observe that from 0Hz to 3Hz, the colloids form pairs and start rotating with a shared center of mass, whereas from 3.25 to 7Hz particles have a moment of replsion, creating a neighbor exchange between different pairs, obtaining a ballistic trajectorWe observe that from 0Hz to 3Hz, the colloids form pairs and start rotating with a shared center of mass, whereas from 3.25 to 7Hz particles have a moment of replsion, creating a neighbor exchange between different pairs, obtaining a ballistic trajectory. To investigate whether this motion can perform work, we place a ratchet-like object with different parameters amidst the particles.
+
+\newpage %-------------------------------------------PAGE viii
+
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+% \listoffigures
+% \listoftables
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic} % Change page numbering back to Arabic numerals
