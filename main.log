@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  13 JUN 2025 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  17 JUN 2025 13:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -547,7 +547,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 79.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./main.aux (./frontpage.aux) (./chapters/ch1_intro.aux) (./chapters/ch2_backgroung.aux) (./Stateofart2.aux) (./apps/app1.aux) (./apps/app2.aux) (./RMMCV.aux))
+) (./main.aux (./frontpage.aux) (./chapters/ch1_intro.aux) (./chapters/ch2_backgroung.aux) (./apps/app1.aux) (./apps/app2.aux) (./RMMCV.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -603,7 +603,7 @@ Package todonotes Warning: The length marginparwidth is less than 2cm and will m
 \openout2 = `frontpage.aux'.
 
 (./frontpage.tex
-<pics/LogoTec.jpg, id=62, 1138.0116pt x 300.6432pt>
+<pics/LogoTec.jpg, id=66, 1138.0116pt x 300.6432pt>
 File: pics/LogoTec.jpg Graphic file (type jpg)
 <use pics/LogoTec.jpg>
 Package pdftex.def Info: pics/LogoTec.jpg  used on input line 13.
@@ -624,7 +624,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [3]
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
@@ -709,19 +709,12 @@ Chapter 2.
 
 [7
 
-])
-\openout2 = `Stateofart2.aux'.
-
- (./Stateofart2.tex)
+]
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [8
-
-
-
-]
+ [8])
 \openout2 = `apps/app1.aux'.
 
  (./apps/app1.tex
@@ -781,7 +774,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 Package natbib Warning: There were undefined citations.
 
-(./main.aux (./frontpage.aux) (./chapters/ch1_intro.aux) (./chapters/ch2_backgroung.aux) (./Stateofart2.aux) (./apps/app1.aux) (./apps/app2.aux) (./RMMCV.aux))
+(./main.aux (./frontpage.aux) (./chapters/ch1_intro.aux) (./chapters/ch2_backgroung.aux) (./apps/app1.aux) (./apps/app2.aux) (./RMMCV.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -889,7 +882,6 @@ pics/LogoTec.jpg
     umsb.fd    2013/01/14 v3.01 AMS symbols B
 chapters/ch1_intro.tex
 chapters/ch2_backgroung.tex
-Stateofart2.tex
 apps/app1.tex
 apps/app2.tex
     main.bbl
@@ -898,21 +890,21 @@ apps/app2.tex
  ***********
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7CB0DA2B036457D992AF3A2DEFFFBEDD;1934.
+(rerunfilecheck)             Checksum: 0BBA1455CF97D1BCE3F968A88DD1A01F;2260.
  ) 
 Here is how much of TeX's memory you used:
- 25124 strings out of 473201
- 461840 string characters out of 5716127
+ 25111 strings out of 473201
+ 461435 string characters out of 5716127
  845966 words of memory out of 5000000
- 47852 multiletter control sequences out of 15000+600000
- 579167 words of font info for 75 fonts, out of 8000000 for 9000
+ 47841 multiletter control sequences out of 15000+600000
+ 580181 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,7n,93p,1632b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (25 pages, 345498 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (25 pages, 397586 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

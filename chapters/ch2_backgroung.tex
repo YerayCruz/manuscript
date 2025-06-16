@@ -14,9 +14,39 @@
 
 \section{Low Renolds number}
 
-At the mesoscale, where objects such as bacteria and colloidal particles operate, the physical world is governed by a regime in which viscous forces dominate over inertial ones. This regime is characterized by a small Reynolds number (Re), a dimensionless quantity that compares inertial to viscous effects. Therefore, the force applied at that moment will describe the movement or displacement performed, not deppending on any past force, this is a characteristic of an overdamped system. In his seminal lecture, Life at Low Reynolds Number, Purcell highlighted the surprising and often counterintuitive behaviors that emerge in such environments \cite{purcell2014life}. For instance, time-reversible motion — common at macroscopic scales — is ineffective for propulsion at low Re, necessitating non-reciprocal strategies like flagellar rotation or body undulation. 
+At the mesoscale, where objects such as bacteria and colloidal particles operate, the physical world is governed by a regime in which viscous forces dominate over inertial ones. This regime is characterized by a small Reynolds number (Re), a dimensionless quantity that compares inertial to viscous effects. Therefore, the force applied at that moment will describe the movement or displacement performed, not deppending on any past force, this is a characteristic of an overdamped system. In his seminal lecture, Life at Low Reynolds Number, Purcell highlighted the surprising and often counterintuitive behaviors that emerge in such environments \cite{purcell2014life}. For instance, time-reversible motion — common at macroscopic scales — is ineffective for propulsion at low Re, necessitating non-reciprocal strategies like flagellar rotation or body undulation. This leads to the scallop theorem, that states that an animal with such degrees of freedom — in a viscous regime — will not have a net displacement. 
 
-This physical constraint fundamentally shapes how microorganisms swim and how artificial microswimmers must be designed. Subsequent work by Lauga and Powers [Lauga Powers, 2009] expanded on Purcell's insights by examining the fluid dynamics of various propulsion mechanisms, including bacterial run-and-tumble behavior and the synchronization of flagella. These concepts are directly relevant to systems explored in this thesis, where both biological and magnetically driven entities are used to induce motion in passive structures at the microscale.
+This whole process can be described by the Navier-Stokes equation without the inertia terms, leaving us without any time deppending terms as shown in \ref{eq:Navier-Stokes}. 
+
+\begin{equation}
+  - \nabla p + \eta \nabla ^2 \vec{v} = 0
+  \label{eq:Navier-Stokes}
+\end{equation}
+
+This has been a topic of interest for researchers that are constantly looking for ways of transportation in those environments for specific tasks. Unfortunately this is not the only challenge we face when moving at the microscale.
+
+\section{Brownian Motion and Thermal Noise at the Mesoscale}
+Even though this is a viscous regime, particles will not be static. At small length scales, such as those of colloidal particles or bacteria, random thermal fluctuations become a dominant source of motion. This phenomenon, known as Brownian motion, was first explained quantitatively by Albert Einstein in 1905. He demonstrated that the irregular paths observed in microscopic particles suspended in fluid result from collisions with the molecules of the surroundings medium \cite{einstein1906theory}.
+
+Einstein's work provided one of the first arguments for the molecular nature of matter and led to a mathematical description of how these random movements accumulate over time. Specifically, he derived that the mean squared displacement (MSD) of a particle grows linearly with time:
+
+\begin{equation}
+  \expval{x^2(t)} = 2Dt\text{,}
+  \label{eq:msd}
+\end{equation}
+
+where D isthe diffusion coefficient, a measure of how quickly particles spread out. Einstein further related this coefficient to measurable physical parameters through the expression:
+
+\begin{equation}
+  \text{D} = \frac{k_{B}T}{6\pi \eta R}\text{.} 
+  \label{eq:diffusioncoefficient}
+\end{equation}
+
+Here, $k_B$ is Boltzman constant, $T$ the absolute temperature, $\eta$ the dynamic viscocity of the fluid, and $R$ the radius of the spherical particle. This rleation — often referred to as the Einstein-Stokes equation — is foundational in soft matter and colloidal physics.
+
+In the systems considered in this thesis, Brownian motion plays a crucial role in the dynamics of passive colloids, and must be accounted for even the presence of external fields or active agents, such as bacteria.
+
+%This physical constraint fundamentally shapes how microorganisms swim and how artificial microswimmers must be designed. Subsequent work by Lauga and Powers [Lauga Powers, 2009] expanded on Purcell's insights by examining the fluid dynamics of various propulsion mechanisms, including bacterial run-and-tumble behavior and the synchronization of flagella. These concepts are directly relevant to systems explored in this thesis, where both biological and magnetically driven entities are used to induce motion in passive structures at the microscale.
 
 
 

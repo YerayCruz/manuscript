@@ -269,9 +269,6 @@ INPUT chapters/ch1_intro.aux
 INPUT ./chapters/ch2_backgroung.aux
 INPUT ./chapters/ch2_backgroung.aux
 INPUT chapters/ch2_backgroung.aux
-INPUT ./Stateofart2.aux
-INPUT ./Stateofart2.aux
-INPUT Stateofart2.aux
 INPUT ./apps/app1.aux
 INPUT ./apps/app1.aux
 INPUT apps/app1.aux
@@ -391,12 +388,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT ./Stateofart2.tex
-INPUT ./Stateofart2.tex
-OUTPUT Stateofart2.aux
-INPUT ./Stateofart2.tex
-INPUT ./Stateofart2.tex
-INPUT Stateofart2.tex
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT ./apps/app1.tex
 INPUT ./apps/app1.tex
 OUTPUT apps/app1.aux
@@ -433,9 +426,6 @@ INPUT chapters/ch1_intro.aux
 INPUT ./chapters/ch2_backgroung.aux
 INPUT ./chapters/ch2_backgroung.aux
 INPUT chapters/ch2_backgroung.aux
-INPUT ./Stateofart2.aux
-INPUT ./Stateofart2.aux
-INPUT Stateofart2.aux
 INPUT ./apps/app1.aux
 INPUT ./apps/app1.aux
 INPUT apps/app1.aux
@@ -447,6 +437,12 @@ INPUT ./RMMCV.aux
 INPUT RMMCV.aux
 INPUT ./main.out
 INPUT ./main.out
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
