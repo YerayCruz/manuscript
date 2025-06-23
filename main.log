@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  23 JUN 2025 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  23 JUN 2025 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,7 +603,7 @@ Package todonotes Warning: The length marginparwidth is less than 2cm and will m
 \openout2 = `frontpage.aux'.
 
 (./frontpage.tex
-<pics/LogoTec.jpg, id=94, 1138.0116pt x 300.6432pt>
+<pics/LogoTec.jpg, id=102, 1138.0116pt x 300.6432pt>
 File: pics/LogoTec.jpg Graphic file (type jpg)
 <use pics/LogoTec.jpg>
 Package pdftex.def Info: pics/LogoTec.jpg  used on input line 13.
@@ -717,12 +717,6 @@ Chapter 2.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [8]
-<figures/passivebrowniantrajectorymsd.png, id=225, 459.96844pt x 507.39563pt>
-File: figures/passivebrowniantrajectorymsd.png Graphic file (type png)
-<use figures/passivebrowniantrajectorymsd.png>
-Package pdftex.def Info: figures/passivebrowniantrajectorymsd.png  used on input line 136.
-(pdftex.def)             Requested size: 368.57838pt x 406.60611pt.
-
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
@@ -732,66 +726,59 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [10 <./figures/passivebrowniantrajectorymsd.png>]
-<figures/feynmanratchet.png, id=253, 387.4475pt x 261.97874pt>
+ [10]
+
+
+Overfull \vbox (8.18385pt too high) has occurred while \output is active []
+
+ [11]
+<figures/passivebrowniantrajectorymsd.png, id=273, 459.96844pt x 507.39563pt>
+File: figures/passivebrowniantrajectorymsd.png Graphic file (type png)
+<use figures/passivebrowniantrajectorymsd.png>
+Package pdftex.def Info: figures/passivebrowniantrajectorymsd.png  used on input line 287.
+(pdftex.def)             Requested size: 368.57838pt x 406.60611pt.
+
+
+
+Overfull \vbox (8.18385pt too high) has occurred while \output is active []
+
+ [12]
+
+
+Overfull \vbox (8.18385pt too high) has occurred while \output is active []
+
+ [13 <./figures/passivebrowniantrajectorymsd.png>]
+<figures/feynmanratchet.png, id=298, 387.4475pt x 261.97874pt>
 File: figures/feynmanratchet.png Graphic file (type png)
 <use figures/feynmanratchet.png>
-Package pdftex.def Info: figures/feynmanratchet.png  used on input line 149.
+Package pdftex.def Info: figures/feynmanratchet.png  used on input line 300.
 (pdftex.def)             Requested size: 299.46599pt x 202.49176pt.
 
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [11 <./figures/feynmanratchet.png>]
-
-
-Overfull \vbox (8.18385pt too high) has occurred while \output is active []
-
- [12
-
-]
+ [14 <./figures/feynmanratchet.png>]
 Chapter 3.
 
 
-[13]
-
-
-Overfull \vbox (8.18385pt too high) has occurred while \output is active []
-
- [14
+[15
 
 ]
-Chapter 4.
-
-
-[15])
-\openout2 = `apps/app1.aux'.
-
- (./apps/app1.tex
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [16
 
-
-
-
 ]
-Chapter 5.
-
-Package natbib Warning: Citation `Moody92' on page 17 undefined on input line 6.
-
-
-Package natbib Warning: Citation `Sjoberg95' on page 17 undefined on input line 6.
-
+Chapter 4.
 
 
 [17])
-\openout2 = `apps/app2.aux'.
+\openout2 = `apps/app1.aux'.
 
- (./apps/app2.tex
+ (./apps/app1.tex
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
@@ -802,10 +789,19 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 
 ]
-Chapter 6.
+Chapter 5.
+
+Package natbib Warning: Citation `Moody92' on page 19 undefined on input line 6.
 
 
-[19]) (./main.bbl
+Package natbib Warning: Citation `Sjoberg95' on page 19 undefined on input line 6.
+
+
+
+[19])
+\openout2 = `apps/app2.aux'.
+
+ (./apps/app2.tex
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
@@ -814,9 +810,23 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 
 
+
+]
+Chapter 6.
+
+
+[21]) (./main.bbl
+
+
+Overfull \vbox (8.18385pt too high) has occurred while \output is active []
+
+ [22
+
+
+
 ]) (./main.ind)
 
-[21]
+[23]
 \openout2 = `RMMCV.aux'.
 
  (./RMMCV.tex)
@@ -824,7 +834,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [22
+ [24
 
 ]
 
@@ -948,21 +958,21 @@ apps/app2.tex
  ***********
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FAE29EB9B1AA7B01A48BC8AC39187055;3882.
+(rerunfilecheck)             Checksum: 2ADBAB365DC4C9ED045CC8486F638B82;4450.
  ) 
 Here is how much of TeX's memory you used:
- 25206 strings out of 473201
- 463348 string characters out of 5716127
+ 25235 strings out of 473201
+ 463759 string characters out of 5716127
  851668 words of memory out of 5000000
- 47899 multiletter control sequences out of 15000+600000
+ 47903 multiletter control sequences out of 15000+600000
  584505 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,93p,1632b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (34 pages, 534519 bytes).
+ 84i,10n,93p,1632b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (36 pages, 543542 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 220 words of extra memory for PDF output out of 10000 (max. 10000000)
 
