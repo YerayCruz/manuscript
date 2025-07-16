@@ -53,7 +53,7 @@ While Einstein’s formulation captures the long-term diffusive behavior of Brow
 
 \subsection{Stochastic Representation}
 
-The Langevin equation in one dimension, including inertial effects, damping, and thermal noise, can be written as:
+The Langevin equation \cite{uhlenbeck1930theory}in one dimension, including inertial effects, damping, and thermal noise, can be written as:
 
 \begin{equation}
   m\ddot{x} = F - \lambda \dot{x} + \eta(t)\text{,}
@@ -304,6 +304,36 @@ The Feynman ratchet consists of a set of vanes connected to a ratchet wheel, imm
 
 
 However, Feynman's analysis showed that when both the ratchet and the pawl are in thermal equilibrium with the same heat bath, the system cannot produce net work. The pawl itself undergoes thermal fluctuations and can occasionally lift off, allowing the ratchet to move backward. Over time, the forward and backward movements average out, and no net rotation occurs. This result reinforces the principle that thermal fluctuations alone cannot be rectified to perform work without a temperature gradient or an external energy input.
+
+\begin{table}[ht]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\caption[Summary of operation of ratchet and pawl.]{Summary of operation of ratchet and pawl. Obtained from \cite{feynman1963feynman}}
+\label{tab:ratchet_pawl}
+\begin{tabular}{>{\itshape}l l l}
+\toprule
+\textbf{Forward:} & Needs energy & $\epsilon + L \theta$ from vane. \quad $\therefore$ Rate = $\dfrac{1}{\tau} e^{-(L\theta + \epsilon)/kT_1}$ \\
+                  & Takes from vane & $L\theta + \epsilon$ \\
+                  & Does work & $L\theta$ \\
+                  & Gives to ratchet & $\epsilon$ \\
+\midrule
+\textbf{Backward:} & Needs energy & $\epsilon$ for pawl. \quad $\therefore$ Rate = $\dfrac{1}{\tau} e^{-\epsilon/kT_2}$ \\
+                   & Takes from ratchet & $\epsilon$ \\
+                   & Releases work & $L\theta$ \\
+                   & Gives to vane & $L\theta + \epsilon$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+If system is reversible, rates are equal, hence 
+\[
+\frac{\epsilon + L\theta}{T_1} = \frac{\epsilon}{T_2}.
+\]
+\[
+\frac{\text{Heat to ratchet}}{\text{Heat from vane}} = \frac{\epsilon}{L\theta + \epsilon}.
+\quad \text{Hence} \quad \frac{Q_2}{Q_1} = \frac{T_2}{T_1}.
+\]
+\end{table}
 
 Despite this limitation, the Feynman ratchet introduced a powerful concept: asymmetry combined with non-equilibrium conditions can, in principle, produce directed motion. This idea is foundational in the study of Brownian motors, biomolecular machines, and active matter systems, including the systems explored in this thesis. In such systems, energy is continuously supplied, whether through bacterial metabolism or magnetic field modulation, creating the necessary non-equilibrium environment that allows motion rectification to occur.
 
