@@ -5,23 +5,24 @@
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Background}{5}{part.2}%
-\contentsline {chapter}{\numberline {2}Swimming at the mesoscale}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Low Renolds number}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Brownian Motion and Thermal Noise at the Mesoscale}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {2}Physics at the mesoscale}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Low Renolds number regime}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Brownian Motion and Thermal Fluctuations}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Stochastic Representation}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Velocity Variance and Energy Equipartition}{10}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Overdamped Limit and Position Displacement}{11}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Velocity Statistics and Energy Equipartition}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Overdamped Dynamics and Diffussion}{11}{subsection.2.2.3}%
 \contentsline {paragraph}{Mean Position}{12}{section*.5}%
 \contentsline {paragraph}{Mean Square Displacement (MSD)}{12}{section*.6}%
-\contentsline {section}{\numberline {2.3}Directed Motion and the Feynman Ratchet}{13}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Active and Passive Matter Systems}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Active matter}{17}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Motion Rectification in Physical Systems}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Rectified Motion in Active Matter Systems}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Driven Motion in Passive Colloidal Systems}{19}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Name of Appendix}{21}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Diagnosis in Dynamic Systems}{23}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Definitions}{23}{section.6.1}%
-\contentsline {section}{\numberline {6.2}The Qualitative Model Representation}{23}{section.6.2}%
-\contentsline {chapter}{Bibliography}{24}{section.6.2}%
-\contentsline {chapter}{Curriculum Vitae}{26}{chapter*.10}%
+\contentsline {chapter}{\numberline {3}Ratchets and Rectification Mechanisms}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Feynman-Smoluchowski ratchet}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Brownian ratchets and tilted potentials}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Geometric ratchets}{17}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Active Matter Systems}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Interaction with non-homogeneous environments}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Active Ratchets: State of the Art}{21}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{23}{section.5.2}%
+\contentsline {chapter}{Bibliography}{24}{section.5.2}%
+\contentsline {chapter}{Curriculum Vitae}{27}{chapter*.11}%

@@ -6,13 +6,14 @@
 \label{part:background}
 
 %======================================================================
-\chapter{Swimming at the mesoscale}
+\chapter{Physics at the mesoscale}
 \label{ch:swimming at the mesoscale}
 
 \markright{Swimming at the mesoscale}
 %======================================================================
 
-\section{Low Renolds number}
+\section{Low Renolds number regime}
+\label{st:lowreynoldsnumber}
 
 At the mesoscale, where objects such as bacteria and colloidal particles operate, the physical world is governed by a regime in which viscous forces dominate over inertial ones. This regime is characterized by a small Reynolds number (Re), a dimensionless quantity that compares inertial to viscous effects. Therefore, the force applied at that moment will describe the movement or displacement performed, not deppending on any past force, this is a characteristic of an overdamped system. In his seminal lecture, Life at Low Reynolds Number, Purcell highlighted the surprising and often counterintuitive behaviors that emerge in such environments \cite{purcell2014life}. For instance, time-reversible motion — common at macroscopic scales — is ineffective for propulsion at low Re, necessitating non-reciprocal strategies like flagellar rotation or body undulation. This leads to the scallop theorem, that states that an animal with such degrees of freedom — in a viscous regime — will not have a net displacement. 
 
@@ -25,7 +26,8 @@ This whole process can be described by the Navier-Stokes equation without the in
 
 This has been a topic of interest for researchers that are constantly looking for ways of transportation in those environments for specific tasks. Unfortunately this is not the only challenge we face when moving at the microscale.
 
-\section{Brownian Motion and Thermal Noise at the Mesoscale}
+\section{Brownian Motion and Thermal Fluctuations}
+\label{st:brownianmotion}
 
 Even though this is a viscous regime, particles are not static. At small length scales, such as those of colloidal particles or bacteria, random thermal fluctuations become a dominant source of motion. This phenomenon, known as \textit{Brownian motion}, was first explained quantitatively by Albert Einstein in 1905. He demonstrated that the irregular paths observed in microscopic particles suspended in fluid result from collisions with the molecules of the surrounding medium~\cite{einstein1906theory}.
 
@@ -53,7 +55,7 @@ While Einstein’s formulation captures the long-term diffusive behavior of Brow
 
 \subsection{Stochastic Representation}
 
-The Langevin equation \cite{uhlenbeck1930theory}in one dimension, including inertial effects, damping, and thermal noise, can be written as:
+The Langevin equation \cite{uhlenbeck1930theory} in one dimension, including inertial effects, damping, and thermal noise, can be written as:
 
 \begin{equation}
   m\ddot{x} = F - \lambda \dot{x} + \eta(t)\text{,}
@@ -132,7 +134,7 @@ This result shows that the average velocity of a particle in a viscous fluid dec
 
 %%%%
 
-\subsection{Velocity Variance and Energy Equipartition}
+\subsection{Velocity Statistics and Energy Equipartition}
 
 To compute the variance of the velocity, we start again from the Langevin equation in discretized form, without external forces:
 
@@ -205,7 +207,7 @@ Matching this to our stochastic result:
 
 This defines the noise amplitude in terms of temperature, viscosity, and Boltzmann’s constant.
 
-\subsection{Overdamped Limit and Position Displacement}
+\subsection{Overdamped Dynamics and Diffussion}
 
 In the overdamped limit, inertia is negligible, so the Langevin equation becomes:
 
@@ -289,7 +291,10 @@ This is the classical diffusion result, where the diffusion coefficient is \( D 
   \caption[Example of brownian motion]{A colloidal particle undergoes random, thermally induced displacements in a fluid medium. \textbf{Panel a)} shows the trajectory of the particle. \textbf{ Panel b)} shows the corresponding mean squared displacement (MSD) as a function of time, illustrating the linear relationship predicted by Einstein for diffusive behavior (orange) and the one obtained through a numerical simulation (blue).}\label{fig:passivebrowniantrajectory}
 \end{figure}
 
-\section{Directed Motion and the Feynman Ratchet}
+\chapter{Ratchets and Rectification Mechanisms}
+\label{ch:ratchetsandrectificationmechanisms}
+
+\section{The Feynman-Smoluchowski ratchet}
 
 The inherent randomness of Brownian motion naturally leads to the question: can this disorder be transformed into order? In other words, can the random thermal motion of particles be used to produce directed movement or extract work? This question sits at the core of statistical mechanics and was famously explored by Richard Feynman in his lectures on physics, through a thought experiment known as the Feynman ratchet and pawl \cite{feynman1963feynman}.
 
@@ -337,33 +342,83 @@ If system is reversible, rates are equal, hence
 
 Despite this limitation, the Feynman ratchet introduced a powerful concept: asymmetry combined with non-equilibrium conditions can, in principle, produce directed motion. This idea is foundational in the study of Brownian motors, biomolecular machines, and active matter systems, including the systems explored in this thesis. In such systems, energy is continuously supplied, whether through bacterial metabolism or magnetic field modulation, creating the necessary non-equilibrium environment that allows motion rectification to occur.
 
-\chapter{Active and Passive Matter Systems}
+The failure of the Feynman ratchet in thermal equilibrium is intimately connected to another famous thought experiment: Maxwell's demon. Both systems attempt to extract work from thermal fluctuations through selective processes—the ratchet through mechanical asymmetry, and the demon through information gathering.
+
+Maxwell's demon, proposed in 1867, imagines a microscopic being that can sort fast and slow molecules between two chambers, creating a temperature difference without apparent work. Similarly, the pawl in Feynman's ratchet acts as a mechanical "demon," attempting to select only forward fluctuations while blocking backward motion. However, both fail for the same fundamental reason: the cost of selection itself \cite{maxwell1871theory, maxwell1867letter}.
+
+Brillouin (1951) and later Landauer (1961) showed that Maxwell's demon must expend energy to measure molecular velocities and erase information, with the minimum energy cost being $kT\ln{2}$ per bit erased. In the Feynman ratchet, the pawl must "decide" whether to allow motion, and this decision-making process—manifested as thermal fluctuations of the pawl itself—has an entropic cost that exactly cancels any work extracted \cite{brillouin1951maxwell, landauer1961irreversibility}.
+
+This connection reveals a deep principle: rectification requires either an information gradient (knowledge about the system) or an energy gradient (non-equilibrium conditions). As Parrondo and Español (1996) demonstrated, the Feynman ratchet can be viewed as an information engine where the pawl performs measurements on the ratchet's position. When the pawl and ratchet are at the same temperature, the information gained equals the entropy produced, yielding no net work \cite{parrondo1996criticism}.
+
+
+\section{Brownian ratchets and tilted potentials}
+
+While Feynman's ratchet fails due to thermal equilibrium, rectified motion becomes possible when detailed balance is broken through external driving
+
+\section{Geometric ratchets}
+
+Unlike energy ratchets that rely on asymmetric potentials, geometric ratchets achieve rectification through spatial asymmetry of boundaries or obstacles, particularly relevant for self-propelled particles
+
+\chapter{Active Matter Systems}
 \label{ch:activeandpassivemattersystems}
 
-\section{Active matter}
+\section{Fundamentals of Active Matter}
+
+Active matter refers to systems composed of self-driven units that continuously consume energy from their environment to propel themselves \cite{marchetti2013hydrodynamics, ramaswamy2010mechanics}. It is important to note it doesn't matter if the particles are artificial or oganic. The difference of active particles from passive ones, is that passive have mere diffusion motion, whereas active follows these stochastic differential equations accordnig to \cite{volpe2014simulation}:
+\begin{align}
+  \frac{d}{dt}x(t) &= v\cos{\varphi(t)} + \sqrt{2D_T}W_x,\\
+  \frac{d}{dt}y(t) &= v\sin{\varphi(t)} + \sqrt{2D_T}W_y,\\
+  \label{eq:activestochasticequation}
+\end{align}
+
+where $W_x$, and $W_y$ represent their corresponding Wiener process. As stated before, if 
+
+\begin{equation}
+  \lim_{v \to 0}  v\cos{\varphi(t)} + \sqrt{2D_T}W_x,
+  \label{eq:limitofvelocity}
+\end{equation}
+
+then the motion is merely diffusive and the particle is characterized as brownian particle. Figure \ref{fig:msddifferentvelocities} helps visualize how  the motion varies according to their velocity. When the velocity is zero, the linear behavior of the MSD represents a diffusive behavior, whereas when it is different it is considered to be ballistic. 
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.55\textwidth]{figures/msddifferentvelocities.png}
+  \end{center}
+  \caption[MSD for passive and active brownian particles]{MSD for brownian particles with different velocites. \textbf{Panel a)} shows the result from simulations. \textbf{Panel b)} shows the theoretical calculation. Obtained from \cite{volpe2014simulation}}\label{fig:msddifferentvelocities}
+\end{figure}
+
+
+The foundational work by Howse et al. (2007) established the experimental basis for active Brownian particle dynamics by studying self-motile colloidal particles that use chemical reactions catalyzed on their surface to achieve autonomous propulsion. They demonstrated that at short times, these particles exhibit substantial directed motion with velocity dependent on fuel concentration, while at longer times, the motion transitions to a random walk with enhanced diffusion coefficients. This work provided the first comprehensive experimental validation of the theoretical active Brownian particle model and established the standard mathematical framework for describing such systems through coupled stochastic differential equations \cite{howse2007self}.
+
+
+As discussed in section \ref{st:lowreynoldsnumber}, organisms or objects must break symmetry in specific ways to achieve net movement when swimming in environments dominated by viscous forces. Nature has evolved elegant solutions to this challenge through various biological mechanisms. A prime example is E. coli, which employs helical flagella that can rotate both clockwise and counterclockwise, generating two distinct types of motion that researchers have termed "run" and "tumble." The bacterium's response to random fluctuations also depends on the medium's viscosity \cite{kumar2010physics}.
+
+The dynamics of active particles exhibit fascinating collective behaviors that have drawn inspiration from biological systems. A computational study by Reynolds (1987) used simulations to model flocking behavior in birds, treating each individual as an autonomous agent whose trajectory is influenced by its local environment and neighboring individuals \cite{reynolds1987flocks}. Reynolds introduced three fundamental rules governing flocking behavior: separation (collision avoidance), alignment (velocity matching with neighbors), and cohesion (attraction toward the average position of neighbors). This work established the foundation for understanding how simple local interactions can give rise to complex collective motion patterns. The principles identified by Reynolds have since been adapted and extended to describe the collective dynamics of active Brownian particles, where similar emergent behaviors such as clustering, swarming, and directed group motion arise from the interplay between self-propulsion and inter-particle interactions.
+
+\section{Interaction with non-homogeneous environments}
+
+All this properties considered an ideal environment, where no obstacles are present. Active particles in real environments encounter surfaces, confinement, and flow fields that dramatically alter their behavior. A striking example is the work by Hill et al. (2007), who demonstrated that E. coli swimming near surfaces in shear flow exhibit sophisticated rheotaxis - the ability to sense flow gradients and actively swim upstream through hydrodynamic surface interactions \cite{hill2007hydrodynamic}. 
+
+\section{Active Ratchets: State of the Art}
+
+
+\chapter{Magnetically Driven Colloidal Systems}
+\label{magneticallydrivencolloidalsystems}
+
+\section{Magnetic Colloids under static fields}
+
+\section{Dynamic Magnetic Actuation}
+
+Active matter requires a continuous source of energy to avoid falling under the category of Brownian particles. However, for complex challenges—such as transportation—these systems can tend to be inefficient due to their energy depletion.
+
+Fortunately, Ostinato et al. (2024)
+Dimer formation, exchange dynamics
+
+Emergent currents withouth self-propulsion
 
 In the study of motion at small scales, materials are often categorized as either active or passive. This distinction is based on whether the constituents are capable of autonomously converting energy into motion.
 
-Active matter refers to systems composed of self-driven units that continuously consume energy to propel themselves \cite{marchetti2013hydrodynamics, bechinger2016active}. Examples include motile bacteria, synthetic Janus particles, and active colloids powered by chemical reactions or light. These systems are inherently out of equilibrium and can exhibit emergent behaviors such as swarming, flocking, and directed transport — even in the absence of external fields.
-
-In contrast, passive matter consists of particles that do not self-propel. Any motion they undergo results from external forces or environmental fluctuations, such as thermal noise or applied fields. Classical Brownian particles are a well-known example of passive matter. However, recent studies have shown that when passive particles are driven by time-asymmetric external fields (e.g., oscillating magnetic fields), they can exhibit behaviors that mimic those of active systems.
 
 This thesis focuses on such externally driven passive systems, particularly on paramagnetic colloids subjected to dynamic magnetic fields. These systems provide a controlled platform to study non-equilibrium transport and rectified motion, drawing inspiration from active matter while remaining fundamentally passive in nature.
-
-\chapter{Motion Rectification in Physical Systems}
-\label{ch:motionrectificationinphysicalsystems}
-
-\section{Rectified Motion in Active Matter Systems}
-
-Active matter refers to systems composed of individual units that consume energy to produce motion. These systems inherently operate far from equilibrium and can display collective behaviors such as swarming, clustering, and directed transport. Biological examples include motile bacteria like E. coli, while synthetic realizations include Janus particles and light-activated swimmers. A key feature of active matter is that it can interact with asymmetric boundaries to generate directional motion — a phenomenon central to the idea of active ratchets.
-
-In bacterial systems, for example, interactions with sawtooth-shaped walls can bias the random swimming of cells, leading to net transport or torque on nearby objects. Such rectification has inspired the design of microgears and channels that harness the mechanical output of bacterial baths. Although these systems are active by nature, the underlying mechanism — breaking spatial and temporal symmetry — can also be replicated in driven passive systems.
-
-
-\section{Driven Motion in Passive Colloidal Systems}
-
-%This physical constraint fundamentally shapes how microorganisms swim and how artificial microswimmers must be designed. Subsequent work by Lauga and Powers [Lauga Powers, 2009] expanded on Purcell's insights by examining the fluid dynamics of various propulsion mechanisms, including bacterial run-and-tumble behavior and the synchronization of flagella. These concepts are directly relevant to systems explored in this thesis, where both biological and magnetically driven entities are used to induce motion in passive structures at the microscale.
-
-
 
 \newpage

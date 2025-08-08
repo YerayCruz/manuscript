@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -25,14 +25,65 @@ Richard~Phillips Feynman.
 \newblock The feynman lectures on physics.
 \newblock \emph{(No Title)}, 1:\penalty0 46, 1963.
 
+\bibitem[Maxwell(1871)]{maxwell1871theory}
+James~Clerk Maxwell.
+\newblock \emph{Theory of Heat}.
+\newblock Longmans, Green and Co., London, 1871.
+\newblock The demon first appears in Chapter 22.
+
+\bibitem[Maxwell(1867)]{maxwell1867letter}
+James~Clerk Maxwell.
+\newblock Letter to peter guthrie tait, December 11 1867.
+\newblock First mention of the demon concept.
+
+\bibitem[Brillouin(1951)]{brillouin1951maxwell}
+L{\'e}on Brillouin.
+\newblock Maxwell's demon cannot operate: Information and entropy. i.
+\newblock \emph{Journal of Applied Physics}, 22\penalty0 (3):\penalty0 334--337, 1951.
+
+\bibitem[Landauer(1961)]{landauer1961irreversibility}
+Rolf Landauer.
+\newblock Irreversibility and heat generation in the computing process.
+\newblock \emph{IBM Journal of Research and Development}, 5\penalty0 (3):\penalty0 183--191, 1961.
+
+\bibitem[Parrondo and Espa{\~n}ol(1996)]{parrondo1996criticism}
+Juan~MR Parrondo and Pep Espa{\~n}ol.
+\newblock Criticism of feynman's analysis of the ratchet as an engine.
+\newblock \emph{American Journal of Physics}, 64\penalty0 (9):\penalty0 1125--1129, 1996.
+
 \bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
 M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
 \newblock Hydrodynamics of soft active matter.
 \newblock \emph{Reviews of modern physics}, 85\penalty0 (3):\penalty0 1143--1189, 2013.
 
-\bibitem[Bechinger et~al.(2016)Bechinger, Di~Leonardo, L{\"o}wen, Reichhardt, Volpe, and Volpe]{bechinger2016active}
-Clemens Bechinger, Roberto Di~Leonardo, Hartmut L{\"o}wen, Charles Reichhardt, Giorgio Volpe, and Giovanni Volpe.
-\newblock Active particles in complex and crowded environments.
-\newblock \emph{Reviews of modern physics}, 88\penalty0 (4):\penalty0 045006, 2016.
+\bibitem[Ramaswamy(2010)]{ramaswamy2010mechanics}
+Sriram Ramaswamy.
+\newblock The mechanics and statistics of active matter.
+\newblock \emph{Annu. Rev. Condens. Matter Phys.}, 1\penalty0 (1):\penalty0 323--345, 2010.
+
+\bibitem[Volpe et~al.(2014)Volpe, Gigan, and Volpe]{volpe2014simulation}
+Giorgio Volpe, Sylvain Gigan, and Giovanni Volpe.
+\newblock Simulation of the active brownian motion of a microswimmer.
+\newblock \emph{American journal of physics}, 82\penalty0 (7):\penalty0 659--664, 2014.
+
+\bibitem[Howse et~al.(2007)Howse, Jones, Ryan, Gough, Vafabakhsh, and Golestanian]{howse2007self}
+Jonathan~R Howse, Richard~AL Jones, Anthony~J Ryan, Tim Gough, Reza Vafabakhsh, and Ramin Golestanian.
+\newblock Self-motile colloidal particles: from directed propulsion to random walk.
+\newblock \emph{Physical review letters}, 99\penalty0 (4):\penalty0 048102, 2007.
+
+\bibitem[Kumar and Philominathan(2010)]{kumar2010physics}
+M~Siva Kumar and P~Philominathan.
+\newblock The physics of flagellar motion of e. coli during chemotaxis.
+\newblock \emph{Biophysical reviews}, 2\penalty0 (1):\penalty0 13--20, 2010.
+
+\bibitem[Reynolds(1987)]{reynolds1987flocks}
+Craig~W Reynolds.
+\newblock Flocks, herds and schools: A distributed behavioral model.
+\newblock In \emph{Proceedings of the 14th annual conference on Computer graphics and interactive techniques}, pages 25--34, 1987.
+
+\bibitem[Hill et~al.(2007)Hill, Kalkanci, McMurry, and Koser]{hill2007hydrodynamic}
+Jane Hill, Ozge Kalkanci, Jonathan~L McMurry, and Hur Koser.
+\newblock Hydrodynamic surface interactions enable escherichia coli to seek efficient routes<? format?> to swim upstream.
+\newblock \emph{Physical review letters}, 98\penalty0 (6):\penalty0 068101, 2007.
 
 \end{thebibliography}
