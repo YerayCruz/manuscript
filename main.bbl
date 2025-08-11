@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -50,6 +50,11 @@ Rolf Landauer.
 Juan~MR Parrondo and Pep Espa{\~n}ol.
 \newblock Criticism of feynman's analysis of the ratchet as an engine.
 \newblock \emph{American Journal of Physics}, 64\penalty0 (9):\penalty0 1125--1129, 1996.
+
+\bibitem[Magnasco(1993)]{magnasco1993forced}
+Marcelo~O Magnasco.
+\newblock Forced thermal ratchets.
+\newblock \emph{Physical Review Letters}, 71\penalty0 (10):\penalty0 1477, 1993.
 
 \bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
 M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
