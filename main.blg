@@ -7,44 +7,44 @@ A level-1 auxiliary file: chapters/ch2_backgroung.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
-You've used 17 entries,
+You've used 19 entries,
             2481 wiz_defined-function locations,
-            673 strings with 7148 characters,
-and the built_in function-call counts, 6391 in all, are:
-= -- 558
-> -- 247
+            686 strings with 7466 characters,
+and the built_in function-call counts, 7245 in all, are:
+= -- 625
+> -- 301
 < -- 15
-+ -- 106
-- -- 72
-* -- 471
-:= -- 995
-add.period$ -- 53
-call.type$ -- 17
-change.case$ -- 33
-chr.to.int$ -- 17
-cite$ -- 17
-duplicate$ -- 338
-empty$ -- 638
-format.name$ -- 95
-if$ -- 1368
++ -- 126
+- -- 88
+* -- 551
+:= -- 1135
+add.period$ -- 59
+call.type$ -- 19
+change.case$ -- 37
+chr.to.int$ -- 19
+cite$ -- 19
+duplicate$ -- 376
+empty$ -- 713
+format.name$ -- 113
+if$ -- 1544
 int.to.chr$ -- 1
-int.to.str$ -- 18
-missing$ -- 17
-newline$ -- 94
-num.names$ -- 51
-pop$ -- 138
+int.to.str$ -- 20
+missing$ -- 19
+newline$ -- 104
+num.names$ -- 57
+pop$ -- 152
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 19
 quote$ -- 0
-skip$ -- 203
+skip$ -- 223
 stack$ -- 0
-substring$ -- 351
-swap$ -- 51
+substring$ -- 398
+swap$ -- 55
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 130
 warning$ -- 0
-while$ -- 61
+while$ -- 68
 width$ -- 0
-write$ -- 230
+write$ -- 256
