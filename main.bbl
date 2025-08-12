@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -66,6 +66,11 @@ Luc~P Faucheux, LS~Bourdieu, PD~Kaplan, and Albert~J Libchaber.
 \newblock Optical thermal ratchet.
 \newblock \emph{Physical review letters}, 74\penalty0 (9):\penalty0 1504, 1995.
 
+\bibitem[Arzola et~al.(2011)Arzola, Volke-Sep{\'u}lveda, and Mateos]{arzola2011experimental}
+Alejandro~V Arzola, Karen Volke-Sep{\'u}lveda, and Jos{\'e}~L Mateos.
+\newblock Experimental control of transport and current reversals in a deterministic optical rocking ratchet.
+\newblock \emph{Physical review letters}, 106\penalty0 (16):\penalty0 168104, 2011.
+
 \bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
 M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
 \newblock Hydrodynamics of soft active matter.
@@ -98,7 +103,7 @@ Craig~W Reynolds.
 
 \bibitem[Hill et~al.(2007)Hill, Kalkanci, McMurry, and Koser]{hill2007hydrodynamic}
 Jane Hill, Ozge Kalkanci, Jonathan~L McMurry, and Hur Koser.
-\newblock Hydrodynamic surface interactions enable escherichia coli to seek efficient routes<? format?> to swim upstream.
+\newblock Hydrodynamic surface interactions enable escherichia coli to seek efficient routes to swim upstream.
 \newblock \emph{Physical review letters}, 98\penalty0 (6):\penalty0 068101, 2007.
 
 \end{thebibliography}
