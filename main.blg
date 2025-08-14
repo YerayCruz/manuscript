@@ -9,15 +9,15 @@ A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
 You've used 20 entries,
             2481 wiz_defined-function locations,
-            693 strings with 7663 characters,
-and the built_in function-call counts, 7635 in all, are:
+            693 strings with 7623 characters,
+and the built_in function-call counts, 7661 in all, are:
 = -- 656
-> -- 322
+> -- 328
 < -- 15
-+ -- 134
-- -- 94
-* -- 586
-:= -- 1198
++ -- 136
+- -- 96
+* -- 590
+:= -- 1204
 add.period$ -- 62
 call.type$ -- 20
 change.case$ -- 39
@@ -25,8 +25,8 @@ chr.to.int$ -- 20
 cite$ -- 20
 duplicate$ -- 395
 empty$ -- 750
-format.name$ -- 120
-if$ -- 1626
+format.name$ -- 122
+if$ -- 1630
 int.to.chr$ -- 1
 int.to.str$ -- 21
 missing$ -- 20
