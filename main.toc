@@ -25,4 +25,4 @@
 \contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{25}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{25}{section.5.2}%
 \contentsline {chapter}{Bibliography}{26}{section.5.2}%
-\contentsline {chapter}{Curriculum Vitae}{29}{chapter*.13}%
+\contentsline {chapter}{Curriculum Vitae}{29}{chapter*.14}%
