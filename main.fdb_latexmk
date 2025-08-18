@@ -1,23 +1,23 @@
 # Fdb version 4
-["bibtex main"] 1755536684.79708 "main.aux" "main.bbl" "main" 1755537169.87692 0
-  "./references.bib" 1755530792.11859 7062 8d021b3b8a8ee6c74cdc46d0b4694a21 ""
+["bibtex main"] 1755621388.12718 "main.aux" "main.bbl" "main" 1755621869.30544 0
+  "./references.bib" 1755550687.0858 7099 8c700a933dfcfa021849bb1891965174 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1233624470 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "RMMCV.aux" 1755537169.65328 889 5e049d70cc01214a0a870615aecfbef3 "pdflatex"
-  "chapters/ch1_intro.aux" 1755537168.80525 1209 6c8a94fba149ff81dbb4cae50142e9c5 "pdflatex"
-  "chapters/ch2_backgroung.aux" 1755537169.64528 8397 93c57d1f1ec20f0447a32cb27c4e627b "pdflatex"
-  "frontpage.aux" 1755537168.80525 1085 fea58767f958022ff8617883b7ecdb56 "pdflatex"
-  "main.aux" 1755537169.65328 2103 0f4acebc78cb0904578c729a7a1ce2e6 "pdflatex"
+  "RMMCV.aux" 1755621869.07776 889 57ad597be09344f4781fb240477c03f4 "pdflatex"
+  "chapters/ch1_intro.aux" 1755621868.16974 1209 6c8a94fba149ff81dbb4cae50142e9c5 "pdflatex"
+  "chapters/ch2_backgroung.aux" 1755621869.06976 8732 6e49d43380de2bb189f370edeff70d62 "pdflatex"
+  "frontpage.aux" 1755621868.16574 1085 fea58767f958022ff8617883b7ecdb56 "pdflatex"
+  "main.aux" 1755621869.07776 2247 2e7ca3050fb95658e67b90286155ea1b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1741113559.95474 "main.idx" "main.ind" "main" 1755537169.87683 0
-  "main.idx" 1755537168.71325 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1741113559.95474 "main.idx" "main.ind" "main" 1755621869.30535 0
+  "main.idx" 1755621868.07374 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1755537168.38831 "main.tex" "main.pdf" "main" 1755537169.87704 0
+["pdflatex"] 1755621867.7151 "main.tex" "main.pdf" "main" 1755621869.30557 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -220,12 +220,13 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741282481 5467155 84b148c4abb69b79980562874e6b5169 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1741282527 3352588 49858b687899c1da226d641f806af44e ""
   "/usr/local/texlive/2024/texmf.cnf" 1741282478.51809 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "RMMCV.aux" 1755537169.65328 889 5e049d70cc01214a0a870615aecfbef3 "pdflatex"
+  "RMMCV.aux" 1755621869.07776 889 57ad597be09344f4781fb240477c03f4 "pdflatex"
   "RMMCV.tex" 1749661975.32532 869 349f15e6ef20820ba3d4422e0137a9a5 ""
-  "chapters/ch1_intro.aux" 1755537168.80525 1209 6c8a94fba149ff81dbb4cae50142e9c5 "pdflatex"
+  "chapters/ch1_intro.aux" 1755621868.16974 1209 6c8a94fba149ff81dbb4cae50142e9c5 "pdflatex"
   "chapters/ch1_intro.tex" 1754675810.17249 277 33a79a98d3665032dbfbbacb11f0ceb8 ""
-  "chapters/ch2_backgroung.aux" 1755537169.64528 8397 93c57d1f1ec20f0447a32cb27c4e627b "pdflatex"
-  "chapters/ch2_backgroung.tex" 1755537166.39717 30648 ce441e159cc27338f96151bf690de6ec ""
+  "chapters/ch2_backgroung.aux" 1755621869.06976 8732 6e49d43380de2bb189f370edeff70d62 "pdflatex"
+  "chapters/ch2_backgroung.tex" 1755621866.89371 34845 9bc49388e24503165dacbd3f76678b4c ""
+  "figures/ArzolaExperiment.png" 1755620473.50307 152794 bc196eeefba506587a0ac2e0daf76975 ""
   "figures/DeterministicThermalRatchet.png" 1755281056.6878 40058 f354e8c1bf73c8b98f168b2fc46c3d21 ""
   "figures/FaucheuxExperiment.png" 1755188490.99634 41633 ea9cd8c5c95be7acd94f9e7cc1ac6e0b ""
   "figures/LebedevExperiment.png" 1755535145.98585 868440 dbf481442cd97add8037cad16279df3a ""
@@ -233,16 +234,16 @@
   "figures/msddifferentvelocities.png" 1754496863.88748 273377 fcea3ae5911274f4d131dab8620e8a95 ""
   "figures/passivebrowniantrajectorymsd.png" 1750196343.12508 112460 d4bf82b1090681a05d2f829c6d27fb6b ""
   "figures/ratchet_potential.png" 1755188218.20006 55635 e44418283979ff81768fc9544f6a1f1e ""
-  "frontpage.aux" 1755537168.80525 1085 fea58767f958022ff8617883b7ecdb56 "pdflatex"
+  "frontpage.aux" 1755621868.16574 1085 fea58767f958022ff8617883b7ecdb56 "pdflatex"
   "frontpage.tex" 1750179781.24982 7190 8f1e55a55a5f4fcbd36d62313e67e34a ""
-  "main.aux" 1755537169.65328 2103 0f4acebc78cb0904578c729a7a1ce2e6 "pdflatex"
-  "main.bbl" 1755536684.86925 5621 a3a1d8d9a9d902f08d22284bcc419861 "bibtex main"
+  "main.aux" 1755621869.07776 2247 2e7ca3050fb95658e67b90286155ea1b "pdflatex"
+  "main.bbl" 1755621388.21912 6044 82be11b8d1a2088d9688303608f2043f "bibtex main"
   "main.ind" 1749661975.32532 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1755537169.65728 911 5cdfcc90379a9f13c4afdec15eccfb4d "pdflatex"
-  "main.lot" 1755537169.65728 250 845f4a0f1c0958174bfec7c1d101b03d "pdflatex"
-  "main.out" 1755537169.65728 4460 0b0fd24a9c76712428a5fb0a2552ee9c "pdflatex"
+  "main.lof" 1755621869.08176 1011 59a367d0e717205c4a12396455f091ee "pdflatex"
+  "main.lot" 1755621869.08176 250 845f4a0f1c0958174bfec7c1d101b03d "pdflatex"
+  "main.out" 1755621869.08176 4460 eb9b22729cc1bfbdadec986285c997a9 "pdflatex"
   "main.tex" 1755036169.57637 3325 f5ac68e1a4798f857b3eac366da11977 ""
-  "main.toc" 1755537169.65728 2133 126d627fa0c96aa3a12c694ca8da758b "pdflatex"
+  "main.toc" 1755621869.08176 2133 d25229169dd1321a72e5aa4613da2f31 "pdflatex"
   "pics/LogoTec.jpg" 1749661975.32532 277028 592114f2c63595341a8a68e73a37a4e3 ""
   (generated)
   "RMMCV.aux"

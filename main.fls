@@ -440,6 +440,11 @@ INPUT ./figures/LebedevExperiment.png
 INPUT ./figures/LebedevExperiment.png
 INPUT ./figures/LebedevExperiment.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT ./figures/ArzolaExperiment.png
+INPUT ./figures/ArzolaExperiment.png
+INPUT ./figures/ArzolaExperiment.png
+INPUT ./figures/ArzolaExperiment.png
+INPUT ./figures/ArzolaExperiment.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./figures/msddifferentvelocities.png
 INPUT ./figures/msddifferentvelocities.png

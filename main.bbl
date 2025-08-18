@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -75,6 +75,11 @@ Sang-Hyuk Lee, Kosta Ladavac, Marco Polin, and David~G Grier.
 V~Lebedev and F~Renzoni.
 \newblock Two-dimensional rocking ratchet for cold atoms.
 \newblock \emph{Physical Review A—Atomic, Molecular, and Optical Physics}, 80\penalty0 (2):\penalty0 023422, 2009.
+
+\bibitem[Arzola et~al.(2017)Arzola, Villasante-Barahona, Volke-Sep{\'u}lveda, J{\'a}kl, and Zem{\'a}nek]{arzola2017omnidirectional}
+Alejandro~V Arzola, Mario Villasante-Barahona, Karen Volke-Sep{\'u}lveda, Petr J{\'a}kl, and Pavel Zem{\'a}nek.
+\newblock Omnidirectional transport in fully reconfigurable two dimensional optical ratchets.
+\newblock \emph{Physical review letters}, 118\penalty0 (13):\penalty0 138002, 2017.
 
 \bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
 M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
