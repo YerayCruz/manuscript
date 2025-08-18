@@ -351,7 +351,7 @@ Brillouin (1951) and later Landauer (1961) showed that Maxwell's demon must expe
 This connection reveals a deep principle: rectification requires either an information gradient (knowledge about the system) or an energy gradient (non-equilibrium conditions). As Parrondo and Español (1996) demonstrated, the Feynman ratchet can be viewed as an information engine where the pawl performs measurements on the ratchet's position. When the pawl and ratchet are at the same temperature, the information gained equals the entropy produced, yielding no net work \cite{parrondo1996criticism}.
 
 
-\section{Brownian ratchets and tilted potentials}
+\section{Brownian ratchets}
 
 While Feynman's ratchet fails due to thermal equilibrium, rectified motion becomes possible when detailed balance is broken through external driving. Magnasco (1993) demonstrated this principle through the "rocking ratchet" mechanism \cite{magnasco1993forced}. In his model, a Brownian particle moves in an asymmetric periodic potential—essentially a sawtooth-shaped energy landscape with gentle slopes in one direction and steep walls in the other.
 The crucial innovation was applying an oscillating force $F(t) = A\cos(\omega t)$ that rocks the potential back and forth. Although this force has zero time average—pushing equally left and right—the combination with the spatial asymmetry produces net directional motion. When the force tilts the potential forward, particles easily climb the gentle slopes and can overcome barriers. When tilted backward, particles encounter steep walls and remain trapped. This asymmetric response to symmetric driving breaks the forward-backward symmetry of thermal diffusion.
@@ -366,9 +366,9 @@ This mechanism differs fundamentally from Feynman's original ratchet: rather tha
 \end{figure}
 
 
-Following Magnasco's rocking ratchet where an oscillating force drives particles in a static potential, Ajdari et al. (1994) systematically analyzed rectification in periodic structures with either spatial or temporal asymmetry \cite{ajdari1994rectified}. Using a sawtooth potential with asymmetric slopes (steep of height $\epsilon/a$ and gentle of $\epsilon/b$), they identified distinct transport regimes as a function of the AC force amplitude $\gamma$. 
+Following Magnasco's rocking ratchet where an oscillating force drives particles in a static potential, Ajdari et al. (1994) analyzed rectification in periodic structures with either spatial or temporal asymmetry \cite{ajdari1994rectified}. Using a sawtooth potential with asymmetric slopes (steep of height $\epsilon/a$ and gentle of $\epsilon/b$), they identified distinct transport regimes as a function of the AC force amplitude $\gamma$. 
 
-For small forces $\gamma < \epsilon/a$, particles remain trapped. In the intermediate regime $\epsilon/a < \gamma < \epsilon/b$, rectification occurs as particles can climb the gentle slope but not the steep one, yielding either integer velocities $V = n$ when particles fully relax between cycles (Regime 1), or rational velocities $V = n - 1/(m+1)$ when incomplete relaxation creates a periodic pattern over multiple cycles (Regime 2).
+For small forces $\gamma < \epsilon/a$, particles remain trapped. In the intermediate regime $\epsilon/a < \gamma < \epsilon/b$, rectification occurs as particles can climb the gentle slope but not the steep one, yielding either integer velocities $V = n$ when particles fully relax between cycles, or rational velocities $V = n - 1/(m+1)$ when incomplete relaxation creates a periodic pattern over multiple cycles.
 
 
 This concept was later demonstrated experimentally by Faucheux et al. (1995), who created an "optical thermal ratchet" using focused laser beams \cite{faucheux1995optical}. To generate a circular trap without introducing external forces, they passed the laser through a plate to create circular polarization, maintaining constant laser intensity along the circular path. By rotating the laser frequency fast enough, particles could not experience any directed force from the beam itself, allowing them to move freely, then modulated the beam intensity to create an asymmetric potential mimicking a ratchet shape, as shown in Figure \ref{fig:faucheuxexperiment}. They observed that particles localized in potential minima when the modulation was turned on, while for sufficiently long periods, particles moved either backward or forward with equal probability.
@@ -380,20 +380,29 @@ This concept was later demonstrated experimentally by Faucheux et al. (1995), wh
   \caption[Optical thermal ratchet by Faucheux]{When the modulation is on, the beam intensity follows the shape of a ratchet potential with 4 periods per cycle. When the modulation is off, the intensity remains constant, allowing particles to diffuse freely. Obtained from \cite{faucheux1995optical}.}\label{fig:faucheuxexperiment}
 \end{figure}
 
-A different approach was developed by Lee et al. (2004), who employed holographic optical trapping with a symmetric potential \cite{lee2005observation}. Their system consisted of discrete optical tweezers functioning as potential wells, where particles could rapidly jump between adjacent traps. Using this procedure, they achieved net particle displacement in one direction, as illustrated in Figure \ref{fig:deterministicthermalratchet}. Remarkably, when they reversed the direction of well displacement, particles followed the trap movement in the opposite direction. Due to this predictable response to trap motion, they named this system a "deterministic thermal ratchet."
+A different approach was developed by Lee et al. (2004), who employed holographic optical trapping with a symmetric potential \cite{lee2005observation}. Their system consisted of discrete optical tweezers functioning as potential wells. Between each state, particles are released and free to diffuse, nevertheless they can rapidly jump between adjacent traps. Using this methodology, they achieved net particle displacement in one direction, as illustrated in Figure \ref{fig:deterministicthermalratchet}. Remarkably, when they reversed the direction of well displacement, particles followed the trap movement in the opposite direction. Due to this predictable response to trap motion, they named this system a "deterministic thermal ratchet."
 
 
  \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=0.40\textwidth]{figures/DeterministicThermalRatchet.png}
+    \includegraphics[width=0.30\textwidth]{figures/DeterministicThermalRatchet.png}
   \end{center}
-  \caption[Deterministic thermal ratchet by Lee et al.]{}\label{fig:deterministicthermalratchet}
+  \caption[Deterministic thermal ratchet by Lee et al.]{Discrete pattern of optical traps with displacement in one directio, minimum width of $\sigma$ and a maximum width of $L$. Obtained from \cite{lee2005observation}}\label{fig:deterministicthermalratchet}
+ \end{figure}
+
+ Lebedev et al. (2009) modified this approach by using three linearly polarized beams acting only in the xy-plane, as shown in Figure \ref{fig:lebedevexperiment} \cite{lebedev2009two}. They applied forces to particles by phase-modulating two of the three lasers, which shifts the entire optical lattice. The modulation was generated using RF generators to produce potentials $V_x$ and $V_y$. The sum $V_x + V_y$ served as the input signal for beam 2, while the difference $V_x - V_y$ was used for beam 3, creating the rocking forces. They studied this system using ultracold rubidium atoms as test particles. To track the atomic positions, they employed a CCD camera to determine the center of mass of the atomic cloud.
+
+ In their first experiment, they applied a biharmonic drive along only one axis. As expected, the system reduced to a one-dimensional harmonic ratchet, and they observed directed particle motion along the axis of the applied biharmonic force. In subsequent experiments, they applied harmonic drives along both axes, with one frequency being twice the other. Their results showed that particles experienced directed motion along the axis with the faster harmonic, while motion along the other axis remained diffusive. In their final experiment, they applied biharmonic drives simultaneously along both axes to investigate whether directed transport could be achieved in two dimensions. By varying the relative weights of the forces along each axis, they demonstrated that it was possible to control the atomic displacement and direct atoms to specific target positions as shown in Figure \ref{fig:lebedevexperiment} a).
+
+
+ \begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.80\textwidth]{figures/LebedevExperiment.png}
+  \end{center}
+  \caption[Lebedev experiment.]{\textbf{Panel a)} Lattice beam configuration in the xy plane. $\theta$ = 60°. \textbf{Panel b)} Position of the atomic cloud center of mass at different instants and forces when applying biharmonic at ehe same time in xy-plane. Obtained from \cite{lebedev2009two}.}\label{fig:lebedevexperiment}
  \end{figure}
  
-
-\section{Geometric ratchets}
-
-Unlike energy ratchets that rely on asymmetric potentials, geometric ratchets achieve rectification through spatial asymmetry of boundaries or obstacles, particularly relevant for self-propelled particles
+ 
 
 \chapter{Active Matter Systems}
 \label{ch:activeandpassivemattersystems}

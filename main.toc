@@ -15,14 +15,13 @@
 \contentsline {paragraph}{Mean Square Displacement (MSD)}{12}{section*.6}%
 \contentsline {chapter}{\numberline {3}Ratchets and Rectification Mechanisms}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The Feynman-Smoluchowski ratchet}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Brownian ratchets and tilted potentials}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Geometric ratchets}{19}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Active Matter Systems}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Interaction with non-homogeneous environments}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Active Ratchets: State of the Art}{23}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{25}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{25}{section.5.2}%
-\contentsline {chapter}{Bibliography}{26}{section.5.2}%
-\contentsline {chapter}{Curriculum Vitae}{29}{chapter*.14}%
+\contentsline {section}{\numberline {3.2}Brownian ratchets}{17}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Active Matter Systems}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Interaction with non-homogeneous environments}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Active Ratchets: State of the Art}{25}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{27}{section.5.2}%
+\contentsline {chapter}{Bibliography}{28}{section.5.2}%
+\contentsline {chapter}{Curriculum Vitae}{31}{chapter*.15}%

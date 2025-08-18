@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -70,6 +70,11 @@ Luc~P Faucheux, LS~Bourdieu, PD~Kaplan, and Albert~J Libchaber.
 Sang-Hyuk Lee, Kosta Ladavac, Marco Polin, and David~G Grier.
 \newblock Observation of flux reversal in a symmetric optical thermal ratchet.
 \newblock \emph{Physical review letters}, 94\penalty0 (11):\penalty0 110601, 2005.
+
+\bibitem[Lebedev and Renzoni(2009)]{lebedev2009two}
+V~Lebedev and F~Renzoni.
+\newblock Two-dimensional rocking ratchet for cold atoms.
+\newblock \emph{Physical Review A—Atomic, Molecular, and Optical Physics}, 80\penalty0 (2):\penalty0 023422, 2009.
 
 \bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
 M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
