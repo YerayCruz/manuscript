@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2024)
+This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: frontpage.aux
@@ -7,44 +7,44 @@ A level-1 auxiliary file: chapters/ch2_backgroung.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
-You've used 22 entries,
+You've used 23 entries,
             2481 wiz_defined-function locations,
-            707 strings with 8023 characters,
-and the built_in function-call counts, 8473 in all, are:
-= -- 719
-> -- 376
+            715 strings with 8219 characters,
+and the built_in function-call counts, 8937 in all, are:
+= -- 755
+> -- 409
 < -- 16
-+ -- 154
-- -- 110
-* -- 662
-:= -- 1336
-add.period$ -- 68
-call.type$ -- 22
-change.case$ -- 43
-chr.to.int$ -- 22
-cite$ -- 22
-duplicate$ -- 433
-empty$ -- 824
-format.name$ -- 140
-if$ -- 1800
++ -- 166
+- -- 120
+* -- 707
+:= -- 1413
+add.period$ -- 71
+call.type$ -- 23
+change.case$ -- 45
+chr.to.int$ -- 23
+cite$ -- 23
+duplicate$ -- 452
+empty$ -- 862
+format.name$ -- 151
+if$ -- 1894
 int.to.chr$ -- 1
-int.to.str$ -- 23
-missing$ -- 22
-newline$ -- 119
-num.names$ -- 66
-pop$ -- 173
+int.to.str$ -- 24
+missing$ -- 23
+newline$ -- 124
+num.names$ -- 69
+pop$ -- 180
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 23
 quote$ -- 0
-skip$ -- 255
+skip$ -- 265
 stack$ -- 0
-substring$ -- 458
-swap$ -- 61
+substring$ -- 485
+swap$ -- 63
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 151
+type$ -- 158
 warning$ -- 0
-while$ -- 77
+while$ -- 81
 width$ -- 0
-write$ -- 295
+write$ -- 308
