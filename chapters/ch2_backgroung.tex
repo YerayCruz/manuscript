@@ -428,7 +428,26 @@ One successful approach to achieving this symmetry breaking involves rocking rat
 
 \section{Fundamentals of Active Matter}
 
-Active matter refers to systems composed of self-driven units that continuously consume energy from their environment to propel themselves \cite{marchetti2013hydrodynamics, ramaswamy2010mechanics}. It is important to note it doesn't matter if the particles are artificial or oganic. The difference of active particles from passive ones, is that passive have mere diffusion motion, whereas active follows these stochastic differential equations accordnig to \cite{volpe2014simulation}:
+The definition of active matter may vary within each author, but we wan reach a consensus. Active matter refers to systems composed of self-driven units that continuously consume energy from their environment to propel themselves \cite{marchetti2013hydrodynamics, ramaswamy2010mechanics}. It is important to note it doesn't matter if the particles are artificial or oganic. For this first part, we will introduce some macroscopic examples, and then we will focus on the closest related for this thesis.
+
+\subsection{Macroscopic Agents}
+
+There may be a misconception about active matter having to bee microscopic, but if we see around us, it is possible to observe some of it at plain sight. For example, a flock of birds, by definition, are considered active matter due to being able of self propelling, since they are macroscopic they will not be affected by thermal noise of its medium, in this case air. A computational study by Reynolds (1987) used simulations to model flocking behavior in birds, treating each individual as an autonomous agent whose trajectory is influenced by its local environment and neighboring individuals \cite{reynolds1987flocks}. Reynolds introduced three fundamental rules governing flocking behavior: separation (collision avoidance), alignment (velocity matching with neighbors), and cohesion (attraction toward the average position of neighbors). This work established the foundation for understanding how simple local interactions can give rise to complex collective motion patterns. \cite{hildenbrandt2010self}.
+
+There are more self-organized groups of smaller flying animals, where its behavior is more complex than other species, like bees who are able to divide work becase of social interaction between them,  seeing self-organization \cite{jeanson2005emergence}.
+
+
+\cite{couzin2002collective}.
+
+
+
+
+\textbf{Esto es un posible texto final, esto es copy paste, recordar cambiar}. \textit{Self-organization occurs when multiple direct or indirect interactions among individuals within a group promote the emergence of complex behavioural patterns at the collective level (Camazine et al. 2001).}
+
+
+\subsection{Microscopic agents}
+
+The difference of active particles from passive ones, is that passive have mere diffusion motion, whereas active follows these stochastic differential equations accordnig to \cite{volpe2014simulation}:
 \begin{align}
   \frac{d}{dt}x(t) &= v\cos{\varphi(t)} + \sqrt{2D_T}W_x,\\
   \frac{d}{dt}y(t) &= v\sin{\varphi(t)} + \sqrt{2D_T}W_y,
@@ -452,12 +471,24 @@ then the motion is merely diffusive and the particle is characterized as brownia
 \end{figure}
 
 
-This was proven with the work done by Howse et al. (2007) that established the experimental basis for active Brownian particle dynamics by studying self-motile colloidal particles that use chemical reactions catalyzed on their surface to achieve autonomous propulsion. They demonstrated that at short times, these particles exhibit substantial directed motion with velocity dependent on fuel concentration, while at longer times, the motion transitions to a random walk with enhanced diffusion coefficients. This work provided a comprehensive experimental validation of the theoretical active Brownian particle model and established the standard mathematical framework for describing such systems through stochastic differential equations \cite{howse2007self}. This, however is an artificial active particle, done by coating a polystyrene shperes with a layer of platinum, which will be the responsible of the propulsion method. This open a new term that it appears active particles have, it is called chirality, which is the tendency to move in a circular path just as described by the random walk, however, this movement was only studied in a 2-dimensions confined space. In a study by Corkidi et al. (2008) spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh of eggs, whate they found was a helical trajectory \cite{corkidi2008tracking}.
+This was proven with the work done by Howse et al. (2007) that established the experimental basis for active Brownian particle dynamics by studying self-motile colloidal particles that use chemical reactions catalyzed on their surface to achieve autonomous propulsion. They demonstrated that at short times, these particles exhibit substantial directed motion with velocity dependent on fuel concentration, while at longer times, the motion transitions to a random walk with enhanced diffusion coefficients. This work provided a comprehensive experimental validation of the theoretical active Brownian particle model and established the standard mathematical framework for describing such systems through stochastic differential equations \cite{howse2007self}. This, however is an artificial active particle, done by coating a polystyrene shperes with a layer of platinum, which will be the responsible of the propulsion method. This open a new term that appears active particles have, it is called chirality, which is the tendency to move in a circular path just as described by the random walk, however, this movement was only studied in a 2-dimensions confined space. In a research by Corkidi et al. (2008) spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh for eggs, what they found was a helical trajectory, shown in Figure~\ref{fig:corkidiexperiment}, being a pretty similar response, and obtaining a non-space dependant behavior \cite{corkidi2008tracking}. Therefore we add a third term for the rotational diffusion given by: 
+
+\begin{equation}
+  \dot{\varphi} = \sqrt{2D_R}W _{\varphi}.
+  \label{eq:rotationaldiffusion}
+\end{equation}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.55\textwidth]{figures/CorkidiExperiment.png}
+  \end{center}
+  \caption[Corkidi experiment.]{Trajectory of the spermatozoa for \textbf{a, and c} free space, and \textbf{b, d} confined 2-dimension space. Obtained from \cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
+\end{figure}
+
 
 
 As discussed in section \ref{st:lowreynoldsnumber}, organisms or objects must break symmetry in specific ways to achieve net movement when swimming in environments dominated by viscous forces. Nature has evolved elegant solutions to this challenge through various biological mechanisms. A prime example is E. coli, which employs helical flagella that can rotate both clockwise and counterclockwise, generating two distinct types of motion that researchers have termed "run"—swimming in a straight line—and "tumble"—rotation in a random direction. This behavior also depends on the medium's viscosity and random fluctuations \cite{kumar2010physics}. The way E. coli achieves a "run" state is due to their flagella which hast two different motions for its power and recovery strokes, simulating those of a human breast strokes. 
 
-The dynamics of active particles exhibit fascinating collective behaviors that have drawn inspiration from biological systems. A computational study by Reynolds (1987) used simulations to model flocking behavior in birds, treating each individual as an autonomous agent whose trajectory is influenced by its local environment and neighboring individuals \cite{reynolds1987flocks}. Reynolds introduced three fundamental rules governing flocking behavior: separation (collision avoidance), alignment (velocity matching with neighbors), and cohesion (attraction toward the average position of neighbors). This work established the foundation for understanding how simple local interactions can give rise to complex collective motion patterns. The principles identified by Reynolds have since been adapted and extended to describe the collective dynamics of active Brownian particles, where similar emergent behaviors such as clustering, swarming, and directed group motion arise from the interplay between self-propulsion and inter-particle interactions.
 
 \section{Interaction with non-homogeneous environments}
 

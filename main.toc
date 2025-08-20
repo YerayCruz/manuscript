@@ -18,10 +18,12 @@
 \contentsline {section}{\numberline {3.2}Brownian ratchets}{17}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Active Matter Systems}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Interaction with non-homogeneous environments}{25}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Active motors}{25}{section.4.3}%
+\contentsline {subsection}{\numberline {4.1.1}Macroscopic Agents}{23}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Microscopic agents}{24}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Interaction with non-homogeneous environments}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Active motors}{26}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{27}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{27}{section.5.2}%
 \contentsline {chapter}{Bibliography}{28}{section.5.2}%
-\contentsline {chapter}{Curriculum Vitae}{32}{chapter*.16}%
+\contentsline {chapter}{Curriculum Vitae}{32}{chapter*.17}%
