@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -111,15 +111,25 @@ Claudio Carere, Simona Montanino, Flavia Moreschini, Francesca Zoratto, Flavia C
 \newblock Aerial flocking patterns of wintering starlings, sturnus vulgaris, under different predation risk.
 \newblock \emph{Animal behaviour}, 77\penalty0 (1):\penalty0 101--107, 2009.
 
+\bibitem[Couzin et~al.(2002)Couzin, Krause, James, Ruxton, and Franks]{couzin2002collective}
+Iain~D Couzin, Jens Krause, Richard James, Graeme~D Ruxton, and Nigel~R Franks.
+\newblock Collective memory and spatial sorting in animal groups.
+\newblock \emph{Journal of theoretical biology}, 218\penalty0 (1):\penalty0 1--11, 2002.
+
 \bibitem[Jeanson et~al.(2005)Jeanson, Kukuk, and Fewell]{jeanson2005emergence}
 Rapha{\"e}l Jeanson, Penelope~F Kukuk, and Jennifer~H Fewell.
 \newblock Emergence of division of labour in halictine bees: contributions of social interactions and behavioural variance.
 \newblock \emph{Animal behaviour}, 70\penalty0 (5):\penalty0 1183--1193, 2005.
 
-\bibitem[Couzin et~al.(2002)Couzin, Krause, James, Ruxton, and Franks]{couzin2002collective}
-Iain~D Couzin, Jens Krause, Richard James, Graeme~D Ruxton, and Nigel~R Franks.
-\newblock Collective memory and spatial sorting in animal groups.
-\newblock \emph{Journal of theoretical biology}, 218\penalty0 (1):\penalty0 1--11, 2002.
+\bibitem[Beekman et~al.(2001)Beekman, Sumpter, and Ratnieks]{beekman2001phase}
+Madeleine Beekman, David~JT Sumpter, and Francis~LW Ratnieks.
+\newblock Phase transition between disordered and ordered foraging in pharaoh's ants.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 98\penalty0 (17):\penalty0 9703--9706, 2001.
+
+\bibitem[Anderson et~al.(2002)Anderson, Theraulaz, and Deneubourg]{anderson2002self}
+Carl Anderson, Guy Theraulaz, and J-L Deneubourg.
+\newblock Self-assemblages in insect societies.
+\newblock \emph{Insectes sociaux}, 49\penalty0 (2):\penalty0 99--110, 2002.
 
 \bibitem[Volpe et~al.(2014)Volpe, Gigan, and Volpe]{volpe2014simulation}
 Giorgio Volpe, Sylvain Gigan, and Giovanni Volpe.
