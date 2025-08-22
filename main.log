@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.26)  22 AUG 2025 08:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.26)  22 AUG 2025 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -932,7 +932,7 @@ Chapter 4.
 [23
 
 ]
-<figures/msddifferentvelocities.png, id=433, 864.22874pt x 806.01125pt>
+<figures/msddifferentvelocities.png, id=435, 864.22874pt x 806.01125pt>
 File: figures/msddifferentvelocities.png Graphic file (type png)
 <use figures/msddifferentvelocities.png>
 Package pdftex.def Info: figures/msddifferentvelocities.png  used on input line 468.
@@ -943,7 +943,7 @@ Package pdftex.def Info: figures/msddifferentvelocities.png  used on input line 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [24]
-<figures/CorkidiExperiment.png, id=450, 401.24907pt x 357.58594pt>
+<figures/CorkidiExperiment.png, id=454, 401.24907pt x 357.58594pt>
 File: figures/CorkidiExperiment.png Graphic file (type png)
 <use figures/CorkidiExperiment.png>
 Package pdftex.def Info: figures/CorkidiExperiment.png  used on input line 483.
@@ -980,6 +980,11 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 ]
 
 [29]
+Underfull \hbox (badness 1742) in paragraph at lines 110--113
+[]\OT1/ptm/m/n/12 Claudio Carere, Si-mona Mon-tanino, Flavia Mores-chini, Francesca Zo-ratto, Flavia
+ []
+
+
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
@@ -1129,18 +1134,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E5662C179A32A9CB9CF3F2794FD15D70;4658.
  ) 
 Here is how much of TeX's memory you used:
- 25998 strings out of 475171
- 472842 string characters out of 5767095
- 862898 words of memory out of 5000000
- 48372 multiletter control sequences out of 15000+600000
+ 26006 strings out of 475171
+ 473040 string characters out of 5767095
+ 863136 words of memory out of 5000000
+ 48378 multiletter control sequences out of 15000+600000
  587996 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,11n,93p,1649b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,1649b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (44 pages, 2601412 bytes).
+Output written on main.pdf (44 pages, 2603044 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 603 PDF objects out of 1000 (max. 8388607)
+ 497 compressed objects within 5 object streams
+ 150 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,44 +7,47 @@ A level-1 auxiliary file: chapters/ch2_backgroung.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
-You've used 26 entries,
+Warning--empty year in mora1511questioning
+Warning--empty year in mora1511questioning
+You've used 28 entries,
             2481 wiz_defined-function locations,
-            735 strings with 8854 characters,
-and the built_in function-call counts, 10234 in all, are:
-= -- 864
-> -- 484
+            743 strings with 9469 characters,
+and the built_in function-call counts, 11293 in all, are:
+= -- 916
+> -- 610
 < -- 16
-+ -- 194
-- -- 142
-* -- 827
-:= -- 1621
-add.period$ -- 80
-call.type$ -- 26
-change.case$ -- 51
-chr.to.int$ -- 26
-cite$ -- 26
-duplicate$ -- 509
-empty$ -- 977
-format.name$ -- 176
-if$ -- 2162
++ -- 238
+- -- 182
+* -- 942
+:= -- 1820
+add.period$ -- 86
+call.type$ -- 28
+change.case$ -- 55
+chr.to.int$ -- 28
+cite$ -- 30
+duplicate$ -- 546
+empty$ -- 1040
+format.name$ -- 218
+if$ -- 2361
 int.to.chr$ -- 1
-int.to.str$ -- 27
-missing$ -- 26
-newline$ -- 139
-num.names$ -- 78
-pop$ -- 201
+int.to.str$ -- 29
+missing$ -- 28
+newline$ -- 149
+num.names$ -- 84
+pop$ -- 220
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 28
 quote$ -- 0
-skip$ -- 295
+skip$ -- 313
 stack$ -- 0
-substring$ -- 569
-swap$ -- 69
+substring$ -- 585
+swap$ -- 73
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 179
-warning$ -- 0
-while$ -- 93
+type$ -- 193
+warning$ -- 2
+while$ -- 98
 width$ -- 0
-write$ -- 347
+write$ -- 371
+(There were 2 warnings)
