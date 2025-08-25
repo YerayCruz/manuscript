@@ -352,6 +352,7 @@ This connection reveals a deep principle: rectification requires either an infor
 
 
 \section{Brownian ratchets}
+\label{sct:brownianratchets}
 
 While Feynman's ratchet fails due to thermal equilibrium, rectified motion becomes possible when detailed balance is broken through external driving. Magnasco (1993) demonstrated this principle through the "rocking ratchet" mechanism \cite{magnasco1993forced}. In his model, a Brownian particle moves in an asymmetric periodic potential—essentially a sawtooth-shaped energy landscape with gentle slopes in one direction and steep walls in the other.
 The crucial innovation was applying an oscillating force $F(t) = A\cos(\omega t)$ that rocks the potential back and forth. Although this force has zero time average—pushing equally left and right—the combination with the spatial asymmetry produces net directional motion. When the force tilts the potential forward, particles easily climb the gentle slopes and can overcome barriers. When tilted backward, particles encounter steep walls and remain trapped. This asymmetric response to symmetric driving breaks the forward-backward symmetry of thermal diffusion.
@@ -432,24 +433,27 @@ The definition of active matter may vary a little within each author, but we rea
 
 \section{Macroscopic Agents}
 
-There is a common misconception that active matter must be microscopic. However, examples can also be observed at plain sight in the macroscopic world. A flock of birds, for instance, is considered active matter because each bird is capable of self-propulsion. Unlike microscopic systems, they are not significantly affected by the thermal noise of their medium—in this case, air. A computational study by Reynolds (1987) modeled flocking behavior in birds by treating each individual as an autonomous agent whose trajectory was influenced by its local environment and neighboring individuals \cite{reynolds1987flocks}.
+It is common to confuse what can be considered active matter and what not. However, examples can be observed at plain sight in the macroscopic world. A flock of birds, for instance, is considered active matter because each bird is capable of self-propulsion. Unlike microscopic systems, they are not significantly affected by the thermal noise of their medium—in this case, air. A computational study by Reynolds (1987) modeled flocking behavior in birds by treating each individual as an autonomous agent whose trajectory was influenced by its local environment and neighboring individuals \cite{reynolds1987flocks}.
 
 Reynolds introduced three fundamental rules governing flocking behavior: separation (collision avoidance), alignment (velocity matching with neighbors), and cohesion (attraction toward the average position of neighbors). This work laid the foundation for understanding how simple local interactions can give rise to complex patterns of collective motion. 
 
 Over time, further developments in the study of group dynamics have incorporated methods such as dynamical maximum entropy to predict the alignment of ordered groups \cite{cavagna2014dynamical}. Following a maximum entropy approach, network reshuffling was later studied \cite{mora1511questioning}. These behaviors, however, can change due to external factors, such as predation risk, which influences the formation and density of flocks \cite{carere2009aerial}. In addition, individual characteristics can also affect collective behavior \cite{couzin2002collective}.
 
 
-There are also self-organized groups of smaller flying animals whose collective behavior is even more complex than that of larger species. For example, bees are capable of dividing labor as a result of social interactions among individuals \cite{jeanson2005emergence}. Remaining within the field of insects but shifting to a solid medium, ants exhibit similar patterns of labor division. Their organization can transition between ordered and disordered states depending on colony size. The disordered state typically occurs when the number of foraging ants is small, due to the infrequent discovery of food \cite{beekman2001phase}.
+There are also self-organized groups of smaller flying animals whose collective behavior is even more complex than that of larger species. For example, bees are capable of dividing labor as a result of social interactions among individuals \cite{jeanson2005emergence}. Remaining within the field of insects but shifting to a solid medium, ants exhibit similar patterns of labor division. Their organization can transition between ordered and disordered states depending on colony size. The disordered state typically occurs when the number of foraging ants is small, due to the infrequent discovery of food \cite{beekman2001phase}. However, even when the colony is large enough to sustain a greater number of foragers, problems can still arise. In particular, some ants may remain stationary, occupying tunnels and thereby reducing the overall flow rate \cite{aguilar2018collective}.
 
-Another characteristic that arises from self-organization in ants—one not possessed by all animals—is their ability to self-assemble to perform specific tasks. Examples include the formation of rafts, bridges, or columns, where each individual uses its legs or jaws to grasp another and remains in place until the collective goal is achieved. Naturally, certain factors influence these self-assemblages, one of the most significant being colony size \cite{anderson2002self}. Interesntingly, these structures posses some viscoelastic properties, 
+Another characteristic that arises from self-organization in ants—one not possessed by all animals—is their ability to self-assemble to perform specific tasks. Examples include the formation of rafts, bridges, or columns, where each individual uses its legs or jaws to grasp another and remains in place until the collective goal is achieved. Naturally, certain factors influence these self-assemblages, one of the most significant being colony size \cite{anderson2002self}. Interesntingly, these structures posses some viscoelastic properties, when applied a certain stress, they tend to return to their original place, resulting in an elastic behavior, at the same time they adapt a viscous behavior due to objects being able to sink in the aggreagation, the same way they would do in a viscous fluid \cite{tennenbaum2016mechanics}. This opens the posibility for ants to be used as smart materials. 
 
+There are also animals that form groups while inhabiting more complex environments, such as water. Regardless of the medium, different species often display similar behaviors and dependencies. For example, the dynamics of schooling fish can be predicted, typically resulting in three main configurations, with variations depending on group size \cite{tunstrom2013collective, katz2011inferring, huang2024collective}.
 
-\textbf{Esto es un posible texto final, esto es copy paste, recordar cambiar}. \textit{Self-organization occurs when multiple direct or indirect interactions among individuals within a group promote the emergence of complex behavioural patterns at the collective level (Camazine et al. 2001).}
+These are just few examples of large animal groups that, interestingly, share common characteristics of self-organization. This process begins at the level of the individual but emerges as a collective, temporary order through direct or indirect interactions among organisms, ultimately allowing them to achieve a common goal \cite{isaeva2012self}.
 
+The study of macroscopic agents reveals that self-organization is not limited to large animal groups. At smaller scales, microscopic agents such as bacteria, colloidal particles, and artificial swimmers also exhibit analogous self-organized behaviors, although these are driven by different physical principles, including thermal noise and low-Reynolds-number hydrodynamics.
 
 \section{Microscopic agents}
+As discussed in the previous section, the term active matter is not limited to microscopic systems but also applies to animal groups. However, the focus of this thesis will be on the former.
 
-The difference of active particles from passive ones, is that passive have mere diffusion motion, whereas active follows these stochastic differential equations accordnig to \cite{volpe2014simulation}:
+To begin, let us review some fundamentals. The key difference of active and passive ones, is that passive undergo mere diffusion motion, whereas active follows stochastic differential equations accordnig to \cite{volpe2014simulation}:
 \begin{align}
   \frac{d}{dt}x(t) &= v\cos{\varphi(t)} + \sqrt{2D_T}W_x,\\
   \frac{d}{dt}y(t) &= v\sin{\varphi(t)} + \sqrt{2D_T}W_y,
@@ -465,7 +469,7 @@ where $W_x$, and $W_y$ represent their corresponding Wiener process. As stated b
 
 then the motion is merely diffusive and the particle is characterized as brownian particle. Figure \ref{fig:msddifferentvelocities} helps visualize how  the motion varies according to their velocity. When the velocity is zero, the linear behavior of the MSD represents a diffusive behavior, whereas when it is different it is considered to be ballistic. 
 
-\begin{figure}
+\begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.55\textwidth]{figures/msddifferentvelocities.png}
   \end{center}
