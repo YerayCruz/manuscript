@@ -1,4 +1,4 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{38}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -170,6 +170,16 @@ Giorgio Volpe, Sylvain Gigan, and Giovanni Volpe.
 Jonathan~R Howse, Richard~AL Jones, Anthony~J Ryan, Tim Gough, Reza Vafabakhsh, and Ramin Golestanian.
 \newblock Self-motile colloidal particles: from directed propulsion to random walk.
 \newblock \emph{Physical review letters}, 99\penalty0 (4):\penalty0 048102, 2007.
+
+\bibitem[Palacci et~al.(2010)Palacci, Cottin-Bizonne, Ybert, and Bocquet]{palacci2010sedimentation}
+J{\'e}r{\'e}mie Palacci, C{\'e}cile Cottin-Bizonne, Christophe Ybert, and Lyd{\'e}ric Bocquet.
+\newblock Sedimentation and effective temperature of active colloidal suspensions.
+\newblock \emph{Physical Review Letters}, 105\penalty0 (8):\penalty0 088304, 2010.
+
+\bibitem[K{\"u}mmel et~al.(2013)K{\"u}mmel, Ten~Hagen, Wittkowski, Buttinoni, Eichhorn, Volpe, L{\"o}wen, and Bechinger]{kummel2013circular}
+Felix K{\"u}mmel, Borge Ten~Hagen, Raphael Wittkowski, Ivo Buttinoni, Ralf Eichhorn, Giovanni Volpe, Hartmut L{\"o}wen, and Clemens Bechinger.
+\newblock Circular motion of asymmetric self-propelling particles.
+\newblock \emph{Physical review letters}, 110\penalty0 (19):\penalty0 198302, 2013.
 
 \bibitem[Corkidi et~al.(2008)Corkidi, Taboada, Wood, Guerrero, and Darszon]{corkidi2008tracking}
 G~Corkidi, B~Taboada, CD~Wood, A~Guerrero, and A~Darszon.

@@ -475,7 +475,7 @@ where $W_x$, and $W_y$ represent their corresponding Wiener process. As stated b
   \label{eq:limitofvelocity}
 \end{equation}
 
-then the motion is merely diffusive and the particle is characterized as brownian particle. Figure \ref{fig:msddifferentvelocities} helps visualize how  the motion varies according to their velocity. When the velocity is zero, the linear behavior of the MSD represents a diffusive behavior, whereas when it is different it is considered to be ballistic. 
+then the motion is merely diffusive and the particle is characterized as passive brownian particle. Figure \ref{fig:msddifferentvelocities} helps visualize how  the motion varies according to their velocity. When the velocity is zero, the linear behavior of the MSD represents a diffusive behavior, whereas when it is different it is considered to be ballistic. 
 
 \begin{figure}[h]
   \begin{center}
@@ -485,18 +485,18 @@ then the motion is merely diffusive and the particle is characterized as brownia
 \end{figure}
 
 
-This was proven with the work done by Howse et al. (2007) that established the experimental basis for active Brownian particle dynamics by studying self-motile colloidal particles that use chemical reactions catalyzed on their surface to achieve autonomous propulsion. They demonstrated that at short times, these particles exhibit substantial directed motion with velocity dependent on fuel concentration, while at longer times, the motion transitions to a random walk with enhanced diffusion coefficients. This work provided a comprehensive experimental validation of the theoretical active Brownian particle model and established the standard mathematical framework for describing such systems through stochastic differential equations \cite{howse2007self}. This, however is an artificial active particle, done by coating a polystyrene shperes with a layer of platinum, which will be the responsible of the propulsion method. This open a new term that appears active particles have, it is called chirality, which is the tendency to move in a circular path just as described by the random walk, however, this movement was only studied in a 2-dimensions confined space. In a research by Corkidi et al. (2008) spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh for eggs, what they found was a helical trajectory, shown in Figure~\ref{fig:corkidiexperiment}, being a pretty similar response, and obtaining a non-space dependant behavior \cite{corkidi2008tracking}. Therefore we add a third term for the rotational diffusion given by: 
+However Howse et al. (2007) established the experimental basis for active Brownian particle dynamics by studying self-motile colloidal particles that use chemical reactions catalyzed on their surface to achieve autonomous propulsion. They demonstrated that at short times, these particles exhibit substantial directed motion with velocity dependent on fuel concentration, while at longer times, the motion transitions to a random walk with enhanced diffusion coefficients. This work provided a comprehensive experimental validation of the theoretical active Brownian particle model and established the standard mathematical framework for describing such systems through stochastic differential equations \cite{howse2007self, palacci2010sedimentation}. These, however, are artificial active particles, done by coating a polystyrene shperes with a layer of platinum, which will be the responsible of the propulsion method, nontheless, this in not inherently of the particle shape, there have been assymetric artificial particles with an \textit{L} shape that undergoes the same behavior \cite{kummel2013circular}. This open a new term that appears active particles have, it is called chirality, which is the tendency to move in a circular path just as described by the random walk, however, this movement was only studied in a 2-dimensions confined space. In a research by Corkidi et al. (2008) spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh for eggs, what they found was a helical trajectory, shown in Figure~\ref{fig:corkidiexperiment}, being a pretty similar response, and obtaining a non-space dependant behavior \cite{corkidi2008tracking}. Therefore we add a third term for the rotational diffusion given by: 
 
 \begin{equation}
-  \dot{\varphi} = \sqrt{2D_R}W _{\varphi}.
+  \frac{d}{dt}{\varphi} = \sqrt{2D_R}W _{\varphi}.
   \label{eq:rotationaldiffusion}
 \end{equation}
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=0.55\textwidth]{figures/CorkidiExperiment.png}
+    \includegraphics[width=0.90\textwidth]{figures/randomwalk.png}
   \end{center}
-  \caption[Corkidi experiment.]{Trajectory of the spermatozoa for \textbf{a, and c} free space, and \textbf{b, d} confined 2-dimension space. Obtained from \cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
+  \caption[Random Walk for active brownian particles.]{Trajectories of polystyren platinum layered sphere particles for different peroxide consentrations, obtained from \cite{howse2007self}.Trajectory of the spermatozoa for \textbf{a,c} free space, and \textbf{b, d} confined 2-dimension space. Obtained from \cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
 \end{figure}
 
 
