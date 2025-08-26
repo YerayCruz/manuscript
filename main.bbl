@@ -131,6 +131,11 @@ J~Aguilar, D~Monaenkova, V~Linevich, W~Savoie, B~Dutta, H-S Kuan, MD~Betterton, 
 \newblock Collective clog control: Optimizing traffic flow in confined biological and robophysical excavation.
 \newblock \emph{Science}, 361\penalty0 (6403):\penalty0 672--677, 2018.
 
+\bibitem[Tunstr{\o}m et~al.(2013)Tunstr{\o}m, Katz, Ioannou, Huepe, Lutz, and Couzin]{tunstrom2013collective}
+Kolbj{\o}rn Tunstr{\o}m, Yael Katz, Christos~C Ioannou, Cristi{\'a}n Huepe, Matthew~J Lutz, and Iain~D Couzin.
+\newblock Collective states, multistability and transitional behavior in schooling fish.
+\newblock \emph{PLoS computational biology}, 9\penalty0 (2):\penalty0 e1002915, 2013.
+
 \bibitem[Anderson et~al.(2002)Anderson, Theraulaz, and Deneubourg]{anderson2002self}
 Carl Anderson, Guy Theraulaz, and J-L Deneubourg.
 \newblock Self-assemblages in insect societies.
@@ -140,11 +145,6 @@ Carl Anderson, Guy Theraulaz, and J-L Deneubourg.
 Michael Tennenbaum, Zhongyang Liu, David Hu, and Alberto Fernandez-Nieves.
 \newblock Mechanics of fire ant aggregations.
 \newblock \emph{Nature materials}, 15\penalty0 (1):\penalty0 54--59, 2016.
-
-\bibitem[Tunstr{\o}m et~al.(2013)Tunstr{\o}m, Katz, Ioannou, Huepe, Lutz, and Couzin]{tunstrom2013collective}
-Kolbj{\o}rn Tunstr{\o}m, Yael Katz, Christos~C Ioannou, Cristi{\'a}n Huepe, Matthew~J Lutz, and Iain~D Couzin.
-\newblock Collective states, multistability and transitional behavior in schooling fish.
-\newblock \emph{PLoS computational biology}, 9\penalty0 (2):\penalty0 e1002915, 2013.
 
 \bibitem[Katz et~al.(2011)Katz, Tunstr{\o}m, Ioannou, Huepe, and Couzin]{katz2011inferring}
 Yael Katz, Kolbj{\o}rn Tunstr{\o}m, Christos~C Ioannou, Cristi{\'a}n Huepe, and Iain~D Couzin.
