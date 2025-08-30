@@ -1,7 +1,7 @@
+\babel@toc {english}{}\relax 
 \contentsline {chapter}{Abstract}{vi}{figure.caption.1}%
 \contentsline {chapter}{List of Figures}{vii}{chapter*.2}%
 \contentsline {chapter}{List of Tables}{ix}{chapter*.3}%
-\babel@toc {english}{}\relax 
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Background}{5}{part.2}%
@@ -18,12 +18,13 @@
 \contentsline {section}{\numberline {3.2}Brownian ratchets}{17}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Active Matter Systems}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Macroscopic Agents}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Microscopic agents}{25}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Interaction with non-homogeneous environments}{27}{section.4.4}%
+\contentsline {paragraph}{Working definition.}{24}{section*.15}%
+\contentsline {section}{\numberline {4.2}Macroscopic Agents}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Microscopic agents}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Interaction with non-homogeneous environments}{28}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Active motors}{28}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{29}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{29}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{29}{section.5.2}%
 \contentsline {chapter}{Bibliography}{30}{section.5.2}%
-\contentsline {chapter}{Curriculum Vitae}{35}{chapter*.18}%
+\contentsline {chapter}{Curriculum Vitae}{36}{chapter*.19}%

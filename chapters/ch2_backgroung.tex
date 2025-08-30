@@ -286,7 +286,7 @@ This is the classical diffusion result, where the diffusion coefficient is \( D 
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[width=0.8\textwidth]{figures/passivebrowniantrajectorymsd.png}
+    \includegraphics[width=0.8\textwidth]{figures/passivebrowniantrajectorymsd.pdf}
   \end{center}
   \caption[Example of brownian motion]{A colloidal particle undergoes random, thermally induced displacements in a fluid medium. \textbf{Panel a)} shows the trajectory of the particle. \textbf{ Panel b)} shows the corresponding mean squared displacement (MSD) as a function of time, illustrating the linear relationship predicted by Einstein for diffusive behavior (orange) and the one obtained through a numerical simulation (blue).}\label{fig:passivebrowniantrajectory}
 \end{figure}
@@ -429,13 +429,32 @@ One successful approach to achieving this symmetry breaking involves rocking rat
 
 \section{Fundamentals of Active Matter}
 
-The definition of active matter can vary slightly among authors. For instance, granular polar asymmetric vibrated particles are considered to exhibit self-propulsion—a characteristic of active matter—despite the fact that their motion arises from external vibrations \cite{deseigne2010collective}. In contrast, a nearly identical setup with symmetric granular particles placed on a non-symmetric (sawtooth) platform and driven by vertical vibrations, which produces directed motion, is not regarded as active \cite{derenyi1998collective}. Similarly, colloidal particles may behave passively when studied individually, but their collective dynamics can be classified as active matter when interactions among particles of the same kind are considered \cite{soto2014self}.
+%====================================================================== New paragraph
 
-For the purposes of this thesis, active matter will be defined as systems composed of self-driven units that continuously consume energy from their environment to propel themselves \cite{marchetti2013hydrodynamics, ramaswamy2010mechanics}. It is important to emphasize that this definition applies regardless of whether the particles are artificial or organic. In what follows, we will first present macroscopic examples before turning to the microscopic cases most relevant to this work.
+The definition of active matter is not always the same across the literature. Some authors describe it in a broad way, emphasizing that the key element is the continuous intake and dissipation of energy by each unit, which allows them to remain out of equilibrium and sustain motion or internal stresses. Reviews often highlight internally driven systems—such as cytoskeletal extracts, swimming microorganisms, or synthetic colloids—as the most representative examples of active matter \cite{ramaswamy2010mechanics, marchetti2013hydrodynamics, bechinger2016active}.
+
+Other authors focus more specifically on self-propulsion at the particle level as the defining feature. This perspective is useful for distinguishing active systems from those whose dynamics are mainly caused by externally imposed forces. For example, in vibrated granular monolayers, asymmetric grains can display self-propelled trajectories and flock-like patterns and are sometimes described as active. In contrast, symmetric grains that only move in a directed way because of an asymmetric boundary, such as a sawtooth channel, are better classified as externally driven rather than active \cite{deseigne2010collective, mobarakabadi2013granular, fernandez2022active}.
+
+There is also a difference when considering individual vs. collective behavior. Some colloids appear passive when studied alone, but when interactions are taken into account, they can exhibit genuinely non-equilibrium collective phenomena. Examples include motility-induced phase separation (MIPS), defect-mediated flows in active nematics, and other emergent patterns normally linked with active matter. For this reason, several reviews describe active matter not only in terms of single-particle propulsion but also in terms of its collective stresses and patterns \cite{cates2015motility, doostmohammadi2018active}.
+
+More recent works point out that definitions have evolved over time and suggest clarifying criteria such as whether the drive is internal or external, whether the system is dry or wet (momentum non-conserving or conserving), and whether the energy input acts at the particle level. Some surveys even propose that researchers explicitly state their working definition depending on the context of their problem \cite{gompper20202020, gompper20252025}.
+
+\paragraph{Working definition.} In this thesis, we define active matter as:
+\begin{quote}
+systems composed of units that continuously draw energy at the particle scale and convert it into mechanical work, generating persistent stresses or self-propulsion, and sustaining non-equilibrium collective dynamics.
+\end{quote}
+
+This definition includes both biological and synthetic systems (such as bacteria, cytoskeletal extracts, and Janus colloids) but excludes setups where directed motion arises only from externally imposed vibrations or asymmetric boundaries without particle-level energy input—for example, symmetric grains transported by a sawtooth channel \cite{reimann2002brownian, hanggi2009artificial}.
+
+
+
+We will first present some macroscopic examples that show universal principles of self-organization, and then move to the microscopic cases most relevant to this work—active colloids, run-and-tumble swimmers, and active nematics—where thermal noise and low-Reynolds-number hydrodynamics play a dominant role.
+
+%========================================================================
 
 \section{Macroscopic Agents}
 
-It is common to confuse what can be considered active matter and what not. However, examples can be observed at plain sight in the macroscopic world. A flock of birds, for instance, is considered active matter because each bird is capable of self-propulsion. Unlike microscopic systems, they are not significantly affected by the thermal noise of their medium—in this case, air. A computational study by Reynolds (1987) modeled flocking behavior in birds by treating each individual as an autonomous agent whose trajectory was influenced by its local environment and neighboring individuals \cite{reynolds1987flocks}.
+Examples of active matter can be observed at plain sight in the macroscopic world. A flock of birds, for instance, is considered active matter because each bird is capable of self-propulsion. Unlike microscopic systems, they are not significantly affected by the thermal noise of their medium—in this case, air. A computational study by Reynolds (1987) modeled flocking behavior in birds by treating each individual as an autonomous agent whose trajectory was influenced by its local environment and neighboring individuals \cite{reynolds1987flocks}.
 
 Reynolds introduced three fundamental rules governing flocking behavior: separation (collision avoidance), alignment (velocity matching with neighbors), and cohesion (attraction toward the average position of neighbors). This work laid the foundation for understanding how simple local interactions can give rise to complex patterns of collective motion. 
 
@@ -446,7 +465,7 @@ There are also self-organized groups of smaller flying animals whose collective 
 
 \begin{figure}
   \begin{center}
-    \includegraphics[width=0.95\textwidth]{figures/macroscopicagents.png}
+    \includegraphics[width=0.95\textwidth]{figures/macroscopicagents.pdf}
   \end{center}
   \caption[Macroscopic Agents example]{\textbf{Panel 1)} Example of different formation of birds deppending predation risk, obtained from \cite{carere2009aerial}. \textbf{Panel 2)} Different formation of schooling fish, obtained from \cite{tunstrom2013collective}. \textbf{Panel 3) - 4)} Aggregation of ants forming a bridge, obtained from \cite{anderson2002self}.}\label{fig:macroscopicagents}
 \end{figure}
@@ -481,7 +500,7 @@ then the motion is merely diffusive and the particle is characterized as passive
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=0.85\textwidth]{figures/msdmicroscopicagents.png}
+    \includegraphics[width=0.85\textwidth]{figures/msdmicroscopicagents.pdf}
   \end{center}
   \caption[MSD for brownian particles]{MSD for brownian particles with different velocites. \textbf{Panel a)} shows the result from simulations. \textbf{Panel b)} shows the theoretical calculation, obtained from \cite{volpe2014simulation}. \textbf{Panel c)} MSD for different velocities of polystyren spheres, obtained from \cite{howse2007self}.}\label{fig:msddifferentvelocities}
 \end{figure}
@@ -496,7 +515,7 @@ However Howse et al. (2007) established the experimental basis for active Browni
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=0.90\textwidth]{figures/randomwalk.png}
+    \includegraphics[width=0.90\textwidth]{figures/randomwalk.pdf}
   \end{center}
   \caption[Random Walk for active brownian particles.]{Trajectories of polystyren platinum layered sphere particles for different peroxide consentrations, obtained from \cite{howse2007self}.Trajectory of the spermatozoa for \textbf{a,c} free space, and \textbf{b, d} confined 2-dimension space. Obtained from \cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
 \end{figure}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -81,30 +81,64 @@ Alejandro~V Arzola, Mario Villasante-Barahona, Karen Volke-Sep{\'u}lveda, Petr J
 \newblock Omnidirectional transport in fully reconfigurable two dimensional optical ratchets.
 \newblock \emph{Physical review letters}, 118\penalty0 (13):\penalty0 138002, 2017.
 
-\bibitem[Deseigne et~al.(2010)Deseigne, Dauchot, and Chat{\'e}]{deseigne2010collective}
-Julien Deseigne, Olivier Dauchot, and Hugues Chat{\'e}.
-\newblock Collective motion of vibrated polar disks.
-\newblock \emph{Physical review letters}, 105\penalty0 (9):\penalty0 098001, 2010.
-
-\bibitem[Der{\'e}nyi et~al.(1998)Der{\'e}nyi, Tegzes, and Vicsek]{derenyi1998collective}
-I~Der{\'e}nyi, P~Tegzes, and T~Vicsek.
-\newblock Collective transport in locally asymmetric periodic structures.
-\newblock \emph{Chaos: An Interdisciplinary Journal of Nonlinear Science}, 8\penalty0 (3):\penalty0 657--664, 1998.
-
-\bibitem[Soto and Golestanian(2014)]{soto2014self}
-Rodrigo Soto and Ramin Golestanian.
-\newblock Self-assembly of catalytically active colloidal molecules: tailoring activity through surface chemistry.
-\newblock \emph{Physical review letters}, 112\penalty0 (6):\penalty0 068301, 2014.
+\bibitem[Ramaswamy(2010)]{ramaswamy2010mechanics}
+Sriram Ramaswamy.
+\newblock The mechanics and statistics of active matter.
+\newblock \emph{Annu. Rev. Condens. Matter Phys.}, 1\penalty0 (1):\penalty0 323--345, 2010.
 
 \bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
 M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
 \newblock Hydrodynamics of soft active matter.
 \newblock \emph{Reviews of modern physics}, 85\penalty0 (3):\penalty0 1143--1189, 2013.
 
-\bibitem[Ramaswamy(2010)]{ramaswamy2010mechanics}
-Sriram Ramaswamy.
-\newblock The mechanics and statistics of active matter.
-\newblock \emph{Annu. Rev. Condens. Matter Phys.}, 1\penalty0 (1):\penalty0 323--345, 2010.
+\bibitem[Bechinger et~al.(2016)Bechinger, Di~Leonardo, L{\"o}wen, Reichhardt, Volpe, and Volpe]{bechinger2016active}
+Clemens Bechinger, Roberto Di~Leonardo, Hartmut L{\"o}wen, Charles Reichhardt, Giorgio Volpe, and Giovanni Volpe.
+\newblock Active particles in complex and crowded environments.
+\newblock \emph{Reviews of modern physics}, 88\penalty0 (4):\penalty0 045006, 2016.
+
+\bibitem[Deseigne et~al.(2010)Deseigne, Dauchot, and Chat{\'e}]{deseigne2010collective}
+Julien Deseigne, Olivier Dauchot, and Hugues Chat{\'e}.
+\newblock Collective motion of vibrated polar disks.
+\newblock \emph{Physical review letters}, 105\penalty0 (9):\penalty0 098001, 2010.
+
+\bibitem[Mobarakabadi et~al.(2013)Mobarakabadi, Oskoee, Schr{\"o}ter, and Habibi]{mobarakabadi2013granular}
+Shahin Mobarakabadi, Ehsan~Nedaaee Oskoee, Matthias Schr{\"o}ter, and Mehdi Habibi.
+\newblock Granular transport in a horizontally vibrated sawtooth channel.
+\newblock \emph{Physical Review E—Statistical, Nonlinear, and Soft Matter Physics}, 88\penalty0 (4):\penalty0 042201, 2013.
+
+\bibitem[Fernandez-Nieves and Planet(2022)]{fernandez2022active}
+Alberto Fernandez-Nieves and Ramon Planet.
+\newblock Active and externally driven granular matter, 2022.
+
+\bibitem[Cates and Tailleur(2015)]{cates2015motility}
+Michael~E Cates and Julien Tailleur.
+\newblock Motility-induced phase separation.
+\newblock \emph{Annu. Rev. Condens. Matter Phys.}, 6\penalty0 (1):\penalty0 219--244, 2015.
+
+\bibitem[Doostmohammadi et~al.(2018)Doostmohammadi, Ign{\'e}s-Mullol, Yeomans, and Sagu{\'e}s]{doostmohammadi2018active}
+Amin Doostmohammadi, Jordi Ign{\'e}s-Mullol, Julia~M Yeomans, and Francesc Sagu{\'e}s.
+\newblock Active nematics.
+\newblock \emph{Nature communications}, 9\penalty0 (1):\penalty0 3246, 2018.
+
+\bibitem[Gompper et~al.(2020)Gompper, Winkler, Speck, Solon, Nardini, Peruani, L{\"o}wen, Golestanian, Kaupp, Alvarez, et~al.]{gompper20202020}
+Gerhard Gompper, Roland~G Winkler, Thomas Speck, Alexandre Solon, Cesare Nardini, Fernando Peruani, Hartmut L{\"o}wen, Ramin Golestanian, U~Benjamin Kaupp, Luis Alvarez, et~al.
+\newblock The 2020 motile active matter roadmap.
+\newblock \emph{Journal of Physics: Condensed Matter}, 32\penalty0 (19):\penalty0 193001, 2020.
+
+\bibitem[Gompper et~al.(2025)Gompper, Stone, Kurzthaler, Saintillan, Peruani, Fedosov, Auth, Cottin-Bizonne, Ybert, Cl{\'e}ment, et~al.]{gompper20252025}
+Gerhard Gompper, Howard~A Stone, Christina Kurzthaler, David Saintillan, Fernado Peruani, Dmitry~A Fedosov, Thorsten Auth, Cecile Cottin-Bizonne, Christophe Ybert, Eric Cl{\'e}ment, et~al.
+\newblock The 2025 motile active matter roadmap.
+\newblock \emph{Journal of Physics: Condensed Matter}, 37\penalty0 (14):\penalty0 143501, 2025.
+
+\bibitem[Reimann(2002)]{reimann2002brownian}
+Peter Reimann.
+\newblock Brownian motors: noisy transport far from equilibrium.
+\newblock \emph{Physics reports}, 361\penalty0 (2-4):\penalty0 57--265, 2002.
+
+\bibitem[H{\"a}nggi and Marchesoni(2009)]{hanggi2009artificial}
+Peter H{\"a}nggi and Fabio Marchesoni.
+\newblock Artificial brownian motors: Controlling transport on the nanoscale.
+\newblock \emph{Reviews of Modern Physics}, 81\penalty0 (1):\penalty0 387--442, 2009.
 
 \bibitem[Reynolds(1987)]{reynolds1987flocks}
 Craig~W Reynolds.
