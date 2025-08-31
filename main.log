@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  31 AUG 2025 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  31 AUG 2025 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,44 +945,44 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [26]
-<figures/msdmicroscopicagents.pdf, id=541, 461.725pt x 215.80624pt>
+
+
+Overfull \vbox (8.18385pt too high) has occurred while \output is active []
+
+ [27]
+<figures/msdmicroscopicagents.pdf, id=556, 461.725pt x 215.80624pt>
 File: figures/msdmicroscopicagents.pdf Graphic file (type pdf)
 <use figures/msdmicroscopicagents.pdf>
-Package pdftex.def Info: figures/msdmicroscopicagents.pdf  used on input line 519.
+Package pdftex.def Info: figures/msdmicroscopicagents.pdf  used on input line 537.
 (pdftex.def)             Requested size: 391.61586pt x 183.03772pt.
 
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [27 <./figures/msdmicroscopicagents.pdf>]
-<figures/randomwalk.pdf, id=566, 458.71375pt x 128.48pt>
+ [28 <./figures/msdmicroscopicagents.pdf>]
+<figures/randomwalk.pdf, id=579, 458.71375pt x 128.48pt>
 File: figures/randomwalk.pdf Graphic file (type pdf)
 <use figures/randomwalk.pdf>
-Package pdftex.def Info: figures/randomwalk.pdf  used on input line 534.
+Package pdftex.def Info: figures/randomwalk.pdf  used on input line 548.
 (pdftex.def)             Requested size: 414.6463pt x 116.1426pt.
 
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [28 <./figures/randomwalk.pdf>]
+ [29 <./figures/randomwalk.pdf>]
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [29]
-
-
-Overfull \vbox (8.18385pt too high) has occurred while \output is active []
-
- [30
-
-]
+ [30]
 Chapter 5.
 
 
-[31]) (./main.bbl
+[31
+
+]) (./main.bbl
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
@@ -1018,12 +1018,17 @@ Underfull \hbox (badness 1742) in paragraph at lines 179--182
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [36]) (./main.ind)
+ [36]
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [37]
+ [37]) (./main.ind)
+
+
+Overfull \vbox (8.18385pt too high) has occurred while \output is active []
+
+ [38]
 \openout2 = `RMMCV.aux'.
 
  (./RMMCV.tex)
@@ -1031,7 +1036,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [38
+ [39
 
 ] (./main.aux (./chapters/ch1_intro.aux) (./chapters/ch2_backgroung.aux) (./RMMCV.aux))
  ***********
@@ -1164,18 +1169,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0862AB0D29E3D81F97415B6D912EBEDC;4939.
  ) 
 Here is how much of TeX's memory you used:
- 26108 strings out of 473201
- 480152 string characters out of 5716127
- 869835 words of memory out of 5000000
- 48704 multiletter control sequences out of 15000+600000
+ 26121 strings out of 473201
+ 480498 string characters out of 5716127
+ 870086 words of memory out of 5000000
+ 48713 multiletter control sequences out of 15000+600000
  587996 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,1844b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,1775b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (50 pages, 3897633 bytes).
+Output written on main.pdf (51 pages, 3901983 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 184 named destinations out of 1000 (max. 500000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 623 compressed objects within 7 object streams
+ 188 named destinations out of 1000 (max. 500000)
  292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

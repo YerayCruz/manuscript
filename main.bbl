@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -234,6 +234,21 @@ VV~Isaeva.
 Giorgio Volpe, Sylvain Gigan, and Giovanni Volpe.
 \newblock Simulation of the active brownian motion of a microswimmer.
 \newblock \emph{American journal of physics}, 82\penalty0 (7):\penalty0 659--664, 2014.
+
+\bibitem[Cahn et~al.(1966)Cahn, Ingold, and Prelog]{cahn1966specification}
+Robert~S Cahn, Christopher Ingold, and Vladimir Prelog.
+\newblock Specification of molecular chirality.
+\newblock \emph{Angewandte Chemie International Edition in English}, 5\penalty0 (4):\penalty0 385--415, 1966.
+
+\bibitem[Ismagilov et~al.(2002)Ismagilov, Schwartz, Bowden, and Whitesides]{ismagilov2002autonomous}
+Rustem~F Ismagilov, Alexander Schwartz, Ned Bowden, and George~M Whitesides.
+\newblock Autonomous movement and self-assembly.
+\newblock \emph{Angewandte Chemie International Edition}, 41\penalty0 (4):\penalty0 652--654, 2002.
+
+\bibitem[Paxton et~al.(2004)Paxton, Kistler, Olmeda, Sen, St.~Angelo, Cao, Mallouk, Lammert, and Crespi]{paxton2004catalytic}
+Walter~F Paxton, Kevin~C Kistler, Christine~C Olmeda, Ayusman Sen, Sarah~K St.~Angelo, Yanyan Cao, Thomas~E Mallouk, Paul~E Lammert, and Vincent~H Crespi.
+\newblock Catalytic nanomotors: autonomous movement of striped nanorods.
+\newblock \emph{Journal of the American Chemical Society}, 126\penalty0 (41):\penalty0 13424--13431, 2004.
 
 \bibitem[Howse et~al.(2007)Howse, Jones, Ryan, Gough, Vafabakhsh, and Golestanian]{howse2007self}
 Jonathan~R Howse, Richard~AL Jones, Anthony~J Ryan, Tim Gough, Reza Vafabakhsh, and Ramin Golestanian.

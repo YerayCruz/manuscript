@@ -487,32 +487,50 @@ The study of macroscopic agents reveals that self-organization is not limited to
 
 As discussed in the previous section, the term active matter is not limited to microscopic systems but also applies to animal groups. However, the focus of this thesis will be on the former.
 
-Researchers have been developing new methods to achieve self-propulsion that mimic natural processes. In the following subsections, we will introduce a few examples of different systems that have been created, as well as organic ones.
+We have already defined how a passive brownian particle acts, therefore let us review the key difference of active and passive ones. Passive particles undergo mere diffusion motion, whereas active follows stochastic differential equations accordnig to \cite{volpe2014simulation}:
 
-
-\subsection{Artificial Systems}
-
-As discussed in Section \ref{sct:fundamentalsofactivematter}, the definition encompasses various mechanisms of self-propulsion, and the list and discoveries are extensive.
-
-Take for example \textit{PDMS platelets coated with Pt} by Ismagilov et al. (2002)
-
-\subsection{Organic Systems}
-
-To begin, let us review some fundamentals. The key difference of active and passive ones, is that passive undergo mere diffusion motion, whereas active follows stochastic differential equations accordnig to \cite{volpe2014simulation}:
 \begin{align}
   \frac{d}{dt}x(t) &= v\cos{\varphi(t)} + \sqrt{2D_T}W_x,\\
   \frac{d}{dt}y(t) &= v\sin{\varphi(t)} + \sqrt{2D_T}W_y,
   \label{eq:activestochasticequation}
 \end{align}
 
-where $W_x$, and $W_y$ represent their corresponding Wiener process. As stated before, if 
+where $W_x$, and $W_y$ represent their corresponding Wiener process, and \textit{v} is the mean velocity. As stated before, if 
 
 \begin{equation}
   \lim_{v \to 0}  v\cos{\varphi(t)} + \sqrt{2D_T}W_x,
   \label{eq:limitofvelocity}
 \end{equation}
 
-then the motion is merely diffusive and the particle is characterized as passive brownian particle. Figure \ref{fig:msddifferentvelocities} helps visualize how  the motion varies according to their velocity. When the average velocity is zero, the linear behavior of the MSD represents a diffusive behavior, whereas when it is different it is considered to be ballistic. 
+then the motion is merely diffusive and the particle is characterized as passive brownian particle. 
+
+However, they also exhibit some randomness; it is rare for them to move exactly in a straight line, and this is where chirality comes into play. There are three different forms of asymmetry: rotational, reflexional, and a combination of the two. If a particle does not meet any of the three criteria, then the particle is not symmetric in any aspect. Chirality is actually the name for a non-reflexive-symmetric particle, as exemplified by our hands, from which the actual word originates \cite{cahn1966specification}.
+
+Therefore adding an important third term for the rotational diffusion given by:
+
+\begin{equation}
+  \frac{d}{dt}{\varphi} = \sqrt{2D_R}W _{\varphi}.
+  \label{eq:rotationaldiffusion}
+\end{equation}
+
+
+Despite this limitations, researchers have been developing new methods to achieve self-propulsion that mimic natural processes. In the following subsections, we will introduce a few examples of different systems that have been created, as well as organic ones.
+
+
+\subsection{Artificial Systems}
+
+As discussed in Section \ref{sct:fundamentalsofactivematter}, the definition encompasses various mechanisms of self-propulsion, and the list and discoveries are extensive.
+
+Take, for example, \textit{PDMS platelets coated with Pt} by Ismagilov et al. (2002), it appears to be the first realization of this method. The motion itself is not performed by the particle, but by the layer of platinum (catalyst). This is a chemical reaction where the components move by the releasing of bubbles produced when a liquid (hydrogen peroxide) breaks down with the help of a catalyst \cite{ismagilov2002autonomous}. If we examine the definition of a catalyst, this one does not seem to be affected by the reaction; therefore, the movement would occur indefinitely. In fact, under the experiment's conditions, they achieved an uninterrupted motion of approximately 2 hours. 
+
+In the movement of the particles, they saw that they do not move in a straight line but rather in a circular manner, which is due to the chirality. They observed this behavior in all the particles; however, it was not completely identical.  
+
+
+This experiment opened up the possibility of different setups; the previous one, where plain plates were used, raises a question: Does this behavior depend on the shape of the particle? Paxton et al. (2004) did a similar experiment with a slightly different setup, utilizing rods with a diameter of  370 $nms$, with 2 stripes of platinum and gold, each one of 1 $\mu m$ long in the direction of the long axis. Recalling the previous experiment, platinum is a catalyst for hydrogen peroxide; however, the twist here is that gold is not \cite{paxton2004catalytic}. Although the setup was similar, using the same chemicals, the results differed. They observed that the rods had a tendency to move along their elongated section, particularly where the platinum was located, yielding a different result from the previous experiment, where the particle moved in the opposite direction to the platinum.
+
+\subsection{Organic Systems}
+
+Figure \ref{fig:msddifferentvelocities} helps visualize how  the motion varies according to their velocity. When the average velocity is zero, the linear behavior of the MSD represents a diffusive behavior, whereas when it is different it is considered to be ballistic. 
 
 \begin{figure}[h]
   \begin{center}
@@ -522,12 +540,8 @@ then the motion is merely diffusive and the particle is characterized as passive
 \end{figure}
 
 
-However Howse et al. (2007) established the experimental basis for active Brownian particle dynamics by studying self-motile colloidal particles that use chemical reactions catalyzed on their surface to achieve autonomous propulsion. They demonstrated that at short times, these particles exhibit substantial directed motion with velocity dependent on fuel concentration, while at longer times, the motion transitions to a random walk with enhanced diffusion coefficients. This work provided a comprehensive experimental validation of the theoretical active Brownian particle model and established the standard mathematical framework for describing such systems through stochastic differential equations \cite{howse2007self, palacci2010sedimentation}. These, however, are artificial active particles, done by coating polystyrene shperes with a layer of platinum, which will be the responsible of the propulsion method, nontheless, this in not inherently of the particle's shape, there have been assymetric artificial particles with an \textit{L} shape that undergoes the same behavior \cite{kummel2013circular}. This open a new term that appears active brownian particles have, it is called chirality, which is the tendency to move in a circular path just as described by the random walk, however, this movement was only studied in a 2-dimensions confined space. In a research by Corkidi et al. (2008) spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh for eggs, what they found was a helical trajectory, shown in Figure~\ref{fig:corkidiexperiment}, being a pretty similar response, and obtaining a non-space dependant behavior \cite{corkidi2008tracking}. Therefore we add a third term for the rotational diffusion given by: 
+However Howse et al. (2007) established the experimental basis for active Brownian particle dynamics by studying self-motile colloidal particles that use chemical reactions catalyzed on their surface to achieve autonomous propulsion. They demonstrated that at short times, these particles exhibit substantial directed motion with velocity dependent on fuel concentration, while at longer times, the motion transitions to a random walk with enhanced diffusion coefficients. This work provided a comprehensive experimental validation of the theoretical active Brownian particle model and established the standard mathematical framework for describing such systems through stochastic differential equations \cite{howse2007self, palacci2010sedimentation}. These, however, are artificial active particles, done by coating polystyrene shperes with a layer of platinum, which will be the responsible of the propulsion method, nontheless, this in not inherently of the particle's shape, there have been assymetric artificial particles with an \textit{L} shape that undergoes the same behavior \cite{kummel2013circular}. This open a new term that appears active brownian particles have, it is called chirality, which is the tendency to move in a circular path just as described by the random walk, however, this movement was only studied in a 2-dimensions confined space. In a research by Corkidi et al. (2008) spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh for eggs, what they found was a helical trajectory, shown in Figure~\ref{fig:corkidiexperiment}, being a pretty similar response, and obtaining a non-space dependant behavior \cite{corkidi2008tracking}. 
 
-\begin{equation}
-  \frac{d}{dt}{\varphi} = \sqrt{2D_R}W _{\varphi}.
-  \label{eq:rotationaldiffusion}
-\end{equation}
 
 \begin{figure}[h]
   \begin{center}
