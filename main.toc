@@ -22,8 +22,8 @@
 \contentsline {section}{\numberline {4.2}Macroscopic Agents}{24}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Microscopic agents}{26}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{27}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Organic Systems}{29}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Interaction with non-homogeneous environments}{30}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.2}Organic Systems}{30}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Interaction with non-homogeneous environments}{31}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Active motors}{31}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{33}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{33}{section.5.1}%

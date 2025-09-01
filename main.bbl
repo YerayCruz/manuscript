@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -254,6 +254,11 @@ Walter~F Paxton, Kevin~C Kistler, Christine~C Olmeda, Ayusman Sen, Sarah~K St.~A
 R{\'e}mi Dreyfus, Jean Baudry, Marcus~L Roper, Marc Fermigier, Howard~A Stone, and J{\'e}r{\^o}me Bibette.
 \newblock Microscopic artificial swimmers.
 \newblock \emph{Nature}, 437\penalty0 (7060):\penalty0 862--865, 2005.
+
+\bibitem[Ghosh and Fischer(2009)]{ghosh2009controlled}
+Ambarish Ghosh and Peer Fischer.
+\newblock Controlled propulsion of artificial magnetic nanostructured propellers.
+\newblock \emph{Nano letters}, 9\penalty0 (6):\penalty0 2243--2245, 2009.
 
 \bibitem[Howse et~al.(2007)Howse, Jones, Ryan, Gough, Vafabakhsh, and Golestanian]{howse2007self}
 Jonathan~R Howse, Richard~AL Jones, Anthony~J Ryan, Tim Gough, Reza Vafabakhsh, and Ramin Golestanian.
