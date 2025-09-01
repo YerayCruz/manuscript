@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -269,6 +269,11 @@ J{\'e}r{\'e}mie Palacci, C{\'e}cile Cottin-Bizonne, Christophe Ybert, and Lyd{\'
 Felix K{\"u}mmel, Borge Ten~Hagen, Raphael Wittkowski, Ivo Buttinoni, Ralf Eichhorn, Giovanni Volpe, Hartmut L{\"o}wen, and Clemens Bechinger.
 \newblock Circular motion of asymmetric self-propelling particles.
 \newblock \emph{Physical review letters}, 110\penalty0 (19):\penalty0 198302, 2013.
+
+\bibitem[Tierno et~al.(2008)Tierno, Golestanian, Pagonabarraga, and Sagu{\'e}s]{tierno2008controlled}
+Pietro Tierno, Ramin Golestanian, Ignacio Pagonabarraga, and Francesc Sagu{\'e}s.
+\newblock Controlled swimming in confined fluids of magnetically actuated colloidal rotors.
+\newblock \emph{Physical review letters}, 101\penalty0 (21):\penalty0 218304, 2008.
 
 \bibitem[Corkidi et~al.(2008)Corkidi, Taboada, Wood, Guerrero, and Darszon]{corkidi2008tracking}
 G~Corkidi, B~Taboada, CD~Wood, A~Guerrero, and A~Darszon.
