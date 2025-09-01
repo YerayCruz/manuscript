@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -249,6 +249,11 @@ Rustem~F Ismagilov, Alexander Schwartz, Ned Bowden, and George~M Whitesides.
 Walter~F Paxton, Kevin~C Kistler, Christine~C Olmeda, Ayusman Sen, Sarah~K St.~Angelo, Yanyan Cao, Thomas~E Mallouk, Paul~E Lammert, and Vincent~H Crespi.
 \newblock Catalytic nanomotors: autonomous movement of striped nanorods.
 \newblock \emph{Journal of the American Chemical Society}, 126\penalty0 (41):\penalty0 13424--13431, 2004.
+
+\bibitem[Dreyfus et~al.(2005)Dreyfus, Baudry, Roper, Fermigier, Stone, and Bibette]{dreyfus2005microscopic}
+R{\'e}mi Dreyfus, Jean Baudry, Marcus~L Roper, Marc Fermigier, Howard~A Stone, and J{\'e}r{\^o}me Bibette.
+\newblock Microscopic artificial swimmers.
+\newblock \emph{Nature}, 437\penalty0 (7060):\penalty0 862--865, 2005.
 
 \bibitem[Howse et~al.(2007)Howse, Jones, Ryan, Gough, Vafabakhsh, and Golestanian]{howse2007self}
 Jonathan~R Howse, Richard~AL Jones, Anthony~J Ryan, Tim Gough, Reza Vafabakhsh, and Ramin Golestanian.

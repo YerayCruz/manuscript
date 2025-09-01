@@ -22,11 +22,11 @@
 \contentsline {section}{\numberline {4.2}Macroscopic Agents}{24}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Microscopic agents}{26}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{27}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Organic Systems}{28}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Interaction with non-homogeneous environments}{29}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.2}Organic Systems}{29}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Interaction with non-homogeneous environments}{30}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Active motors}{30}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{31}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{31}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{31}{section.5.2}%
 \contentsline {chapter}{Bibliography}{32}{section.5.2}%
-\contentsline {chapter}{Curriculum Vitae}{39}{chapter*.19}%
+\contentsline {chapter}{Curriculum Vitae}{39}{chapter*.20}%
