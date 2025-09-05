@@ -24,8 +24,8 @@
 \contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{27}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Natural Systems}{30}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{32}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{33}{section.5.2}%
-\contentsline {chapter}{Bibliography}{34}{section.5.2}%
-\contentsline {chapter}{Curriculum Vitae}{41}{chapter*.20}%
+\contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{35}{section.5.2}%
+\contentsline {chapter}{Bibliography}{36}{section.5.2}%
+\contentsline {chapter}{Curriculum Vitae}{44}{chapter*.20}%
