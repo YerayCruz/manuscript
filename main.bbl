@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{64}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -290,9 +290,39 @@ M~Siva Kumar and P~Philominathan.
 \newblock The physics of flagellar motion of e. coli during chemotaxis.
 \newblock \emph{Biophysical reviews}, 2\penalty0 (1):\penalty0 13--20, 2010.
 
-\bibitem[Hill et~al.(2007)Hill, Kalkanci, McMurry, and Koser]{hill2007hydrodynamic}
-Jane Hill, Ozge Kalkanci, Jonathan~L McMurry, and Hur Koser.
-\newblock Hydrodynamic surface interactions enable escherichia coli to seek efficient routes to swim upstream.
-\newblock \emph{Physical review letters}, 98\penalty0 (6):\penalty0 068101, 2007.
+\bibitem[Mitchell et~al.(1995)Mitchell, Pearson, Bonazinga, Dillon, Khouri, and Paxinos]{mitchell1995long}
+James~G Mitchell, Lynette Pearson, Armando Bonazinga, Simon Dillon, Helen Khouri, and Rosemary Paxinos.
+\newblock Long lag times and high velocities in the motility of natural assemblages of marine bacteria.
+\newblock \emph{Applied and environmental microbiology}, 61\penalty0 (3):\penalty0 877--882, 1995.
+
+\bibitem[Lowe et~al.(1987)Lowe, Meister, and Berg]{lowe1987rapid}
+Graeme Lowe, Markus Meister, and Howard~C Berg.
+\newblock Rapid rotation of flagellar bundles in swimming bacteria.
+\newblock \emph{Nature}, 325\penalty0 (6105):\penalty0 637--640, 1987.
+
+\bibitem[Barbara and Mitchell(2003{\natexlab{a}})]{barbara2003marine}
+Greg~M Barbara and James~G Mitchell.
+\newblock Marine bacterial organisation around point-like sources of amino acids.
+\newblock \emph{FEMS microbiology ecology}, 43\penalty0 (1):\penalty0 99--109, 2003{\natexlab{a}}.
+
+\bibitem[Barbara and Mitchell(2003{\natexlab{b}})]{barbara2003bacterial}
+Greg~M Barbara and James~G Mitchell.
+\newblock Bacterial tracking of motile algae.
+\newblock \emph{FEMS microbiology ecology}, 44\penalty0 (1):\penalty0 79--87, 2003{\natexlab{b}}.
+
+\bibitem[Goldstein(2015)]{goldstein2015green}
+Raymond~E Goldstein.
+\newblock Green algae as model organisms for biological fluid dynamics.
+\newblock \emph{Annual review of fluid mechanics}, 47\penalty0 (1):\penalty0 343--375, 2015.
+
+\bibitem[Zhang et~al.(2015)Zhang, Jana, Giarra, Vlachos, and Jung]{zhang2015paramecia}
+P~Zhang, S~Jana, M~Giarra, PP~Vlachos, and S~Jung.
+\newblock Paramecia swimming in viscous flow.
+\newblock \emph{The European Physical Journal Special Topics}, 224\penalty0 (17):\penalty0 3199--3210, 2015.
+
+\bibitem[Friedl et~al.(2004)Friedl, Hegerfeldt, and Tusch]{friedl2004collective}
+Peter Friedl, Yael Hegerfeldt, and Miriam Tusch.
+\newblock Collective cell migration in morphogenesis and cancer.
+\newblock \emph{International Journal of Developmental Biology}, 48\penalty0 (5-6):\penalty0 441--449, 2004.
 
 \end{thebibliography}
