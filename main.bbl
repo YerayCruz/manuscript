@@ -1,4 +1,4 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{67}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -324,5 +324,20 @@ P~Zhang, S~Jana, M~Giarra, PP~Vlachos, and S~Jung.
 Peter Friedl, Yael Hegerfeldt, and Miriam Tusch.
 \newblock Collective cell migration in morphogenesis and cancer.
 \newblock \emph{International Journal of Developmental Biology}, 48\penalty0 (5-6):\penalty0 441--449, 2004.
+
+\bibitem[Schliwa and Woehlke(2003)]{schliwa2003molecular}
+Manfred Schliwa and G{\"u}nther Woehlke.
+\newblock Molecular motors.
+\newblock \emph{Nature}, 422\penalty0 (6933):\penalty0 759--765, 2003.
+
+\bibitem[Weibel et~al.(2005)Weibel, Garstecki, Ryan, DiLuzio, Mayer, Seto, and Whitesides]{weibel2005microoxen}
+Douglas~B Weibel, Piotr Garstecki, Declan Ryan, Willow~R DiLuzio, Michael Mayer, Jennifer~E Seto, and George~M Whitesides.
+\newblock Microoxen: Microorganisms to move microscale loads.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 102\penalty0 (34):\penalty0 11963--11967, 2005.
+
+\bibitem[Bennett and Golestanian(2015)]{bennett2015steering}
+Rachel~R Bennett and Ramin Golestanian.
+\newblock A steering mechanism for phototaxis in chlamydomonas.
+\newblock \emph{Journal of The Royal Society Interface}, 12\penalty0 (104):\penalty0 20141164, 2015.
 
 \end{thebibliography}
