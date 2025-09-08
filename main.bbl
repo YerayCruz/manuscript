@@ -1,4 +1,4 @@
-\begin{thebibliography}{72}
+\begin{thebibliography}{73}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -364,5 +364,10 @@ Yuichi Hiratsuka, Makoto Miyata, Tetsuya Tada, and Taro~QP Uyeda.
 Sumesh~P Thampi, Amin Doostmohammadi, Tyler~N Shendruk, Ramin Golestanian, and Julia~M Yeomans.
 \newblock Active micromachines: Microfluidics powered by mesoscale turbulence.
 \newblock \emph{Science advances}, 2\penalty0 (7):\penalty0 e1501854, 2016.
+
+\bibitem[Muinos-Landin et~al.(2021)Muinos-Landin, Fischer, Holubec, and Cichos]{muinos2021reinforcement}
+Santiago Muinos-Landin, Alexander Fischer, Viktor Holubec, and Frank Cichos.
+\newblock Reinforcement learning with artificial microswimmers.
+\newblock \emph{Science Robotics}, 6\penalty0 (52):\penalty0 eabd9285, 2021.
 
 \end{thebibliography}

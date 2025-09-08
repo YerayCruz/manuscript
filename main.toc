@@ -27,5 +27,5 @@
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{37}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Magnetic Colloids under static fields}{37}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Dynamic Magnetic Actuation}{37}{section.5.2}%
-\contentsline {chapter}{Bibliography}{38}{section.5.2}%
+\contentsline {chapter}{Bibliography}{39}{section.5.2}%
 \contentsline {chapter}{Curriculum Vitae}{46}{chapter*.21}%
