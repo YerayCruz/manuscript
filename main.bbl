@@ -1,4 +1,4 @@
-\begin{thebibliography}{69}
+\begin{thebibliography}{72}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -349,5 +349,20 @@ Lidong Qin, Matthew~J Banholzer, Xiaoyang Xu, Ling Huang, and Chad~A Mirkin.
 Yuichi Hiratsuka, Makoto Miyata, Tetsuya Tada, and Taro~QP Uyeda.
 \newblock A microrotary motor powered by bacteria.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 103\penalty0 (37):\penalty0 13618--13623, 2006.
+
+\bibitem[Angelani and Di~Leonardo(2010)]{angelani2010geometrically}
+Luca Angelani and Roberto Di~Leonardo.
+\newblock Geometrically biased random walks in bacteria-driven micro-shuttles.
+\newblock \emph{New Journal of physics}, 12\penalty0 (11):\penalty0 113017, 2010.
+
+\bibitem[Thampi et~al.(2016)Thampi, Doostmohammadi, Shendruk, Golestanian, and Yeomans]{thampi2016active}
+Sumesh~P Thampi, Amin Doostmohammadi, Tyler~N Shendruk, Ramin Golestanian, and Julia~M Yeomans.
+\newblock Active micromachines: Microfluidics powered by mesoscale turbulence.
+\newblock \emph{Science advances}, 2\penalty0 (7):\penalty0 e1501854, 2016.
+
+\bibitem[Di~Leonardo et~al.(2010)Di~Leonardo, Angelani, Dell’Arciprete, Ruocco, Iebba, Schippa, Conte, Mecarini, De~Angelis, and Di~Fabrizio]{di2010bacterial}
+Roberto Di~Leonardo, Luca Angelani, Dario Dell’Arciprete, Giancarlo Ruocco, Valerio Iebba, Serena Schippa, Maria~Pia Conte, Francesco Mecarini, Francesco De~Angelis, and Enzo Di~Fabrizio.
+\newblock Bacterial ratchet motors.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0 (21):\penalty0 9541--9545, 2010.
 
 \end{thebibliography}
