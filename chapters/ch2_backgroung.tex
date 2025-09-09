@@ -627,13 +627,28 @@ This result demonstrates that combining bacterial activity with asymmetric bound
 \chapter{Magnetically Driven Colloidal Systems}
 \label{magneticallydrivencolloidalsystems}
 
-\section{Magnetic Colloids under static fields}
-
-\section{Dynamic Magnetic Actuation}
 
 We can see that biological active matter is effective at transporting or moving objects. The drawback, however, is that these systems always require a constant supply of energy. So far, there is no unlimited energy source available for this purpose. An exception are thermophoretic particles, which only need a beam of light to create a temperature gradient. In fact, some experiments have combined this principle with machine learning models, allowing particles to be guided toward a target region while reducing the impact of thermal noise \cite{muinos2021reinforcement}. The limitation, though, is that only a relatively small number of particles can be manipulated in this way, which is not enough to drive something like a rotor.
 
-Because of this, in this thesis we take a different approach. The idea is to combine active and passive matter, so that energy can be injected into the system without having to replace the entire source each time. This hybrid strategy may offer a way to overcome the limits seen in purely biological or purely synthetic setups.
+Because of this, we take a different approach. The idea is to combine active and passive matter, so that energy can be injected into the system without having to replace the entire source each time. This hybrid strategy may offer a way to overcome the limits seen in purely biological or purely synthetic setups.
+
+This thesis focuses on paramagnetic colloids. Their key property is that the magnetic dipoles align with an external field, but once the field is removed, the dipoles lose their orientation and the material no longer shows magnetic order. The origin of this effect lies in the electronic and spin configuration of the atoms. A simple example is molecular oxygen, $O_2$, which has two unpaired valence electrons with the same spin. This imbalance leads to a net magnetic moment, giving rise to paramagnetism. The underlying principle is explained by Hund’s rule.
+
+By themselves, paramagnetic particles cannot be considered active matter, even in the presence of a magnetic field. Several experiments have tried to induce motion in these systems, and one promising route is through Brownian rectification. For example, Tierno (2012) studied paramagnetic colloids placed above a ferrite garnet film. The film contained permanent magnetic domains aligned along the $x$-axis, with alternating directions, while the colloids were subjected to a circularly precessing magnetic field in the $y$–$z$ plane \cite{tierno2012depinning}.
+
+With these parameters, and by varying only the driving frequency, four regimes of motion were identified. At the highest frequencies, the particles entered a pinned state, meaning the colloids did not translate. Tierno also tested elliptic magnetic fields and observed that, depending on the field magnitude, the particles displayed either attractive or repulsive interactions. These behaviors arise from the dipole–dipole potential between particles, given by
+
+\begin{equation}
+U_{dd} = \frac{\mu}{4\pi} \left( \frac{m_i m_j}{r^3_{ij}} - \frac{3(m_i \cdot r_{ij})(m_j \cdot r_{ij})}{r^5_{ij}} \right),
+\label{eq:dipolepairpotential}
+\end{equation}
+
+where $m_i$ and $m_j$ are the magnetic moments of particles $i$ and $j$, and $r_{ij}$ is their separation vector.
+
+A subsequent study by Straube and Tierno (2013) provided a deeper understanding of these dynamics by analyzing the role of synchronization and thermal noise~\cite{arthur2013synchronous}. Using the same ferrite garnet film with periodic magnetic domains, they investigated the motion of a single paramagnetic colloid driven by a rotating magnetic field. At low driving frequencies, the particle remained synchronized with the moving magnetic potential, resulting in constant-speed transport at the same velocity as the traveling landscape. Above a critical frequency, however, the particle lost synchronization, entering an asynchronous regime characterized by intermittent sliding and a reduced average speed.
+
+To describe these results, Straube and Tierno proposed a simplified analytical model based on the overdamped Langevin equation, which accounted for both deterministic forces and thermal fluctuations. Importantly, their model showed excellent agreement with experiments and revealed how thermal noise smooths the sharp transition between synchronous and asynchronous regimes. This highlights the interplay between deterministic driving and stochastic forces in rectification phenomena, and demonstrates how even passive colloids can be controlled and transported through external fields when symmetry is broken.
+
 
 Fortunately, Ostinato et al. (2024)
 Dimer formation, exchange dynamics

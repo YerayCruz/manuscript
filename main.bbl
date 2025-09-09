@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{75}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -369,5 +369,15 @@ Sumesh~P Thampi, Amin Doostmohammadi, Tyler~N Shendruk, Ramin Golestanian, and J
 Santiago Muinos-Landin, Alexander Fischer, Viktor Holubec, and Frank Cichos.
 \newblock Reinforcement learning with artificial microswimmers.
 \newblock \emph{Science Robotics}, 6\penalty0 (52):\penalty0 eabd9285, 2021.
+
+\bibitem[Tierno(2012)]{tierno2012depinning}
+Pietro Tierno.
+\newblock Depinning and collective dynamics of magnetically driven colloidal monolayers.
+\newblock \emph{Physical review letters}, 109\penalty0 (19):\penalty0 198304, 2012.
+
+\bibitem[Arthur and Tierno(2013)]{arthur2013synchronous}
+V~Arthur and Pietro Tierno.
+\newblock Synchronous vs. asynchronous transport of a paramagnetic particle in a modulated ratchet potential.
+\newblock 2013.
 
 \end{thebibliography}
