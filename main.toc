@@ -25,5 +25,11 @@
 \contentsline {subsection}{\numberline {4.3.2}Natural Systems}{30}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{32}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{37}{chapter.5}%
-\contentsline {chapter}{Bibliography}{40}{equation.5.1}%
-\contentsline {chapter}{Curriculum Vitae}{48}{chapter*.21}%
+\contentsline {part}{III\hspace {1em}Methods}{41}{part.3}%
+\contentsline {chapter}{\numberline {6}Simulations}{43}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Molecualr dynamics}{43}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data analysis}{43}{section.6.2}%
+\contentsline {part}{IV\hspace {1em}Results}{45}{part.4}%
+\contentsline {chapter}{\numberline {7}Results}{47}{chapter.7}%
+\contentsline {chapter}{Bibliography}{48}{chapter.7}%
+\contentsline {chapter}{Curriculum Vitae}{56}{chapter*.21}%

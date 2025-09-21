@@ -3,51 +3,53 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: chapters/ch1_intro.aux
 A level-1 auxiliary file: chapters/ch2_backgroung.aux
+A level-1 auxiliary file: chapters/ch3_methods.aux
+A level-1 auxiliary file: chapters/ch4_results.aux
+A level-1 auxiliary file: chapters/ch5_conclusions.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
 Warning--empty year in mora1511questioning
 Warning--empty year in mora1511questioning
-Warning--empty journal in arthur2013synchronous
-You've used 76 entries,
+You've used 78 entries,
             2481 wiz_defined-function locations,
-            1031 strings with 18505 characters,
-and the built_in function-call counts, 32204 in all, are:
-= -- 2551
-> -- 1952
+            1048 strings with 19105 characters,
+and the built_in function-call counts, 33117 in all, are:
+= -- 2628
+> -- 2000
 < -- 31
-+ -- 737
-- -- 584
-* -- 2867
-:= -- 5243
-add.period$ -- 229
-call.type$ -- 76
-change.case$ -- 151
-chr.to.int$ -- 75
-cite$ -- 79
-duplicate$ -- 1452
-empty$ -- 2854
-format.name$ -- 690
-if$ -- 6663
++ -- 755
+- -- 598
+* -- 2954
+:= -- 5388
+add.period$ -- 235
+call.type$ -- 78
+change.case$ -- 155
+chr.to.int$ -- 77
+cite$ -- 80
+duplicate$ -- 1491
+empty$ -- 2939
+format.name$ -- 706
+if$ -- 6855
 int.to.chr$ -- 2
-int.to.str$ -- 77
-missing$ -- 75
-newline$ -- 388
-num.names$ -- 228
-pop$ -- 566
+int.to.str$ -- 79
+missing$ -- 77
+newline$ -- 398
+num.names$ -- 234
+pop$ -- 576
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 78
 quote$ -- 0
-skip$ -- 817
+skip$ -- 837
 stack$ -- 0
-substring$ -- 1779
-swap$ -- 170
+substring$ -- 1850
+swap$ -- 175
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 529
-warning$ -- 3
-while$ -- 267
+type$ -- 543
+warning$ -- 2
+while$ -- 275
 width$ -- 0
-write$ -- 990
-(There were 3 warnings)
+write$ -- 1018
+(There were 2 warnings)

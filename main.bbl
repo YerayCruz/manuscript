@@ -1,4 +1,4 @@
-\begin{thebibliography}{76}
+\begin{thebibliography}{78}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -375,14 +375,24 @@ Pietro Tierno.
 \newblock Depinning and collective dynamics of magnetically driven colloidal monolayers.
 \newblock \emph{Physical review letters}, 109\penalty0 (19):\penalty0 198304, 2012.
 
-\bibitem[Arthur and Tierno(2013)]{arthur2013synchronous}
-V~Arthur and Pietro Tierno.
-\newblock Synchronous vs. asynchronous transport of a paramagnetic particle in a modulated ratchet potential.
-\newblock 2013.
-
 \bibitem[Straube and Tierno(2013)]{straube2013synchronous}
 Arthur~V Straube and Pietro Tierno.
 \newblock Synchronous vs. asynchronous transport of a paramagnetic particle in a modulated ratchet potential.
 \newblock \emph{Europhysics Letters}, 103\penalty0 (2):\penalty0 28001, 2013.
+
+\bibitem[Straube and Tierno(2014)]{straube2014tunable}
+Arthur~V Straube and Pietro Tierno.
+\newblock Tunable interactions between paramagnetic colloidal particles driven in a modulated ratchet potential.
+\newblock \emph{Soft Matter}, 10\penalty0 (22):\penalty0 3915--3925, 2014.
+
+\bibitem[Stoop et~al.(2020)Stoop, Straube, Johansen, and Tierno]{stoop2020collective}
+Ralph~L Stoop, Arthur~V Straube, Tom~H Johansen, and Pietro Tierno.
+\newblock Collective directional locking of colloidal monolayers on a periodic substrate.
+\newblock \emph{Physical Review Letters}, 124\penalty0 (5):\penalty0 058002, 2020.
+
+\bibitem[Ostinato et~al.(2024)Ostinato, Ortiz-Ambriz, and Tierno]{ostinato2024magnetically}
+Mattia Ostinato, Antonio Ortiz-Ambriz, and Pietro Tierno.
+\newblock Magnetically driven confined colloids: From enhanced diffusion to bidirectional transport.
+\newblock \emph{Journal of Magnetism and Magnetic Materials}, 591:\penalty0 171701, 2024.
 
 \end{thebibliography}
