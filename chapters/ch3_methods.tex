@@ -30,24 +30,68 @@ where $F^{dd}_i$ according to \cite{yung1998analytic} is described as force exer
   \label{eq:dipoledipoleforce}
 \vec{F}^{dd}_i = \frac{3\mu_0}{4\pi r^4}
 \begin{multlined}[t]
-\bigl[ (\vec{x}_{i,j} \times \vec{m}_i) \times \vec{m}_j
-    + (\vec{x}_{i,j} \times \vec{m}_j) \times \vec{m}_i \\
-    - 2\vec{x}_{i,j}(\vec{m}_i \cdot \vec{m}_j)
-    + 5\vec{x}_{i,j}((\vec{x}_{i,j} \times \vec{m}_i) \cdot (\vec{x}_{i,j} \times \vec{m}_j)) \bigr],
+\bigl[ (\hat{x}_{i,j} \times \vec{m}_i) \times \vec{m}_j
+    + (\hat{x}_{i,j} \times \vec{m}_j) \times \vec{m}_i \\
+    - 2\hat{x}_{i,j}(\vec{m}_i \cdot \vec{m}_j)
+    + 5\hat{x}_{i,j}((\hat{x}_{i,j} \times \vec{m}_i) \cdot (\hat{x}_{i,j} \times \vec{m}_j)) \bigr],
 \end{multlined}
 \end{equation}
 
-where $\vec{x}_{i,j}$ is the vector distance between dipoles. Since all magnetic dipoles are identical and aligned with the external magnetic field $\vec{B}_{\text{ext}}$, we can express the dipole moment as $\vec{m} = \chi V \vec{H}_{\text{ext}} = \frac{\chi V}{\mu_0} \vec{B}_{\text{ext}}$, where $\chi$ is the magnetic susceptibility and $V$ is the particle volume. Substituting $\vec{m}_i = \vec{m}_j = \vec{m}$ and expressing in terms of the external field gives:
+where $\hat{x}_{i,j}$ is the unitary vector of distance between dipoles. Since all magnetic dipoles are identical and aligned with the external magnetic field $\vec{B}_{\text{ext}}$, we can express the dipole moment as $\vec{m} = \chi V \vec{H}_{\text{ext}} = \frac{\chi V}{\mu_0} \vec{B}_{\text{ext}}$, where $\chi$ is the magnetic susceptibility and $V$ is the particle volume. Substituting $\vec{m}_i = \vec{m}_j = \vec{m}$ and expressing in terms of the external field gives:
 
 \begin{equation}
   \label{eq:dipoledipoleforce_Bext}
-\vec{F}^{dd}_i = \frac{3\mu_0 m^2}{4\pi r^4}
-\left[ 2(\vec{x}_{i,j} \times \hat{B}) \times \hat{B} - 2\vec{x}_{i,j} + 5\vec{x}_{i,j}|\vec{x}_{i,j} \times \hat{B}|^2 \right],
+  \vec{F}^{dd}_{i,j} = \frac{3\mu_0 m^2}{4\pi r^4}
+\left[ 2(\hat{x}_{i,j} \times \hat{B}) \times \hat{B} - 2\hat{x}_{i,j} + 5\hat{x}_{i,j}|\hat{x}_{i,j} \times \hat{B}|^2 \right],
 \end{equation}
 
-where $m = \frac{\chi V B_{\text{ext}}}{\mu_0}$, $\hat{B} = \vec{B}_{\text{ext}}/B_{\text{ext}}$ is the unit vector along the external field, and $B_{\text{ext}} = |\vec{B}_{\text{ext}}|$.
+where $m = \frac{\chi V B_{\text{ext}}}{\mu_0}$, $\hat{B} = \vec{B}_{\text{ext}}/B_{\text{ext}}$ is the unit vector along the external field, and $B_{\text{ext}} = |\vec{B}_{\text{ext}}|$. 
 
+This force only applies for one particle, to obtain the total dipole interaction with all particles of the system, we should add them up, pair by pair:
 
+\begin{equation}
+  F^{dd}_i = \sum^{n}_{i \neq j} F^{dd}_{i,j}.  
+  \label{eq:dipolesum}
+\end{equation}
 
+Let's remember that one important rule for the universe is that, one body cannot occupy the same space as other, therefore, we should modelate a respulsion force that simulates that behavior. Fortunately, there is a potential called Weeks-Chandler-Andersen potential (WCA) that follow the same principle as the Lennard-Jones potential but with a cuttof \cite{hess1999augmented}:
+
+\begin{equation}
+  U_{i,j}^{WCA} = \begin{cases} 
+    4\epsilon\left[ \left( \frac{\sigma}{r_{i,j}}\right)^{12} - \left( \frac{\sigma}{r_{i,j}}\right)^6 + \epsilon\right] \quad &r_{i,j} \leq r_c \\
+    0 \quad & r_{i,j} \geq r_c
+  \end{cases}
+  \label{eq:wcapotential}
+\end{equation}
+
+where $\sigma$ is the van der Waals radio, it is the point where the energy between the two particles is zero, $\epsilon$ is the well depth, since WCA does not have an attraction interaction, a correction factor of $\epsilon$ is added, and $r_c = 2^{1/6}\sigma$. This however, gives us the enegy between particles, and we need the force, then we apply:
+
+\begin{equation}
+ F = - \nabla U, 
+  \label{eq:negativegradient}
+\end{equation}
+
+getting then
+
+\begin{equation}
+  F_{i,j}^{WCA} = \begin{cases} 
+    48\epsilon\left[ \left( \frac{\sigma}{r_{i,j}}\right)^{12} - 0.5\left( \frac{\sigma}{r_{i,j}}\right)^6\right]\left[ \frac{1}{r_{i,j}}\right] \quad &r_{i,j} \leq r_c \\
+    0 \quad & r_{i,j} \geq r_c
+  \end{cases}.
+  \label{eq:wcaforce}
+\end{equation}
+
+and verifying the interaction between each particle, we obtain:
+
+\begin{equation}
+  F^{collision}_i = \sum^{n}_{i \neq j} F^{WCA}_{i,j}.  
+  \label{eq:wcasum}
+\end{equation}
+
+We want to see how the positions of the particles evolve over time with certain initial conditions, and this equations only compare velocities, this is why we need an integration method.
+
+\section{Velocity Verlet}
+
+\cite{chambliss2020magnetic}
 
 \section{Data analysis}
