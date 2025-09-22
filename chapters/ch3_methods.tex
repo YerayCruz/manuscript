@@ -6,8 +6,48 @@ Numerical simulations provide a powerful framework to reproduce and analyze phys
 
 In this thesis, numerical simulations are employed to study the dynamics of colloidal systems at the microscale. Such systems are often dominated by thermal fluctuations and many-body interactions, making them difficult to probe experimentally without advanced imaging and data analysis techniques. The primary computational approach used here is \textit{molecular dynamics} (MD), which will be described in detail in the following sections. MD enables the integration of particle trajectories under the influence of deterministic and stochastic forces, providing direct access to observables such as mean-squared displacements, velocity correlations, and transport coefficients.
 
-
-
 \section{Molecualr dynamics}
+
+This thesis explores the physics of the system by using molecular dynamics, where randomness enters through thermal noise. As we saw in \ref{stochasticrepresentation}, the interactions can be derived from classical mechanics. In this case, Newton’s second law gives the starting point to calculate the forces acting on a single particle. In other words, at each iteration of the simulation we need to evaluate the forces that each particle experiences. Taking Eq.~\ref{eq:newton} as a starting point, and adding labels for the different interactions, we obtain:
+
+\begin{equation}
+  m_i\ddot{\vec{x_i}} = F^{collision}_i + F^{drag}_i + \eta(t)\text{,}
+  \label{eq:langevinratchet}
+\end{equation}
+
+where $m_i$ is the mass of particle $i$, $\vec{x_i}$ its position, and $F^{drag}_i$ is the viscous force, written as $-\lambda \dot{\vec{x}}_i$, with $\lambda$ the drag coefficient of the fluid. Since we are working at a scale where inertial effects are negligible, the term $m_i\ddot{\vec{x_i}}$ can be dropped. The random force $\eta(t)$ represents collisions with the solvent particles. In this thesis, $\eta$ is taken as a Gaussian random force with $\expval{\eta} = 0$ and correlation $\expval{\eta_i(t)\eta_j(t')} = 2k_B T \lambda \delta_{i,j}\delta(t-t')$. This form will be used for non-paramagnetic particles.
+
+For paramagnetic particles, we need to add the contribution of dipole–dipole interactions, which gives the modified equation:
+
+\begin{equation}
+  m_i\ddot{\vec{x_i}} = F^{collision}_i + F^{drag}_i + F^{dd}_i + \eta(t)\text{,}
+  \label{eq:langevindipole}
+\end{equation}
+
+where $F^{dd}_i$ according to \cite{yung1998analytic} is described as force exerted for the dipole moment $\vec{m}_i$ on a dipole $\vec{m}_j$:
+
+\begin{equation}
+  \label{eq:dipoledipoleforce}
+\vec{F}^{dd}_i = \frac{3\mu_0}{4\pi r^4}
+\begin{multlined}[t]
+\bigl[ (\vec{x}_{i,j} \times \vec{m}_i) \times \vec{m}_j
+    + (\vec{x}_{i,j} \times \vec{m}_j) \times \vec{m}_i \\
+    - 2\vec{x}_{i,j}(\vec{m}_i \cdot \vec{m}_j)
+    + 5\vec{x}_{i,j}((\vec{x}_{i,j} \times \vec{m}_i) \cdot (\vec{x}_{i,j} \times \vec{m}_j)) \bigr],
+\end{multlined}
+\end{equation}
+
+where $\vec{x}_{i,j}$ is the vector distance between dipoles. Since all magnetic dipoles are identical and aligned with the external magnetic field $\vec{B}_{\text{ext}}$, we can express the dipole moment as $\vec{m} = \chi V \vec{H}_{\text{ext}} = \frac{\chi V}{\mu_0} \vec{B}_{\text{ext}}$, where $\chi$ is the magnetic susceptibility and $V$ is the particle volume. Substituting $\vec{m}_i = \vec{m}_j = \vec{m}$ and expressing in terms of the external field gives:
+
+\begin{equation}
+  \label{eq:dipoledipoleforce_Bext}
+\vec{F}^{dd}_i = \frac{3\mu_0 m^2}{4\pi r^4}
+\left[ 2(\vec{x}_{i,j} \times \hat{B}) \times \hat{B} - 2\vec{x}_{i,j} + 5\vec{x}_{i,j}|\vec{x}_{i,j} \times \hat{B}|^2 \right],
+\end{equation}
+
+where $m = \frac{\chi V B_{\text{ext}}}{\mu_0}$, $\hat{B} = \vec{B}_{\text{ext}}/B_{\text{ext}}$ is the unit vector along the external field, and $B_{\text{ext}} = |\vec{B}_{\text{ext}}|$.
+
+
+
 
 \section{Data analysis}
