@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2024)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: chapters/ch1_intro.aux
@@ -11,45 +11,45 @@ A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
 Warning--empty year in mora1511questioning
 Warning--empty year in mora1511questioning
-You've used 81 entries,
+You've used 83 entries,
             2481 wiz_defined-function locations,
-            1066 strings with 19558 characters,
-and the built_in function-call counts, 34254 in all, are:
-= -- 2733
-> -- 2043
-< -- 33
-+ -- 773
-- -- 610
-* -- 3045
-:= -- 5563
-add.period$ -- 244
-call.type$ -- 81
-change.case$ -- 161
-chr.to.int$ -- 80
-cite$ -- 83
-duplicate$ -- 1548
-empty$ -- 3051
-format.name$ -- 723
-if$ -- 7096
+            1079 strings with 20128 characters,
+and the built_in function-call counts, 35258 in all, are:
+= -- 2792
+> -- 2143
+< -- 34
++ -- 809
+- -- 642
+* -- 3146
+:= -- 5748
+add.period$ -- 251
+call.type$ -- 83
+change.case$ -- 165
+chr.to.int$ -- 82
+cite$ -- 85
+duplicate$ -- 1586
+empty$ -- 3120
+format.name$ -- 757
+if$ -- 7291
 int.to.chr$ -- 2
-int.to.str$ -- 82
-missing$ -- 80
-newline$ -- 413
-num.names$ -- 243
-pop$ -- 597
+int.to.str$ -- 84
+missing$ -- 82
+newline$ -- 424
+num.names$ -- 249
+pop$ -- 610
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 83
 quote$ -- 0
-skip$ -- 870
+skip$ -- 891
 stack$ -- 0
-substring$ -- 1925
-swap$ -- 181
+substring$ -- 1953
+swap$ -- 185
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 564
+type$ -- 578
 warning$ -- 2
-while$ -- 287
+while$ -- 293
 width$ -- 0
-write$ -- 1057
+write$ -- 1085
 (There were 2 warnings)

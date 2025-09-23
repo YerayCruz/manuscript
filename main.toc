@@ -29,8 +29,12 @@
 \contentsline {chapter}{\numberline {6}Simulations}{43}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Molecualr dynamics}{43}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Velocity Verlet}{45}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Data analysis}{45}{section.6.3}%
-\contentsline {part}{IV\hspace {1em}Results}{47}{part.4}%
-\contentsline {chapter}{\numberline {7}Results}{49}{chapter.7}%
-\contentsline {chapter}{Bibliography}{50}{chapter.7}%
-\contentsline {chapter}{Curriculum Vitae}{59}{chapter*.21}%
+\contentsline {subsection}{\numberline {6.2.1}Taylor Series Expansions}{45}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Original Verlet Algorithm}{46}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Velocity Calculation}{46}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Velocity Verlet Formulation}{46}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Data analysis}{47}{section.6.3}%
+\contentsline {part}{IV\hspace {1em}Results}{49}{part.4}%
+\contentsline {chapter}{\numberline {7}Results}{51}{chapter.7}%
+\contentsline {chapter}{Bibliography}{52}{chapter.7}%
+\contentsline {chapter}{Curriculum Vitae}{61}{chapter*.21}%

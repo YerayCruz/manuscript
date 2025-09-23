@@ -1,4 +1,4 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{83}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -405,9 +405,20 @@ Siegfried Hess.
 \newblock Augmented van der waals equation of state for the lennard-jones fluid.
 \newblock \emph{Physica A: Statistical Mechanics and its Applications}, 267\penalty0 (1-2):\penalty0 58--70, 1999.
 
+\bibitem[Verlet(1967)]{verlet1967computer}
+Loup Verlet.
+\newblock Computer" experiments" on classical fluids. i. thermodynamical properties of lennard-jones molecules.
+\newblock \emph{Physical review}, 159\penalty0 (1):\penalty0 98, 1967.
+
 \bibitem[Chambliss and Franklin(2020)]{chambliss2020magnetic}
 A~Chambliss and J~Franklin.
 \newblock A magnetic velocity verlet method.
 \newblock \emph{American Journal of Physics}, 88\penalty0 (12):\penalty0 1075--1082, 2020.
+
+\bibitem[Thompson et~al.(2022)Thompson, Aktulga, Berger, Bolintineanu, Brown, Crozier, in~'t Veld, Kohlmeyer, Moore, Nguyen, Shan, Stevens, Tranchida, Trott, and Plimpton]{LAMMPS}
+A.~P. Thompson, H.~M. Aktulga, R.~Berger, D.~S. Bolintineanu, W.~M. Brown, P.~S. Crozier, P.~J. in~'t Veld, A.~Kohlmeyer, S.~G. Moore, T.~D. Nguyen, R.~Shan, M.~J. Stevens, J.~Tranchida, C.~Trott, and S.~J. Plimpton.
+\newblock {LAMMPS} - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales.
+\newblock \emph{Comp. Phys. Comm.}, 271:\penalty0 108171, 2022.
+\newblock \doi{10.1016/j.cpc.2021.108171}.
 
 \end{thebibliography}
