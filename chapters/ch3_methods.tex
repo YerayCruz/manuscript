@@ -2,11 +2,13 @@
 
 \chapter{Simulations}
 
-Numerical simulations provide a powerful framework to reproduce and analyze physical phenomena under controlled conditions. Unlike experiments, they allow for precise manipulation of initial parameters, systematic testing of hypotheses, and straightforward replication of results. In particular, simulations are invaluable when dealing with microscopic systems, where stochastic effects and complex interactions can make experimental observations challenging or ambiguous. 
+Numerical simulations provide a powerful framework to reproduce and analyze physical phenomena under controlled conditions. Unlike experiments, they allow for precise manipulation of initial parameters, systematic testing of hypotheses, and straightforward replication of results. In particular, simulations are invaluable when dealing with microscopic systems, where stochastic effects and complex interactions can make experimental observations challenging. 
 
 In this thesis, numerical simulations are employed to study the dynamics of colloidal systems at the microscale. Such systems are often dominated by thermal fluctuations and many-body interactions, making them difficult to probe experimentally without advanced imaging and data analysis techniques. The primary computational approach used here is \textit{molecular dynamics} (MD), which will be described in detail in the following sections. MD enables the integration of particle trajectories under the influence of deterministic and stochastic forces, providing direct access to observables such as mean-squared displacements, velocity correlations, and transport coefficients.
 
-\section{Molecualr dynamics}
+\section{Molecular dynamics}
+
+
 
 This thesis explores the physics of the system by using molecular dynamics, where randomness enters through thermal noise. As we saw in \ref{stochasticrepresentation}, the interactions can be derived from classical mechanics. In this case, Newton’s second law gives the starting point to calculate the forces acting on a single particle. In other words, at each iteration of the simulation we need to evaluate the forces that each particle experiences. Taking equation~(\ref{eq:newton}) as a starting point, and adding labels for the different interactions, we obtain:
 
@@ -54,11 +56,20 @@ This force only applies for one particle, to obtain the total dipole interaction
   \label{eq:dipolesum}
 \end{equation}
 
-Let's remember that one important rule for the universe is that, one body cannot occupy the same space as other, therefore, we should modelate a respulsion force that simulates that behavior. Fortunately, there is a potential called Weeks-Chandler-Andersen potential (WCA) that follow the same principle as the Lennard-Jones potential but with a cuttof \cite{hess1999augmented}:
+For this, we need to define the external magnetic field, which it is a precessing field that forms a conical rotation of the form
+
+\begin{equation}
+  \vec{B} = B_0 [\cos{\theta}\hat{z} + \sin{\theta}\cos{(2\pi f t)}\hat{x} + \sin{(2\pi f t)}\hat{y}],
+  \label{eq:magneticfield}
+\end{equation}
+
+being $B_0$ the amplitude, and $f$ the frequency at which the field rotates.
+
+Let's remember that one important rule for the universe is that, one body cannot occupy the same space as other, therefore, we should model a repulsion force that simulates that behavior. Fortunately, there is a potential called Weeks-Chandler-Andersen potential (WCA) that follow the same principle as the Lennard-Jones potential but with a cuttof \cite{hess1999augmented}:
 
 \begin{equation}
   U_{i,j}^{WCA} = \begin{cases} 
-    4\epsilon\left[ \left( \frac{\sigma}{r_{i,j}}\right)^{12} - \left( \frac{\sigma}{r_{i,j}}\right)^6 + \epsilon\right] \quad &r_{i,j} \leq r_c \\
+    4\epsilon\left[ \left( \frac{\sigma}{r_{i,j}}\right)^{12} - \left( \frac{\sigma}{r_{i,j}}\right)^6\right] + \epsilon \quad &r_{i,j} \leq r_c \\
     0 \quad & r_{i,j} \geq r_c
   \end{cases}
   \label{eq:wcapotential}
@@ -156,8 +167,123 @@ A more numerically stable implementation uses a half-step approach:
     \label{eq:vv_velocity_halfstep}
 \end{align}
 
+\section{Basis Vectors}
+
+The basis vectors (or lattice vectors) are the fundamental building blocks used to generate the entire crystal lattice by translation. These vectors define the geometry of the unit cell, and by repeating the unit cell across space, you form the overall lattice structure. Here, a body-centered latticed was chosen since the stability it prooved to have when under thermal fluctuations.
+
+In the body-centered lattice, the basis vectors determine the relative positions of atoms in the unit cell. These vectors are used to place atoms and generate the positions of all atoms in the simulation box.
+
+
+The conventional unit cell for a BCC lattice is a cube with a lattice point at each corner and one at the body center. The vectors defining this cube are simple, orthogonal, and given by:
+%
+\begin{equation}
+  \vec{a} = a\hat{x}, \quad \vec{b} = a\hat{y}, \quad \vec{c} = a\hat{z}, \quad \vec{d} = \frac{a}{2}\left(  1\hat{x} +  1\hat{y} + 1\hat{z} \right), 
+\end{equation}
+%
+where \( a \) is the lattice constant (the side length of the cube).
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/methods1.pdf}
+  \end{center}
+  \caption{Representation of a body-centered cubic lattice.}\label{fig:facecenteredlattice}
+\end{figure}
+
 %%%%%%%%
 
-\section{Data analysis}
+\section{System Overview and Workflow}
 
-The simulations of this thesis, were done with an open-source software called LAMMPS (Large-scale Atomic/Molecular Massively Parallel Simulator) developed by Sandia National Laboratories. Its advantage is the high efficiency to run simulatios in parallel, reducing the time required to perform multiple calculations \cite{LAMMPS}. We used a standard version of LAMMPS but created custom input scripts using a Python library. These scripts will atumate the process of the input scritpts that will tell LAMMPS everything about the parameters of our simulation, such as the size of the system, the physical conditions, and how long to run for. After the simulations, we used additional custom scripts with the help of a Python library called Pandas, to analyze the results quickly and efficiently.
+The simulations of this thesis were performed with an open-source software called LAMMPS (Large-scale Atomic/Molecular Massively Parallel Simulator) developed by Sandia National Laboratories. Its advantage is the high efficiency to run simulatios in parallel, reducing the time required to perform multiple calculations \cite{LAMMPS}. We used a standard version of LAMMPS but created custom input scripts using a Python library. These scripts will atomate the process of the input scritpts that will tell LAMMPS everything about the parameters of our simulation, such as the size of the system, the physical conditions, and how long to run for. After the simulations, we used additional custom scripts with the help of a Python library called Pandas, to analyze the results quickly and efficiently.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/workflow.pdf}
+  \end{center}
+  \caption[Workflow diagram.]{Workflow diagram.}\label{fig:workflow}
+\end{figure}
+
+\subsection{System's Physical Definition}
+
+The first parameters to be defined are the ones from the circular-ratchet geometry, since it will define the position of the paramagnetic colloids afterwards, these are the parameters that can be specified in the function:
+
+\begin{table}[H]
+\centering
+\caption[Ratchet physical parameters.]{Parameters used for the circular ratchet in the simulation.}
+\begin{tabular}{l l l l l}
+\hline
+Parameter & Symbol & Ratchet A & Ratchet B & Units \\
+\hline
+Lattice constant & \(a\) & 1 & 1 & \(\mu m\) \\
+Radius & \( r\) & 8 & 8 & \( \mu m\) \\
+Sawtooth amplitude & \( A\) & 4 & 4 & \( \mu m\) \\
+Sawtooth frequency & \( f\) & 5 & 3 & Dimensionless\\
+Bond coefficient & \( K_b\) & 0.1 & 0.1 & \( \mu N\) \\ 
+Density & \(\rho\) & 1 & 1 & kgm\(^{-3}\) \\
+\hline
+\end{tabular}
+\end{table}
+
+As shown in the table, there were 2 ratchets with only a difference in te \textit{Sawtooth frequency}, but in reality we used a reflection of each ratchet for another pair of analysis. Once the ratchet geometry is defined, then we can define then the remaining of the system, which remained constant for the 2 ratchets. Starting with the simulation box, that is a rectangle box of periodic boundary conditions in axis \textit{x}, and \textit{y},and finite boundary conditions modeled with the a WCA potential:
+
+
+
+\begin{table}[H]
+\centering
+\caption[Simulation box physical parameters.]{Parameters used for the box of the simulation.}
+\begin{tabular}{l l l l}
+\hline
+Axis & lo  & hi & Units \\
+\hline
+\textit{x} & -27 & 27 & \( \mu m\) \\
+\textit{y} & -27 & 27 & \( \mu m\) \\
+\textit{z} & -2  & 2   & \( \mu m\)\\ 
+\hline
+\end{tabular}
+\end{table}
+
+Where \textit{lo} represent the lower boundary, an \textit{hi} the upper boundary.
+
+Finally, for the paramagnetic particles, and since they deppend on the magnetci field, we included the parameters of this one too
+
+
+\begin{table}[H]
+\centering
+\caption[Paramagnetic colloids parameters.]{Parameters used for the paramagnetic particles.}
+\begin{tabular}{l l l l}
+\hline
+Parameter & Symbol  & Value & Units \\
+\hline
+Radius & $r_{mag}$ &  1.25 &\( \mu m\) \\
+Susceptibility & $\chi$ & 0.4 & Dimensionless\\
+Field angle & $\theta$ & 27 & °\\
+Frequency & $f$ & [0 - 10] & Hz\\
+\hline
+\end{tabular}
+\end{table}
+
+With all this values, we can run simulations for a period of $50 \cross 10^{6} \mu s$ that is equivalent to 50 real life seconds, this with a timestep ($\Delta t$) of  $10 \mu s$ which will give us the data and we need to analyse.
+
+\subsection{Data Analysis}
+
+When finishing a simulation, LAMMPS will give a text data file with values we chose to obtain. In this case we were interesented in the position of the particles to be able to deduce some information, being the angular velocity the more interesting one. The system consist of multiple particles, each one of them having a different angular velocity due to bond not being strong enough to mantain particles static, therefore we need to obtain an average velocity for the entirety of the particles. What we know, is that every particle shares the same center of mass that is calculated as follows:
+
+\begin{equation}
+  COM = \displaystyle\frac{\sum^{n}_{i=1} m_i * r_i}{\sum^{n}_{i=1} m_i}.
+  \label{eq:centerofmass}
+\end{equation}
+
+Being $m_i$ the mass of the particle \textit{i}, and $r_i$ the position of the particle respect a frame of reference. The best way to calculate the angular velocity is by using polar coordinates:
+
+\begin{align}
+  r_i & = \sqrt{(x - x_{COM})^2 + (y - y_{COM})^2},\\ 
+  \theta _i &= \arctan{\frac{y - y_{COM}}{x - x_{COM}}}.
+\end{align}
+
+Once obtained the center of mass and the polar coordinates of each particle, then we can calculate the angular velocity of each particle for each timestep of the simulation:
+\begin{equation}
+  \omega _i = \frac{\Delta \theta _i}{\Delta t},
+  \label{eq:angularvelocity}
+\end{equation}
+
+then obtaining an average angular velocity of all particles.
+

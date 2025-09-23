@@ -27,14 +27,17 @@
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{37}{chapter.5}%
 \contentsline {part}{III\hspace {1em}Methods}{41}{part.3}%
 \contentsline {chapter}{\numberline {6}Simulations}{43}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Molecualr dynamics}{43}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Molecular dynamics}{43}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Velocity Verlet}{45}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Taylor Series Expansions}{45}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Original Verlet Algorithm}{46}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Velocity Calculation}{46}{subsection.6.2.3}%
 \contentsline {subsection}{\numberline {6.2.4}Velocity Verlet Formulation}{46}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Data analysis}{47}{section.6.3}%
-\contentsline {part}{IV\hspace {1em}Results}{49}{part.4}%
-\contentsline {chapter}{\numberline {7}Results}{51}{chapter.7}%
-\contentsline {chapter}{Bibliography}{52}{chapter.7}%
-\contentsline {chapter}{Curriculum Vitae}{61}{chapter*.21}%
+\contentsline {section}{\numberline {6.3}Basis Vectors}{47}{section.6.3}%
+\contentsline {section}{\numberline {6.4}System Overview and Workflow}{47}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}System's Physical Definition}{48}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Data Analysis}{49}{subsection.6.4.2}%
+\contentsline {part}{IV\hspace {1em}Results}{51}{part.4}%
+\contentsline {chapter}{\numberline {7}Results}{53}{chapter.7}%
+\contentsline {chapter}{Bibliography}{54}{chapter.7}%
+\contentsline {chapter}{Curriculum Vitae}{63}{chapter*.26}%
