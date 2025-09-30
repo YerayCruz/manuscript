@@ -9,47 +9,51 @@ A level-1 auxiliary file: chapters/ch5_conclusions.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
+Repeated entry---line 1011 of file references.bib
+ : @article{muinos2021reinforcement
+ :                                 ,
+I'm skipping whatever remains of this entry
 Warning--empty year in mora1511questioning
 Warning--empty year in mora1511questioning
-You've used 83 entries,
+You've used 86 entries,
             2481 wiz_defined-function locations,
-            1079 strings with 20128 characters,
-and the built_in function-call counts, 35258 in all, are:
-= -- 2792
-> -- 2143
-< -- 34
-+ -- 809
-- -- 642
-* -- 3146
-:= -- 5748
-add.period$ -- 251
-call.type$ -- 83
-change.case$ -- 165
-chr.to.int$ -- 82
-cite$ -- 85
-duplicate$ -- 1586
-empty$ -- 3120
-format.name$ -- 757
-if$ -- 7291
+            1097 strings with 20464 characters,
+and the built_in function-call counts, 36373 in all, are:
+= -- 2892
+> -- 2186
+< -- 36
++ -- 827
+- -- 654
+* -- 3235
+:= -- 5921
+add.period$ -- 260
+call.type$ -- 86
+change.case$ -- 171
+chr.to.int$ -- 85
+cite$ -- 88
+duplicate$ -- 1643
+empty$ -- 3231
+format.name$ -- 774
+if$ -- 7528
 int.to.chr$ -- 2
-int.to.str$ -- 84
-missing$ -- 82
-newline$ -- 424
-num.names$ -- 249
-pop$ -- 610
+int.to.str$ -- 87
+missing$ -- 85
+newline$ -- 439
+num.names$ -- 258
+pop$ -- 631
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 86
 quote$ -- 0
-skip$ -- 891
+skip$ -- 924
 stack$ -- 0
-substring$ -- 1953
-swap$ -- 185
+substring$ -- 2021
+swap$ -- 191
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 578
+type$ -- 599
 warning$ -- 2
-while$ -- 293
+while$ -- 304
 width$ -- 0
-write$ -- 1085
-(There were 2 warnings)
+write$ -- 1124
+(There was 1 error message)

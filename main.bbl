@@ -1,4 +1,4 @@
-\begin{thebibliography}{83}
+\begin{thebibliography}{86}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,6 +14,56 @@ Edward~M Purcell.
 Albert Einstein.
 \newblock On the theory of the brownian movement.
 \newblock \emph{Ann. Phys}, 19\penalty0 (4):\penalty0 371--381, 1906.
+
+\bibitem[Howard and Clark(2002)]{howard2002mechanics}
+Jonathon Howard and RL~Clark.
+\newblock Mechanics of motor proteins and the cytoskeleton.
+\newblock \emph{Appl. Mech. Rev.}, 55\penalty0 (2):\penalty0 B39--B39, 2002.
+
+\bibitem[Vale(2003)]{vale2003molecular}
+Ronald~D Vale.
+\newblock The molecular motor toolbox for intracellular transport.
+\newblock \emph{Cell}, 112\penalty0 (4):\penalty0 467--480, 2003.
+
+\bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
+M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
+\newblock Hydrodynamics of soft active matter.
+\newblock \emph{Reviews of modern physics}, 85\penalty0 (3):\penalty0 1143--1189, 2013.
+
+\bibitem[J{\"u}licher et~al.(1997)J{\"u}licher, Ajdari, and Prost]{julicher1997modeling}
+Frank J{\"u}licher, Armand Ajdari, and Jacques Prost.
+\newblock Modeling molecular motors.
+\newblock \emph{Reviews of Modern Physics}, 69\penalty0 (4):\penalty0 1269, 1997.
+
+\bibitem[Reimann(2002)]{reimann2002brownian}
+Peter Reimann.
+\newblock Brownian motors: noisy transport far from equilibrium.
+\newblock \emph{Physics reports}, 361\penalty0 (2-4):\penalty0 57--265, 2002.
+
+\bibitem[Di~Leonardo et~al.(2010)Di~Leonardo, Angelani, Dell’Arciprete, Ruocco, Iebba, Schippa, Conte, Mecarini, De~Angelis, and Di~Fabrizio]{di2010bacterial}
+Roberto Di~Leonardo, Luca Angelani, Dario Dell’Arciprete, Giancarlo Ruocco, Valerio Iebba, Serena Schippa, Maria~Pia Conte, Francesco Mecarini, Francesco De~Angelis, and Enzo Di~Fabrizio.
+\newblock Bacterial ratchet motors.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0 (21):\penalty0 9541--9545, 2010.
+
+\bibitem[Bechinger et~al.(2016)Bechinger, Di~Leonardo, L{\"o}wen, Reichhardt, Volpe, and Volpe]{bechinger2016active}
+Clemens Bechinger, Roberto Di~Leonardo, Hartmut L{\"o}wen, Charles Reichhardt, Giorgio Volpe, and Giovanni Volpe.
+\newblock Active particles in complex and crowded environments.
+\newblock \emph{Reviews of modern physics}, 88\penalty0 (4):\penalty0 045006, 2016.
+
+\bibitem[Tierno(2012)]{tierno2012depinning}
+Pietro Tierno.
+\newblock Depinning and collective dynamics of magnetically driven colloidal monolayers.
+\newblock \emph{Physical review letters}, 109\penalty0 (19):\penalty0 198304, 2012.
+
+\bibitem[Straube and Tierno(2014)]{straube2014tunable}
+Arthur~V Straube and Pietro Tierno.
+\newblock Tunable interactions between paramagnetic colloidal particles driven in a modulated ratchet potential.
+\newblock \emph{Soft Matter}, 10\penalty0 (22):\penalty0 3915--3925, 2014.
+
+\bibitem[Ostinato et~al.(2024)Ostinato, Ortiz-Ambriz, and Tierno]{ostinato2024magnetically}
+Mattia Ostinato, Antonio Ortiz-Ambriz, and Pietro Tierno.
+\newblock Magnetically driven confined colloids: From enhanced diffusion to bidirectional transport.
+\newblock \emph{Journal of Magnetism and Magnetic Materials}, 591:\penalty0 171701, 2024.
 
 \bibitem[Uhlenbeck and Ornstein(1930)]{uhlenbeck1930theory}
 George~E Uhlenbeck and Leonard~S Ornstein.
@@ -86,16 +136,6 @@ Sriram Ramaswamy.
 \newblock The mechanics and statistics of active matter.
 \newblock \emph{Annu. Rev. Condens. Matter Phys.}, 1\penalty0 (1):\penalty0 323--345, 2010.
 
-\bibitem[Marchetti et~al.(2013)Marchetti, Joanny, Ramaswamy, Liverpool, Prost, Rao, and Simha]{marchetti2013hydrodynamics}
-M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B Liverpool, Jacques Prost, Madan Rao, and R~Aditi Simha.
-\newblock Hydrodynamics of soft active matter.
-\newblock \emph{Reviews of modern physics}, 85\penalty0 (3):\penalty0 1143--1189, 2013.
-
-\bibitem[Bechinger et~al.(2016)Bechinger, Di~Leonardo, L{\"o}wen, Reichhardt, Volpe, and Volpe]{bechinger2016active}
-Clemens Bechinger, Roberto Di~Leonardo, Hartmut L{\"o}wen, Charles Reichhardt, Giorgio Volpe, and Giovanni Volpe.
-\newblock Active particles in complex and crowded environments.
-\newblock \emph{Reviews of modern physics}, 88\penalty0 (4):\penalty0 045006, 2016.
-
 \bibitem[Deseigne et~al.(2010)Deseigne, Dauchot, and Chat{\'e}]{deseigne2010collective}
 Julien Deseigne, Olivier Dauchot, and Hugues Chat{\'e}.
 \newblock Collective motion of vibrated polar disks.
@@ -149,11 +189,6 @@ Gerhard Gompper, Roland~G Winkler, Thomas Speck, Alexandre Solon, Cesare Nardini
 Gerhard Gompper, Howard~A Stone, Christina Kurzthaler, David Saintillan, Fernado Peruani, Dmitry~A Fedosov, Thorsten Auth, Cecile Cottin-Bizonne, Christophe Ybert, Eric Cl{\'e}ment, et~al.
 \newblock The 2025 motile active matter roadmap.
 \newblock \emph{Journal of Physics: Condensed Matter}, 37\penalty0 (14):\penalty0 143501, 2025.
-
-\bibitem[Reimann(2002)]{reimann2002brownian}
-Peter Reimann.
-\newblock Brownian motors: noisy transport far from equilibrium.
-\newblock \emph{Physics reports}, 361\penalty0 (2-4):\penalty0 57--265, 2002.
 
 \bibitem[H{\"a}nggi and Marchesoni(2009)]{hanggi2009artificial}
 Peter H{\"a}nggi and Fabio Marchesoni.
@@ -350,11 +385,6 @@ Luca Angelani and Roberto Di~Leonardo.
 \newblock Geometrically biased random walks in bacteria-driven micro-shuttles.
 \newblock \emph{New Journal of physics}, 12\penalty0 (11):\penalty0 113017, 2010.
 
-\bibitem[Di~Leonardo et~al.(2010)Di~Leonardo, Angelani, Dell’Arciprete, Ruocco, Iebba, Schippa, Conte, Mecarini, De~Angelis, and Di~Fabrizio]{di2010bacterial}
-Roberto Di~Leonardo, Luca Angelani, Dario Dell’Arciprete, Giancarlo Ruocco, Valerio Iebba, Serena Schippa, Maria~Pia Conte, Francesco Mecarini, Francesco De~Angelis, and Enzo Di~Fabrizio.
-\newblock Bacterial ratchet motors.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0 (21):\penalty0 9541--9545, 2010.
-
 \bibitem[Hiratsuka et~al.(2006)Hiratsuka, Miyata, Tada, and Uyeda]{hiratsuka2006microrotary}
 Yuichi Hiratsuka, Makoto Miyata, Tetsuya Tada, and Taro~QP Uyeda.
 \newblock A microrotary motor powered by bacteria.
@@ -370,30 +400,15 @@ Santiago Muinos-Landin, Alexander Fischer, Viktor Holubec, and Frank Cichos.
 \newblock Reinforcement learning with artificial microswimmers.
 \newblock \emph{Science Robotics}, 6\penalty0 (52):\penalty0 eabd9285, 2021.
 
-\bibitem[Tierno(2012)]{tierno2012depinning}
-Pietro Tierno.
-\newblock Depinning and collective dynamics of magnetically driven colloidal monolayers.
-\newblock \emph{Physical review letters}, 109\penalty0 (19):\penalty0 198304, 2012.
-
 \bibitem[Straube and Tierno(2013)]{straube2013synchronous}
 Arthur~V Straube and Pietro Tierno.
 \newblock Synchronous vs. asynchronous transport of a paramagnetic particle in a modulated ratchet potential.
 \newblock \emph{Europhysics Letters}, 103\penalty0 (2):\penalty0 28001, 2013.
 
-\bibitem[Straube and Tierno(2014)]{straube2014tunable}
-Arthur~V Straube and Pietro Tierno.
-\newblock Tunable interactions between paramagnetic colloidal particles driven in a modulated ratchet potential.
-\newblock \emph{Soft Matter}, 10\penalty0 (22):\penalty0 3915--3925, 2014.
-
 \bibitem[Stoop et~al.(2020)Stoop, Straube, Johansen, and Tierno]{stoop2020collective}
 Ralph~L Stoop, Arthur~V Straube, Tom~H Johansen, and Pietro Tierno.
 \newblock Collective directional locking of colloidal monolayers on a periodic substrate.
 \newblock \emph{Physical Review Letters}, 124\penalty0 (5):\penalty0 058002, 2020.
-
-\bibitem[Ostinato et~al.(2024)Ostinato, Ortiz-Ambriz, and Tierno]{ostinato2024magnetically}
-Mattia Ostinato, Antonio Ortiz-Ambriz, and Pietro Tierno.
-\newblock Magnetically driven confined colloids: From enhanced diffusion to bidirectional transport.
-\newblock \emph{Journal of Magnetism and Magnetic Materials}, 591:\penalty0 171701, 2024.
 
 \bibitem[Yung et~al.(1998)Yung, Landecker, and Villani]{yung1998analytic}
 Kar~W Yung, Peter~B Landecker, and Daniel~D Villani.

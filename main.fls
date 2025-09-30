@@ -389,13 +389,13 @@ OUTPUT chapters/ch1_intro.aux
 INPUT ./chapters/ch1_intro.tex
 INPUT ./chapters/ch1_intro.tex
 INPUT chapters/ch1_intro.tex
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 INPUT ./chapters/ch2_backgroung.tex
 INPUT ./chapters/ch2_backgroung.tex
 OUTPUT chapters/ch2_backgroung.aux
 INPUT ./chapters/ch2_backgroung.tex
 INPUT ./chapters/ch2_backgroung.tex
 INPUT chapters/ch2_backgroung.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
