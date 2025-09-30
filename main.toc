@@ -39,5 +39,7 @@
 \contentsline {subsection}{\numberline {6.4.2}Data Analysis}{49}{subsection.6.4.2}%
 \contentsline {part}{IV\hspace {1em}Results}{51}{part.4}%
 \contentsline {chapter}{\numberline {7}Results}{53}{chapter.7}%
-\contentsline {chapter}{Bibliography}{54}{chapter.7}%
-\contentsline {chapter}{Curriculum Vitae}{63}{chapter*.26}%
+\contentsline {part}{V\hspace {1em}Conclusions}{55}{part.5}%
+\contentsline {chapter}{\numberline {8}Conclusions}{57}{chapter.8}%
+\contentsline {chapter}{Bibliography}{58}{chapter.8}%
+\contentsline {chapter}{Curriculum Vitae}{68}{chapter*.26}%

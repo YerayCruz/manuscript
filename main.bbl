@@ -1,4 +1,4 @@
-\begin{thebibliography}{86}
+\begin{thebibliography}{93}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -30,6 +30,26 @@ M~Cristina Marchetti, Jean-Fran{\c{c}}ois Joanny, Sriram Ramaswamy, Tanniemola~B
 \newblock Hydrodynamics of soft active matter.
 \newblock \emph{Reviews of modern physics}, 85\penalty0 (3):\penalty0 1143--1189, 2013.
 
+\bibitem[Ramaswamy(2010)]{ramaswamy2010mechanics}
+Sriram Ramaswamy.
+\newblock The mechanics and statistics of active matter.
+\newblock \emph{Annu. Rev. Condens. Matter Phys.}, 1\penalty0 (1):\penalty0 323--345, 2010.
+
+\bibitem[Needleman and Dogic(2017)]{needleman2017active}
+Daniel Needleman and Zvonimir Dogic.
+\newblock Active matter at the interface between materials science and cell biology.
+\newblock \emph{Nature reviews materials}, 2\penalty0 (9):\penalty0 1--14, 2017.
+
+\bibitem[Bechinger et~al.(2016)Bechinger, Di~Leonardo, L{\"o}wen, Reichhardt, Volpe, and Volpe]{bechinger2016active}
+Clemens Bechinger, Roberto Di~Leonardo, Hartmut L{\"o}wen, Charles Reichhardt, Giorgio Volpe, and Giovanni Volpe.
+\newblock Active particles in complex and crowded environments.
+\newblock \emph{Reviews of modern physics}, 88\penalty0 (4):\penalty0 045006, 2016.
+
+\bibitem[Shankar et~al.(2022)Shankar, Souslov, Bowick, Marchetti, and Vitelli]{shankar2022topological}
+Suraj Shankar, Anton Souslov, Mark~J Bowick, M~Cristina Marchetti, and Vincenzo Vitelli.
+\newblock Topological active matter.
+\newblock \emph{Nature Reviews Physics}, 4\penalty0 (6):\penalty0 380--398, 2022.
+
 \bibitem[J{\"u}licher et~al.(1997)J{\"u}licher, Ajdari, and Prost]{julicher1997modeling}
 Frank J{\"u}licher, Armand Ajdari, and Jacques Prost.
 \newblock Modeling molecular motors.
@@ -40,15 +60,35 @@ Peter Reimann.
 \newblock Brownian motors: noisy transport far from equilibrium.
 \newblock \emph{Physics reports}, 361\penalty0 (2-4):\penalty0 57--265, 2002.
 
+\bibitem[Fiasconaro et~al.(2008)Fiasconaro, Ebeling, and Gudowska-Nowak]{fiasconaro2008active}
+Alessandro Fiasconaro, Werner Ebeling, and Ewa Gudowska-Nowak.
+\newblock Active brownian motion models and applications to ratchets.
+\newblock \emph{The European Physical Journal B}, 65\penalty0 (3):\penalty0 403--414, 2008.
+
+\bibitem[Reichhardt and Reichhardt(2017)]{reichhardt2017ratchet}
+CJ~Olson Reichhardt and Charles Reichhardt.
+\newblock Ratchet effects in active matter systems.
+\newblock \emph{Annual Review of Condensed Matter Physics}, 8:\penalty0 51--75, 2017.
+
+\bibitem[Rein et~al.(2023)Rein, Kol{\'a}{\v{r}}, Kroy, and Holubec]{rein2023force}
+Constantin Rein, Martin Kol{\'a}{\v{r}}, Klaus Kroy, and Viktor Holubec.
+\newblock Force-free and autonomous active brownian ratchets (a).
+\newblock \emph{Europhysics Letters}, 142\penalty0 (3):\penalty0 31001, 2023.
+
 \bibitem[Di~Leonardo et~al.(2010)Di~Leonardo, Angelani, Dell’Arciprete, Ruocco, Iebba, Schippa, Conte, Mecarini, De~Angelis, and Di~Fabrizio]{di2010bacterial}
 Roberto Di~Leonardo, Luca Angelani, Dario Dell’Arciprete, Giancarlo Ruocco, Valerio Iebba, Serena Schippa, Maria~Pia Conte, Francesco Mecarini, Francesco De~Angelis, and Enzo Di~Fabrizio.
 \newblock Bacterial ratchet motors.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0 (21):\penalty0 9541--9545, 2010.
 
-\bibitem[Bechinger et~al.(2016)Bechinger, Di~Leonardo, L{\"o}wen, Reichhardt, Volpe, and Volpe]{bechinger2016active}
-Clemens Bechinger, Roberto Di~Leonardo, Hartmut L{\"o}wen, Charles Reichhardt, Giorgio Volpe, and Giovanni Volpe.
-\newblock Active particles in complex and crowded environments.
-\newblock \emph{Reviews of modern physics}, 88\penalty0 (4):\penalty0 045006, 2016.
+\bibitem[Pellicciotta et~al.(2025)Pellicciotta, Bagal, Cannarsa, Bianchi, and Di~Leonardo]{pellicciotta2025wall}
+Nicola Pellicciotta, Ojus~Satish Bagal, Maria~Cristina Cannarsa, Silvio Bianchi, and Roberto Di~Leonardo.
+\newblock Wall torque controls propulsion of curved microstructures in bacterial baths.
+\newblock \emph{Physical Review Letters}, 135\penalty0 (13):\penalty0 138302, 2025.
+
+\bibitem[Martinez-Pedrero and Tierno(2015)]{martinez2015magnetic}
+Fernando Martinez-Pedrero and Pietro Tierno.
+\newblock Magnetic propulsion of self-assembled colloidal carpets: efficient cargo transport via a conveyor-belt effect.
+\newblock \emph{Physical Review Applied}, 3\penalty0 (5):\penalty0 051003, 2015.
 
 \bibitem[Tierno(2012)]{tierno2012depinning}
 Pietro Tierno.
@@ -130,11 +170,6 @@ V~Lebedev and F~Renzoni.
 Alejandro~V Arzola, Mario Villasante-Barahona, Karen Volke-Sep{\'u}lveda, Petr J{\'a}kl, and Pavel Zem{\'a}nek.
 \newblock Omnidirectional transport in fully reconfigurable two dimensional optical ratchets.
 \newblock \emph{Physical review letters}, 118\penalty0 (13):\penalty0 138002, 2017.
-
-\bibitem[Ramaswamy(2010)]{ramaswamy2010mechanics}
-Sriram Ramaswamy.
-\newblock The mechanics and statistics of active matter.
-\newblock \emph{Annu. Rev. Condens. Matter Phys.}, 1\penalty0 (1):\penalty0 323--345, 2010.
 
 \bibitem[Deseigne et~al.(2010)Deseigne, Dauchot, and Chat{\'e}]{deseigne2010collective}
 Julien Deseigne, Olivier Dauchot, and Hugues Chat{\'e}.
