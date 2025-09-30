@@ -66,6 +66,14 @@ For this, we need to define the external magnetic field, which it is a precessin
 
 being $B_0$ the amplitude, and $f$ the frequency at which the field rotates.
 
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/methods1.pdf}
+  \end{center}
+  \caption{\textbf{Panel 1)} Shows two paramagnetic particles with a distance \(\vec{x}_{i,j}\) with the same dipole moment in a confined space in the \( z\) axis. \textbf{Panel 2)} Shows a representation of a  unitary body-centered cubic lattice. \textbf{Panel 3} Shows the precessing external magnetic field.}\label{fig:facecenteredlattice}
+\end{figure}
+
 Let's remember that one important rule for the universe is that, one body cannot occupy the same space as other, therefore, we should model a repulsion force that simulates that behavior. Fortunately, there is a potential called Weeks-Chandler-Andersen potential (WCA) that follow the same principle as the Lennard-Jones potential but with a cuttof \cite{hess1999augmented}:
 
 \begin{equation}
@@ -183,12 +191,20 @@ The conventional unit cell for a BCC lattice is a cube with a lattice point at e
 %
 where \( a \) is the lattice constant (the side length of the cube).
 
-\begin{figure}[H]
-  \begin{center}
-    \includegraphics[width=0.95\textwidth]{figures/methods1.pdf}
-  \end{center}
-  \caption{\textbf{Panel 1)} Shows two paramagnetic particles with a distance \(\vec{x}_{i,j}\) with the same dipole moment in a confined space in the \( z\) axis. \textbf{Panel 2)} Shows a representation of a  unitary body-centered cubic lattice. \textbf{Panel 3} Shows the precessing external magnetic field.}\label{fig:facecenteredlattice}
-\end{figure}
+There are multiple forms to model the potential energy of a bond, the easiest way is to use the harmonic potential that mimics the behavior of a ideal spring and is modeled after the Hooke's law:
+
+\begin{equation}
+  U^{H}_{i,j}(\vec{x}_{i,j}) = \frac{1}{2}K(\vec{x}_{i,j} - \vec{x}_0)^2,
+\end{equation}
+
+where K is the energy per squared distance, $\vec{x}_{i,j}$ is the distance between particle \textit{i}, and \textit{j}, and $x_0$ is the equilibrium distance point.
+
+Equally, each particle has a defined angle between a triplet of particles that will help in the definition of the lattice, it is defined also with Hooke's law:
+
+\begin{equation}
+  U^{H}_{i,j,k}(\theta _{i,j,k}) = \frac{1}{2}K(\theta_{i,j,k} - \theta_0)^2,
+\end{equation}
+
 
 %%%%%%%%
 
@@ -217,12 +233,20 @@ Parameter & Symbol & Ratchet A & Ratchet B & Units \\
 Lattice constant & \(a\) & 1 & 1 & \(\mu m\) \\
 Radius & \( r\) & 8 & 8 & \( \mu m\) \\
 Sawtooth amplitude & \( A\) & 4 & 4 & \( \mu m\) \\
-Sawtooth frequency & \( f\) & 5 & 3 & Dimensionless\\
+Sawtooth frequency & \( N\) & 5 & 3 & Dimensionless\\
 Bond coefficient & \( K_b\) & 0.1 & 0.1 & \( \mu N\) \\ 
 Density & \(\rho\) & 1 & 1 & kgm\(^{-3}\) \\
 \hline
 \end{tabular}
 \end{table}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/ratchet.pdf}
+  \end{center}
+  \caption[Ratchet geomety.]{Ratchet geometry used in the simulations. \textbf{Panel 1)} shows 4-spikes ratchet.\textbf{Panel 2)} shows the same ratchet with a 180° specular rotation. \textbf{Panel 3) - 4)} Shows the same characterisitcs with a 3-spikes ratchet.}\label{fig:ratchetgeometry}
+\end{figure}
+
 
 As shown in the table, there were 2 ratchets with only a difference in te \textit{Sawtooth frequency}, but in reality we used a reflection of each ratchet for another pair of analysis. Once the ratchet geometry is defined, then we can define then the remaining of the system, which remained constant for the 2 ratchets. Starting with the simulation box, that is a rectangle box of periodic boundary conditions in axis \textit{x}, and \textit{y},and finite boundary conditions modeled with the a WCA potential:
 
