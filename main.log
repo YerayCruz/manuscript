@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  30 SEP 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.6)  4 OCT 2025 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1155,21 +1155,21 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 [52]
 Chapter 7.
-<figures/AvsF.pdf, id=1021, 578.16pt x 433.62pt>
+<figures/AvsF.pdf, id=1021, 444.46257pt x 267.90527pt>
 File: figures/AvsF.pdf Graphic file (type pdf)
 <use figures/AvsF.pdf>
 Package pdftex.def Info: figures/AvsF.pdf  used on input line 8.
-(pdftex.def)             Requested size: 437.68376pt x 328.25778pt.
-<figures/particlesTrj.pdf, id=1022, 461.725pt x 185.69376pt>
-File: figures/particlesTrj.pdf Graphic file (type pdf)
-<use figures/particlesTrj.pdf>
-Package pdftex.def Info: figures/particlesTrj.pdf  used on input line 15.
-(pdftex.def)             Requested size: 437.68376pt x 176.02554pt.
-<figures/velocityVsTime.png, id=1023, 1001.7425pt x 664.4825pt>
-File: figures/velocityVsTime.png Graphic file (type png)
-<use figures/velocityVsTime.png>
-Package pdftex.def Info: figures/velocityVsTime.png  used on input line 22.
-(pdftex.def)             Requested size: 437.68376pt x 290.32509pt.
+(pdftex.def)             Requested size: 437.68376pt x 263.83307pt.
+<figures/parttrj.pdf, id=1022, 287.50212pt x 157.20409pt>
+File: figures/parttrj.pdf Graphic file (type pdf)
+<use figures/parttrj.pdf>
+Package pdftex.def Info: figures/parttrj.pdf  used on input line 15.
+(pdftex.def)             Requested size: 437.68376pt x 239.32208pt.
+<figures/time_series.pdf, id=1023, 452.43486pt x 276.24931pt>
+File: figures/time_series.pdf Graphic file (type pdf)
+<use figures/time_series.pdf>
+Package pdftex.def Info: figures/time_series.pdf  used on input line 22.
+(pdftex.def)             Requested size: 437.68376pt x 267.25755pt.
 )
 
 [53
@@ -1179,15 +1179,12 @@ Package pdftex.def Info: figures/velocityVsTime.png  used on input line 22.
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [54 <./figures/AvsF.pdf> <./figures/particlesTrj.pdf
-
-pdfTeX warning: pdflatex (file ./figures/particlesTrj.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+ [54 <./figures/AvsF.pdf> <./figures/parttrj.pdf>]
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
- [55 <./figures/velocityVsTime.png>]
+ [55 <./figures/time_series.pdf>]
 \openout2 = `chapters/ch5_conclusions.aux'.
 
  (./chapters/ch5_conclusions.tex
@@ -1413,8 +1410,8 @@ figures/workflow.pdf
 figures/ratchet.pdf
 chapters/ch4_results.tex
 figures/AvsF.pdf
-figures/particlesTrj.pdf
-figures/velocityVsTime.png
+figures/parttrj.pdf
+figures/time_series.pdf
 chapters/ch5_conclusions.tex
     main.bbl
     main.ind
@@ -1426,17 +1423,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  27130 strings out of 473201
- 501706 string characters out of 5716127
+ 501658 string characters out of 5716127
  891727 words of memory out of 5000000
  49561 multiletter control sequences out of 15000+600000
  592921 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,93p,1630b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (82 pages, 6649560 bytes).
+Output written on main.pdf (82 pages, 6152688 bytes).
 PDF statistics:
- 2440 PDF objects out of 2487 (max. 8388607)
- 1827 compressed objects within 19 object streams
+ 1358 PDF objects out of 1440 (max. 8388607)
+ 1055 compressed objects within 11 object streams
  310 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
 
