@@ -1,4 +1,4 @@
-\begin{thebibliography}{93}
+\begin{thebibliography}{96}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -470,5 +470,20 @@ A.~P. Thompson, H.~M. Aktulga, R.~Berger, D.~S. Bolintineanu, W.~M. Brown, P.~S.
 \newblock {LAMMPS} - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales.
 \newblock \emph{Comp. Phys. Comm.}, 271:\penalty0 108171, 2022.
 \newblock \doi{10.1016/j.cpc.2021.108171}.
+
+\bibitem[Altman and Bland(2005)]{altman2005standard}
+Douglas~G Altman and J~Martin Bland.
+\newblock Standard deviations and standard errors.
+\newblock \emph{Bmj}, 331\penalty0 (7521):\penalty0 903, 2005.
+
+\bibitem[Hyndman(2025)]{hyndman2025moving}
+Rob~J Hyndman.
+\newblock Moving averages.
+\newblock In \emph{International encyclopedia of statistical science}, pages 1559--1562. Springer, 2025.
+
+\bibitem[Chen(2017)]{chen2017tutorial}
+Yen-Chi Chen.
+\newblock A tutorial on kernel density estimation and recent advances.
+\newblock \emph{Biostatistics \& Epidemiology}, 1\penalty0 (1):\penalty0 161--187, 2017.
 
 \end{thebibliography}

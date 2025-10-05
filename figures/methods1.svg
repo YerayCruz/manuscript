@@ -18,7 +18,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ns5="http://www.iki.fi/pav/software/textext/"><sodipodi:namedview
+   xmlns:ns2="http://www.iki.fi/pav/software/textext/"><sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -28,15 +28,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="4"
-     inkscape:cx="254.25"
-     inkscape:cy="167.125"
-     inkscape:window-width="2520"
-     inkscape:window-height="1644"
-     inkscape:window-x="1920"
-     inkscape:window-y="480"
+     inkscape:zoom="2"
+     inkscape:cx="232.5"
+     inkscape:cy="172.25"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="1112"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" /><defs
+     inkscape:current-layer="layer1" /><defs
      id="defs1"><inkscape:path-effect
        effect="bspline"
        id="path-effect1270"
@@ -9529,125 +9529,125 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-0.132292, -2.83854e-05)"><g
-       transform="matrix(0.705556,0,0,0.705556,109.65675,2.560124e-4)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="3)"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="2.0"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.705556"
-       id="g520-4"><defs
-   id="id-314c8c6f-4f8e-40a5-90e9-e89194107489">
+       transform="matrix(0.352778,0,0,0.352778,58.728541,1.2372065e-4)"
+       ns2:version="1.11.1"
+       ns2:texconverter="pdflatex"
+       ns2:pdfconverter="inkscape"
+       ns2:text="2)"
+       ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+       ns2:scale="1.0"
+       ns2:alignment="middle center"
+       ns2:inkscapeversion="1.4.2"
+       ns2:jacobian_sqrt="0.352778"
+       id="g520-4-4"><defs
+   id="id-395e41f0-7fe9-4350-8082-47977a772e30">
     <g
-   id="id-0d664706-c062-498d-b2d3-b9c3eb530010">
+   id="id-75b7f722-fe83-4348-acb7-056a02376ba5">
       <symbol
    overflow="visible"
-   id="id-43d006c8-7811-467c-b3ad-6853bf847c16">
+   id="id-889768f8-8d2d-4401-806d-238ad0a762d6">
         <path
    style="stroke:none"
    d=""
-   id="id-1f1af6de-aabb-4b1f-8bf6-6933410e50f2" />
+   id="id-724383d8-1a61-42f8-bdc2-7547bdb3b252" />
       </symbol>
       <symbol
    overflow="visible"
-   id="id-2f9183b1-ae34-44c1-9441-2b2b4678e597">
+   id="id-5ebf84a7-a68c-405e-9d1c-3951e03fd1e1">
         <path
    style="stroke:none"
-   d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 h 0.4375 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
-   id="id-d080ba0b-3bd5-46dc-bf19-3571d6dc2579" />
+   d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 H 4.203125 L 4.46875,-1.734375 H 4.234375 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 Z m 0,0"
+   id="id-96a66ce2-99e6-4730-a32c-5436f8a3cc05" />
       </symbol>
       <symbol
    overflow="visible"
-   id="id-08808401-4973-4014-81f4-11a5d03af6cb">
+   id="id-7776db26-0cc1-4ba7-8da8-130d0c6de95a">
         <path
    style="stroke:none"
    d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
-   id="id-b6dfb7d9-9c64-48a5-b8a7-314ae4eb4a92" />
+   id="id-f28ce19e-c386-4359-9aa5-1182be2f6ff0" />
       </symbol>
     </g>
   </defs>
   <g
-   id="id-8540f547-461f-48b4-a067-4a36515719a0"
-   transform="translate(-149.134,-127.281)">
+   id="id-32055a54-8e34-4265-9a9a-cb32e6110128"
+   transform="translate(-149.212,-127.281)">
     <g
    style="fill:#000000;fill-opacity:1"
-   id="id-fac80a3e-8361-49cb-9669-1b4a30454151">
+   id="id-00664b27-53a0-4880-8f3f-c4a3b518f481">
       <g
    transform="translate(148.712,134.765)"
-   id="g1279"><path
+   id="g2"><path
    style="stroke:none"
-   d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 h 0.4375 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
-   id="id-b910aee9-a211-43a0-bc6f-240b67f69356" />
+   d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 H 4.203125 L 4.46875,-1.734375 H 4.234375 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 Z m 0,0"
+   id="id-8250e134-ce06-4942-81b9-ec063265f3a8" />
       </g><g
    transform="translate(153.693,134.765)"
-   id="g1280"><path
+   id="g3"><path
    style="stroke:none"
    d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
-   id="id-4e4165c4-15ab-46c0-8dbd-c29dcb581d4a" />
+   id="id-0d26d77e-c7bf-4448-a331-27f95f5ac2c8" />
       </g></g>
   </g>
 </g><g
-       transform="matrix(0.705556 0 0 0.705556 58.7561 -1.20993e-05)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="2)"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="2.0"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.705556"
-       id="g520-4-4"><defs
-   id="id-44dc052a-d951-4ece-b139-89fefaf3bbbf">
+       transform="matrix(0.352778,0,0,0.352778,109.6567,1.2372065e-4)"
+       ns2:version="1.11.1"
+       ns2:texconverter="pdflatex"
+       ns2:pdfconverter="inkscape"
+       ns2:text="3)"
+       ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+       ns2:scale="1.0"
+       ns2:alignment="middle center"
+       ns2:inkscapeversion="1.4.2"
+       ns2:jacobian_sqrt="0.352778"
+       id="g520-4"><defs
+   id="id-5991f720-d5b3-4f0a-b8d0-6472060ae349">
     <g
-   id="id-859ce8f6-3cea-4f33-8f9c-f5364e050b25">
+   id="id-d21e64ec-43cc-45a0-b1f2-01f2bd6f86fc">
       <symbol
    overflow="visible"
-   id="id-1ce2cff9-9609-4f6a-8cd8-b922b100b5e3">
+   id="id-f5a50cc1-28c5-42f8-b38d-3944a9e538c1">
         <path
    style="stroke:none"
    d=""
-   id="id-09fb5b0b-5d1a-4735-bec0-e81ac84ca97a" />
+   id="id-2c242264-e03e-4601-b839-cc369464f40e" />
       </symbol>
       <symbol
    overflow="visible"
-   id="id-356c0c9a-dd85-4c52-91ee-77789a709467">
+   id="id-a8fe2ac8-3ecb-485c-b4f0-8e75996b7fcf">
         <path
    style="stroke:none"
-   d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 H 4.203125 L 4.46875,-1.734375 H 4.234375 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 Z m 0,0"
-   id="id-10fecb5c-bdf4-48af-8b34-3189bfc86c40" />
+   d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 h 0.4375 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
+   id="id-a2f0bc63-6e99-4fbb-9b0e-8bbc23d795f8" />
       </symbol>
       <symbol
    overflow="visible"
-   id="id-852875a6-dd27-410b-91ce-024bbc74765b">
+   id="id-9c8afb59-912a-42fc-b6ac-0a0abd2f4439">
         <path
    style="stroke:none"
    d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
-   id="id-96d27342-f2d6-489c-b50e-68c2ea2d2982" />
+   id="id-26905697-1dda-43f0-8fda-75ff5260aedd" />
       </symbol>
     </g>
   </defs>
   <g
-   id="id-b15bc08b-5fee-43dc-b9a8-e1de49c67287"
-   transform="translate(-149.212, -127.281)">
+   id="id-f897413b-5308-4d13-afe6-28b6ab6b9f00"
+   transform="translate(-149.134,-127.281)">
     <g
    style="fill:#000000;fill-opacity:1"
-   id="id-e3cef75c-b919-458e-8437-3471d1ca622e">
+   id="id-e920cac9-6658-4562-af30-fe9e6c68548c">
       <g
-   transform="translate(148.712, 134.765)"
-   id="g1285"><path
+   transform="translate(148.712,134.765)"
+   id="g4"><path
    style="stroke:none"
-   d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 H 4.203125 L 4.46875,-1.734375 H 4.234375 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 Z m 0,0"
-   id="id-bcafec45-cd96-4238-b7a0-f772473915e8" />
+   d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 h 0.4375 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
+   id="id-82c16b9d-4a28-459a-9970-d695dcc0b0b1" />
       </g><g
-   transform="translate(153.693, 134.765)"
-   id="g1286"><path
+   transform="translate(153.693,134.765)"
+   id="g5"><path
    style="stroke:none"
    d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
-   id="id-b0ae3b17-8000-4e6c-9834-55427c66e50b" />
+   id="id-51111ec8-3cfa-4b8c-b910-2bd614a9d0b5" />
       </g></g>
   </g>
 </g></g><image
@@ -9674,15 +9674,15 @@
        clip-path="url(#clipPath1257)"
        transform="translate(7.857724,2.5634091)" /><g
        transform="matrix(0.493889,0,0,0.493889,125.9,8.67937)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="$f$"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="1.4"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.493889"
+       ns2:version="1.11.1"
+       ns2:texconverter="pdflatex"
+       ns2:pdfconverter="inkscape"
+       ns2:text="$f$"
+       ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+       ns2:scale="1.4"
+       ns2:alignment="middle center"
+       ns2:inkscapeversion="1.4.2"
+       ns2:jacobian_sqrt="0.493889"
        id="g1260"><defs
    id="id-72681be5-2ac5-4963-bb79-8927d4d45b59">
     <g
@@ -9726,15 +9726,15 @@
    inkscape:path-effect="#path-effect1270"
    inkscape:original-d="m 22.249534,31.142908 c -1.540179,0.502232 -3.080357,1.004464 -4.620535,1.506697 -0.803587,0.680817 -1.607143,1.361607 -2.410714,2.04241" /><g
    transform="matrix(0.714286,0,0,0.714286,16.663202,26.968775)"
-   ns5:version="1.11.1"
-   ns5:texconverter="pdflatex"
-   ns5:pdfconverter="inkscape"
-   ns5:text="$\\theta$"
-   ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-   ns5:scale="1.0"
-   ns5:alignment="middle center"
-   ns5:inkscapeversion="1.4.2"
-   ns5:jacobian_sqrt="0.714286"
+   ns2:version="1.11.1"
+   ns2:texconverter="pdflatex"
+   ns2:pdfconverter="inkscape"
+   ns2:text="$\\theta$"
+   ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+   ns2:scale="1.0"
+   ns2:alignment="middle center"
+   ns2:inkscapeversion="1.4.2"
+   ns2:jacobian_sqrt="0.714286"
    id="g1271"><defs
    id="id-b508719d-e187-4fe7-be84-ebb034da7c6f">
     <g
@@ -9773,15 +9773,15 @@
   </g>
 </g></g><g
        transform="matrix(0.493889,0,0,0.493889,136.085,4.97633)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="$z$"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="1.4"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.493889"
+       ns2:version="1.11.1"
+       ns2:texconverter="pdflatex"
+       ns2:pdfconverter="inkscape"
+       ns2:text="$z$"
+       ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+       ns2:scale="1.4"
+       ns2:alignment="middle center"
+       ns2:inkscapeversion="1.4.2"
+       ns2:jacobian_sqrt="0.493889"
        id="g1260-2-7-6"><defs
    id="id-efd61ec3-38ba-4c5a-9a42-ce6808ddd685">
     <g
@@ -9820,15 +9820,15 @@
   </g>
 </g><g
        transform="matrix(0.352778,0,0,0.352778,146.17119,14.911071)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="$B$"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="1.0"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.352778"
+       ns2:version="1.11.1"
+       ns2:texconverter="pdflatex"
+       ns2:pdfconverter="inkscape"
+       ns2:text="$B$"
+       ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+       ns2:scale="1.0"
+       ns2:alignment="middle center"
+       ns2:inkscapeversion="1.4.2"
+       ns2:jacobian_sqrt="0.352778"
        id="g1268"><defs
    id="id-cbf2116c-4172-49d1-b421-95b7a9751c51">
     <g
@@ -9867,15 +9867,15 @@
   </g>
 </g><g
        transform="matrix(0.352778,0,0,0.352778,150.21442,21.220811)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="$y$"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="1.0"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.352778"
+       ns2:version="1.11.1"
+       ns2:texconverter="pdflatex"
+       ns2:pdfconverter="inkscape"
+       ns2:text="$y$"
+       ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+       ns2:scale="1.0"
+       ns2:alignment="middle center"
+       ns2:inkscapeversion="1.4.2"
+       ns2:jacobian_sqrt="0.352778"
        id="g1260-2-7"><defs
    id="id-3784b769-b0c0-4ca5-8fdd-5eeb056f2edb">
     <g
@@ -9914,15 +9914,15 @@
   </g>
 </g><g
        transform="matrix(0.352778,0,0,0.352778,156.69559,38.391856)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="$x$"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="1.0"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.352778"
+       ns2:version="1.11.1"
+       ns2:texconverter="pdflatex"
+       ns2:pdfconverter="inkscape"
+       ns2:text="$x$"
+       ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+       ns2:scale="1.0"
+       ns2:alignment="middle center"
+       ns2:inkscapeversion="1.4.2"
+       ns2:jacobian_sqrt="0.352778"
        id="g1260-2"><defs
    id="id-0a44927b-4521-41c0-b00f-e22aebd07822">
     <g
@@ -9959,80 +9959,34 @@
    id="id-8ab48ce8-44b8-466b-b886-a215ac91e19a" />
       </g></g>
   </g>
-</g></g><g
-     id="g1281"><g
-       id="g520"
-       transform="matrix(0.705556,0,0,0.705556,2.6458e-4,2.2560839e-4)"
-       ns5:version="1.12.0"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="1)"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="2.0"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.705556"><defs
-   id="defs1299">
-    <g
-   id="g7721">
-      <g
-   id="g6912">
-        <path
-   d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
-   id="path202" />
-      </g>
-      <g
-   id="g7485">
-        <path
-   d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
-   id="path1489" />
-      </g>
-    </g>
-  </defs>
-  <g
-   fill="#000000"
-   fill-opacity="1"
-   id="g9393"
-   transform="translate(-149.603,-127.281)">
-    <g
-   transform="translate(148.712,134.765)"
-   id="g9641"><path
-   d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
-   id="path2623" />
-      </g><g
-   transform="translate(153.693,134.765)"
-   id="g9663"><path
-   d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
-   id="path3263" />
-      </g></g>
-</g><circle
-       style="fill:url(#radialGradient2811);fill-rule:nonzero;stroke:none;stroke-width:0.495961;stroke-miterlimit:0;stroke-dasharray:0.495907, 0.495907"
-       id="path2807"
-       cx="11.637466"
-       cy="23.575819"
-       r="11.637466" /><circle
-       style="fill:url(#radialGradient2811-7);fill-rule:nonzero;stroke:none;stroke-width:0.495961;stroke-miterlimit:0;stroke-dasharray:0.495907, 0.495907"
-       id="path2807-6"
-       cx="34.799061"
-       cy="38.33482"
-       r="11.637466" /><path
-       style="fill:#783a68;fill-opacity:1;stroke:#42337a;stroke-width:0.840706;stroke-miterlimit:6.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-       d="M 3.9357184,30.82585 17.456265,18.068845"
-       id="path1255" /><path
-       style="fill:#783a68;fill-opacity:1;stroke:#42337a;stroke-width:0.840654;stroke-miterlimit:6.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-9)"
-       d="M 27.097294,45.58487 40.617996,32.827721"
-       id="path1255-1" /><g
-       id="g737"
-       transform="matrix(0.55026146,0.25017383,-0.25017383,0.55026146,22.921396,23.708762)"
-       ns5:version="1.12.0"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="$\\vec{x}_{i,j}$"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="2.0"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.705556"><defs
+</g></g><circle
+     style="fill:url(#radialGradient2811);fill-rule:nonzero;stroke:none;stroke-width:0.495961;stroke-miterlimit:0;stroke-dasharray:0.495907, 0.495907"
+     id="path2807"
+     cx="11.637466"
+     cy="23.575819"
+     r="11.637466" /><circle
+     style="fill:url(#radialGradient2811-7);fill-rule:nonzero;stroke:none;stroke-width:0.495961;stroke-miterlimit:0;stroke-dasharray:0.495907, 0.495907"
+     id="path2807-6"
+     cx="34.799061"
+     cy="38.33482"
+     r="11.637466" /><path
+     style="fill:#783a68;fill-opacity:1;stroke:#42337a;stroke-width:0.840706;stroke-miterlimit:6.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+     d="M 3.9357184,30.82585 17.456265,18.068845"
+     id="path1255" /><path
+     style="fill:#783a68;fill-opacity:1;stroke:#42337a;stroke-width:0.840654;stroke-miterlimit:6.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-9)"
+     d="M 27.097294,45.58487 40.617996,32.827721"
+     id="path1255-1" /><g
+     id="g737"
+     transform="matrix(0.55026146,0.25017383,-0.25017383,0.55026146,22.921396,23.708762)"
+     ns2:version="1.12.0"
+     ns2:texconverter="pdflatex"
+     ns2:pdfconverter="inkscape"
+     ns2:text="$\\vec{x}_{i,j}$"
+     ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+     ns2:scale="2.0"
+     ns2:alignment="middle center"
+     ns2:inkscapeversion="1.4.2"
+     ns2:jacobian_sqrt="0.705556"><defs
    id="defs6772">
     <g
    id="g1123">
@@ -10112,42 +10066,42 @@
    id="path1741" />
       </g></g>
 </g><path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.732851;stroke-miterlimit:6.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized)"
-       d="m 11.637466,23.575819 20.697258,13.19625"
-       id="path1260"
-       sodipodi:nodetypes="cc" /><rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.0803795;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1272"
-       width="49.999454"
-       height="2.3150387"
-       x="0.0471632"
-       y="8.7364597" /><rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.0803795;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1272-0"
-       width="49.999454"
-       height="2.3150387"
-       x="0.04018975"
-       y="50.859142" /><path
-       style="fill:none;stroke:#000000;stroke-width:0.211667;stroke-dasharray:none;stroke-opacity:1"
-       d="M -0.01683537,10.985852 H 49.960486"
-       id="path1272" /><path
-       style="fill:none;stroke:#000000;stroke-width:0.211667;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,50.924786 H 49.95267"
-       id="path1272-1" /><path
-       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.245312;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-9)"
-       d="M 48.769905,50.942323 V 11.909781"
-       id="path1273" /><g
-       transform="matrix(0.529167 0 0 0.529167 48.7855 30.4465)"
-       ns5:version="1.11.1"
-       ns5:texconverter="pdflatex"
-       ns5:pdfconverter="inkscape"
-       ns5:text="$z$"
-       ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-       ns5:scale="1.5"
-       ns5:alignment="middle center"
-       ns5:inkscapeversion="1.4.2"
-       ns5:jacobian_sqrt="0.529167"
-       id="g1276"><defs
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.732851;stroke-miterlimit:6.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized)"
+     d="m 11.637466,23.575819 20.697258,13.19625"
+     id="path1260"
+     sodipodi:nodetypes="cc" /><rect
+     style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.0803795;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1272"
+     width="49.999454"
+     height="2.3150387"
+     x="0.0471632"
+     y="8.7364597" /><rect
+     style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.0803795;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1272-0"
+     width="49.999454"
+     height="2.3150387"
+     x="0.04018975"
+     y="50.859142" /><path
+     style="fill:none;stroke:#000000;stroke-width:0.211667;stroke-dasharray:none;stroke-opacity:1"
+     d="M -0.01683537,10.985852 H 49.960486"
+     id="path1272" /><path
+     style="fill:none;stroke:#000000;stroke-width:0.211667;stroke-dasharray:none;stroke-opacity:1"
+     d="M 0,50.924786 H 49.95267"
+     id="path1272-1" /><path
+     style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.245312;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-9)"
+     d="M 48.769905,50.942323 V 11.909781"
+     id="path1273" /><g
+     transform="matrix(0.529167,0,0,0.529167,48.7855,30.4465)"
+     ns2:version="1.11.1"
+     ns2:texconverter="pdflatex"
+     ns2:pdfconverter="inkscape"
+     ns2:text="$z$"
+     ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+     ns2:scale="1.5"
+     ns2:alignment="middle center"
+     ns2:inkscapeversion="1.4.2"
+     ns2:jacobian_sqrt="0.529167"
+     id="g1276"><defs
    id="id-e9cd95f9-4319-4b67-9699-6583e20c4668">
     <g
    id="id-a08ac85a-ce9f-48ff-aa85-2545a40a97ad">
@@ -10171,29 +10125,90 @@
   </defs>
   <g
    id="id-f3ce77f8-c294-4a08-9e87-938968b19239"
-   transform="translate(-149.134, -130.359)">
+   transform="translate(-149.134,-130.359)">
     <g
    style="fill:#000000;fill-opacity:1"
    id="id-c8e0cbda-1294-401e-aa7f-d367dbf650ec">
       <g
-   transform="translate(148.712, 134.765)"
+   transform="translate(148.712,134.765)"
    id="g1275"><path
    style="stroke:none"
    d="m 1.328125,-0.828125 c 0.53125,-0.578125 0.828125,-0.828125 1.1875,-1.140625 0,0 0.609375,-0.53125 0.96875,-0.890625 C 4.4375,-3.78125 4.65625,-4.265625 4.65625,-4.3125 c 0,-0.09375 -0.09375,-0.09375 -0.109375,-0.09375 -0.078125,0 -0.09375,0.015625 -0.15625,0.109375 -0.296875,0.484375 -0.5,0.640625 -0.734375,0.640625 -0.25,0 -0.359375,-0.15625 -0.515625,-0.328125 -0.1875,-0.21875 -0.359375,-0.421875 -0.6875,-0.421875 -0.75,0 -1.203125,0.921875 -1.203125,1.140625 0,0.046875 0.03125,0.109375 0.109375,0.109375 0.09375,0 0.109375,-0.046875 0.140625,-0.109375 0.1875,-0.46875 0.765625,-0.46875 0.84375,-0.46875 0.203125,0 0.390625,0.0625 0.625,0.140625 0.40625,0.15625 0.515625,0.15625 0.765625,0.15625 -0.359375,0.421875 -1.1875,1.140625 -1.375,1.296875 l -0.90625,0.84375 C 0.78125,-0.625 0.421875,-0.0625 0.421875,0.015625 c 0,0.09375 0.109375,0.09375 0.125,0.09375 0.078125,0 0.09375,-0.015625 0.15625,-0.125 0.234375,-0.359375 0.53125,-0.625 0.859375,-0.625 0.21875,0 0.328125,0.09375 0.578125,0.375 0.15625,0.21875 0.34375,0.375 0.625,0.375 1,0 1.578125,-1.265625 1.578125,-1.53125 0,-0.046875 -0.046875,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.0625 -0.140625,0.140625 C 3.84375,-0.75 3.203125,-0.5625 2.875,-0.5625 c -0.1875,0 -0.375,-0.0625 -0.578125,-0.125 -0.34375,-0.125 -0.5,-0.171875 -0.703125,-0.171875 -0.015625,0 -0.171875,0 -0.265625,0.03125 z m 0,0"
    id="id-e349216e-18e9-44c8-b9e6-c26872e82437" />
       </g></g>
   </g>
-</g></g><g
+</g><g
+     transform="matrix(0.352778,0,0,0.352778,1.3229175e-4,9.5335249e-5)"
+     ns2:version="1.11.1"
+     ns2:texconverter="pdflatex"
+     ns2:pdfconverter="inkscape"
+     ns2:text="1)"
+     ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+     ns2:scale="1.0"
+     ns2:alignment="middle center"
+     ns2:inkscapeversion="1.4.2"
+     ns2:jacobian_sqrt="0.352778"
+     id="g520"><defs
+   id="id-f411f527-4c81-4ab4-8299-6f42af62c8d5">
+    <g
+   id="id-57f71cf7-4f11-4fe9-b82c-814f9b7a7cb6">
+      <symbol
+   overflow="visible"
+   id="id-0a035afb-ec91-4f1b-9504-130a0313c6d0">
+        <path
+   style="stroke:none"
+   d=""
+   id="id-6cbc3293-5146-4895-bfc1-898f97a14ef8" />
+      </symbol>
+      <symbol
+   overflow="visible"
+   id="id-a6d79a0e-5030-4301-9756-8dd08dc3d477">
+        <path
+   style="stroke:none"
+   d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+   id="id-da69015e-99c1-46cf-b4b2-d3d68344f66e" />
+      </symbol>
+      <symbol
+   overflow="visible"
+   id="id-8b60258d-8298-4c16-b334-8048c0b2b887">
+        <path
+   style="stroke:none"
+   d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
+   id="id-ee6af64b-97e9-4bbd-8a6e-90513aa49158" />
+      </symbol>
+    </g>
+  </defs>
+  <g
+   id="id-3ea3dcf3-e582-4a69-9a4b-0d4ec495c320"
+   transform="translate(-149.603,-127.281)">
+    <g
+   style="fill:#000000;fill-opacity:1"
+   id="id-8575481c-8475-40af-b088-9c09aed9171d">
+      <g
+   transform="translate(148.712,134.765)"
+   id="g1"><path
+   style="stroke:none"
+   d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+   id="id-5f069c06-6ab0-4f24-a4c2-3a65c674d8e0" />
+      </g><g
+   transform="translate(153.693,134.765)"
+   id="g6"><path
+   style="stroke:none"
+   d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
+   id="id-0f5de007-30dc-4747-9593-77c30aa876ae" />
+      </g></g>
+  </g>
+</g><g
      transform="matrix(0.352778,0,0,0.352778,59.531121,29.652808)"
-     ns5:version="1.11.1"
-     ns5:texconverter="pdflatex"
-     ns5:pdfconverter="inkscape"
-     ns5:text="a"
-     ns5:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
-     ns5:scale="1.0"
-     ns5:alignment="middle center"
-     ns5:inkscapeversion="1.4.2"
-     ns5:jacobian_sqrt="0.352778"
+     ns2:version="1.11.1"
+     ns2:texconverter="pdflatex"
+     ns2:pdfconverter="inkscape"
+     ns2:text="a"
+     ns2:preamble="/home/hapless/.config/inkscape/extensions/textext/default_packages.tex"
+     ns2:scale="1.0"
+     ns2:alignment="middle center"
+     ns2:inkscapeversion="1.4.2"
+     ns2:jacobian_sqrt="0.352778"
      id="g1298"><defs
    id="id-541fcb1b-0c77-4cf7-ac5c-47877915b7d4">
     <g

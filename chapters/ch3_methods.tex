@@ -3,6 +3,16 @@
 
 \chapter{Simulations}
 
+The system studied in this thesis consists of an ensemble of paramagnetic colloidal particles confined in a quasi-two-dimensional geometry and subjected to an externally applied precessing conic magnetic field. Each colloid is a spherical particle of radius $r_{\mathrm{mag}}$ suspended in a Newtonian fluid of dynamic viscosity $\eta$. The suspension is bounded by two parallel glass plates separated by a distance $h$, such that $h \lesssim 2R$. This strong confinement restricts particle motion primarily to two dimensions, while still allowing limited vertical displacement. 
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/system.pdf}
+  \end{center}
+  \caption[System overview.]{System overview for a non-specular ratchet}\label{fig:system}
+\end{figure}
+
+
 Numerical simulations provide a powerful framework to reproduce and analyze physical phenomena under controlled conditions. Unlike experiments, they allow for precise manipulation of initial parameters, systematic testing of hypotheses, and straightforward replication of results. In particular, simulations are invaluable when dealing with microscopic systems, where stochastic effects and complex interactions can make experimental observations challenging. 
 
 In this thesis, numerical simulations are employed to study the dynamics of colloidal systems at the microscale. Such systems are often dominated by thermal fluctuations and many-body interactions, making them difficult to probe experimentally without advanced imaging and data analysis techniques. The primary computational approach used here is \textit{molecular dynamics} (MD), which will be described in detail in the following sections. MD enables the integration of particle trajectories under the influence of deterministic and stochastic forces, providing direct access to observables such as mean-squared displacements, velocity correlations, and transport coefficients.
@@ -64,7 +74,8 @@ For this, we need to define the external magnetic field, which it is a precessin
   \label{eq:magneticfield}
 \end{equation}
 
-being $B_0$ the amplitude, and $f$ the frequency at which the field rotates.
+
+where $B_0$ is the amplitude and $f$ the frequency of rotation of the magnetic field. The frequency plays an important role in the system dynamics. Depending on how fast the field rotates, it determines whether the internal magnetic dipole of each particle can follow it or not. At low frequencies, the dipoles rotate synchronously with the field, resulting in purely attractive or repulsive interactions. At higher frequencies, however, the dipoles cannot keep up, leading to a phase delay. In this regime, particles can exchange neighbors as the field continues to rotate.
 
 
 \begin{figure}[H]
@@ -199,6 +210,14 @@ There are multiple forms to model the potential energy of a bond, the easiest wa
 
 where K is the energy per squared distance, $\vec{x}_{i,j}$ is the distance between particle \textit{i}, and \textit{j}, and $x_0$ is the equilibrium distance point.
 
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/harmonicP.pdf}
+  \end{center}
+  \caption[Visual representation for a harmonic potential.]{Visual representation for a harmonic angular potential.}\label{fig:}
+\end{figure}
+
+
 Equally, each particle has a defined angle between a triplet of particles that will help in the definition of the lattice, it is defined also with Hooke's law:
 
 \begin{equation}
@@ -286,22 +305,22 @@ Frequency & $f$ & [0 - 10] & Hz\\
 \end{tabular}
 \end{table}
 
-With all this values, we can run simulations for a period of $50 \cross 10^{6} \mu s$ that is equivalent to 50 real life seconds, this with a timestep ($\Delta t$) of  $10 \mu s$ which will give us the data and we need to analyse.
+With all this values, we can run simulations for a period of $50 \cross 10^{6} \mu s$, with a timestep of 10 $\mu s$ which corresponds to a total real time of $500 s$ ($8.33\bar{3} \mathrm{min})$. Since these systems are of random nature, it is recommended to perform multiple simulations in order to be able to obtain statistics, therefore we ran it 10 different times for each frequency.
 
 \subsection{Data Analysis}
 
 When finishing a simulation, LAMMPS will give a text data file with values we chose to obtain. In this case we were interesented in the position of the particles to be able to deduce some information, being the angular velocity the more interesting one. The system consist of multiple particles, each one of them having a different angular velocity due to bond not being strong enough to mantain particles static, therefore we need to obtain an average velocity for the entirety of the particles. What we know, is that every particle shares the same center of mass that is calculated as follows:
 
 \begin{equation}
-  COM = \displaystyle\frac{\sum^{n}_{i=1} m_i * r_i}{\sum^{n}_{i=1} m_i}.
+  (x_{\mathrm{COM}}, y_{\mathrm{COM}}) = \displaystyle\frac{\sum^{n}_{i=1} m_i * r_i}{\sum^{n}_{i=1} m_i}.
   \label{eq:centerofmass}
 \end{equation}
 
 Being $m_i$ the mass of the particle \textit{i}, and $r_i$ the position of the particle respect a frame of reference. The best way to calculate the angular velocity is by using polar coordinates:
 
 \begin{align}
-  r_i & = \sqrt{(x - x_{COM})^2 + (y - y_{COM})^2},\\ 
-  \theta _i &= \arctan{\frac{y - y_{COM}}{x - x_{COM}}}.
+  r_i & = \sqrt{(x - x_{\mathrm{COM}})^2 + (y - y_{\mathrm{COM}})^2},\\ 
+  \theta _i &= \arctan{\frac{y - y_{\mathrm{COM}}}{x - x_{\mathrm{COM}}}}.
 \end{align}
 
 Once obtained the center of mass and the polar coordinates of each particle, then we can calculate the angular velocity of each particle for each timestep of the simulation:
