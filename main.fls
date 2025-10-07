@@ -396,6 +396,9 @@ OUTPUT chapters/ch2_backgroung.aux
 INPUT ./chapters/ch2_backgroung.tex
 INPUT ./chapters/ch2_backgroung.tex
 INPUT chapters/ch2_backgroung.tex
+INPUT ./chapters/ch2_1_background.tex
+INPUT ./chapters/ch2_1_background.tex
+INPUT chapters/ch2_1_background.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
@@ -410,6 +413,9 @@ INPUT ./figures/passivebrowniantrajectory.pdf
 INPUT ./figures/passivebrowniantrajectory.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT ./chapters/ch2_2_background.tex
+INPUT ./chapters/ch2_2_background.tex
+INPUT chapters/ch2_2_background.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
@@ -455,6 +461,9 @@ INPUT ./figures/ArzolaExperiment.png
 INPUT ./figures/ArzolaExperiment.png
 INPUT ./figures/ArzolaExperiment.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
+INPUT ./chapters/ch2_3_background.tex
+INPUT ./chapters/ch2_3_background.tex
+INPUT chapters/ch2_3_background.tex
 INPUT ./figures/macroscopicagents.pdf
 INPUT ./figures/macroscopicagents.pdf
 INPUT ./figures/macroscopicagents.pdf
@@ -480,6 +489,9 @@ INPUT ./figures/harnessWork.pdf
 INPUT ./figures/harnessWork.pdf
 INPUT ./figures/harnessWork.pdf
 INPUT ./figures/harnessWork.pdf
+INPUT ./chapters/ch2_4_background.tex
+INPUT ./chapters/ch2_4_background.tex
+INPUT chapters/ch2_4_background.tex
 INPUT ./chapters/ch3_methods.tex
 INPUT ./chapters/ch3_methods.tex
 OUTPUT chapters/ch3_methods.aux
