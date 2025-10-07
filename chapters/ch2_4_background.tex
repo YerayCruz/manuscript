@@ -1,0 +1,48 @@
+\chapter{Magnetically Driven Colloidal Systems}
+\label{magneticallydrivencolloidalsystems}
+
+
+We can see that biological active matter is effective at transporting or moving objects. The drawback, however, is that these systems always require a constant supply of energy. So far, there is no unlimited energy source available for this purpose. An exception are thermophoretic particles, which only need a beam of light to create a temperature gradient. In fact, some experiments have combined this principle with machine learning models, allowing particles to be guided toward a target region while reducing the impact of thermal noise~\cite{muinos2021reinforcement}. The limitation, though, is that only a relatively small number of particles can be manipulated in this way, which is not enough to drive something like a rotor.
+
+Because of this, we take a different approach. The idea is to combine active and passive matter, so that energy can be injected into the system without having to replace the entire source each time. This hybrid strategy may offer a way to overcome the limits seen in purely biological or purely synthetic setups.
+
+This thesis focuses on paramagnetic colloids. Their key property is that the magnetic dipoles align with an external field, but once the field is removed, the dipoles lose their orientation and the material no longer shows magnetic order. The origin of this effect lies in the electronic and spin configuration of the atoms. A simple example is molecular oxygen, $O_2$, which has two unpaired valence electrons with the same spin. This imbalance leads to a net magnetic moment, giving rise to paramagnetism. The underlying principle is explained by Hund’s rule.
+
+By themselves, paramagnetic particles cannot be considered active matter, even in the presence of a magnetic field. Several experiments have tried to induce motion in these systems, and one promising route is through Brownian rectification. For example, Tierno (2012) studied paramagnetic colloids placed above a ferrite garnet film. The film contained permanent magnetic domains aligned along the $x$-axis, with alternating directions, while the colloids were subjected to a circularly precessing magnetic field in the $y$–$z$ plane~\cite{tierno2012depinning}.
+
+With these parameters, and by varying only the driving frequency, four regimes of motion were identified. At the highest frequencies, the particles entered a pinned state, meaning the colloids did not translate. Tierno also tested elliptic magnetic fields and observed that, depending on the field magnitude, the particles displayed either attractive or repulsive interactions. These behaviors arise from the dipole–dipole potential between particles, given by
+
+\begin{equation}
+U_{dd} = \frac{\mu}{4\pi} \left( \frac{m_i m_j}{r^3_{ij}} - \frac{3(m_i \cdot r_{ij})(m_j \cdot r_{ij})}{r^5_{ij}} \right),
+\label{eq:dipolepairpotential}
+\end{equation}
+
+where $m_i$ and $m_j$ are the magnetic moments of particles $i$ and $j$, and $r_{ij}$ is their separation vector.
+
+A subsequent study by Straube and Tierno (2013) provided a deeper understanding of these dynamics by analyzing the role of synchronization and thermal noise~\cite{straube2013synchronous}. Using the same ferrite garnet film with periodic magnetic domains, they investigated the motion of a single paramagnetic colloid driven by a rotating magnetic field. At low driving frequencies, the particle remained synchronized with the moving magnetic potential, resulting in constant-speed transport at the same velocity as the traveling landscape. Above a critical frequency, however, the particle lost synchronization, entering an asynchronous regime characterized by intermittent sliding and a reduced average speed.
+
+To describe these results, Straube and Tierno proposed a simplified analytical model based on the overdamped Langevin equation, which accounted for both deterministic forces and thermal fluctuations. Importantly, their model showed excellent agreement with experiments and revealed how thermal noise smooths the sharp transition between synchronous and asynchronous regimes. This highlights the interplay between deterministic driving and stochastic forces in rectification phenomena, and demonstrates how even passive colloids can be controlled and transported through external fields when symmetry is broken.
+
+A year later, they used the same system with a rotating magnetic field whose ellipticity could be tuned~\cite{straube2014tunable}. The effect of this field was to create an asymmetric traveling potential that rectified Brownian motion and transported the particles across the surface.
+
+One of the main results was that the interaction between particles could switch from repulsive to attractive just by adjusting the ellipticity of the field. In the attractive case, particles came together into stable doublets that moved with constant velocity along the magnetic stripes. They measured the dipolar forces that caused this binding and proposed a model that matched well with the experiments.
+
+This shows that not only single-particle motion can be controlled, but also collective effects like chain formation and cooperative transport. The fact that this can be tuned with an external field suggests possible uses in microfluidics or lab-on-chip devices, where clustering or separation of particles can be useful for transport, mixing, or sorting.
+
+This dipole-dipole attractive and repulsive interaction between particles, is a key aspect for this thesis. More recently, Stoop et al. (2021) studied a dense monolayer of paramagnetic colloids driven above a triangular lattice of magnetic bubbles using a rotating magnetic field~\cite{stoop2020collective}. The external field generated a two–dimensional traveling wave ratchet that transported the particles across the substrate. While single colloids showed no preferred direction of motion, collective interactions at higher densities led to a spontaneous symmetry breaking. In this regime, the particle current locked along one of the crystallographic axes of the lattice, producing a transversal current even though the driving direction was set between two symmetry axes.
+
+They also reported that this locking could be polarized by adding a weak bias field, which made one direction energetically favorable over the other. At intermediate densities, elongated clusters of particles formed and moved coherently, showing that dipolar interactions stabilize directional locking. At very high densities, however, the effect was lost as the colloids formed a percolating network covering the entire substrate.
+
+This work highlights how collective effects can generate robust directional transport that does not appear at the single-particle level. It shows that by controlling density and external fields, transport in colloidal systems can be tuned or polarized, which is useful for applications such as particle sorting and microfluidic control. 
+
+
+%%%
+A recent study by Ostinato \textit{et al.} (2024) explored the collective dynamics of paramagnetic colloids confined between two plates separated by less than twice the particle diameter and driven by a precessing magnetic field~\cite{ostinato2024magnetically}. Using numerical simulations, they demonstrated that the interplay between confinement and dipolar interactions can produce two distinct transport regimes.
+
+When the applied precessing field was spatially isotropic, the particles did not display a net current but instead showed enhanced diffusion, with an effective diffusion coefficient up to 60 times larger than that of unforced colloids. This enhancement originated from a continuous exchange of positions between colloids near opposite walls, a motion resembling a ``ceilidh dance'' of dimers that bind and unbind periodically \cite{ostinato2024magnetically}. 
+
+In contrast, introducing a small spatial anisotropy by tilting the precession axis ($\delta \neq 0$) generated a robust bidirectional current. In this regime, colloids organized into two parallel flows moving in opposite directions, achieved by synchronized particle exchanges across the two planes. The magnitude of this current was highly tunable by varying both the driving frequency and the tilt angle, reaching maximal values when particles jumped exactly one lattice constant per field cycle. Remarkably, this bidirectional transport was robust against single-particle defects but could be disrupted by the introduction of ``magnetic holes'' (nonmagnetic inclusions in the ferrofluid), which acted as localized defects that broke the current pathways.
+
+These results provide a powerful demonstration of how geometrical confinement and external field anisotropy can convert random thermal motion into ordered transport, without the need for field gradients. They highlight new opportunities for designing microfluidic devices where colloids could be directed, mixed, or sorted by simply tuning the parameters of an external homogeneous field.
+
+%%%
