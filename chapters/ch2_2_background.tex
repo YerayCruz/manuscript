@@ -67,9 +67,9 @@ This mechanism differs fundamentally from Feynman's original ratchet: rather tha
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=0.95\textwidth]{figures/ratchet_potential.png}
+    \includegraphics[width=0.95\textwidth]{figures/ratchetpotentialexample.pdf}
   \end{center}
-  \caption[Ratchet potential example.]{Example of a commonly used ratchet potential.}\label{fig:ratchetpotential}
+  \caption[Ratchet potential examples.]{Example of ratchet potentials. \textbf{Panel a) and b)} show asymmetric potentials, the remaining are symetric. }\label{fig:ratchetpotential} %%% Paper thermal ratchets with symmetric potentials
 \end{figure}
 
 
@@ -78,24 +78,19 @@ Following Magnasco's rocking ratchet where an oscillating force drives particles
 For small forces $\gamma < \epsilon/a$, particles remain trapped. In the intermediate regime $\epsilon/a < \gamma < \epsilon/b$, rectification occurs as particles can climb the gentle slope but not the steep one, yielding either integer velocities $V = n$ when particles fully relax between cycles, or rational velocities $V = n - 1/(m+1)$ when incomplete relaxation creates a periodic pattern over multiple cycles.
 
 
-This concept was later demonstrated experimentally by Faucheux et al. (1995), who created an "optical thermal ratchet" using focused laser beams~\cite{faucheux1995optical}. To generate a circular trap without introducing external forces, they passed the laser through a plate to create circular polarization, maintaining constant laser intensity along the circular path. By rotating the laser frequency fast enough, particles could not experience any directed force from the beam itself, allowing them to move freely, then modulated the beam intensity to create an asymmetric potential mimicking a ratchet shape, as shown in Figure~\ref{fig:faucheuxexperiment}. They observed that particles localized in potential minima when the modulation was turned on, while for sufficiently long periods, particles moved either backward or forward with equal probability.
+This concept was later demonstrated experimentally by Faucheux et al. (1995), who created an "optical thermal ratchet" using focused laser beams~\cite{faucheux1995optical}. To generate a circular trap without introducing external forces, they passed the laser through a plate to create circular polarization, maintaining constant laser intensity along the circular path. By rotating the laser frequency fast enough, particles could not experience any directed force from the beam itself, allowing them to move freely, then modulated the beam intensity to create an asymmetric potential mimicking a ratchet shape, as shown in Figure~\ref{fig:rockingratchets} panel b). They observed that particles localized in potential minima when the modulation was turned on, while for sufficiently long periods, particles moved either backward or forward with equal probability.
 
-\begin{figure}[h]
+
+A different approach was developed by Lee et al. (2004), who employed holographic optical trapping with a symmetric potential~\cite{lee2005observation}. Their system consisted of discrete optical tweezers functioning as potential wells. Between each state, particles are released and free to diffuse, nevertheless they can rapidly jump between adjacent traps. Using this methodology, they achieved net particle displacement in one direction, as illustrated in Figure~\ref{fig:rockingratchets}. Remarkably, when they reversed the direction of well displacement, particles followed the trap movement in the opposite direction. Due to this predictable response to trap motion, they named this system a "deterministic thermal ratchet."
+
+\begin{figure}
   \begin{center}
-    \includegraphics[width=0.65\textwidth]{figures/FaucheuxExperiment.png}
+    \includegraphics[width=0.95\textwidth]{figures/rockingratchets.pdf}
   \end{center}
-  \caption[Optical thermal ratchet by Faucheux]{When the modulation is on, the beam intensity follows the shape of a ratchet potential with 4 periods per cycle. When the modulation is off, the intensity remains constant, allowing particles to diffuse freely. Obtained from~\cite{faucheux1995optical}.}\label{fig:faucheuxexperiment}
+  \caption[Rocking ratchets expermients.]{\textbf{Panel a)} Discrete pattern of optical traps with displacement in one directio, minimum width of $\sigma$ and a maximum width of $L$. Obtained from~\cite{lee2005observation}. \textbf{Panel b)} When the modulation is on, the beam intensity follows the shape of a ratchet potential with 4 periods per cycle. When the modulation is off, the intensity remains constant, allowing particles to diffuse freely. Obtained from~\cite{faucheux1995optical}. \textbf{Panel c)} Experimental setup of the spatial light modulator, upper inset shows the basis vectors ($\vec{a}$ and $\vec{b}$) of the main lattice and the displacement for the clone lattice ($\vec{delta}$), the lower inset illustrates the movement amplitude of the stage, obtained from~\cite{arzola2017omnidirectional}}\label{fig:rockingratchets}
 \end{figure}
 
-A different approach was developed by Lee et al. (2004), who employed holographic optical trapping with a symmetric potential~\cite{lee2005observation}. Their system consisted of discrete optical tweezers functioning as potential wells. Between each state, particles are released and free to diffuse, nevertheless they can rapidly jump between adjacent traps. Using this methodology, they achieved net particle displacement in one direction, as illustrated in Figure~\ref{fig:deterministicthermalratchet}. Remarkably, when they reversed the direction of well displacement, particles followed the trap movement in the opposite direction. Due to this predictable response to trap motion, they named this system a "deterministic thermal ratchet."
 
-
- \begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=0.30\textwidth]{figures/DeterministicThermalRatchet.png}
-  \end{center}
-  \caption[Deterministic thermal ratchet by Lee et al.]{Discrete pattern of optical traps with displacement in one directio, minimum width of $\sigma$ and a maximum width of $L$. Obtained from~\cite{lee2005observation}}\label{fig:deterministicthermalratchet}
- \end{figure}
 
  Lebedev et al. (2009) modified this approach by using three linearly polarized beams acting only in the xy-plane, as shown in Figure~\ref{fig:lebedevexperiment}~\cite{lebedev2009two}. They applied forces to particles by phase-modulating two of the three lasers, which shifts the entire optical lattice. The modulation was generated using RF generators to produce potentials $V_x$ and $V_y$. The sum $V_x + V_y$ served as the input signal for beam 2, while the difference $V_x - V_y$ was used for beam 3, creating the rocking forces. They studied this system using ultracold rubidium atoms as test particles. To track the atomic positions, they employed a CCD camera to determine the center of mass of the atomic cloud.
 
@@ -116,14 +111,8 @@ The researchers performed three main experiments to validate their results, each
 
 The second experiment positioned the asymmetry perpendicular to the rocking force direction, yielding interesting results. Similar to the first experiment, current appeared along only one axis (the asymmetry axis), but the current behaved like a Gaussian bell curve. When the rocking movement amplitude approached the asymmetry lattice spacing, particles only moved back and forth between two wells in the x direction, experiencing no current in the y axis.
 
-For the final experiment, they examined how the system behaved under a combination of both previous configurations. They created an oblique lattice with the asymmetry aligned with the rocking force direction, producing an oblique particle current. The results were essentially a combination of the two previous experiments: at certain amplitudes, current appeared in both axes, but as amplitude increased, the y-axis current decreased while the x-axis current increased. The results for each experiment can be seen in Figure~\ref{fig:arzolaexperiment}.
+For the final experiment, they examined how the system behaved under a combination of both previous configurations. They created an oblique lattice with the asymmetry aligned with the rocking force direction, producing an oblique particle current. The results were essentially a combination of the two previous experiments: at certain amplitudes, current appeared in both axes, but as amplitude increased, the y-axis current decreased while the x-axis current increased. 
 
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=0.65\textwidth]{figures/ArzolaExperiment.png}
-  \end{center}
-  \caption[Arzola experiment.]{\textbf{Panel 1)} Experimental trajectories for  assymetry parallel to rocking movement with a) rocking amplitud of 13 $\mu$m and b) 23 $\mu$m.c) Graphs of simulations showing the current for each axis. \textbf{Panel 2)} Experimental trajectories for assymetry perpendicular to rocking movement with a) rocking amplitud of 10 $\mu$m. b) and c) Shows the current for each axis with different lattice parameters. \textbf{Panel 3)} Experimental trajectories for oblique lattice with assymetry perpendicular to the rocking movement with a) rocking amplitud of 11$\mu$m. b) Current for each axis. Obtained from~\cite{arzola2017omnidirectional}.}\label{fig:arzolaexperiment}
-\end{figure}
 
 Feynman demonstrated that a purely thermal Brownian ratchet cannot generate directed motion due to the second law of thermodynamics. However, introducing specific conditions to break symmetry has proven ideal for bypassing these limitations.
 
