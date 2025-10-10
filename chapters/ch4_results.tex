@@ -3,7 +3,7 @@
 
 \chapter{Results}
 
-To obtain some statistcis from 230 simulations per ratchet, we decided to obtain the mean angular velocity over the different seeds of each frequency, and to validate the accuracy of each result, we used the error over the mean~\cite{altman2005standard}:
+To obtain some statistics from 230 simulations per ratchet, we decided to obtain the mean angular velocity over the different seeds of each frequency, and to validate the accuracy of each result, we used the error over the mean~\cite{altman2005standard}:
 
 \begin{equation}
   \sigma_{\bar{x}} = \displaystyle\frac{\sigma}{\sqrt{n}}.
@@ -14,7 +14,7 @@ Figure~\ref{fig:angularvsfrequency} summarizes the main result of this work, sho
 
 As the frequency increases, the dipoles begin to experience a delay relative to the field rotation. This phase lag reduces the alignment efficiency, and the system gradually loses synchronization, reaching a peak mean angular velocity at 5 Hz. Beyond this critical frequency, the particles no longer move by exchanging neighbors but instead begin to experience enhanced diffusion.
 
-We also observe that the geometry of the ratchet does not play a significant role in the speed; however, it has a non-negligible impact when a 180° specular rotation is performed.
+We also observe that the geometry of the ratchet does not play a significant role in the speed; however, it has a non-negligible impact for the spin down ratchets.
 
 This behavior demonstrates how the balance between magnetic coupling and field rotation controls the system's dynamics. The critical frequency marks the transition out of the ratchet-like regime, beyond which the system becomes dominated by thermal fluctuations and phase delay.
 
@@ -30,14 +30,14 @@ This behavior demonstrates how the balance between magnetic coupling and field r
 \end{figure}
 
 
-Figure~\ref{fig:particletrj} shows the particle trajectories for two representative cases: 0 Hz and 5 Hz. When no field rotation is applied (0 Hz), the particles move randomly due to thermal noise, producing isotropic diffusion with no net direction, although it is evident that the particles that are closer to the ratchet feels an attraction towards it whereas the further ones reamin almost fixed in one place not experiencing the same displacement. This is an interesting beavior because there is no explicit potential that has an attractive effect between each particle. At 5 Hz, however, the trajectories reveal a rotational pattern, indicating that the dipoles are not synchronized with the external field and move collectively. This difference confirms that the rotation frequency of the magnetic field directly controls the transition from random to directed motion, as also reflected in the angular velocity results shown in Fig.~\ref{fig:angularvsfrequency}, it is highlighted the trajectory of one single particle to be able to see the difference in the behavior it has each driving frequency. For 0 Hz, the trajectory seems to be quasi-static, nevertheless for 5 Hz it is evident the chaotic movement the particles have.
+Figure~\ref{fig:particletrj} shows the particle trajectories for two representative cases: 0 Hz and 5 Hz. When no field rotation is applied (0 Hz), the particles move randomly due to thermal noise, producing isotropic diffusion with no net direction, although it is evident that the particles that are closer to the ratchet feels an attraction towards, whereas the further ones reamin almost fixed in one place not experiencing the same displacement. This may be due to the repulsive forces they experience from the other colloids, and since in the middle there are any, they move freely towards the center. At 5 Hz, however, the trajectories reveal a rotational pattern, indicating that the dipoles are not synchronized with the external field and move collectively. This difference confirms that the rotation frequency of the magnetic field directly controls the transition from random to directed motion, as also reflected in the angular velocity results shown in Fig.~\ref{fig:angularvsfrequency}, it is highlighted the trajectory of one single particle to be able to see the difference in the behavior it has each driving frequency. For 0 Hz, the trajectory seems to be quasi-static, nevertheless for 5 Hz it is evident the chaotic movement the particles have.
 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.95\textwidth]{figures/parttrj.pdf}
 \end{center}
 \caption[Particle trajectories at different driving frequencies.]
-{Trajectories of the particles of one simulation during the simulation, from 0 - 10 s, for (a) 0 Hz and (b) 5 Hz.}
+{Trajectories of the particles of one simulation during the simulation, from 0 - 10 s, for (a) 0 Hz and (b) 5 Hz. The highlighted trajectories are the same particles.}
 \label{fig:particletrj}
 \end{figure}
 
