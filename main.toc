@@ -25,21 +25,21 @@
 \contentsline {subsection}{\numberline {4.3.2}Natural Systems}{30}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{32}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{37}{chapter.5}%
-\contentsline {part}{III\hspace {1em}Methods}{41}{part.3}%
-\contentsline {chapter}{\numberline {6}Simulations}{43}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Molecular dynamics}{44}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Velocity Verlet}{46}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Taylor Series Expansions}{46}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Original Verlet Algorithm}{47}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Velocity Calculation}{47}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Velocity Verlet Formulation}{47}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Basis Vectors}{48}{section.6.3}%
-\contentsline {section}{\numberline {6.4}System Overview and Workflow}{49}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}System's Physical Definition}{49}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Data Analysis}{51}{subsection.6.4.2}%
-\contentsline {part}{IV\hspace {1em}Results}{53}{part.4}%
-\contentsline {chapter}{\numberline {7}Results}{55}{chapter.7}%
-\contentsline {part}{V\hspace {1em}Conclusions}{61}{part.5}%
-\contentsline {chapter}{\numberline {8}Conclusions}{63}{chapter.8}%
-\contentsline {chapter}{Bibliography}{65}{chapter.8}%
-\contentsline {chapter}{Curriculum Vitae}{74}{chapter*.32}%
+\contentsline {part}{III\hspace {1em}Methods}{43}{part.3}%
+\contentsline {chapter}{\numberline {6}Simulations}{45}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Molecular dynamics}{46}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Velocity Verlet}{48}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Taylor Series Expansions}{48}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Original Verlet Algorithm}{49}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Velocity Calculation}{49}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Velocity Verlet Formulation}{49}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Basis Vectors}{50}{section.6.3}%
+\contentsline {section}{\numberline {6.4}System Overview and Workflow}{51}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}System's Physical Definition}{51}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Data Analysis}{53}{subsection.6.4.2}%
+\contentsline {part}{IV\hspace {1em}Results}{55}{part.4}%
+\contentsline {chapter}{\numberline {7}Results}{57}{chapter.7}%
+\contentsline {part}{V\hspace {1em}Conclusions}{63}{part.5}%
+\contentsline {chapter}{\numberline {8}Conclusions}{65}{chapter.8}%
+\contentsline {chapter}{Bibliography}{67}{chapter.8}%
+\contentsline {chapter}{Curriculum Vitae}{76}{chapter*.33}%

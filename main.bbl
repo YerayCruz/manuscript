@@ -1,4 +1,4 @@
-\begin{thebibliography}{96}
+\begin{thebibliography}{104}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -53,7 +53,7 @@ Suraj Shankar, Anton Souslov, Mark~J Bowick, M~Cristina Marchetti, and Vincenzo 
 \bibitem[J{\"u}licher et~al.(1997)J{\"u}licher, Ajdari, and Prost]{julicher1997modeling}
 Frank J{\"u}licher, Armand Ajdari, and Jacques Prost.
 \newblock Modeling molecular motors.
-\newblock \emph{Reviews of Modern Physics}, 69\penalty0 (4):\penalty0 1269, 1997.
+\newblock \emph{Rev. Mod. Phys.}, 69\penalty0 (4):\penalty0 1269, 1997.
 
 \bibitem[Reimann(2002)]{reimann2002brownian}
 Peter Reimann.
@@ -63,32 +63,32 @@ Peter Reimann.
 \bibitem[Fiasconaro et~al.(2008)Fiasconaro, Ebeling, and Gudowska-Nowak]{fiasconaro2008active}
 Alessandro Fiasconaro, Werner Ebeling, and Ewa Gudowska-Nowak.
 \newblock Active brownian motion models and applications to ratchets.
-\newblock \emph{The European Physical Journal B}, 65\penalty0 (3):\penalty0 403--414, 2008.
+\newblock \emph{Eur. Phys. J. B}, 65\penalty0 (3):\penalty0 403--414, 2008.
 
 \bibitem[Reichhardt and Reichhardt(2017)]{reichhardt2017ratchet}
 CJ~Olson Reichhardt and Charles Reichhardt.
 \newblock Ratchet effects in active matter systems.
-\newblock \emph{Annual Review of Condensed Matter Physics}, 8:\penalty0 51--75, 2017.
+\newblock \emph{Annu. Rev. Conden. Ma. P.}, 8:\penalty0 51--75, 2017.
 
 \bibitem[Rein et~al.(2023)Rein, Kol{\'a}{\v{r}}, Kroy, and Holubec]{rein2023force}
 Constantin Rein, Martin Kol{\'a}{\v{r}}, Klaus Kroy, and Viktor Holubec.
 \newblock Force-free and autonomous active brownian ratchets (a).
-\newblock \emph{Europhysics Letters}, 142\penalty0 (3):\penalty0 31001, 2023.
+\newblock \emph{Europhys. Lett.}, 142\penalty0 (3):\penalty0 31001, 2023.
 
 \bibitem[Di~Leonardo et~al.(2010)Di~Leonardo, Angelani, Dell’Arciprete, Ruocco, Iebba, Schippa, Conte, Mecarini, De~Angelis, and Di~Fabrizio]{di2010bacterial}
 Roberto Di~Leonardo, Luca Angelani, Dario Dell’Arciprete, Giancarlo Ruocco, Valerio Iebba, Serena Schippa, Maria~Pia Conte, Francesco Mecarini, Francesco De~Angelis, and Enzo Di~Fabrizio.
 \newblock Bacterial ratchet motors.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0 (21):\penalty0 9541--9545, 2010.
+\newblock \emph{Proc. Natl. Acad. Sci.}, 107\penalty0 (21):\penalty0 9541--9545, 2010.
 
 \bibitem[Pellicciotta et~al.(2025)Pellicciotta, Bagal, Cannarsa, Bianchi, and Di~Leonardo]{pellicciotta2025wall}
 Nicola Pellicciotta, Ojus~Satish Bagal, Maria~Cristina Cannarsa, Silvio Bianchi, and Roberto Di~Leonardo.
 \newblock Wall torque controls propulsion of curved microstructures in bacterial baths.
-\newblock \emph{Physical Review Letters}, 135\penalty0 (13):\penalty0 138302, 2025.
+\newblock \emph{Phys. Rev. Lett.}, 135\penalty0 (13):\penalty0 138302, 2025.
 
 \bibitem[Martinez-Pedrero and Tierno(2015)]{martinez2015magnetic}
 Fernando Martinez-Pedrero and Pietro Tierno.
 \newblock Magnetic propulsion of self-assembled colloidal carpets: efficient cargo transport via a conveyor-belt effect.
-\newblock \emph{Physical Review Applied}, 3\penalty0 (5):\penalty0 051003, 2015.
+\newblock \emph{Phys. Rev. Applied}, 3\penalty0 (5):\penalty0 051003, 2015.
 
 \bibitem[Tierno(2012)]{tierno2012depinning}
 Pietro Tierno.
@@ -103,7 +103,7 @@ Arthur~V Straube and Pietro Tierno.
 \bibitem[Ostinato et~al.(2024)Ostinato, Ortiz-Ambriz, and Tierno]{ostinato2024magnetically}
 Mattia Ostinato, Antonio Ortiz-Ambriz, and Pietro Tierno.
 \newblock Magnetically driven confined colloids: From enhanced diffusion to bidirectional transport.
-\newblock \emph{Journal of Magnetism and Magnetic Materials}, 591:\penalty0 171701, 2024.
+\newblock \emph{J. Magn. Magn. Mater.}, 591:\penalty0 171701, 2024.
 
 \bibitem[Uhlenbeck and Ornstein(1930)]{uhlenbeck1930theory}
 George~E Uhlenbeck and Leonard~S Ornstein.
@@ -129,27 +129,27 @@ James~Clerk Maxwell.
 \bibitem[Brillouin(1951)]{brillouin1951maxwell}
 L{\'e}on Brillouin.
 \newblock Maxwell's demon cannot operate: Information and entropy. i.
-\newblock \emph{Journal of Applied Physics}, 22\penalty0 (3):\penalty0 334--337, 1951.
+\newblock \emph{J. Appl. Phys.}, 22\penalty0 (3):\penalty0 334--337, 1951.
 
 \bibitem[Landauer(1961)]{landauer1961irreversibility}
 Rolf Landauer.
 \newblock Irreversibility and heat generation in the computing process.
-\newblock \emph{IBM Journal of Research and Development}, 5\penalty0 (3):\penalty0 183--191, 1961.
+\newblock \emph{IBM J. Res. Dev.}, 5\penalty0 (3):\penalty0 183--191, 1961.
 
 \bibitem[Parrondo and Espa{\~n}ol(1996)]{parrondo1996criticism}
 Juan~MR Parrondo and Pep Espa{\~n}ol.
 \newblock Criticism of feynman's analysis of the ratchet as an engine.
-\newblock \emph{American Journal of Physics}, 64\penalty0 (9):\penalty0 1125--1129, 1996.
+\newblock \emph{Am. J. Phys.}, 64\penalty0 (9):\penalty0 1125--1129, 1996.
 
 \bibitem[Magnasco(1993)]{magnasco1993forced}
 Marcelo~O Magnasco.
 \newblock Forced thermal ratchets.
-\newblock \emph{Physical Review Letters}, 71\penalty0 (10):\penalty0 1477, 1993.
+\newblock \emph{Phys. Rev. Lett.}, 71\penalty0 (10):\penalty0 1477, 1993.
 
 \bibitem[Ajdari et~al.(1994)Ajdari, Mukamel, Peliti, and Prost]{ajdari1994rectified}
 Armand Ajdari, David Mukamel, Luca Peliti, and Jacques Prost.
 \newblock Rectified motion induced by ac forces in periodic structures.
-\newblock \emph{Journal de Physique I}, 4\penalty0 (10):\penalty0 1551--1561, 1994.
+\newblock \emph{J. Physique I}, 4\penalty0 (10):\penalty0 1551--1561, 1994.
 
 \bibitem[Faucheux et~al.(1995)Faucheux, Bourdieu, Kaplan, and Libchaber]{faucheux1995optical}
 Luc~P Faucheux, LS~Bourdieu, PD~Kaplan, and Albert~J Libchaber.
@@ -208,7 +208,7 @@ Hugues Chat{\'e}, Francesco Ginelli, Guillaume Gr{\'e}goire, and Franck Raynaud.
 \bibitem[Romanczuk et~al.(2012)Romanczuk, B{\"a}r, Ebeling, Lindner, and Schimansky-Geier]{romanczuk2012active}
 Pawel Romanczuk, Markus B{\"a}r, Werner Ebeling, Benjamin Lindner, and Lutz Schimansky-Geier.
 \newblock Active brownian particles: From individual to collective stochastic dynamics.
-\newblock \emph{The European Physical Journal Special Topics}, 202\penalty0 (1):\penalty0 1--162, 2012.
+\newblock \emph{Eur. Phys. J. Special Topics}, 202\penalty0 (1):\penalty0 1--162, 2012.
 
 \bibitem[Elgeti et~al.(2015)Elgeti, Winkler, and Gompper]{elgeti2015physics}
 Jens Elgeti, Roland~G Winkler, and Gerhard Gompper.
@@ -218,17 +218,17 @@ Jens Elgeti, Roland~G Winkler, and Gerhard Gompper.
 \bibitem[Gompper et~al.(2020)Gompper, Winkler, Speck, Solon, Nardini, Peruani, L{\"o}wen, Golestanian, Kaupp, Alvarez, et~al.]{gompper20202020}
 Gerhard Gompper, Roland~G Winkler, Thomas Speck, Alexandre Solon, Cesare Nardini, Fernando Peruani, Hartmut L{\"o}wen, Ramin Golestanian, U~Benjamin Kaupp, Luis Alvarez, et~al.
 \newblock The 2020 motile active matter roadmap.
-\newblock \emph{Journal of Physics: Condensed Matter}, 32\penalty0 (19):\penalty0 193001, 2020.
+\newblock \emph{J. Phys. Condens. Matter}, 32\penalty0 (19):\penalty0 193001, 2020.
 
 \bibitem[Gompper et~al.(2025)Gompper, Stone, Kurzthaler, Saintillan, Peruani, Fedosov, Auth, Cottin-Bizonne, Ybert, Cl{\'e}ment, et~al.]{gompper20252025}
 Gerhard Gompper, Howard~A Stone, Christina Kurzthaler, David Saintillan, Fernado Peruani, Dmitry~A Fedosov, Thorsten Auth, Cecile Cottin-Bizonne, Christophe Ybert, Eric Cl{\'e}ment, et~al.
 \newblock The 2025 motile active matter roadmap.
-\newblock \emph{Journal of Physics: Condensed Matter}, 37\penalty0 (14):\penalty0 143501, 2025.
+\newblock \emph{J. Phys. Condens. Matter}, 37\penalty0 (14):\penalty0 143501, 2025.
 
 \bibitem[H{\"a}nggi and Marchesoni(2009)]{hanggi2009artificial}
 Peter H{\"a}nggi and Fabio Marchesoni.
 \newblock Artificial brownian motors: Controlling transport on the nanoscale.
-\newblock \emph{Reviews of Modern Physics}, 81\penalty0 (1):\penalty0 387--442, 2009.
+\newblock \emph{Rev. Mod. Phys.}, 81\penalty0 (1):\penalty0 387--442, 2009.
 
 \bibitem[Reynolds(1987)]{reynolds1987flocks}
 Craig~W Reynolds.
@@ -238,7 +238,7 @@ Craig~W Reynolds.
 \bibitem[Cavagna et~al.(2014)Cavagna, Giardina, Ginelli, Mora, Piovani, Tavarone, and Walczak]{cavagna2014dynamical}
 Andrea Cavagna, Irene Giardina, Francesco Ginelli, Thierry Mora, Duccio Piovani, Raffaele Tavarone, and Aleksandra~M Walczak.
 \newblock Dynamical maximum entropy approach to flocking.
-\newblock \emph{Physical Review E}, 89\penalty0 (4):\penalty0 042707, 2014.
+\newblock \emph{Phys. Rev. E}, 89\penalty0 (4):\penalty0 042707, 2014.
 
 \bibitem[Mora et~al.()Mora, Walczak, Del~Castello, Ginelli, Melillo, Parisi, Viale, Cavagna, and Giardina]{mora1511questioning}
 Thierry Mora, Aleksandra~M Walczak, Lorenzo Del~Castello, Francesco Ginelli, Stefania Melillo, Leonardo Parisi, Massimiliano Viale, Andrea Cavagna, and Irene Giardina.
@@ -263,12 +263,12 @@ Rapha{\"e}l Jeanson, Penelope~F Kukuk, and Jennifer~H Fewell.
 \bibitem[Beekman et~al.(2001)Beekman, Sumpter, and Ratnieks]{beekman2001phase}
 Madeleine Beekman, David~JT Sumpter, and Francis~LW Ratnieks.
 \newblock Phase transition between disordered and ordered foraging in pharaoh's ants.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 98\penalty0 (17):\penalty0 9703--9706, 2001.
+\newblock \emph{Proc. Natl. Acad. Sci.}, 98\penalty0 (17):\penalty0 9703--9706, 2001.
 
 \bibitem[Aguilar et~al.(2018)Aguilar, Monaenkova, Linevich, Savoie, Dutta, Kuan, Betterton, Goodisman, and Goldman]{aguilar2018collective}
 J~Aguilar, D~Monaenkova, V~Linevich, W~Savoie, B~Dutta, H-S Kuan, MD~Betterton, MAD Goodisman, and DI~Goldman.
 \newblock Collective clog control: Optimizing traffic flow in confined biological and robophysical excavation.
-\newblock \emph{Science}, 361\penalty0 (6403):\penalty0 672--677, 2018.
+\newblock \emph{Sci}, 361\penalty0 (6403):\penalty0 672--677, 2018.
 
 \bibitem[Tunstr{\o}m et~al.(2013)Tunstr{\o}m, Katz, Ioannou, Huepe, Lutz, and Couzin]{tunstrom2013collective}
 Kolbj{\o}rn Tunstr{\o}m, Yael Katz, Christos~C Ioannou, Cristi{\'a}n Huepe, Matthew~J Lutz, and Iain~D Couzin.
@@ -288,17 +288,17 @@ Michael Tennenbaum, Zhongyang Liu, David Hu, and Alberto Fernandez-Nieves.
 \bibitem[Katz et~al.(2011)Katz, Tunstr{\o}m, Ioannou, Huepe, and Couzin]{katz2011inferring}
 Yael Katz, Kolbj{\o}rn Tunstr{\o}m, Christos~C Ioannou, Cristi{\'a}n Huepe, and Iain~D Couzin.
 \newblock Inferring the structure and dynamics of interactions in schooling fish.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 108\penalty0 (46):\penalty0 18720--18725, 2011.
+\newblock \emph{Proc. Natl. Acad. Sci.}, 108\penalty0 (46):\penalty0 18720--18725, 2011.
 
 \bibitem[Huang et~al.(2024)Huang, Ling, and Kanso]{huang2024collective}
 Chenchen Huang, Feng Ling, and Eva Kanso.
 \newblock Collective phase transitions in confined fish schools.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 121\penalty0 (44):\penalty0 e2406293121, 2024.
+\newblock \emph{Proc. Natl. Acad. Sci.}, 121\penalty0 (44):\penalty0 e2406293121, 2024.
 
 \bibitem[Isaeva(2012)]{isaeva2012self}
 VV~Isaeva.
 \newblock Self-organization in biological systems.
-\newblock \emph{Biology Bulletin}, 39\penalty0 (2):\penalty0 110--118, 2012.
+\newblock \emph{Biol. Bull+.+}, 39\penalty0 (2):\penalty0 110--118, 2012.
 
 \bibitem[Volpe et~al.(2014)Volpe, Gigan, and Volpe]{volpe2014simulation}
 Giorgio Volpe, Sylvain Gigan, and Giovanni Volpe.
@@ -313,17 +313,17 @@ Robert~S Cahn, Christopher Ingold, and Vladimir Prelog.
 \bibitem[Ismagilov et~al.(2002)Ismagilov, Schwartz, Bowden, and Whitesides]{ismagilov2002autonomous}
 Rustem~F Ismagilov, Alexander Schwartz, Ned Bowden, and George~M Whitesides.
 \newblock Autonomous movement and self-assembly.
-\newblock \emph{Angewandte Chemie International Edition}, 41\penalty0 (4):\penalty0 652--654, 2002.
+\newblock \emph{Angew. Chem. - Int. Ed.}, 41\penalty0 (4):\penalty0 652--654, 2002.
 
 \bibitem[Paxton et~al.(2004)Paxton, Kistler, Olmeda, Sen, St.~Angelo, Cao, Mallouk, Lammert, and Crespi]{paxton2004catalytic}
 Walter~F Paxton, Kevin~C Kistler, Christine~C Olmeda, Ayusman Sen, Sarah~K St.~Angelo, Yanyan Cao, Thomas~E Mallouk, Paul~E Lammert, and Vincent~H Crespi.
 \newblock Catalytic nanomotors: autonomous movement of striped nanorods.
-\newblock \emph{Journal of the American Chemical Society}, 126\penalty0 (41):\penalty0 13424--13431, 2004.
+\newblock \emph{J. Am. Chem. Soc.}, 126\penalty0 (41):\penalty0 13424--13431, 2004.
 
 \bibitem[Dreyfus et~al.(2005)Dreyfus, Baudry, Roper, Fermigier, Stone, and Bibette]{dreyfus2005microscopic}
 R{\'e}mi Dreyfus, Jean Baudry, Marcus~L Roper, Marc Fermigier, Howard~A Stone, and J{\'e}r{\^o}me Bibette.
 \newblock Microscopic artificial swimmers.
-\newblock \emph{Nature}, 437\penalty0 (7060):\penalty0 862--865, 2005.
+\newblock \emph{Nat}, 437\penalty0 (7060):\penalty0 862--865, 2005.
 
 \bibitem[Ghosh and Fischer(2009)]{ghosh2009controlled}
 Ambarish Ghosh and Peer Fischer.
@@ -338,7 +338,7 @@ Jonathan~R Howse, Richard~AL Jones, Anthony~J Ryan, Tim Gough, Reza Vafabakhsh, 
 \bibitem[Palacci et~al.(2010)Palacci, Cottin-Bizonne, Ybert, and Bocquet]{palacci2010sedimentation}
 J{\'e}r{\'e}mie Palacci, C{\'e}cile Cottin-Bizonne, Christophe Ybert, and Lyd{\'e}ric Bocquet.
 \newblock Sedimentation and effective temperature of active colloidal suspensions.
-\newblock \emph{Physical Review Letters}, 105\penalty0 (8):\penalty0 088304, 2010.
+\newblock \emph{Phys. Rev. Lett.}, 105\penalty0 (8):\penalty0 088304, 2010.
 
 \bibitem[K{\"u}mmel et~al.(2013)K{\"u}mmel, Ten~Hagen, Wittkowski, Buttinoni, Eichhorn, Volpe, L{\"o}wen, and Bechinger]{kummel2013circular}
 Felix K{\"u}mmel, Borge Ten~Hagen, Raphael Wittkowski, Ivo Buttinoni, Ralf Eichhorn, Giovanni Volpe, Hartmut L{\"o}wen, and Clemens Bechinger.
@@ -368,7 +368,7 @@ James~G Mitchell, Lynette Pearson, Armando Bonazinga, Simon Dillon, Helen Khouri
 \bibitem[Lowe et~al.(1987)Lowe, Meister, and Berg]{lowe1987rapid}
 Graeme Lowe, Markus Meister, and Howard~C Berg.
 \newblock Rapid rotation of flagellar bundles in swimming bacteria.
-\newblock \emph{Nature}, 325\penalty0 (6105):\penalty0 637--640, 1987.
+\newblock \emph{Nat}, 325\penalty0 (6105):\penalty0 637--640, 1987.
 
 \bibitem[Barbara and Mitchell(2003{\natexlab{a}})]{barbara2003marine}
 Greg~M Barbara and James~G Mitchell.
@@ -388,32 +388,42 @@ Raymond~E Goldstein.
 \bibitem[Zhang et~al.(2015)Zhang, Jana, Giarra, Vlachos, and Jung]{zhang2015paramecia}
 P~Zhang, S~Jana, M~Giarra, PP~Vlachos, and S~Jung.
 \newblock Paramecia swimming in viscous flow.
-\newblock \emph{The European Physical Journal Special Topics}, 224\penalty0 (17):\penalty0 3199--3210, 2015.
+\newblock \emph{Eur. Phys. J. Special Topics}, 224\penalty0 (17):\penalty0 3199--3210, 2015.
+
+\bibitem[DeCamp et~al.(2015)DeCamp, Redner, Baskaran, Hagan, and Dogic]{decamp2015orientational}
+Stephen~J DeCamp, Gabriel~S Redner, Aparna Baskaran, Michael~F Hagan, and Zvonimir Dogic.
+\newblock Orientational order of motile defects in active nematics.
+\newblock \emph{Nature materials}, 14\penalty0 (11):\penalty0 1110--1115, 2015.
+
+\bibitem[Sokolov et~al.(2025)Sokolov, Katuri, de~Pablo, and Snezhko]{sokolov2025synthetic}
+Andrey Sokolov, Jaideep Katuri, Juan~J de~Pablo, and Alexey Snezhko.
+\newblock Synthetic active liquid crystals powered by acoustic waves.
+\newblock \emph{Adv. Mater.}, 37\penalty0 (19):\penalty0 2418846, 2025.
 
 \bibitem[Friedl et~al.(2004)Friedl, Hegerfeldt, and Tusch]{friedl2004collective}
 Peter Friedl, Yael Hegerfeldt, and Miriam Tusch.
 \newblock Collective cell migration in morphogenesis and cancer.
-\newblock \emph{International Journal of Developmental Biology}, 48\penalty0 (5-6):\penalty0 441--449, 2004.
+\newblock \emph{Int. J. Dev. Biol.}, 48\penalty0 (5-6):\penalty0 441--449, 2004.
 
 \bibitem[Schliwa and Woehlke(2003)]{schliwa2003molecular}
 Manfred Schliwa and G{\"u}nther Woehlke.
 \newblock Molecular motors.
-\newblock \emph{Nature}, 422\penalty0 (6933):\penalty0 759--765, 2003.
+\newblock \emph{Nat}, 422\penalty0 (6933):\penalty0 759--765, 2003.
 
 \bibitem[Weibel et~al.(2005)Weibel, Garstecki, Ryan, DiLuzio, Mayer, Seto, and Whitesides]{weibel2005microoxen}
 Douglas~B Weibel, Piotr Garstecki, Declan Ryan, Willow~R DiLuzio, Michael Mayer, Jennifer~E Seto, and George~M Whitesides.
 \newblock Microoxen: Microorganisms to move microscale loads.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 102\penalty0 (34):\penalty0 11963--11967, 2005.
+\newblock \emph{Proc. Natl. Acad. Sci.}, 102\penalty0 (34):\penalty0 11963--11967, 2005.
 
 \bibitem[Bennett and Golestanian(2015)]{bennett2015steering}
 Rachel~R Bennett and Ramin Golestanian.
 \newblock A steering mechanism for phototaxis in chlamydomonas.
-\newblock \emph{Journal of The Royal Society Interface}, 12\penalty0 (104):\penalty0 20141164, 2015.
+\newblock \emph{J. Roy. Soc. . Interface}, 12\penalty0 (104):\penalty0 20141164, 2015.
 
 \bibitem[Qin et~al.(2007)Qin, Banholzer, Xu, Huang, and Mirkin]{qin2007rational}
 Lidong Qin, Matthew~J Banholzer, Xiaoyang Xu, Ling Huang, and Chad~A Mirkin.
 \newblock Rational design and synthesis of catalytically driven nanorotors.
-\newblock \emph{Journal of the American Chemical Society}, 129\penalty0 (48):\penalty0 14870--14871, 2007.
+\newblock \emph{J. Am. Chem. Soc.}, 129\penalty0 (48):\penalty0 14870--14871, 2007.
 
 \bibitem[Angelani and Di~Leonardo(2010)]{angelani2010geometrically}
 Luca Angelani and Roberto Di~Leonardo.
@@ -423,7 +433,7 @@ Luca Angelani and Roberto Di~Leonardo.
 \bibitem[Hiratsuka et~al.(2006)Hiratsuka, Miyata, Tada, and Uyeda]{hiratsuka2006microrotary}
 Yuichi Hiratsuka, Makoto Miyata, Tetsuya Tada, and Taro~QP Uyeda.
 \newblock A microrotary motor powered by bacteria.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 103\penalty0 (37):\penalty0 13618--13623, 2006.
+\newblock \emph{Proc. Natl. Acad. Sci.}, 103\penalty0 (37):\penalty0 13618--13623, 2006.
 
 \bibitem[Thampi et~al.(2016)Thampi, Doostmohammadi, Shendruk, Golestanian, and Yeomans]{thampi2016active}
 Sumesh~P Thampi, Amin Doostmohammadi, Tyler~N Shendruk, Ramin Golestanian, and Julia~M Yeomans.
@@ -435,15 +445,45 @@ Santiago Muinos-Landin, Alexander Fischer, Viktor Holubec, and Frank Cichos.
 \newblock Reinforcement learning with artificial microswimmers.
 \newblock \emph{Science Robotics}, 6\penalty0 (52):\penalty0 eabd9285, 2021.
 
+\bibitem[Geva(2006)]{geva2006magnetic}
+Tal Geva.
+\newblock Magnetic resonance imaging: historical perspective.
+\newblock \emph{Journal of cardiovascular magnetic resonance}, 8\penalty0 (4):\penalty0 573--580, 2006.
+
+\bibitem[Matthews and Jezzard(2004)]{matthews2004functional}
+Paul~M Matthews and Peter Jezzard.
+\newblock Functional magnetic resonance imaging.
+\newblock \emph{Journal of Neurology, Neurosurgery \& Psychiatry}, 75\penalty0 (1):\penalty0 6--12, 2004.
+
+\bibitem[Corti and Fuster(2011)]{corti2011imaging}
+Roberto Corti and Valentin Fuster.
+\newblock Imaging of atherosclerosis: magnetic resonance imaging.
+\newblock \emph{European heart journal}, 32\penalty0 (14):\penalty0 1709--1719, 2011.
+
+\bibitem[Pamme(2006)]{pamme2006magnetism}
+Nicole Pamme.
+\newblock Magnetism and microfluidics.
+\newblock \emph{Lab Chip}, 6\penalty0 (1):\penalty0 24--38, 2006.
+
+\bibitem[Massana-Cid et~al.(2019)Massana-Cid, Meng, Matsunaga, Golestanian, and Tierno]{massana2019tunable}
+Helena Massana-Cid, Fanlong Meng, Daiki Matsunaga, Ramin Golestanian, and Pietro Tierno.
+\newblock Tunable self-healing of magnetically propelling colloidal carpets.
+\newblock \emph{Nature communications}, 10\penalty0 (1):\penalty0 2444, 2019.
+
 \bibitem[Straube and Tierno(2013)]{straube2013synchronous}
 Arthur~V Straube and Pietro Tierno.
 \newblock Synchronous vs. asynchronous transport of a paramagnetic particle in a modulated ratchet potential.
-\newblock \emph{Europhysics Letters}, 103\penalty0 (2):\penalty0 28001, 2013.
+\newblock \emph{Europhys. Lett.}, 103\penalty0 (2):\penalty0 28001, 2013.
+
+\bibitem[Massana-Cid et~al.(2020)Massana-Cid, Ortiz-Ambriz, Vilfan, and Tierno]{massana2020emergent}
+Helena Massana-Cid, Antonio Ortiz-Ambriz, Andrej Vilfan, and Pietro Tierno.
+\newblock Emergent collective colloidal currents generated via exchange dynamics in a broken dimer state.
+\newblock \emph{Sci. Adv.}, 6\penalty0 (10):\penalty0 eaaz2257, 2020.
 
 \bibitem[Stoop et~al.(2020)Stoop, Straube, Johansen, and Tierno]{stoop2020collective}
 Ralph~L Stoop, Arthur~V Straube, Tom~H Johansen, and Pietro Tierno.
 \newblock Collective directional locking of colloidal monolayers on a periodic substrate.
-\newblock \emph{Physical Review Letters}, 124\penalty0 (5):\penalty0 058002, 2020.
+\newblock \emph{Phys. Rev. Lett.}, 124\penalty0 (5):\penalty0 058002, 2020.
 
 \bibitem[Yung et~al.(1998)Yung, Landecker, and Villani]{yung1998analytic}
 Kar~W Yung, Peter~B Landecker, and Daniel~D Villani.
@@ -453,7 +493,7 @@ Kar~W Yung, Peter~B Landecker, and Daniel~D Villani.
 \bibitem[Hess(1999)]{hess1999augmented}
 Siegfried Hess.
 \newblock Augmented van der waals equation of state for the lennard-jones fluid.
-\newblock \emph{Physica A: Statistical Mechanics and its Applications}, 267\penalty0 (1-2):\penalty0 58--70, 1999.
+\newblock \emph{Physica A}, 267\penalty0 (1-2):\penalty0 58--70, 1999.
 
 \bibitem[Verlet(1967)]{verlet1967computer}
 Loup Verlet.
@@ -463,7 +503,7 @@ Loup Verlet.
 \bibitem[Chambliss and Franklin(2020)]{chambliss2020magnetic}
 A~Chambliss and J~Franklin.
 \newblock A magnetic velocity verlet method.
-\newblock \emph{American Journal of Physics}, 88\penalty0 (12):\penalty0 1075--1082, 2020.
+\newblock \emph{Am. J. Phys.}, 88\penalty0 (12):\penalty0 1075--1082, 2020.
 
 \bibitem[Thompson et~al.(2022)Thompson, Aktulga, Berger, Bolintineanu, Brown, Crozier, in~'t Veld, Kohlmeyer, Moore, Nguyen, Shan, Stevens, Tranchida, Trott, and Plimpton]{LAMMPS}
 A.~P. Thompson, H.~M. Aktulga, R.~Berger, D.~S. Bolintineanu, W.~M. Brown, P.~S. Crozier, P.~J. in~'t Veld, A.~Kohlmeyer, S.~G. Moore, T.~D. Nguyen, R.~Shan, M.~J. Stevens, J.~Tranchida, C.~Trott, and S.~J. Plimpton.
