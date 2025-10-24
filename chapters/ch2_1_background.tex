@@ -8,16 +8,16 @@
 \section{Low Renolds number regime}
 \label{st:lowreynoldsnumber}
 
-At the mesoscale, where objects such as bacteria and colloidal particles operate, the physical world is governed by a regime in which viscous forces dominate over inertial ones. This regime is characterized by a small Reynolds number (Re), a dimensionless quantity that compares inertial to viscous effects. Therefore, the force applied at that moment will describe the movement or displacement performed, not deppending on any past force, this is a characteristic of an overdamped system. In his seminal lecture, Life at Low Reynolds Number, Purcell highlighted the surprising and often counterintuitive behaviors that emerge in such environments~\cite{purcell2014life}. For instance, time-reversible motion — common at macroscopic scales — is ineffective for propulsion at low Re, necessitating non-reciprocal strategies like flagellar rotation or body undulation. This leads to the scallop theorem, that states that an animal with such degrees of freedom — in a viscous regime — will not have a net displacement. 
+At the mesoscale, where objects such as bacteria and colloidal particles operate, the physical world is governed by a regime in which viscous forces dominate over inertial ones. This regime is characterized by a small Reynolds number (Re), a dimensionless quantity that compares inertial to viscous effects. Therefore, the force applied at that moment will describe the movement or displacement performed, not deppending on any past force, this is a characteristic of an overdamped system. In his seminal lecture, Life at Low Reynolds Number~\cite{purcell2014life}, Purcell highlighted the surprising and often counterintuitive behaviors that emerge in such environments. For instance, time-reversible motion — common at macroscopic scales — is ineffective for propulsion at low Re, necessitating non-reciprocal strategies like flagellar rotation or body undulation. This leads to the scallop theorem, that states that an object with a single degree of freedom — such as a scallop in a viscous regime — will not have net displacement. 
 
-This whole process can be described by the Navier-Stokes equation without the inertia terms, leaving us without any time deppending terms as shown in Eq. (\ref{eq:Navier-Stokes}). 
+Microswimmers processes can be described by the Navier-Stokes equation without the inertia terms, leaving us without any time deppending terms as shown in Eq. (\ref{eq:Navier-Stokes}). This has been a topic of interest for researchers that are constantly looking for ways of transportation in those environments for specific tasks. Unfortunately this is not the only challenge we face when moving at the microscale.
 
 \begin{equation}
   - \nabla p + \eta \nabla ^2 \vec{v} = 0
   \label{eq:Navier-Stokes}
 \end{equation}
 
-This has been a topic of interest for researchers that are constantly looking for ways of transportation in those environments for specific tasks. Unfortunately this is not the only challenge we face when moving at the microscale.
+
 
 \section{Brownian Motion and Thermal Fluctuations}
 \label{st:brownianmotion}
@@ -30,19 +30,14 @@ Einstein's work provided one of the first convincing arguments for the molecular
   \langle x^2(t) \rangle = 2Dt\text{,}
   \label{eq:msd}
 \end{equation}
-
 where $D$ is the diffusion coefficient, a measure of how quickly particles spread out. Einstein further related this coefficient to measurable physical parameters through the expression:
 
 \begin{equation}
   D = \frac{k_{B}T}{6\pi \eta R}\text{,}
   \label{eq:diffusioncoefficient}
 \end{equation}
-
 where $k_B$ is Boltzmann’s constant, $T$ the absolute temperature, $\eta$ the dynamic viscosity of the fluid, and $R$ the radius of the spherical particle. This relation — often referred to as the \textit{Einstein-Stokes equation} — is foundational in soft matter and colloidal physics.
-
 In the systems considered in this thesis, Brownian motion plays a crucial role in the dynamics of passive colloids and must be accounted for even in the presence of external fields or active agents, such as bacteria.
-
-\vspace{1em}
 
 While Einstein’s formulation captures the long-term diffusive behavior of Brownian particles, it does not account for their instantaneous dynamics. To describe how particles move under both viscous damping and random thermal forces, we turn to a stochastic differential equation known as the \textit{Langevin equation}.
 
@@ -77,7 +72,7 @@ The thermal noise term $\eta(t)$ is modeled as a Gaussian white noise process:
   \label{eq:eta}
 \end{equation}
 
-where $dW$ is a Wiener process (increment of Brownian motion) such that:
+where $dW$ is a Wiener increment (increment of Brownian motion) such that:
 
 \begin{equation}
   \langle dW \rangle = 0\,, \quad \langle dW^2 \rangle = dt\text{.}
@@ -151,7 +146,7 @@ Now we take the expectation value:
                               &\quad - 2 \frac{\lambda}{m} \langle v(t)^2 \rangle dt + 2 \frac{g}{m} \langle v(t) \rangle \langle dW \rangle - 2 \frac{\lambda g}{m^2} \langle v(t) \rangle \langle dW \rangle \text{.}
 \end{align}
 
-Using the properties of the Wiener process:
+Using the properties of the Wiener process: 
 
 \[
   \langle dW \rangle = 0, \quad \langle dW^2 \rangle = dt \text{.}
@@ -199,7 +194,7 @@ Matching this to our stochastic result:
   \frac{k_B T}{m} = \frac{g^2}{2 \lambda m} \quad \Rightarrow \quad g^2 = 2 \lambda k_B T, \quad g = \sqrt{2 \lambda k_B T} \text{.}
 \end{equation}
 
-This defines the noise amplitude in terms of temperature, viscosity, and Boltzmann’s constant.
+This defines the noise amplitude in terms of temperature, viscosity, and Boltzmann’s constant, parameters that are primordial when defining a system.
 
 \subsection{Overdamped Dynamics and Diffussion}
 
@@ -229,7 +224,7 @@ Using stochastic calculus with \( \eta(t) dt = g dW \), we write:
 
 \paragraph{Mean Position}
 
-Taking the expectation:
+Taking the expectation value:
 
 \begin{equation}
   \langle x(t + dt) \rangle = \langle x(t) \rangle + \frac{g}{\lambda} \langle dW \rangle = \langle x(t) \rangle \text{.}
@@ -282,7 +277,7 @@ This is the classical diffusion result, where the diffusion coefficient is \( D 
   \begin{center}
     \includegraphics[width=0.8\textwidth]{figures/passivebrowniantrajectory.pdf}
   \end{center}
-  \caption[Example of brownian motion]{A colloidal particle undergoes random, thermally induced displacements in a fluid medium. \textbf{Panel a)} shows the trajectory of the particle. \textbf{ Panel b)} shows the corresponding mean squared displacement (MSD) as a function of time, illustrating the linear relationship predicted by Einstein for diffusive behavior (orange) and the one obtained through a numerical simulation (blue).}\label{fig:passivebrowniantrajectory}
+  \caption[Example of brownian motion]{A colloidal particle undergoes random, thermally induced displacements in a fluid medium. \textbf{Panel a) and b)} shows the trajectory of the particle. \textbf{ Panel c)} shows the corresponding mean squared displacement (MSD) as a function of time, illustrating the linear relationship predicted by Einstein for diffusive behavior (orange) and the one obtained through a numerical simulation (blue).}\label{fig:passivebrowniantrajectory}
 \end{figure}
 
 
