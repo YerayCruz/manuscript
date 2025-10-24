@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.20)  24 OCT 2025 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.20)  24 OCT 2025 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -871,7 +871,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 <figures/ratchetpotentialexample.pdf, id=542, 461.725pt x 414.54875pt>
 File: figures/ratchetpotentialexample.pdf Graphic file (type pdf)
 <use figures/ratchetpotentialexample.pdf>
-Package pdftex.def Info: figures/ratchetpotentialexample.pdf  used on input line 70.
+Package pdftex.def Info: figures/ratchetpotentialexample.pdf  used on input line 69.
 (pdftex.def)             Requested size: 437.68376pt x 392.96513pt.
 
 
@@ -879,10 +879,10 @@ Package pdftex.def Info: figures/ratchetpotentialexample.pdf  used on input line
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [18 <./figures/ratchetpotentialexample.pdf>]
-<figures/rockingratchets.pdf, id=555, 461.725pt x 319.1925pt>
+<figures/rockingratchets.pdf, id=558, 461.725pt x 319.1925pt>
 File: figures/rockingratchets.pdf Graphic file (type pdf)
 <use figures/rockingratchets.pdf>
-Package pdftex.def Info: figures/rockingratchets.pdf  used on input line 88.
+Package pdftex.def Info: figures/rockingratchets.pdf  used on input line 86.
 (pdftex.def)             Requested size: 437.68376pt x 302.57362pt.
 
 
@@ -895,10 +895,10 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [20 <./figures/rockingratchets.pdf>]
-<figures/LebedevExperiment.png, id=587, 460.43123pt x 213.88826pt>
+<figures/LebedevExperiment.png, id=590, 460.43123pt x 213.88826pt>
 File: figures/LebedevExperiment.png Graphic file (type png)
 <use figures/LebedevExperiment.png>
-Package pdftex.def Info: figures/LebedevExperiment.png  used on input line 102.
+Package pdftex.def Info: figures/LebedevExperiment.png  used on input line 98.
 (pdftex.def)             Requested size: 368.57838pt x 171.22505pt.
 
 
@@ -922,7 +922,7 @@ Chapter 4.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [24]
-<figures/macroscopicagents.pdf, id=646, 391.4625pt x 148.555pt>
+<figures/macroscopicagents.pdf, id=650, 391.4625pt x 148.555pt>
 File: figures/macroscopicagents.pdf Graphic file (type pdf)
 <use figures/macroscopicagents.pdf>
 Package pdftex.def Info: figures/macroscopicagents.pdf  used on input line 46.
@@ -943,7 +943,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [27]
-<figures/artificialExamples.pdf, id=719, 461.725pt x 300.12125pt>
+<figures/artificialExamples.pdf, id=723, 461.725pt x 300.12125pt>
 File: figures/artificialExamples.pdf Graphic file (type pdf)
 <use figures/artificialExamples.pdf>
 Package pdftex.def Info: figures/artificialExamples.pdf  used on input line 109.
@@ -954,7 +954,7 @@ Package pdftex.def Info: figures/artificialExamples.pdf  used on input line 109.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [28 <./figures/artificialExamples.pdf>]
-<figures/msdmicroscopicagents.pdf, id=745, 461.725pt x 215.80624pt>
+<figures/msdmicroscopicagents.pdf, id=749, 461.725pt x 215.80624pt>
 File: figures/msdmicroscopicagents.pdf Graphic file (type pdf)
 <use figures/msdmicroscopicagents.pdf>
 Package pdftex.def Info: figures/msdmicroscopicagents.pdf  used on input line 121.
@@ -965,7 +965,7 @@ Package pdftex.def Info: figures/msdmicroscopicagents.pdf  used on input line 12
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [29 <./figures/msdmicroscopicagents.pdf>]
-<figures/randomwalk.pdf, id=766, 458.71375pt x 128.48pt>
+<figures/randomwalk.pdf, id=770, 458.71375pt x 128.48pt>
 File: figures/randomwalk.pdf Graphic file (type pdf)
 <use figures/randomwalk.pdf>
 Package pdftex.def Info: figures/randomwalk.pdf  used on input line 139.
@@ -996,7 +996,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [32]
-<figures/harnessWork.pdf, id=819, 472.76625pt x 283.0575pt>
+<figures/harnessWork.pdf, id=823, 472.76625pt x 283.0575pt>
 File: figures/harnessWork.pdf Graphic file (type pdf)
 <use figures/harnessWork.pdf>
 Package pdftex.def Info: figures/harnessWork.pdf  used on input line 176.
@@ -1028,7 +1028,7 @@ Chapter 5.
 
 
 [37]
-<figures/magneticallydrivencolloids.pdf, id=880, 461.725pt x 248.93pt>
+<figures/magneticallydrivencolloids.pdf, id=884, 461.725pt x 248.93pt>
 File: figures/magneticallydrivencolloids.pdf Graphic file (type pdf)
 <use figures/magneticallydrivencolloids.pdf>
 Package pdftex.def Info: figures/magneticallydrivencolloids.pdf  used on input line 26.
@@ -1072,7 +1072,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 [44]
 Chapter 6.
-<figures/system.pdf, id=934, 462.72874pt x 116.435pt>
+<figures/system.pdf, id=938, 462.72874pt x 116.435pt>
 File: figures/system.pdf Graphic file (type pdf)
 <use figures/system.pdf>
 Package pdftex.def Info: figures/system.pdf  used on input line 10.
@@ -1087,7 +1087,7 @@ Package pdftex.def Info: figures/system.pdf  used on input line 10.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [46]
-<figures/methods1.pdf, id=958, 462.72874pt x 151.56625pt>
+<figures/methods1.pdf, id=962, 462.72874pt x 151.56625pt>
 File: figures/methods1.pdf Graphic file (type pdf)
 <use figures/methods1.pdf>
 Package pdftex.def Info: figures/methods1.pdf  used on input line 83.
@@ -1108,7 +1108,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [49]
-<figures/harmonicP.pdf, id=1033, 461.725pt x 90.3375pt>
+<figures/harmonicP.pdf, id=1037, 461.725pt x 90.3375pt>
 File: figures/harmonicP.pdf Graphic file (type pdf)
 <use figures/harmonicP.pdf>
 Package pdftex.def Info: figures/harmonicP.pdf  used on input line 215.
@@ -1119,12 +1119,12 @@ Package pdftex.def Info: figures/harmonicP.pdf  used on input line 215.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [50 <./figures/harmonicP.pdf>]
-<figures/workflow.pdf, id=1072, 396.48125pt x 41.15375pt>
+<figures/workflow.pdf, id=1076, 396.48125pt x 41.15375pt>
 File: figures/workflow.pdf Graphic file (type pdf)
 <use figures/workflow.pdf>
 Package pdftex.def Info: figures/workflow.pdf  used on input line 236.
 (pdftex.def)             Requested size: 437.68376pt x 45.43126pt.
-<figures/ratchet.pdf, id=1073, 463.7325pt x 341.275pt>
+<figures/ratchet.pdf, id=1077, 463.7325pt x 341.275pt>
 File: figures/ratchet.pdf Graphic file (type pdf)
 <use figures/ratchet.pdf>
 Package pdftex.def Info: figures/ratchet.pdf  used on input line 264.
@@ -1163,7 +1163,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
 [56]
 Chapter 7.
-<figures/AvsF.pdf, id=1145, 441.33026pt x 265.63017pt>
+<figures/AvsF.pdf, id=1149, 441.33026pt x 265.63017pt>
 File: figures/AvsF.pdf Graphic file (type pdf)
 <use figures/AvsF.pdf>
 Package pdftex.def Info: figures/AvsF.pdf  used on input line 25.
@@ -1176,7 +1176,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [57
 
 ]
-<figures/parttrj.pdf, id=1154, 341.47876pt x 154.33983pt>
+<figures/parttrj.pdf, id=1158, 341.47876pt x 154.33983pt>
 File: figures/parttrj.pdf Graphic file (type pdf)
 <use figures/parttrj.pdf>
 Package pdftex.def Info: figures/parttrj.pdf  used on input line 37.
@@ -1191,7 +1191,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [58 <./figures/AvsF.pdf>]
-<figures/time_series.pdf, id=1189, 450.6049pt x 274.90053pt>
+<figures/time_series.pdf, id=1193, 450.6049pt x 274.90053pt>
 File: figures/time_series.pdf Graphic file (type pdf)
 <use figures/time_series.pdf>
 Package pdftex.def Info: figures/time_series.pdf  used on input line 62.
@@ -1206,7 +1206,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [59 <./figures/parttrj.pdf>]
-<figures/histogram_comparison.pdf, id=1210, 688.182pt x 286.99037pt>
+<figures/histogram_comparison.pdf, id=1214, 688.182pt x 286.99037pt>
 File: figures/histogram_comparison.pdf Graphic file (type pdf)
 <use figures/histogram_comparison.pdf>
 Package pdftex.def Info: figures/histogram_comparison.pdf  used on input line 86.
@@ -1221,7 +1221,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [60 <./figures/time_series.pdf>]
-<figures/particle_displacement.pdf, id=1230, 381.6049pt x 274.90053pt>
+<figures/particle_displacement.pdf, id=1234, 381.6049pt x 274.90053pt>
 File: figures/particle_displacement.pdf Graphic file (type pdf)
 <use figures/particle_displacement.pdf>
 Package pdftex.def Info: figures/particle_displacement.pdf  used on input line 110.
@@ -1265,7 +1265,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [68]
-Underfull \hbox (badness 1048) in paragraph at lines 185--188
+Underfull \hbox (badness 1048) in paragraph at lines 190--193
 \OT1/ptm/m/n/12 Gran-u-lar trans-port in a hor-i-zon-tally vi-brated saw-tooth chan-nel.  \OT1/ptm/m/it/12 Phys-i-cal Re-view
  []
 
@@ -1275,12 +1275,12 @@ Underfull \hbox (badness 1048) in paragraph at lines 185--188
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [69]
-Underfull \hbox (badness 2726) in paragraph at lines 214--217
+Underfull \hbox (badness 2726) in paragraph at lines 219--222
 []\OT1/ptm/m/n/12 Pawel Ro-manczuk, Markus B[]ar, Werner Ebel-ing, Ben-jamin Lind-ner, and Lutz
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 219--222
+Underfull \hbox (badness 1147) in paragraph at lines 224--227
 []\OT1/ptm/m/n/12 Jens El-geti, Roland G Win-kler, and Ger-hard Gomp-per.  Physics of mi-croswim-
  []
 
@@ -1290,7 +1290,7 @@ Underfull \hbox (badness 1147) in paragraph at lines 219--222
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [70]
-Underfull \hbox (badness 1097) in paragraph at lines 254--257
+Underfull \hbox (badness 1097) in paragraph at lines 259--262
 []\OT1/ptm/m/n/12 Claudio Carere, Si-mona Mon-tanino, Flavia Mores-chini, Francesca Zo-ratto, Flavia
  []
 
@@ -1477,21 +1477,21 @@ chapters/ch5_conclusions.tex
  ***********
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8AE4A94CAA732490DC37AE05B09A15F8;6609.
+(rerunfilecheck)             Checksum: B95B8EB042FB440A96596F5A7ADC15EC;6652.
  ) 
 Here is how much of TeX's memory you used:
- 27242 strings out of 475171
- 499745 string characters out of 5767094
- 883997 words of memory out of 5000000
- 49385 multiletter control sequences out of 15000+600000
+ 27246 strings out of 475171
+ 499842 string characters out of 5767094
+ 884043 words of memory out of 5000000
+ 49388 multiletter control sequences out of 15000+600000
  592921 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,11n,93p,1618b,804s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (88 pages, 7234774 bytes).
+Output written on main.pdf (88 pages, 7235160 bytes).
 PDF statistics:
- 1486 PDF objects out of 1728 (max. 8388607)
- 1236 compressed objects within 13 object streams
- 336 named destinations out of 1000 (max. 500000)
+ 1491 PDF objects out of 1728 (max. 8388607)
+ 1240 compressed objects within 13 object streams
+ 337 named destinations out of 1000 (max. 500000)
  451 words of extra memory for PDF output out of 10000 (max. 10000000)
 

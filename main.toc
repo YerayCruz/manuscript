@@ -15,7 +15,7 @@
 \contentsline {paragraph}{Mean Square Displacement (MSD)}{12}{section*.6}%
 \contentsline {chapter}{\numberline {3}Ratchets and Rectification Mechanisms}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The Feynman-Smoluchowski ratchet}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Brownian ratchets}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Optical Brownian ratchets}{17}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Active Matter Systems}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{23}{section.4.1}%
 \contentsline {paragraph}{Working definition.}{24}{section*.13}%

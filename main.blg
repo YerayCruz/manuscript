@@ -10,45 +10,45 @@ A level-1 auxiliary file: RMMCV.aux
 Database file #1: references.bib
 Warning--empty year in mora1511questioning
 Warning--empty year in mora1511questioning
-You've used 104 entries,
+You've used 105 entries,
             2481 wiz_defined-function locations,
-            1195 strings with 23109 characters,
-and the built_in function-call counts, 43640 in all, are:
-= -- 3516
-> -- 2538
-< -- 47
-+ -- 965
-- -- 756
-* -- 3836
-:= -- 7063
-add.period$ -- 315
-call.type$ -- 104
-change.case$ -- 207
-chr.to.int$ -- 103
-cite$ -- 106
-duplicate$ -- 2000
-empty$ -- 3914
-format.name$ -- 906
-if$ -- 9069
+            1202 strings with 23278 characters,
+and the built_in function-call counts, 44050 in all, are:
+= -- 3555
+> -- 2553
+< -- 48
++ -- 971
+- -- 760
+* -- 3869
+:= -- 7124
+add.period$ -- 318
+call.type$ -- 105
+change.case$ -- 209
+chr.to.int$ -- 104
+cite$ -- 107
+duplicate$ -- 2019
+empty$ -- 3954
+format.name$ -- 913
+if$ -- 9157
 int.to.chr$ -- 2
-int.to.str$ -- 105
-missing$ -- 103
-newline$ -- 529
-num.names$ -- 312
-pop$ -- 762
+int.to.str$ -- 106
+missing$ -- 104
+newline$ -- 534
+num.names$ -- 315
+pop$ -- 769
 preamble$ -- 1
-purify$ -- 104
+purify$ -- 105
 quote$ -- 0
-skip$ -- 1134
+skip$ -- 1146
 stack$ -- 0
-substring$ -- 2446
-swap$ -- 238
+substring$ -- 2479
+swap$ -- 240
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 725
+type$ -- 732
 warning$ -- 2
-while$ -- 370
+while$ -- 374
 width$ -- 0
-write$ -- 1359
+write$ -- 1372
 (There were 2 warnings)

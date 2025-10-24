@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{105}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -150,6 +150,11 @@ Juan~MR Parrondo and Pep Espa{\~n}ol.
 Marcelo~O Magnasco.
 \newblock Forced thermal ratchets.
 \newblock \emph{Phys. Rev. Lett.}, 71\penalty0 (10):\penalty0 1477, 1993.
+
+\bibitem[Kanada and Sasaki(1999)]{kanada1999thermal}
+Ryo Kanada and Kazuo Sasaki.
+\newblock Thermal ratchets with symmetric potentials.
+\newblock \emph{Journal of the Physical Society of Japan}, 68\penalty0 (12):\penalty0 3759--3762, 1999.
 
 \bibitem[Ajdari et~al.(1994)Ajdari, Mukamel, Peliti, and Prost]{ajdari1994rectified}
 Armand Ajdari, David Mukamel, Luca Peliti, and Jacques Prost.
