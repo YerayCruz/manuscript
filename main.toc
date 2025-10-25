@@ -22,8 +22,8 @@
 \contentsline {section}{\numberline {4.2}Macroscopic Agents}{24}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Microscopic agents}{26}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{27}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Natural Systems}{30}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{32}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.2}Natural Systems}{31}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{33}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{37}{chapter.5}%
 \contentsline {part}{III\hspace {1em}Methods}{43}{part.3}%
 \contentsline {chapter}{\numberline {6}Simulations}{45}{chapter.6}%
@@ -42,4 +42,4 @@
 \contentsline {part}{V\hspace {1em}Conclusions}{63}{part.5}%
 \contentsline {chapter}{\numberline {8}Conclusions}{65}{chapter.8}%
 \contentsline {chapter}{Bibliography}{67}{chapter.8}%
-\contentsline {chapter}{Curriculum Vitae}{76}{chapter*.33}%
+\contentsline {chapter}{Curriculum Vitae}{77}{chapter*.33}%
