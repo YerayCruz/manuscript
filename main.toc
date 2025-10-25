@@ -21,7 +21,7 @@
 \contentsline {paragraph}{Working definition.}{24}{section*.13}%
 \contentsline {section}{\numberline {4.2}Macroscopic Agents}{24}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Microscopic agents}{26}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{27}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{28}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Natural Systems}{31}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{33}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{37}{chapter.5}%
