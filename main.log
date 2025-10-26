@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  25 OCT 2025 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  26 OCT 2025 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,12 +986,12 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [32]
-Overfull \hbox (10.19032pt too wide) in paragraph at lines 165--166
+Overfull \hbox (10.19032pt too wide) in paragraph at lines 162--163
 \OT1/ptm/m/n/12 achieve mo-tion in en-vi-ron-ments dom-i-nated by vis-cous forces. Each of these mech-a-nisms|flagellar
  []
 
 
-Overfull \hbox (25.47809pt too wide) in paragraph at lines 165--166
+Overfull \hbox (25.47809pt too wide) in paragraph at lines 162--163
 \OT1/ptm/m/n/12 beat-ing in al-gae, cil-iary co-or-di-na-tion in pro-to-zoa, or actin-driven crawl-ing in im-mune cells|highlights
  []
 
@@ -1001,10 +1001,10 @@ Overfull \hbox (25.47809pt too wide) in paragraph at lines 165--166
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [33]
-<figures/harnessWork.pdf, id=840, 472.76625pt x 283.0575pt>
+<figures/harnessWork.pdf, id=841, 472.76625pt x 283.0575pt>
 File: figures/harnessWork.pdf Graphic file (type pdf)
 <use figures/harnessWork.pdf>
-Package pdftex.def Info: figures/harnessWork.pdf  used on input line 181.
+Package pdftex.def Info: figures/harnessWork.pdf  used on input line 177.
 (pdftex.def)             Requested size: 437.68376pt x 262.0573pt.
 
 
@@ -1493,7 +1493,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  84i,11n,93p,1618b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (89 pages, 7250566 bytes).
+Output written on main.pdf (89 pages, 7250571 bytes).
 PDF statistics:
  1513 PDF objects out of 1728 (max. 8388607)
  1259 compressed objects within 13 object streams
