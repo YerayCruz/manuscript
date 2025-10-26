@@ -530,15 +530,15 @@ Siegfried Hess.
 \newblock Augmented van der waals equation of state for the lennard-jones fluid.
 \newblock \emph{Physica A}, 267\penalty0 (1-2):\penalty0 58--70, 1999.
 
-\bibitem[Verlet(1967)]{verlet1967computer}
-Loup Verlet.
-\newblock Computer" experiments" on classical fluids. i. thermodynamical properties of lennard-jones molecules.
-\newblock \emph{Physical review}, 159\penalty0 (1):\penalty0 98, 1967.
+\bibitem[Platen and Bruti-Liberati(2010)]{platen2010numerical}
+Eckhard Platen and Nicola Bruti-Liberati.
+\newblock \emph{Numerical solution of stochastic differential equations with jumps in finance}, volume~64.
+\newblock Springer Science \& Business Media, 2010.
 
-\bibitem[Chambliss and Franklin(2020)]{chambliss2020magnetic}
-A~Chambliss and J~Franklin.
-\newblock A magnetic velocity verlet method.
-\newblock \emph{Am. J. Phys.}, 88\penalty0 (12):\penalty0 1075--1082, 2020.
+\bibitem[Higham(2001)]{higham2001algorithmic}
+Desmond~J Higham.
+\newblock An algorithmic introduction to numerical simulation of stochastic differential equations.
+\newblock \emph{SIAM review}, 43\penalty0 (3):\penalty0 525--546, 2001.
 
 \bibitem[Thompson et~al.(2022)Thompson, Aktulga, Berger, Bolintineanu, Brown, Crozier, in~'t Veld, Kohlmeyer, Moore, Nguyen, Shan, Stevens, Tranchida, Trott, and Plimpton]{LAMMPS}
 A.~P. Thompson, H.~M. Aktulga, R.~Berger, D.~S. Bolintineanu, W.~M. Brown, P.~S. Crozier, P.~J. in~'t Veld, A.~Kohlmeyer, S.~G. Moore, T.~D. Nguyen, R.~Shan, M.~J. Stevens, J.~Tranchida, C.~Trott, and S.~J. Plimpton.

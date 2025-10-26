@@ -28,18 +28,14 @@
 \contentsline {part}{III\hspace {1em}Methods}{43}{part.3}%
 \contentsline {chapter}{\numberline {6}Simulations}{45}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Molecular dynamics}{46}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Velocity Verlet}{48}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Taylor Series Expansions}{48}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Original Verlet Algorithm}{49}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Velocity Calculation}{49}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Velocity Verlet Formulation}{49}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Basis Vectors}{50}{section.6.3}%
-\contentsline {section}{\numberline {6.4}System Overview and Workflow}{51}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}System's Physical Definition}{51}{subsection.6.4.1}%
+\contentsline {section}{\numberline {6.2}Euler-Maruyama Integration Method}{48}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Definition of the Solid Ratchet}{49}{section.6.3}%
+\contentsline {section}{\numberline {6.4}System Overview and Workflow}{50}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}System's Physical Definition}{50}{subsection.6.4.1}%
 \contentsline {subsection}{\numberline {6.4.2}Data Analysis}{53}{subsection.6.4.2}%
 \contentsline {part}{IV\hspace {1em}Results}{55}{part.4}%
 \contentsline {chapter}{\numberline {7}Results}{57}{chapter.7}%
 \contentsline {part}{V\hspace {1em}Conclusions}{63}{part.5}%
 \contentsline {chapter}{\numberline {8}Conclusions}{65}{chapter.8}%
 \contentsline {chapter}{Bibliography}{67}{chapter.8}%
-\contentsline {chapter}{Curriculum Vitae}{77}{chapter*.33}%
+\contentsline {chapter}{Curriculum Vitae}{77}{chapter*.32}%

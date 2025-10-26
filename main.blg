@@ -12,43 +12,43 @@ Warning--empty year in mora1511questioning
 Warning--empty year in mora1511questioning
 You've used 111 entries,
             2481 wiz_defined-function locations,
-            1231 strings with 24443 characters,
-and the built_in function-call counts, 46572 in all, are:
-= -- 3739
+            1232 strings with 24535 characters,
+and the built_in function-call counts, 46530 in all, are:
+= -- 3733
 > -- 2727
-< -- 49
+< -- 50
 + -- 1035
 - -- 812
-* -- 4103
-:= -- 7547
+* -- 4096
+:= -- 7541
 add.period$ -- 336
 call.type$ -- 111
-change.case$ -- 221
+change.case$ -- 220
 chr.to.int$ -- 110
 cite$ -- 113
 duplicate$ -- 2133
-empty$ -- 4172
+empty$ -- 4167
 format.name$ -- 973
-if$ -- 9676
+if$ -- 9667
 int.to.chr$ -- 2
 int.to.str$ -- 112
-missing$ -- 110
+missing$ -- 111
 newline$ -- 564
 num.names$ -- 333
-pop$ -- 811
+pop$ -- 815
 preamble$ -- 1
 purify$ -- 111
 quote$ -- 0
 skip$ -- 1208
 stack$ -- 0
-substring$ -- 2590
-swap$ -- 252
-text.length$ -- 3
+substring$ -- 2578
+swap$ -- 253
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 774
+type$ -- 771
 warning$ -- 2
-while$ -- 392
+while$ -- 391
 width$ -- 0
 write$ -- 1450
 (There were 2 warnings)
