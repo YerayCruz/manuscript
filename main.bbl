@@ -1,4 +1,4 @@
-\begin{thebibliography}{109}
+\begin{thebibliography}{111}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -509,6 +509,16 @@ Arthur~V Straube and Pietro Tierno.
 Ralph~L Stoop, Arthur~V Straube, Tom~H Johansen, and Pietro Tierno.
 \newblock Collective directional locking of colloidal monolayers on a periodic substrate.
 \newblock \emph{Phys. Rev. Lett.}, 124\penalty0 (5):\penalty0 058002, 2020.
+
+\bibitem[Osterman et~al.(2007)Osterman, Babi{\v{c}}, Poberaj, Dobnikar, and Ziherl]{osterman2007observation}
+N~Osterman, D~Babi{\v{c}}, I~Poberaj, J~Dobnikar, and P~Ziherl.
+\newblock Observation of condensed phases of quasiplanar core-softened colloids.
+\newblock \emph{Physical review letters}, 99\penalty0 (24):\penalty0 248301, 2007.
+
+\bibitem[Meng et~al.(2020)Meng, Ortiz-Ambriz, Massana-Cid, Vilfan, Golestanian, and Tierno]{meng2020field}
+Fanlong Meng, Antonio Ortiz-Ambriz, Helena Massana-Cid, Andrej Vilfan, Ramin Golestanian, and Pietro Tierno.
+\newblock Field synchronized bidirectional current in confined driven colloids.
+\newblock \emph{Physical Review Research}, 2\penalty0 (1):\penalty0 012025, 2020.
 
 \bibitem[Yung et~al.(1998)Yung, Landecker, and Villani]{yung1998analytic}
 Kar~W Yung, Peter~B Landecker, and Daniel~D Villani.
