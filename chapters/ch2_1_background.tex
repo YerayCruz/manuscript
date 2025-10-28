@@ -5,7 +5,7 @@
 \markright{Physics at the mesoscale}
 %======================================================================
 
-\section{Low Renolds number regime}
+\section{Low Renolds Number Regime}
 \label{st:lowreynoldsnumber}
 
 At the mesoscale, where objects such as bacteria and colloidal particles operate, the physical world is governed by a regime in which viscous forces dominate over inertial ones. This regime is characterized by a small Reynolds number (Re), a dimensionless quantity that compares inertial to viscous effects. Therefore, the force applied at that moment will describe the movement or displacement performed, not deppending on any past force, this is a characteristic of an overdamped system. In his seminal lecture, Life at Low Reynolds Number~\cite{purcell2014life}, Purcell highlighted the surprising and often counterintuitive behaviors that emerge in such environments. For instance, time-reversible motion — common at macroscopic scales — is ineffective for propulsion at low Re, necessitating non-reciprocal strategies like flagellar rotation or body undulation. This leads to the scallop theorem, that states that an object with a single degree of freedom — such as a scallop in a viscous regime — will not have net displacement. 
@@ -104,6 +104,7 @@ Since $\langle dW \rangle = 0$, the last term vanishes:
 
 \begin{equation}
   \langle v(t + dt) \rangle = \langle v(t) \rangle \left( 1 - \frac{\lambda dt}{m} \right)\text{.}
+  \label{eq:wienerproperties}
 \end{equation}
 
 In the limit of small $dt$, this leads to the differential equation:
@@ -119,7 +120,7 @@ whose solution is:
   \langle v(t) \rangle = \langle v(0) \rangle\, e^{-\lambda t / m}\text{.}
 \end{equation}
 
-This result shows that the average velocity of a particle in a viscous fluid decays exponentially due to damping. The characteristic timescale $\tau = m/\lambda$ describes how quickly the particle forgets its initial velocity, after which the motion becomes diffusive.
+This result shows that the average velocity of a particle in a viscous fluid decays exponentially due to damping. This result describes how the velocity decays over time, depending on the mass of the particle and the dynamic drag.
 
 %%%%
 
@@ -146,13 +147,7 @@ Now we take the expectation value:
                               &\quad - 2 \frac{\lambda}{m} \langle v(t)^2 \rangle dt + 2 \frac{g}{m} \langle v(t) \rangle \langle dW \rangle - 2 \frac{\lambda g}{m^2} \langle v(t) \rangle \langle dW \rangle \text{.}
 \end{align}
 
-Using the properties of the Wiener process: 
-
-\[
-  \langle dW \rangle = 0, \quad \langle dW^2 \rangle = dt \text{.}
-\]
-
-And neglecting second-order small terms (\( dt^2 \)), we obtain:
+Using the properties of the Wiener process Eq. \ref{eq:wienerproperties}, and neglecting second-order small terms (\( dt^2 \)), we obtain:
 
 \begin{equation}
   \langle v(t + dt)^2 \rangle = \langle v(t)^2 \rangle + \frac{g^2}{m^2} dt - 2 \frac{\lambda}{m} \langle v(t)^2 \rangle dt \text{.}
@@ -173,10 +168,10 @@ This is a linear first-order ODE. Solving it with variation of constants yields:
 As \( t \to \infty \), the exponential term vanishes and we get the stationary value:
 
 \begin{equation}
-  \langle v(\infty)^2 \rangle = \frac{g^2}{2 \lambda m} \text{.}
+   \lim _{t \to \infty} \langle v(t)^2 \rangle = \frac{g^2}{2 \lambda m} \text{.}
 \end{equation}
 
-From the equipartition theorem, we know that the average kinetic energy is:
+From the equipartition theorem~\cite{huang2009introduction}, we know that the average kinetic energy is:
 
 \[
   \frac{1}{2} m \langle v^2 \rangle = \frac{1}{2} k_B T \text{.}

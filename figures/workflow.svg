@@ -3,8 +3,8 @@
 
 <svg
    width="460pt"
-   height="200pt"
-   viewBox="0 0 162.27777 70.555555"
+   height="40.308369pt"
+   viewBox="0 0 162.27777 14.219897"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
@@ -27,14 +27,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      inkscape:zoom="1.2828283"
-     inkscape:cx="308.30315"
-     inkscape:cy="-0.38976377"
+     inkscape:cx="264.6496"
+     inkscape:cy="-107.18504"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showgrid="false" />
   <defs
      id="defs1">
     <marker
@@ -122,94 +123,99 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#7162ef;fill-opacity:1;stroke-width:0.190958"
-       id="rect1"
-       width="29.920498"
-       height="13.843805"
-       x="11.623357"
-       y="28.543921" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458334,0,0,0.26458334,-6.9050465,0.9479595)"
-       id="text1"
-       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;fill-opacity:1"><tspan
-         x="75.613281"
-         y="133.30522"
-         id="tspan5">Input parameters.</tspan></text>
-    <rect
-       style="fill:#9680ef;fill-opacity:1;stroke-width:0.190958"
-       id="rect1-5"
-       width="29.920498"
-       height="13.843805"
-       x="47.656002"
-       y="28.16783" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458334,0,0,0.26458334,27.574335,-0.9633913)"
-       id="text1-6"
-       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-7);display:inline;fill:#000000;fill-opacity:1"
-       x="44.003986"
-       y="0"><tspan
-         x="104.87189"
-         y="133.30522"
-         id="tspan7"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan6">Python to
+     id="layer1"
+     transform="translate(-11.623357,-28.16783)">
+    <g
+       id="g1"
+       transform="translate(11.62336)">
+      <rect
+         style="fill:#7162ef;fill-opacity:1;stroke-width:0.190958"
+         id="rect1"
+         width="29.920498"
+         height="13.843805"
+         x="11.623357"
+         y="28.543921" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458334,0,0,0.26458334,-6.9050465,0.9479595)"
+         id="text1"
+         style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;fill-opacity:1"><tspan
+           x="75.613281"
+           y="133.30522"
+           id="tspan1">Input parameters.</tspan></text>
+      <rect
+         style="fill:#9680ef;fill-opacity:1;stroke-width:0.190958"
+         id="rect1-5"
+         width="29.920498"
+         height="13.843805"
+         x="47.656002"
+         y="28.16783" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458334,0,0,0.26458334,27.574335,-0.9633913)"
+         id="text1-6"
+         style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-7);display:inline;fill:#000000;fill-opacity:1"
+         x="44.003986"
+         y="0"><tspan
+           x="104.87189"
+           y="133.30522"
+           id="tspan3"><tspan
+             style="text-align:center;text-anchor:middle"
+             id="tspan2">Python to
 </tspan></tspan><tspan
-         x="87.273895"
-         y="148.30522"
-         id="tspan9"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan8">LAMMPS scripts</tspan></tspan></text>
-    <rect
-       style="fill:#b69ced;fill-opacity:1;stroke-width:0.190958"
-       id="rect1-1"
-       width="29.920498"
-       height="13.843805"
-       x="84.948357"
-       y="28.321007" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458334,0,0,0.26458334,72.879494,1.0996959)"
-       id="text1-8"
-       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-6);display:inline;fill:#000000;fill-opacity:1"><tspan
-         x="75.613281"
-         y="133.30522"
-         id="tspan10">LAMMPS.</tspan></text>
-    <rect
-       style="fill:#dec0f1;fill-opacity:1;stroke-width:0.190958"
-       id="rect1-7"
-       width="29.920498"
-       height="13.843805"
-       x="120.73392"
-       y="28.333399" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458334,0,0,0.26458334,105.76788,0.8104616)"
-       id="text1-5"
-       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-0);display:inline;fill:#000000;fill-opacity:1"><tspan
-         x="75.613281"
-         y="133.30522"
-         id="tspan11">Data analysis</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.270828px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6)"
-       d="m 41.735606,35.331858 4.681009,-0.08728"
-       id="path2"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25711px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized)"
-       d="m 77.652376,35.148404 6.339055,0.03325"
-       id="path3"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25512px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker7)"
-       d="m 119.79563,35.250143 -4.83054,-0.0023"
-       id="path4"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
+           x="87.273895"
+           y="148.30522"
+           id="tspan5"><tspan
+             style="text-align:center;text-anchor:middle"
+             id="tspan4">LAMMPS scripts</tspan></tspan></text>
+      <rect
+         style="fill:#b69ced;fill-opacity:1;stroke-width:0.190958"
+         id="rect1-1"
+         width="29.920498"
+         height="13.843805"
+         x="84.948357"
+         y="28.321007" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458334,0,0,0.26458334,72.879494,1.0996959)"
+         id="text1-8"
+         style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-6);display:inline;fill:#000000;fill-opacity:1"><tspan
+           x="75.613281"
+           y="133.30522"
+           id="tspan6">LAMMPS.</tspan></text>
+      <rect
+         style="fill:#dec0f1;fill-opacity:1;stroke-width:0.190958"
+         id="rect1-7"
+         width="29.920498"
+         height="13.843805"
+         x="120.73392"
+         y="28.333399" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458334,0,0,0.26458334,105.76788,0.8104616)"
+         id="text1-5"
+         style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-0);display:inline;fill:#000000;fill-opacity:1"><tspan
+           x="75.613281"
+           y="133.30522"
+           id="tspan7">Data analysis</tspan></text>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.270828px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6)"
+         d="m 41.735606,35.331858 4.681009,-0.08728"
+         id="path2"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25711px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized)"
+         d="m 77.652376,35.148404 6.339055,0.03325"
+         id="path3"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25512px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker7)"
+         d="m 119.79563,35.250143 -4.83054,-0.0023"
+         id="path4"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>

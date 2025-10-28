@@ -55,7 +55,7 @@ There are also animals that form groups while inhabiting more complex environmen
 These are just few examples of large animal groups that, interestingly, share common characteristics of self-organization. This process begins at the level of the individual but emerges as a collective, temporary order through direct or indirect interactions among organisms, ultimately allowing them to achieve a common goal~\cite{isaeva2012self}.
 The study of macroscopic agents reveals that self-organization is not limited to large animal groups. At smaller scales, microscopic agents such as bacteria, colloidal particles, and artificial swimmers also exhibit analogous self-organized behaviors, although these are driven by different physical principles, including thermal noise and low-Reynolds-number hydrodynamics.
 
-\section{Microscopic agents}
+\section{Microscopic Agents}
 
 As discussed in the previous section, the term active matter is not limited to microscopic systems but also applies to animal groups. However, the focus of this thesis will be on the former.
 
@@ -72,7 +72,7 @@ this is known as the active brownian particle (ABP) model, which describes a par
   \lim_{v \to 0}  v\cos{\varphi(t)} + \sqrt{2D_T}W_x,
   \label{eq:limitofvelocity}
 \end{equation}
-the motion becomes purely diffusive, and the particle is characterized as passive brownian particle. In this limi, the dynamics reduce to the standard Brownian motion model, the simplest representation of a particle undergoing thermal noise alone.
+the motion becomes purely diffusive, and the particle is characterized as passive brownian particle. In this limit, the dynamics reduce to the standard Brownian motion model, the simplest representation of a particle undergoing thermal noise alone.
 Although active particles manifest persistent motion, they still display stochastic fluctuations; it is uncommon for them to move exactly in a straight line. This deviation often arises from chirality, which refers to geometric or dynamical assymetry in the particle's structure or propulsion mechanism. There are three different forms of asymmetry: rotational, reflexional, and a combination of the two. A particle that is not superimposable to its mirror reflection, it is said to be chiral. Chirality is actually the name for a non-reflexive-symmetric particle, as exemplified by our hands, from which the actual word originates~\cite{cahn1966specification}. To account for the random reorientation of the propulsion direction, an additional stochastic term describing rotational diffusion is introduced:
 
 \begin{equation}
@@ -81,13 +81,13 @@ Although active particles manifest persistent motion, they still display stochas
 \end{equation}
 where $D_R$ is the rotational diffusion coefficient and $W_\varphi$ represents a Wiener increment associated with the rotational angular noise.
 
-In spite of the practicity of this model, there are other ones that better capture the dynamic of certain microorganisms. A notable example is the run and tumble particlea (RTP) model, a type of motion that characterizes \textit{E. Coli} bacteria. This displacement consists of quasi-linear "runs" for a random period of time to then randomly reorient itself ("tumbles"). The RTP model has been used to study the statistics local time of a particle in one dimension~\cite{singh2021local}, as well as extensions two-dimensional analyses~\cite{santra2020run}.
+In spite of the practicity of this model, there are other ones that better capture the dynamic of certain microorganisms. A notable example is the run and tumble particle (RTP) model, a type of motion that characterizes \textit{E. Coli} bacteria. This displacement consists of quasi-linear "runs" for a random period of time to then randomly reorient itself ("tumbles"). The RTP model has been used to study the statistics local time of a particle in one dimension~\cite{singh2021local}, as well as extensions two-dimensional analyses~\cite{santra2020run}.
 The describing equations is given by:
 \begin{equation}
   \frac{d}{dt}x = v\sigma (t), 
   \label{eq:runandthumble}
 \end{equation}
-where $v$ is the speed of the particle and $\sigma (t)$ the direction the particle's direction. 
+where $v$ is the speed of the particle and $\sigma (t)$ the particle's direction. 
 To describe the dynamis of active particles under a potential that also is affected by thermal fluctuations the Active Ornstein-Uhlenbeck Particle (AOUP) model can be used:
 
 \begin{align}
@@ -111,7 +111,7 @@ Not so much time later, Dreyfus~\cite{dreyfus2005microscopic} claimed that at th
 
 \begin{figure}
   \begin{center}
-    \includegraphics[width=0.95\textwidth]{figures/artificialExamples.pdf}
+    \includegraphics[width=0.75\textwidth]{figures/artificialExamples.pdf}
   \end{center}
   \caption[Artificail microswimmers]{\textbf{Panel 1)} shows the configuration of nanorods of Gold (Au) and Platinum (Pt), obtained from~\cite{paxton2004catalytic}. \textbf{Panel 2)} Shows a Silicon Dioxide nan rod, obtained from~\cite{ghosh2009controlled}.\textbf{Panel 3)} shows a chain of red blood cells linked with superparamagnetic filaments, obtained from~\cite{dreyfus2005microscopic}.}\label{fig:artificialexamples}
 \end{figure}
@@ -137,13 +137,13 @@ Looking at biomedical applications, Ghosh~\cite{ghosh2009controlled} proposed a 
 
 We note how researchers have developed numerous strategies to achieve what was already accomplished by nature over a long period. In this section, we will present some examples of biological agents that inspired this thesis.
 
- In a research by Corkidi et al. (2008) spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh for eggs, what they found was a helical trajectory, shown in Figure~\ref{fig:corkidiexperiment}, being a pretty similar response, and obtaining a non-space dependant behavior~\cite{corkidi2008tracking}. 
+ In a research by Corkidi~\cite{corkidi2008tracking} spermatozoa behavior was studied in a 3-dimensions space mimicking their real environment in searh for eggs, what they found was a helical trajectory, shown in Figure~\ref{fig:corkidiexperiment}, being a pretty similar response, and obtaining a non-space dependant behavior.
 
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.90\textwidth]{figures/randomwalk.pdf}
   \end{center}
-  \caption[Random Walk for active brownian particles.]{Trajectories of polystyrene platinum coated spherical particles for different peroxide consentrations, upper row show a control bead and the lower a platinum bead, obtained from~\cite{howse2007self}.Trajectory of the spermatozoa for \textbf{a,c} free space, and \textbf{b, d} confined 2-dimension space. Obtained from~\cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
+  \caption[Random Walk for active brownian particles.]{Trajectories of polystyrene platinum coated spherical particles for different peroxide consentrations, upper row show a control bead and the lower a platinum bead, obtained from~\cite{howse2007self}.Trajectory of the spermatozoa for \textbf{a, c} free space, and \textbf{b, d} confined 2-dimension space. Obtained from~\cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
 \end{figure}
 
 

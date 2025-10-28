@@ -1,4 +1,4 @@
-\begin{thebibliography}{111}
+\begin{thebibliography}{112}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -115,6 +115,11 @@ George~E Uhlenbeck and Leonard~S Ornstein.
 \newblock On the theory of the brownian motion.
 \newblock \emph{Physical review}, 36\penalty0 (5):\penalty0 823, 1930.
 
+\bibitem[Huang(2009)]{huang2009introduction}
+Kerson Huang.
+\newblock \emph{Introduction to statistical physics}.
+\newblock Chapman and Hall/CRC, 2009.
+
 \bibitem[Feynman(1963)]{feynman1963feynman}
 Richard~Phillips Feynman.
 \newblock The feynman lectures on physics.
@@ -154,7 +159,7 @@ Marcelo~O Magnasco.
 \bibitem[Kanada and Sasaki(1999)]{kanada1999thermal}
 Ryo Kanada and Kazuo Sasaki.
 \newblock Thermal ratchets with symmetric potentials.
-\newblock \emph{Journal of the Physical Society of Japan}, 68\penalty0 (12):\penalty0 3759--3762, 1999.
+\newblock \emph{J. Phys. Soc. Jpn.}, 68\penalty0 (12):\penalty0 3759--3762, 1999.
 
 \bibitem[Ajdari et~al.(1994)Ajdari, Mukamel, Peliti, and Prost]{ajdari1994rectified}
 Armand Ajdari, David Mukamel, Luca Peliti, and Jacques Prost.
@@ -323,17 +328,17 @@ Robert~S Cahn, Christopher Ingold, and Vladimir Prelog.
 \bibitem[Singh and Kundu(2021)]{singh2021local}
 Prashant Singh and Anupam Kundu.
 \newblock Local time for run and tumble particle.
-\newblock \emph{Physical Review E}, 103\penalty0 (4):\penalty0 042119, 2021.
+\newblock \emph{Phys. Rev. E}, 103\penalty0 (4):\penalty0 042119, 2021.
 
 \bibitem[Santra et~al.(2020)Santra, Basu, and Sabhapandit]{santra2020run}
 Ion Santra, Urna Basu, and Sanjib Sabhapandit.
 \newblock Run-and-tumble particles in two dimensions: Marginal position distributions.
-\newblock \emph{Physical Review E}, 101\penalty0 (6):\penalty0 062120, 2020.
+\newblock \emph{Phys. Rev. E}, 101\penalty0 (6):\penalty0 062120, 2020.
 
 \bibitem[Semeraro et~al.(2021)Semeraro, Suma, Petrelli, Cagnetta, and Gonnella]{semeraro2021work}
 Massimiliano Semeraro, Antonio Suma, Isabella Petrelli, Francesco Cagnetta, and Giuseppe Gonnella.
 \newblock Work fluctuations in the active ornstein--uhlenbeck particle model.
-\newblock \emph{Journal of Statistical Mechanics: Theory and Experiment}, 2021\penalty0 (12):\penalty0 123202, 2021.
+\newblock \emph{J. Stat. Mech: Theory Exp.}, 2021\penalty0 (12):\penalty0 123202, 2021.
 
 \bibitem[Mu{\~n}oz-Dorado et~al.(2016)Mu{\~n}oz-Dorado, Marcos-Torres, Garc{\'\i}a-Bravo, Moraleda-Mu{\~n}oz, and P{\'e}rez]{munoz2016myxobacteria}
 Jos{\'e} Mu{\~n}oz-Dorado, Francisco~J Marcos-Torres, Elena Garc{\'\i}a-Bravo, Aurelio Moraleda-Mu{\~n}oz, and Juana P{\'e}rez.
@@ -518,7 +523,7 @@ N~Osterman, D~Babi{\v{c}}, I~Poberaj, J~Dobnikar, and P~Ziherl.
 \bibitem[Meng et~al.(2020)Meng, Ortiz-Ambriz, Massana-Cid, Vilfan, Golestanian, and Tierno]{meng2020field}
 Fanlong Meng, Antonio Ortiz-Ambriz, Helena Massana-Cid, Andrej Vilfan, Ramin Golestanian, and Pietro Tierno.
 \newblock Field synchronized bidirectional current in confined driven colloids.
-\newblock \emph{Physical Review Research}, 2\penalty0 (1):\penalty0 012025, 2020.
+\newblock \emph{Phys. Rev. Research}, 2\penalty0 (1):\penalty0 012025, 2020.
 
 \bibitem[Yung et~al.(1998)Yung, Landecker, and Villani]{yung1998analytic}
 Kar~W Yung, Peter~B Landecker, and Daniel~D Villani.

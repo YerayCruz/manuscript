@@ -24,7 +24,7 @@ In this thesis, numerical simulations are employed to study the dynamics of coll
 This thesis explores the physics of the system by using molecular dynamics, where randomness enters through thermal noise. As we saw in \ref{stochasticrepresentation}, the interactions can be derived from classical mechanics. In this case, Newton’s second law gives the starting point to calculate the forces acting on a single particle. In other words, at each iteration of the simulation we need to evaluate the forces that each particle experiences. Taking equation~(\ref{eq:newton}) as a starting point, and adding labels for the different interactions, we obtain:
 
 \begin{equation}
-  m_i\ddot{\vec{x_i}} = F^{collision}_i + F^{drag}_i + \eta(t)\text{,}
+  0 = F^{collision}_i + F^{drag}_i + \eta(t)\text{,}
   \label{eq:langevinratchet}
 \end{equation}
 where $m_i$ is the mass of particle $i$, $\vec{x_i}$ its position, and $F^{drag}_i$ is the viscous force, written as $-\lambda \dot{\vec{x}}_i$, with $\lambda$ the drag coefficient of the fluid. Since we are working at a scale where inertial effects are negligible, the term $m_i\ddot{\vec{x_i}}$ can be dropped. The random force $\eta(t)$ represents collisions with the solvent particles. In this thesis, $\eta$ is taken as a Gaussian random force with $\expval{\eta} = 0$ and correlation $\expval{\eta_i(t)\eta_j(t')} = 2k_B T \lambda \delta_{i,j}\delta(t-t')$. This form will be used for non-paramagnetic particles.
@@ -32,7 +32,7 @@ where $m_i$ is the mass of particle $i$, $\vec{x_i}$ its position, and $F^{drag}
 For paramagnetic particles, we need to add the contribution of dipole–dipole interactions, which gives the modified equation:
 
 \begin{equation}
-  m_i\ddot{\vec{x_i}} = F^{collision}_i + F^{drag}_i + F^{dd}_i + \eta(t)\text{,}
+  0 = F^{collision}_i + F^{drag}_i + F^{dd}_i + \eta(t)\text{,}
   \label{eq:langevindipole}
 \end{equation}
 where $F^{dd}_i$ according to \cite{yung1998analytic} is described as force exerted for the dipole moment $\vec{m}_i$ on a dipole $\vec{m}_j$:
@@ -116,20 +116,20 @@ We want to see how the positions of the particles evolve over time with certain 
 
 \section{Euler-Maruyama Integration Method}
 %%%%%%%%
-The Euler-Methods is a numerical method used for stochastic differential equations which helps solve systems with Brownian motion~\cite{platen2010numerical,higham2001algorithmic}.
+The Euler-Maruyama is a numerical method used for stochastic differential equations which helps solve systems with Brownian motion~\cite{platen2010numerical,higham2001algorithmic}.
 
 The overdamped Langevin equation for a particle reads
 \[
-\dot{\mathbf x}(t)=\mu\mathbf F(\mathbf x,t)+\sqrt{2D}\,\boldsymbol\xi(t),
+\dot{x}(t)=\mu F(x,t)+\sqrt{2D}\,\eta(t),
 \]
 where \(\mu=1/\gamma\) is the mobility, \(D=k_BT/\gamma\) the diffusion coefficient,
-and \(\boldsymbol\xi(t)\) is normalized Gaussian white noise:
-\(\langle\xi_i(t)\rangle=0,\ \langle\xi_i(t)\xi_j(t')\rangle=\delta_{ij}\delta(t-t')\).
-Discretizing with timestep \(\Delta t\) and Wiener increments \(\Delta\mathbf W\sim\mathcal N(\mathbf0, \mathbf1)\),
+and \(\eta(t)\) is normalized Gaussian white noise:
+\(\langle\eta_i(t)\rangle=0,\ \langle\eta_i(t)\eta_j(t')\rangle=\delta_{ij}\delta(t-t')\).
+Discretizing with timestep \(\Delta t\) and Wiener increments \(\Delta W\sim\mathcal N(0, 1)\),
 the Euler--Maruyama update is
 \begin{equation}
-\mathbf x_{n+1} = \mathbf x_n + \mu\,\mathbf F(\mathbf x_n,t_n)\,\Delta t
-  + \sqrt{2D}\;\Delta\mathbf W_n.
+x_{n+1} =  x_n + \mu\, F( x_n,t_n)\,\Delta t
+  + \sqrt{2D}\;\Delta W_n.
 \label{eq:em_overdamped}
 \end{equation}
 %%%%%%%%
@@ -159,7 +159,6 @@ x \bmod 1 & \text{Spin down}
 
 Points $\mathbf{r} = (x, y, z)$ are included when $\sqrt{x^2 + y^2} \leq R(\phi)$.
 However, these points must remain fixed, otherwise these would separate from each other dissolving the structure, therefore we add bonds.
-
 There are multiple methods to model the potential energy of a bond, the easiest way is to use the harmonic potential that mimics the behavior of a ideal spring and is modeled after Hooke's law:
 
 \begin{equation}
