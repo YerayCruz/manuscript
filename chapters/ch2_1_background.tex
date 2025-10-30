@@ -47,21 +47,21 @@ While Einstein’s formulation captures the long-term diffusive behavior of Brow
 The Langevin equation \cite{uhlenbeck1930theory} in one dimension, including inertial effects, damping, and thermal noise, can be written as:
 
 \begin{equation}
-  m\ddot{x} = F - \lambda \dot{x} + \eta(t)\text{,}
+  m\ddot{x} = F - \gamma \dot{x} + \eta(t)\text{,}
   \label{eq:newton}
 \end{equation}
 
-where $m$ is the particle mass, $\lambda$ is the damping coefficient, and $\eta(t)$ is a stochastic force representing thermal noise. For simplicity, we write the velocity as $v = \dot{x}$, leading to:
+where $m$ is the particle mass, $\gamma$ is the damping coefficient, and $\eta(t)$ is a stochastic force representing thermal noise. For simplicity, we write the velocity as $v = \dot{x}$, leading to:
 
 \begin{equation}
-  m\frac{dv}{dt} = F - \lambda v + \eta(t)\text{.}
+  m\frac{dv}{dt} = F - \gamma v + \eta(t)\text{.}
   \label{eq:newtonv}
 \end{equation}
 
 Discretizing time with a small step $dt$, we apply the definition of a derivative:
 
 \begin{equation}
-  m \frac{v(t + dt) - v(t)}{dt} = F - \lambda v(t) + \eta(t)\text{.}
+  m \frac{v(t + dt) - v(t)}{dt} = F - \gamma v(t) + \eta(t)\text{.}
   \label{eq:newtonderivative}
 \end{equation}
 
@@ -82,42 +82,42 @@ where $dW$ is a Wiener increment (increment of Brownian motion) such that:
 Solving for $v(t + dt)$ gives:
 
 \begin{equation}
-  v(t + dt) = v(t) + \frac{dt}{m}(F - \lambda v(t)) + g\, dW\text{.}
+  v(t + dt) = v(t) + \frac{dt}{m}(F - \gamma v(t)) + g\, dW\text{.}
   \label{eq:velocityplusone}
 \end{equation}
 
 Now, assuming no deterministic force ($F = 0$) — as is the case for free passive particles:
 
 \begin{equation}
-  v(t + dt) = v(t) - \frac{\lambda dt}{m} v(t) + g\, dW\text{.}
+  v(t + dt) = v(t) - \frac{\gamma dt}{m} v(t) + g\, dW\text{.}
   \label{eq:noforce}
 \end{equation}
 
 Taking the expectation value (mean) of both sides:
 
 \begin{equation}
-  \langle v(t + dt) \rangle = \langle v(t) \rangle - \frac{\lambda dt}{m} \langle v(t) \rangle + g \langle dW \rangle\text{.}
+  \langle v(t + dt) \rangle = \langle v(t) \rangle - \frac{\gamma dt}{m} \langle v(t) \rangle + g \langle dW \rangle\text{.}
   \label{eq:mean}
 \end{equation}
 
 Since $\langle dW \rangle = 0$, the last term vanishes:
 
 \begin{equation}
-  \langle v(t + dt) \rangle = \langle v(t) \rangle \left( 1 - \frac{\lambda dt}{m} \right)\text{.}
+  \langle v(t + dt) \rangle = \langle v(t) \rangle \left( 1 - \frac{\gamma dt}{m} \right)\text{.}
   \label{eq:wienerproperties}
 \end{equation}
 
 In the limit of small $dt$, this leads to the differential equation:
 
 \begin{equation}
-  \frac{d}{dt} \langle v(t) \rangle = - \frac{\lambda}{m} \langle v(t) \rangle\text{,}
+  \frac{d}{dt} \langle v(t) \rangle = - \frac{\gamma}{m} \langle v(t) \rangle\text{,}
   \label{eq:derivative}
 \end{equation}
 
 whose solution is:
 
 \begin{equation}
-  \langle v(t) \rangle = \langle v(0) \rangle\, e^{-\lambda t / m}\text{.}
+  \langle v(t) \rangle = \langle v(0) \rangle\, e^{-\gamma t / m}\text{.}
 \end{equation}
 
 This result shows that the average velocity of a particle in a viscous fluid decays exponentially due to damping. This result describes how the velocity decays over time, depending on the mass of the particle and the dynamic drag.
@@ -129,46 +129,46 @@ This result shows that the average velocity of a particle in a viscous fluid dec
 To compute the variance of the velocity, we start again from the Langevin equation in discretized form, without external forces:
 
 \begin{equation}
-  v(t + dt) = v(t) - \frac{\lambda}{m} v(t) dt + \frac{g}{m} dW \text{.}
+  v(t + dt) = v(t) - \frac{\gamma}{m} v(t) dt + \frac{g}{m} dW \text{.}
 \end{equation}
 
 Squaring both sides:
 
 \begin{align}
-  v(t + dt)^2 &= \left[ v(t) - \frac{\lambda}{m} v(t) dt + \frac{g}{m} dW \right]^2 \text{,}\\
-              &= v(t)^2 + \left( \frac{\lambda}{m} \right)^2 v(t)^2 dt^2 + \left( \frac{g}{m} \right)^2 dW^2 \nonumber \\
-              &\quad - 2 \frac{\lambda}{m} v(t)^2 dt + 2 \frac{g}{m} v(t) dW - 2 \frac{\lambda g}{m^2} v(t) dW \text{.}
+  v(t + dt)^2 &= \left[ v(t) - \frac{\gamma}{m} v(t) dt + \frac{g}{m} dW \right]^2 \text{,}\\
+              &= v(t)^2 + \left( \frac{\gamma}{m} \right)^2 v(t)^2 dt^2 + \left( \frac{g}{m} \right)^2 dW^2 \nonumber \\
+              &\quad - 2 \frac{\gamma}{m} v(t)^2 dt + 2 \frac{g}{m} v(t) dW - 2 \frac{\gamma g}{m^2} v(t) dW \text{.}
 \end{align}
 
 Now we take the expectation value:
 
 \begin{align}
-  \langle v(t + dt)^2 \rangle &= \langle v(t)^2 \rangle + \left( \frac{\lambda}{m} \right)^2 \langle v(t)^2 \rangle dt^2 + \left( \frac{g}{m} \right)^2 \langle dW^2 \rangle \nonumber \\
-                              &\quad - 2 \frac{\lambda}{m} \langle v(t)^2 \rangle dt + 2 \frac{g}{m} \langle v(t) \rangle \langle dW \rangle - 2 \frac{\lambda g}{m^2} \langle v(t) \rangle \langle dW \rangle \text{.}
+  \langle v(t + dt)^2 \rangle &= \langle v(t)^2 \rangle + \left( \frac{\gamma}{m} \right)^2 \langle v(t)^2 \rangle dt^2 + \left( \frac{g}{m} \right)^2 \langle dW^2 \rangle \nonumber \\
+                              &\quad - 2 \frac{\gamma}{m} \langle v(t)^2 \rangle dt + 2 \frac{g}{m} \langle v(t) \rangle \langle dW \rangle - 2 \frac{\gamma g}{m^2} \langle v(t) \rangle \langle dW \rangle \text{.}
 \end{align}
 
 Using the properties of the Wiener process Eq. \ref{eq:wienerproperties}, and neglecting second-order small terms (\( dt^2 \)), we obtain:
 
 \begin{equation}
-  \langle v(t + dt)^2 \rangle = \langle v(t)^2 \rangle + \frac{g^2}{m^2} dt - 2 \frac{\lambda}{m} \langle v(t)^2 \rangle dt \text{.}
+  \langle v(t + dt)^2 \rangle = \langle v(t)^2 \rangle + \frac{g^2}{m^2} dt - 2 \frac{\gamma}{m} \langle v(t)^2 \rangle dt \text{.}
 \end{equation}
 
 Taking the continuous limit:
 
 \begin{equation}
-  \frac{d}{dt} \langle v(t)^2 \rangle = -2 \frac{\lambda}{m} \langle v(t)^2 \rangle + \frac{g^2}{m^2} \text{.}
+  \frac{d}{dt} \langle v(t)^2 \rangle = -2 \frac{\gamma}{m} \langle v(t)^2 \rangle + \frac{g^2}{m^2} \text{.}
 \end{equation}
 
 This is a linear first-order ODE. Solving it with variation of constants yields:
 
 \begin{equation}
-  \langle v(t)^2 \rangle = \frac{g^2}{2 \lambda m} + D e^{-2 \lambda t / m} \text{.}
+  \langle v(t)^2 \rangle = \frac{g^2}{2 \gamma m} + D e^{-2 \gamma t / m} \text{.}
 \end{equation}
 
 As \( t \to \infty \), the exponential term vanishes and we get the stationary value:
 
 \begin{equation}
-   \lim _{t \to \infty} \langle v(t)^2 \rangle = \frac{g^2}{2 \lambda m} \text{.}
+   \lim _{t \to \infty} \langle v(t)^2 \rangle = \frac{g^2}{2 \gamma m} \text{.}
 \end{equation}
 
 From the equipartition theorem~\cite{huang2009introduction}, we know that the average kinetic energy is:
@@ -186,7 +186,7 @@ Therefore:
 Matching this to our stochastic result:
 
 \begin{equation}
-  \frac{k_B T}{m} = \frac{g^2}{2 \lambda m} \quad \Rightarrow \quad g^2 = 2 \lambda k_B T, \quad g = \sqrt{2 \lambda k_B T} \text{.}
+  \frac{k_B T}{m} = \frac{g^2}{2 \gamma m} \quad \Rightarrow \quad g^2 = 2 \gamma k_B T, \quad g = \sqrt{2 \gamma k_B T} \text{.}
 \end{equation}
 
 This defines the noise amplitude in terms of temperature, viscosity, and Boltzmann’s constant, parameters that are primordial when defining a system.
@@ -196,25 +196,25 @@ This defines the noise amplitude in terms of temperature, viscosity, and Boltzma
 In the overdamped limit, inertia is negligible, so the Langevin equation becomes:
 
 \begin{equation}
-  0 = F - \lambda \frac{dx}{dt} + \eta(t) \text{.}
+  0 = F - \gamma \frac{dx}{dt} + \eta(t) \text{.}
 \end{equation}
 
 Solving for the velocity:
 
 \begin{equation}
-  \frac{dx}{dt} = \frac{1}{\lambda} (F + \eta(t)) \text{.}
+  \frac{dx}{dt} = \frac{1}{\gamma} (F + \eta(t)) \text{.}
 \end{equation}
 
 For free diffusion (\( F = 0 \)):
 
 \begin{equation}
-  \frac{dx}{dt} = \frac{1}{\lambda} \eta(t) \text{.}
+  \frac{dx}{dt} = \frac{1}{\gamma} \eta(t) \text{.}
 \end{equation}
 
 Using stochastic calculus with \( \eta(t) dt = g dW \), we write:
 
 \begin{equation}
-  x(t + dt) = x(t) + \frac{g}{\lambda} dW \text{.}
+  x(t + dt) = x(t) + \frac{g}{\gamma} dW \text{.}
 \end{equation}
 
 \paragraph{Mean Position}
@@ -222,7 +222,7 @@ Using stochastic calculus with \( \eta(t) dt = g dW \), we write:
 Taking the expectation value:
 
 \begin{equation}
-  \langle x(t + dt) \rangle = \langle x(t) \rangle + \frac{g}{\lambda} \langle dW \rangle = \langle x(t) \rangle \text{.}
+  \langle x(t + dt) \rangle = \langle x(t) \rangle + \frac{g}{\gamma} \langle dW \rangle = \langle x(t) \rangle \text{.}
 \end{equation}
 
 So the mean position remains constant in free diffusion.
@@ -232,35 +232,35 @@ So the mean position remains constant in free diffusion.
 Squaring the position update:
 
 \begin{equation}
-  x(t + dt)^2 = x(t)^2 + 2 \frac{g}{\lambda} x(t) dW + \left( \frac{g}{\lambda} \right)^2 dW^2 \text{.}
+  x(t + dt)^2 = x(t)^2 + 2 \frac{g}{\gamma} x(t) dW + \left( \frac{g}{\gamma} \right)^2 dW^2 \text{.}
 \end{equation}
 
 Taking the expectation:
 
 \begin{align}
-  \langle x(t + dt)^2 \rangle &= \langle x(t)^2 \rangle + 2 \frac{g}{\lambda} \langle x(t) \rangle \langle dW \rangle + \frac{g^2}{\lambda^2} \langle dW^2 \rangle \text{,}\\
-  &= \langle x(t)^2 \rangle + \frac{g^2}{\lambda^2} dt \text{.}
+  \langle x(t + dt)^2 \rangle &= \langle x(t)^2 \rangle + 2 \frac{g}{\gamma} \langle x(t) \rangle \langle dW \rangle + \frac{g^2}{\gamma^2} \langle dW^2 \rangle \text{,}\\
+  &= \langle x(t)^2 \rangle + \frac{g^2}{\gamma^2} dt \text{.}
 \end{align}
 
 In differential form:
 
 \begin{equation}
-  \frac{d}{dt} \langle x(t)^2 \rangle = \frac{g^2}{\lambda^2} \text{.}
+  \frac{d}{dt} \langle x(t)^2 \rangle = \frac{g^2}{\gamma^2} \text{.}
 \end{equation}
 
-Using \( g^2 = 2 \lambda k_B T \), we substitute:
+Using \( g^2 = 2 \gamma k_B T \), we substitute:
 
 \begin{equation}
-  \frac{d}{dt} \langle x(t)^2 \rangle = \frac{2 k_B T}{\lambda} \text{.}
+  \frac{d}{dt} \langle x(t)^2 \rangle = \frac{2 k_B T}{\gamma} \text{.}
 \end{equation}
 
 Integrating gives the mean squared displacement (MSD):
 
 \begin{equation}
-  \langle x(t)^2 \rangle = \frac{2 k_B T}{\lambda} t \text{.}
+  \langle x(t)^2 \rangle = \frac{2 k_B T}{\gamma} t \text{.}
 \end{equation}
 
-This is the classical diffusion result, where the diffusion coefficient is \( D = \frac{k_B T}{\lambda} \), consistent with Einstein's expression.
+This is the classical diffusion result, where the diffusion coefficient is \( D = \frac{k_B T}{\gamma} \), consistent with Einstein's expression.
 
 
 
