@@ -1,4 +1,4 @@
-\begin{thebibliography}{112}
+\begin{thebibliography}{114}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -524,6 +524,16 @@ N~Osterman, D~Babi{\v{c}}, I~Poberaj, J~Dobnikar, and P~Ziherl.
 Fanlong Meng, Antonio Ortiz-Ambriz, Helena Massana-Cid, Andrej Vilfan, Ramin Golestanian, and Pietro Tierno.
 \newblock Field synchronized bidirectional current in confined driven colloids.
 \newblock \emph{Phys. Rev. Research}, 2\penalty0 (1):\penalty0 012025, 2020.
+
+\bibitem[Erickson et~al.(1993)Erickson, Prost, and Timins]{erickson1993magic}
+Scott~J Erickson, RW~Prost, and ME~Timins.
+\newblock The" magic angle" effect: background physics and clinical relevance.
+\newblock \emph{Radiology}, 188\penalty0 (1):\penalty0 23--25, 1993.
+
+\bibitem[Hennel and Klinowski(2004)]{hennel2004magic}
+Jacek~W Hennel and Jacek Klinowski.
+\newblock Magic-angle spinning: a historical perspective.
+\newblock \emph{New techniques in solid-state NMR}, pages 1--14, 2004.
 
 \bibitem[Yung et~al.(1998)Yung, Landecker, and Villani]{yung1998analytic}
 Kar~W Yung, Peter~B Landecker, and Daniel~D Villani.

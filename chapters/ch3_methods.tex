@@ -3,28 +3,50 @@
 
 \chapter{Simulations}
 
+\section{Paramegnetic Colloids Dynamics}
+
 The system studied in this thesis consists of an ensemble of paramagnetic colloidal particles confined in a quasi-two-dimensional geometry and subjected to an externally applied precessing conical magnetic field. Each colloid is a spherical particle of radius $r_{\mathrm{mag}}$ suspended in a Newtonian fluid of dynamic viscosity $\eta$. The suspension is bound by two parallel glass plates separated by a distance $h$, such that $h \lesssim 2R$. This strong confinement restricts particle motion primarily to two dimensions, while still allowing limited vertical displacement. 
 
 \begin{figure}
   \begin{center}
     \includegraphics[width=0.95\textwidth]{figures/system.pdf}
   \end{center}
-  \caption[System overview.]{System overview for a 4 spikes spin up ratchet}\label{fig:system}
+  \caption[System overview.]{System overview for a 4 spikes spin up ratchet at time 0. Panel a) shows the top view. Panel b) show a lateral view. Panel c) shows a perspective view.}\label{fig:system}
 \end{figure}
+
 
 
 Numerical simulations provide a powerful framework to reproduce and analyze physical phenomena under controlled conditions. Unlike experiments, they allow for precise manipulation of initial parameters, systematic testing of hypotheses, and straightforward replication of results. In particular, simulations are invaluable when dealing with microscopic systems, where stochastic effects and complex interactions can make experimental observations challenging. 
 
 In this thesis, numerical simulations are employed to study the dynamics of colloidal systems at the microscale. Such systems are often dominated by thermal fluctuations and many-body interactions, making them difficult to probe experimentally without advanced imaging and data analysis techniques. The primary computational approach used here is \textit{molecular dynamics} (MD), which will be described in detail in the following sections. MD enables the integration of particle trajectories under the influence of deterministic and stochastic forces, providing direct access to observables such as mean-squared displacements, velocity correlations, and transport coefficients.
 
-\section{Molecular dynamics}
+%%%%%%%%%%% New section
 
 
+But if we rotate slowly the external field so the magnetic dipole of the particle rotates too, there will be an angle between the particles than goes from attractive to repulsive, but there is an angle wether it is neither attractive or repulsive, this values is often refered to as the magic angle~\cite{erickson1993magic, hennel2004magic} and its value is:
 
+\[ \theta = \acos{\frac{1}{\sqrt{3}}} \approx 54.7°  \].
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/colloidsdynamics1.pdf}
+  \end{center}
+  \caption[Basic interaction for a pair of paramagnetic colloids.]{Interaction between a pair of paramagnetic colloids when a) a constant field in $\hat{z}$ is applied, b) constant field in $\hat{x}$ is applied, and c) when a rotating field is applied in the plane $\hat{x}$, $\hat{z}$.}\label{fig:pairinteraction}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/colloidsdynamics2.pdf}
+  \end{center}
+  \caption[Dinamycs of paramagnetic colloids in a confined space.]{Dynamics of paramagnetic colloids in confined space in the presence of gravity and a constant field applied in $\hat{z}$ for a) a pair, b) an infite chain. Panel c) shows the behavior of particles at 12.5 mT at different packings, bottom row shows experimental results, bottom row show simulations results, obtained from~\cite{osterman2007observation}.}\label{fig:}
+\end{figure}
+
+%%%%%%%% End of new section
+\section{Molecular Dynamics}
 This thesis explores the physics of the system by using molecular dynamics, where randomness enters through thermal noise. As we saw in \ref{stochasticrepresentation}, the interactions can be derived from classical mechanics. In this case, Newton’s second law gives the starting point to calculate the forces acting on a single particle. In other words, at each iteration of the simulation we need to evaluate the forces that each particle experiences. Taking equation~(\ref{eq:newton}) as a starting point, and adding labels for the different interactions, we obtain:
 
 \begin{equation}
-  0 = F^{collision}_i + F^{drag}_i + \eta(t)\text{,}
+  m\ddot{\vec{x}} = F^{collision}_i + F^{drag}_i + \eta(t)\text{,}
   \label{eq:langevinratchet}
 \end{equation}
 where $m_i$ is the mass of particle $i$, $\vec{x_i}$ its position, and $F^{drag}_i$ is the viscous force, written as $-\lambda \dot{\vec{x}}_i$, with $\lambda$ the drag coefficient of the fluid. Since we are working at a scale where inertial effects are negligible, the term $m_i\ddot{\vec{x_i}}$ can be dropped. The random force $\eta(t)$ represents collisions with the solvent particles. In this thesis, $\eta$ is taken as a Gaussian random force with $\expval{\eta} = 0$ and correlation $\expval{\eta_i(t)\eta_j(t')} = 2k_B T \lambda \delta_{i,j}\delta(t-t')$. This form will be used for non-paramagnetic particles.
@@ -66,7 +88,7 @@ This is the force applied by one particle, to obtain the total dipole interactio
 We need to define the external magnetic field, which is a precessing field that forms a conical rotation of the form
 
 \begin{equation}
-  \vec{B} = B_0 [\cos{\theta}\hat{z} + \sin{\theta}\cos{(2\pi f t)}\hat{x} + \sin{(2\pi f t)}\hat{y}],
+  \vec{B} = B_0 [\cos{\theta}\hat{z} + \sin{\theta}\cos{(\omega t)}\hat{x} + \sin{(\omega t)}\hat{y}],
   \label{eq:magneticfield}
 \end{equation}
 
@@ -78,7 +100,7 @@ where $B_0$ is the amplitude and $f$ the frequency of rotation of the magnetic f
   \begin{center}
     \includegraphics[width=0.95\textwidth]{figures/methods1.pdf}
   \end{center}
-  \caption[Representation of the paramagnetic colloids, body-centered-cubic lattice used for the ratchet, and the precessing conic magnetic field.]{\textbf{Panel 1)} Shows two paramagnetic particles with a distance \(\vec{x}_{i,j}\) with the same dipole moment in a confined space in the \( z\) axis. \textbf{Panel 2)} Shows a representation of a  unitary body-centered cubic lattice used in the construction of the ratchet. \textbf{Panel 3} Shows the precessing external magnetic field.}\label{fig:facecenteredlattice}
+  \caption[Representation of the paramagnetic colloids, body-centered-cubic lattice used for the ratchet, and the precessing conic magnetic field.]{Panel a) Shows two paramagnetic particles with a distance \(\vec{x}_{i,j}\) with the same dipole moment in a confined space in the \( z\) axis. Panel b) Shows a representation of a  unitary body-centered cubic lattice used in the construction of the ratchet. Panel c) Shows the precessing external magnetic field used in the simulation.}\label{fig:facecenteredlattice}
 \end{figure}
 
 To model contacts, we use a Weeks-Chandler-Andersen potential (WCA), which is a LJ with only a repulsive part~\cite{hess1999augmented}:
@@ -120,16 +142,16 @@ The Euler-Maruyama is a numerical method used for stochastic differential equati
 
 The overdamped Langevin equation for a particle reads
 \[
-\dot{x}(t)=\mu F(x,t)+\sqrt{2D}\,\eta(t),
+  \dot{x}(t)= \frac{1}{\gamma} F(x,t)+\sqrt{2D}\,\eta(t),
 \]
-where \(\mu=1/\gamma\) is the mobility, \(D=k_BT/\gamma\) the diffusion coefficient,
+where $\gamma$ is the dynamic viscous drag, \(D=k_BT/\gamma\) the diffusion coefficient,
 and \(\eta(t)\) is normalized Gaussian white noise:
 \(\langle\eta_i(t)\rangle=0,\ \langle\eta_i(t)\eta_j(t')\rangle=\delta_{ij}\delta(t-t')\).
 Discretizing with timestep \(\Delta t\) and Wiener increments \(\Delta W\sim\mathcal N(0, 1)\),
 the Euler--Maruyama update is
 \begin{equation}
 x_{n+1} =  x_n + \mu\, F( x_n,t_n)\,\Delta t
-  + \sqrt{2D}\;\Delta W_n.
+  + \sqrt{2D \Delta t}\;\Delta W_n.
 \label{eq:em_overdamped}
 \end{equation}
 %%%%%%%%
@@ -203,7 +225,7 @@ Density & \(\rho\) & 1 & 1 & kgm\(^{-3}\) \\
   \begin{center}
     \includegraphics[width=0.95\textwidth]{figures/ratchet.pdf}
   \end{center}
-  \caption[Ratchet geomety.]{Ratchet geometry used in the simulations. \textbf{Panel 1)} shows 4-spikes ratchet (Spin up).\textbf{Panel 2)} shows the same ratchet with a 180° specular rotation (Spin down). \textbf{Panel 3) - 4)} Shows the same characterisitcs with a 3-spikes ratchet. \textbf{ Panel 5)} Shows the convention used for classifying the ratchets. In this case the curl right hand rule can be used. Facing the ``wall'' of the ratchet with the palm of the hand, the thumb will indicate the geometry of the ratchet. If the thumb points towards you or upwards, the geometry will be called spin up, if it points downwards the geometry will be called spin down.}\label{fig:ratchetgeometry}
+  \caption[Ratchet geomety.]{Ratchet geometry used in the simulations, a) shows 4-spikes ratchet (Spin up). b) shows the same ratchet with a 180° specular rotation (Spin down). Panel c)- d) Shows the same characterisitcs with a 3-spikes ratchet.  Panel b) Shows the convention used for classifying the ratchets. In this case the curl right hand rule can be used. Facing the ``wall'' of the ratchet with the palm of the hand, the thumb will indicate the geometry of the ratchet. If the thumb points towards you or upwards, the geometry will be called spin up, if it points downwards the geometry will be called spin down.}\label{fig:ratchetgeometry}
 \end{figure}
 
 
