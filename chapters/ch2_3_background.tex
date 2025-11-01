@@ -44,7 +44,7 @@ There are also self-organized groups of smaller flying animals whose collective 
   \begin{center}
     \includegraphics[width=0.95\textwidth]{figures/macroscopicagents.pdf}
   \end{center}
-  \caption[Macroscopic Agents example]{\textbf{Panel 1)} Example of different formation of birds deppending predation risk, obtained from~\cite{carere2009aerial}. \textbf{Panel 2)} Different formation of schooling fish, obtained from~\cite{tunstrom2013collective}. \textbf{Panel 3) - 4)} Aggregation of ants forming a bridge, obtained from~\cite{anderson2002self}.}\label{fig:macroscopicagents}
+  \caption[Macroscopic Agents example]{Panel a) Example of different formation of birds deppending predation risk, obtained from~\cite{carere2009aerial}. Panel b) Different formation of schooling fish, obtained from~\cite{tunstrom2013collective}. Panel c) - d) Aggregation of ants forming a bridge, obtained from~\cite{anderson2002self}.}\label{fig:macroscopicagents}
 \end{figure}
 
 
@@ -62,8 +62,8 @@ As discussed in the previous section, the term active matter is not limited to m
 We have already defined how a passive brownian particle acts, therefore let us review the key difference of active and passive ones. Passive particles undergo mere diffusion motion, whereas active particles follows stochastic differential equations according to~\cite{volpe2014simulation}: 
 
 \begin{align}
-  \frac{d}{dt}x(t) &= v\cos{\varphi(t)} + \sqrt{2D_T}W_x,\\
-  \frac{d}{dt}y(t) &= v\sin{\varphi(t)} + \sqrt{2D_T}W_y,
+  \frac{\dd}{\dd t}x(t) &= v\cos{\varphi(t)} + \sqrt{2D_T}W_x,\\
+  \frac{\dd}{\dd t}y(t) &= v\sin{\varphi(t)} + \sqrt{2D_T}W_y,
   \label{eq:activestochasticequation}
 \end{align}
 this is known as the active brownian particle (ABP) model, which describes a particle that tries to move in a straight line, where $W_x$, and $W_y$ represent their corresponding Wiener process, and $v$ is the mean velocity. As stated before, in the limit 
@@ -91,7 +91,7 @@ where $v$ is the speed of the particle and $\sigma (t)$ the particle's direction
 To describe the dynamis of active particles under a potential that also is affected by thermal fluctuations the Active Ornstein-Uhlenbeck Particle (AOUP) model can be used:
 
 \begin{align}
-  \frac{d}{dt}r &= v(t) - \gamma^{-1} \Delta U(r(t), t) + \sqrt{2D_T} \xi (t),\\
+  \frac{d}{dt}r &= v(t) - \gamma^{-1} \nabla U(r(t), t) + \sqrt{2D_T} \xi (t),\\
   \frac{d}{dt}v &= -\gamma _R v(t) + \sqrt{2D^{'}_R \eta (t)},
 \end{align}
 where $\xi (t)$ and $\eta (t)$ follows the same principle as the thermal noise defined in Eq. (\ref{eq:meanvariance})~\cite{semeraro2021work}. Showing there are different ways to study mathematically the movement of active brownian particles, these biological systems are autonomous and free to move and organize for survival~\cite{munoz2016myxobacteria}. Despite these limitations to control, researchers have been developing new methods to achieve self-propulsion that mimic natural processes. In the following subsections, we will introduce a few examples of different systems that have been created, as well as organic ones.
@@ -113,7 +113,7 @@ Not so much time later, Dreyfus~\cite{dreyfus2005microscopic} claimed that at th
   \begin{center}
     \includegraphics[width=0.75\textwidth]{figures/artificialExamples.pdf}
   \end{center}
-  \caption[Artificail microswimmers]{\textbf{Panel 1)} shows the configuration of nanorods of Gold (Au) and Platinum (Pt), obtained from~\cite{paxton2004catalytic}. \textbf{Panel 2)} Shows a Silicon Dioxide nan rod, obtained from~\cite{ghosh2009controlled}.\textbf{Panel 3)} shows a chain of red blood cells linked with superparamagnetic filaments, obtained from~\cite{dreyfus2005microscopic}.}\label{fig:artificialexamples}
+  \caption[Artificail microswimmers]{Panel a) shows the configuration of nanorods of Gold (Au) and Platinum (Pt), obtained from~\cite{paxton2004catalytic}. Panel b) Shows a Silicon Dioxide nan rod, obtained from~\cite{ghosh2009controlled}.Panel c) shows a chain of red blood cells linked with superparamagnetic filaments, obtained from~\cite{dreyfus2005microscopic}.}\label{fig:artificialexamples}
 \end{figure}
 
 
@@ -125,7 +125,7 @@ Figure~\ref{fig:msddifferentvelocities} helps visualize how  the motion varies a
   \begin{center}
     \includegraphics[width=0.85\textwidth]{figures/msdmicroscopicagents.pdf}
   \end{center}
-  \caption[MSD for brownian particles]{MSD for brownian particles with different velocites. \textbf{Panel a)} shows the result from simulations. \textbf{Panel b)} shows the theoretical calculation, obtained from~\cite{volpe2014simulation}. \textbf{Panel c)} MSD for different velocities of polystyren spheres for different concentrations of Hydrogen Peroxide, obtained from~\cite{howse2007self}.}\label{fig:msddifferentvelocities}
+  \caption[MSD for brownian particles]{MSD for brownian particles with different velocites. Panel a) shows the result from simulations. Panel b) shows the theoretical calculation, obtained from~\cite{volpe2014simulation}. Panel c) MSD for different velocities of polystyren spheres for different concentrations of Hydrogen Peroxide, obtained from~\cite{howse2007self}.}\label{fig:msddifferentvelocities}
 \end{figure}
 
 Tierno~\cite{tierno2008controlled} proposed a new mechanism where two linked paramagnetic colloidal particles of different sizes, need no deformation for propulsion. Their setup consists of colloids dispersed in water above a flat glass plate in the presence of a precessing magnetic field parallel to the plate. Here, the plate plays an important role for the propulsion, due to the dynamics when particles are near a boundary. When the smaller one is near the glass, the viscosity increases, resulting in lateral translation of the small colloid.
@@ -143,7 +143,7 @@ We note how researchers have developed numerous strategies to achieve what was a
   \begin{center}
     \includegraphics[width=0.90\textwidth]{figures/randomwalk.pdf}
   \end{center}
-  \caption[Random Walk for active brownian particles.]{Trajectories of polystyrene platinum coated spherical particles for different peroxide consentrations, upper row show a control bead and the lower a platinum bead, obtained from~\cite{howse2007self}.Trajectory of the spermatozoa for \textbf{a, c} free space, and \textbf{b, d} confined 2-dimension space. Obtained from~\cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
+  \caption[Random Walk for active brownian particles.]{Trajectories of polystyrene platinum coated spherical particles for different peroxide consentrations, upper row show a control bead and the lower a platinum bead, obtained from~\cite{howse2007self}.Trajectory of the spermatozoa for a), c) free space, and b), d) confined 2-dimension space. Obtained from~\cite{corkidi2008tracking}.}\label{fig:corkidiexperiment}
 \end{figure}
 
 
@@ -176,7 +176,7 @@ This study served as inspiration for using living active matter to perform mecha
   \begin{center}
     \includegraphics[width=0.95\textwidth]{figures/harnessWork.pdf}
   \end{center}
-  \caption[Experiments that harness bacteria motility.]{Expermients that harness bacteria motility. \textbf{Panel 1)} shows how the bacteria accumulates in the concave sections of the shuttle, finally aligning parallelly, obtained from~\cite{angelani2010geometrically}. \textbf{Panel 2} drawing of Chlamydomonas Reinhardtii's movement, obtained from~\cite{weibel2005microoxen}. \textbf{Panel 3) - 4)} shows an example of ratchet used in experiments, made by lithography, obtained from~\cite{di2010bacterial}.}\label{fig:harnesswork}
+  \caption[Experiments that harness bacteria motility.]{Expermients that harness bacteria motility. Panel a) shows how the bacteria accumulates in the concave sections of the shuttle, finally aligning parallelly, obtained from~\cite{angelani2010geometrically}. Panel b) drawing of Chlamydomonas Reinhardtii's movement, obtained from~\cite{weibel2005microoxen}. Panel c), d) shows an example of ratchet used in experiments, made by lithography, obtained from~\cite{di2010bacterial}.}\label{fig:harnesswork}
 \end{figure}
 
 Another novel demonstration of obtaining work from active matter was presented by Hiratsuka~\cite{hiratsuka2006microrotary}, who developed a microrotary motor powered by the gliding bacterium \textit{Mycoplasma mobile}. Unlike flagellated swimmers \textit{E. coli} or \textit{Chlamydomonas}, \textit{M. mobile} moves by gliding over solid surfaces at speeds of 2–5 µm/s, using sialic proteins in the surface of the track. The authors harnessed this motility by integrating living cells into lithographically fabricated microdevices.
