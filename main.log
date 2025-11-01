@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  1 NOV 2025 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  1 NOV 2025 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,7 +1206,7 @@ Chapter 7.
 <figures/AvsF.pdf, id=1257, 441.33026pt x 265.63017pt>
 File: figures/AvsF.pdf Graphic file (type pdf)
 <use figures/AvsF.pdf>
-Package pdftex.def Info: figures/AvsF.pdf  used on input line 21.
+Package pdftex.def Info: figures/AvsF.pdf  used on input line 16.
 (pdftex.def)             Requested size: 437.68376pt x 263.44484pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1219,7 +1219,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/parttrj.pdf, id=1264, 410.27496pt x 149.73895pt>
 File: figures/parttrj.pdf Graphic file (type pdf)
 <use figures/parttrj.pdf>
-Package pdftex.def Info: figures/parttrj.pdf  used on input line 36.
+Package pdftex.def Info: figures/parttrj.pdf  used on input line 31.
 (pdftex.def)             Requested size: 437.68376pt x 159.75069pt.
 
 
@@ -1234,7 +1234,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 <figures/time_series.pdf, id=1299, 450.6049pt x 274.90053pt>
 File: figures/time_series.pdf Graphic file (type pdf)
 <use figures/time_series.pdf>
-Package pdftex.def Info: figures/time_series.pdf  used on input line 55.
+Package pdftex.def Info: figures/time_series.pdf  used on input line 50.
 (pdftex.def)             Requested size: 437.68376pt x 267.02231pt.
 
 
@@ -1249,7 +1249,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 <figures/histogram_comparison.pdf, id=1323, 688.182pt x 286.99037pt>
 File: figures/histogram_comparison.pdf Graphic file (type pdf)
 <use figures/histogram_comparison.pdf>
-Package pdftex.def Info: figures/histogram_comparison.pdf  used on input line 79.
+Package pdftex.def Info: figures/histogram_comparison.pdf  used on input line 74.
 (pdftex.def)             Requested size: 437.68376pt x 182.53026pt.
 
 
@@ -1264,7 +1264,7 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 <figures/particle_displacement.pdf, id=1340, 381.6049pt x 274.90053pt>
 File: figures/particle_displacement.pdf Graphic file (type pdf)
 <use figures/particle_displacement.pdf>
-Package pdftex.def Info: figures/particle_displacement.pdf  used on input line 102.
+Package pdftex.def Info: figures/particle_displacement.pdf  used on input line 90.
 (pdftex.def)             Requested size: 437.68376pt x 315.3068pt.
 )
 
@@ -1527,15 +1527,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5269307B8E74D7011B258A01557A0DDD;6306.
  ) 
 Here is how much of TeX's memory you used:
- 27288 strings out of 475171
- 501221 string characters out of 5767094
- 886582 words of memory out of 5000000
- 49428 multiletter control sequences out of 15000+600000
+ 27286 strings out of 475171
+ 501193 string characters out of 5767094
+ 886512 words of memory out of 5000000
+ 49426 multiletter control sequences out of 15000+600000
  592921 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,12n,93p,1290b,828s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (91 pages, 13606197 bytes).
+Output written on main.pdf (91 pages, 13606507 bytes).
 PDF statistics:
  1609 PDF objects out of 1728 (max. 8388607)
  1332 compressed objects within 14 object streams

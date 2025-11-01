@@ -3,12 +3,7 @@
 
 \chapter{Results}
 
-For the following reslts, I ran 230 simulations per ratchet, we calculate the mean angular velocity over the different seeds for each frequencies between 0Hz and 10Hz, and to validate the accuracy of each result, we used the error over the mean~\cite{altman2005standard}:
-
-\begin{equation*}
-  \sigma_{\bar{x}} = \displaystyle\frac{\sigma}{\sqrt{n}}.
-  \label{eq:errormean}
-\end{equation*}
+For the following reslts, I ran 230 simulations per ratchet, we calculate the mean angular velocity over the different seeds for each frequencies between 0Hz and 10Hz, and to validate the accuracy of each result, we used the error over the mean~\cite{altman2005standard} given by $\sigma_{\bar{x}} = \displaystyle\frac{\sigma}{\sqrt{n}}$.
 
 Figure~\ref{fig:angularvsfrequency} summarizes the main result of this work, showing how the average angular frequency of the system changes with the frequency of the rotating magnetic field. At low frequencies (0–3 Hz), the internal dipoles of the paramagnetic colloids can align and rotate in phase with the external field, producing almost no net rotation on the solid ratchet. In this regime, particles are merely diffusive and are stuck in place, not having any displacement overall, which aligns with theoretical expectations.
 As the frequency increases, the dipoles begin to experience a delay relative to the field rotation. This phase lag and fluid viscocity reduces the alignment efficiency, and the system gradually loses synchronization, observing a phase of neighours exchange, at this regime the solid ratchet reaches a peak mean angular frequency at 5 Hz. Beyond this critical frequency, the particles no longer move by exchanging neighbors but instead start to experience a repulsion and attraction force between each pair of particles due to not being able to keep up with the field, this behavior ressembles that of an harmonic bond.
@@ -67,7 +62,7 @@ Due to the inherent variability of stochastic processes, a large amount of data 
 \end{equation}
 
 \begin{equation}
-  K(x) = \frac{exp(-\abs{\abs{x}}^2/2)}{v_{1,2}}, \quad v_{1,2} = \displaystyle\int exp(-\abs{\abs{x}}^2/2)dx.
+  K(x) = \frac{\exp(-\abs{\abs{x}}^2/2)}{v_{1,2}}, \quad v_{1,2} = \displaystyle\int \exp(-\abs{\abs{x}}^2/2)\dd x.
   \label{eq:gaussiankernel}
 \end{equation}
 
@@ -84,14 +79,7 @@ At 1 Hz, the mean lies almost exactly at 0 rad/s, while the 5 Hz distribution is
 
 The angular velocity is extremely small, however Figure~\ref{fig:particleangulardisplacement} shows the angular displacement of a single ratchet particle over the entire simulation. At 1 Hz, the particle shows an initial displacement but remains largely constant over time, experiencing only thermal fluctuations. This initial displacement can be due the initial interaction of the closer colloids, which move close to the walls of the ratchet and probably moving or rotating the ratchet a certain, but negligible amount, however, the remarking section is the tendency of not moving for a long period of time. In contrast, at 5 Hz, the particle exhibits a net displacement that appears linear in time, clearly showing a non zero velocity.
 
-To give meaning to the plot, we can obtain the arc length of a circle, this is assuming this as an ideal trajectory for the ratchet, therefore we use the following equation:
-
-\begin{equation*}
-  s = r\theta,
-  \label{eq:arclength}
-\end{equation*}
-
-where $s$ is the arc length, r is the radius of our ratchet and $\theta$ is the angle formed from the particle to the initial position.
+To give meaning to the plot, we can obtain the arc length of a circle, this is assuming this as an ideal trajectory for the ratchet, therefore we use the following equation $s = r\theta$, where $s$ is the arc length, r is the radius of our ratchet and $\theta$ is the angle formed from the particle to the initial position.
 In this case we can see that its final angular position is $\theta \approx 5.5 rad$, which corresponds to the total distance traveled by the particle was $s \approx 44 \mu m$.
 
 In the total simulation, the ratchet experienced a little less than half rotation but more than a quarter, but according to Purcell~\cite{purcell2014life}, at those regimes movement not necessarily has to be much. Nevertheless, this provides clear evidence of the frequency's dramatic effect on ratchet rotation. This aligns with the theoretical principle that work cannot be extracted from thermal fluctuations alone. However, we have identified a range of frequencies where colloidal interactions and a driving magnetic field are sufficient to drive ratchet rotation.
