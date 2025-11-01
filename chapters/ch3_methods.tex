@@ -5,7 +5,7 @@
 
 \section{Paramegnetic Colloids Dynamics}
 
-The system studied in this thesis consists of an ensemble of paramagnetic colloidal particles confined in a quasi-two-dimensional geometry and subjected to an externally applied precessing conical magnetic field. Each colloid is a spherical particle of radius $r_{\mathrm{mag}}$ suspended in a Newtonian fluid of dynamic viscosity $\eta$. The suspension is bound by two parallel glass plates separated by a distance $h$, such that $h \lesssim 2R$. This strong confinement restricts particle motion primarily to two dimensions, while still allowing limited vertical displacement. 
+The system studied in this thesis consists of an ensemble of paramagnetic colloidal particles confined in a quasi-two-dimensional geometry and subjected to an externally applied precessing conical magnetic field. Each colloid is a spherical particle of radius $r_{\mathrm{mag}}$ suspended in a Newtonian fluid of dynamic viscosity $\eta$. The suspension is bound by two parallel glass plates separated by a distance $h$, such that $h \lesssim 4r_{\mathrm{mag}}$. This strong confinement restricts particle motion primarily to two dimensions, while still allowing limited vertical displacement. 
 
 \begin{figure}
   \begin{center}
@@ -56,21 +56,21 @@ At intermediate frequencies, a transition state emerges in which the colloids ex
 
 In this thesis, numerical simulations are employed to study the dynamics of colloidal systems at the microscale. Such systems are often dominated by thermal fluctuations and many-body interactions, making them difficult to probe experimentally without advanced imaging and data analysis techniques. The primary computational approach used here is \textit{molecular dynamics} (MD), which will be described in detail in the following sections. MD enables the integration of particle trajectories under the influence of deterministic and stochastic forces, providing direct access to observables such as mean-squared displacements, velocity correlations, and transport coefficients.
 
-This thesis explores the physics of the system by using molecular dynamics, where randomness enters through thermal noise. As we saw in \ref{stochasticrepresentation}, the interactions can be derived from classical mechanics. In this case, Newton’s second law gives the starting point to calculate the forces acting on a single particle. In other words, at each iteration of the simulation we need to evaluate the forces that each particle experiences. Taking equation~(\ref{eq:newton}) as a starting point, and adding labels for the different interactions, we obtain:
+This thesis explores the physics of the system by using molecular dynamics, where randomness enters through thermal noise. As we saw in \ref{stochasticrepresentation}, the interactions can be derived from classical mechanics. In this case, Newton’s second law gives the starting point to calculate the forces acting on a single particle. In other words, at each iteration of the simulation we need to evaluate the forces that each particle experiences. Taking Eq.~(\ref{eq:newton}) as a starting point, and adding labels for the different interactions, we obtain:
 
 \begin{equation}
-  m\ddot{\vec{x}} = F^{collision}_i + F^{drag}_i + \eta(t)\text{,}
+  m\ddot{\vec{x}} = \vec{F}^{\mathrm{collision}}_i + \vec{F}^{\mathrm{drag}}_i + \eta(t)\text{,}
   \label{eq:langevinratchet}
 \end{equation}
-where $m_i$ is the mass of particle $i$, $\vec{x_i}$ its position, and $F^{drag}_i$ is the viscous force, written as $-\gamma \dot{\vec{x}}_i$, with $\gamma$ the drag coefficient of the fluid. Since we are working at a scale where inertial effects are negligible, the term $m_i\ddot{\vec{x_i}}$ can be dropped. The random force $\eta(t)$ represents collisions with the solvent particles. In this thesis, $\eta$ is taken as a Gaussian random force with $\expval{\eta} = 0$ and correlation $\expval{\eta_i(t)\eta_j(t')} = 2k_B T \gamma \delta_{i,j}\delta(t-t')$. This form will be used for non-paramagnetic particles.
+where $m_i$ is the mass of particle $i$, $\vec{x_i}$ its position, and $\vec{F}^{\mathrm{drag}}_i$ is the viscous force, written as $-\gamma \dot{\vec{x}}_i$, with $\gamma$ the drag coefficient of the fluid. Since we are working at a scale where inertial effects are negligible, the term $m_i\ddot{\vec{x_i}}$ can be dropped. The random force $\eta(t)$ represents collisions with the solvent particles. In this thesis, $\eta$ is taken as a Gaussian random force with $\expval{\eta} = 0$ and correlation $\expval{\eta_i(t)\eta_j(t')} = 2k_B T \gamma \delta_{i,j}\delta(t-t')$. This form will be used for non-paramagnetic particles.
 
 For paramagnetic particles, we need to add the contribution of dipole–dipole interactions, which gives the modified equation:
 
 \begin{equation}
-  0 = F^{collision}_i + F^{drag}_i + F^{dd}_i + \eta(t)\text{,}
+  0 = \vec{F}^{\mathrm{collision}}_i + \vec{F}^{\mathrm{drag}}_i + \vec{F}^{\mathrm{dd}}_i + \eta(t)\text{,}
   \label{eq:langevindipole}
 \end{equation}
-where $F^{dd}_i$ according to \cite{yung1998analytic} is described as force exerted for the dipole moment $\vec{m}_i$ on a dipole $\vec{m}_j$:
+where $\vec{F}^{\mathrm{dd}}_i$ according to \cite{yung1998analytic} is described as force exerted for the dipole moment $\vec{m}_i$ on a dipole $\vec{m}_j$:
 
 \begin{equation}
   \label{eq:dipoledipoleforce}
@@ -94,19 +94,19 @@ where $m = \frac{\chi V B_{\text{ext}}}{\mu_0}$, $\hat{B} = \vec{B}_{\text{ext}}
 This is the force applied by one particle, to obtain the total dipole interaction with all particles of the system, we should add them up, pair by pair:
 
 \begin{equation}
-  F^{dd}_i = \sum^{n}_{i \neq j} F^{dd}_{i,j}.  
+  \vec{F}^{\mathrm{dd}}_i = \sum^{n}_{i \neq j} \vec{F}^{\mathrm{dd}}_{i,j}.  
   \label{eq:dipolesum}
 \end{equation}
 
 We need to define the external magnetic field, which is a precessing field that forms a conical rotation of the form
 
 \begin{equation}
-  \vec{B} = B_0 [\cos{\theta}\hat{z} + \sin{\theta}\cos{(\omega t)}\hat{x} + \sin{(\omega t)}\hat{y}],
+  \vec{B} = B_0 [\cos{(\theta)}\hat{z} + \sin{\theta}\cos{(\omega t)}\hat{x} + \sin{(\omega t)}\hat{y}],
   \label{eq:magneticfield}
 \end{equation}
 
 
-where $B_0$ is the amplitude and $f$ the frequency of rotation of the magnetic field. The frequency plays an important role in the system dynamics. Depending on how fast the field rotates, it determines whether the internal magnetic dipole of each particle can follow it or not. At low frequencies, the dipoles rotate synchronously with the field, resulting in purely attractive or repulsive interactions. At higher frequencies, however, the dipoles cannot keep up, leading to a phase delay. In this regime, particles can exchange neighbors as the field continues to rotate.
+where $B_0$ is the amplitude and $\omega = 2\pi f t$ which is angular frequency of the magnetic field. The frequency plays an important role in the system dynamics. Depending on how fast the field rotates, it determines whether the internal magnetic dipole of each particle can follow it or not. At low frequencies, the dipoles rotate synchronously with the field, resulting in purely attractive or repulsive interactions. At higher frequencies, however, the dipoles cannot keep up, leading to a phase delay. In this regime, particles can exchange neighbors as the field continues to rotate.
 
 
 \begin{figure}[H]
@@ -119,13 +119,13 @@ where $B_0$ is the amplitude and $f$ the frequency of rotation of the magnetic f
 To model contacts, we use a Weeks-Chandler-Andersen potential (WCA), which is a LJ with only a repulsive part~\cite{hess1999augmented}:
 
 \begin{equation}
-  U_{i,j}^{WCA} = \begin{cases} 
+  U_{i,j}^{\mathrm{WCA}} = \begin{cases} 
     4\epsilon\left[ \left( \frac{\sigma}{r_{i,j}}\right)^{12} - \left( \frac{\sigma}{r_{i,j}}\right)^6\right] + \epsilon \quad &r_{i,j} \leq r_c \\
     0 \quad & r_{i,j} \geq r_c
   \end{cases}
   \label{eq:wcapotential}
 \end{equation}
-where $\sigma$ is the van der Waals radio, it is the point where the energy between the two particles is zero, $\epsilon$ is the well depth, since WCA does not have an attraction interaction, a correction factor of $\epsilon$ is added, and $r_c = 2^{1/6}\sigma$. This however, gives us the enegy between particles, and we need the force, then we apply:
+where $\sigma$ is the van der Waals radio, it is the particle's diameter, $\epsilon$ is the well depth, since WCA does not have an attraction interaction, a correction factor of $\epsilon$ is added, and $r_c = 2^{1/6}\sigma$. This however, gives us the enegy between particles, and we need the force, then we apply:
 
 \begin{equation}
  F = - \nabla U, 
@@ -134,8 +134,8 @@ where $\sigma$ is the van der Waals radio, it is the point where the energy betw
 getting then
 
 \begin{equation}
-  F_{i,j}^{WCA} = \begin{cases} 
-    48\epsilon\left[ \left( \frac{\sigma}{r_{i,j}}\right)^{12} - \frac{1}{2}\left( \frac{\sigma}{r_{i,j}}\right)^6\right]\left[ \frac{1}{r_{i,j}}\right] \quad &r_{i,j} \leq r_c \\
+  \vec{F}_{i,j}^{\mathrm{WCA}} = \begin{cases} 
+    48\epsilon\left[ \left( \frac{\sigma}{r_{i,j}}\right)^{12} - \frac{1}{2}\left( \frac{\sigma}{r_{i,j}}\right)^6\right]\left[ \frac{\hat{r}_{i,j}}{r_{i,j}}\right] \quad &r_{i,j} \leq r_c \\
     0 \quad & r_{i,j} \geq r_c
   \end{cases}.
   \label{eq:wcaforce}
@@ -143,7 +143,7 @@ getting then
 and adding all the interaction expected by each particle, we obtain:
 
 \begin{equation}
-  F^{collision}_i = \sum^{n}_{i \neq j} F^{WCA}_{i,j}.  
+  \vec{F}^{\mathrm{collision}}_i = \sum^{n}_{i \neq j} \vec{F}^{\mathrm{WCA}}_{i,j}.  
   \label{eq:wcasum}
 \end{equation}
 
@@ -174,10 +174,10 @@ To create the solid ratchet we used basis vectors (or lattice vectors) which are
 The conventional unit cell for a BCC lattice is a cube with a lattice point at each corner and one at the body center. The vectors defining this cube are simple, orthogonal, and given by:
 %
 \begin{equation}
-  \vec{R} = m(a\hat{x}) + n(a\hat{y}) + p(a\hat{z}) + \delta \frac{a}{2}(\hat{x} + \hat{y} + \hat{z}); \quad m,n,p \in \mathbb{Z},
+  \vec{R} = a(m, n, p) + \frac{\delta a}{2}(1, 1, 1); \quad m,n,p \in \mathbb{Z}
 \end{equation}
 %
-where \( a \) is the lattice constant (the side length of the cube), and $\delta$ is either 0 or 1, depending if we are refering to the centered particle. Once defined the basis vectors, with help of a script we enter the required parameters that will define the size of the solid ratchet that is defined by a modulated radius function that creates $N$ teeth around the azimuthal direction. The angular coordinate $\phi \in [0, 2\pi)$ is traced in the Cartesian coordinates (x, y).
+where \( a \) is the lattice constant (the side length of the cube), and $\delta$ is either 0 or 1, depending if we are refering to the centered particle. Once defined the basis vectors, with help of a script we enter the required parameters that will define the size of the solid ratchet that is defined by a modulated radius function that creates $N$ teeth around the azimuthal direction. The angular coordinate $\phi \in [0, 2\pi)$ is traced in the Cartesian coordinates $(x, y)$.
 %%%%
 \begin{equation}
 R(\phi) = R_0 + A \cdot S\left(\frac{f\phi}{2\pi}\right) - \frac{A}{2}
@@ -192,14 +192,14 @@ x \bmod 1 & \text{Spin down}
 \end{cases}
 \end{equation}
 
-Points $\mathbf{r} = (x, y, z)$ are included when $\sqrt{x^2 + y^2} \leq R(\phi)$.
+Points $r = (x, y, z)$ are included when $r_{\shortparallel} \leq R(\phi)$.
 However, these points must remain fixed, otherwise these would separate from each other dissolving the structure, therefore we add bonds.
 There are multiple methods to model the potential energy of a bond, the easiest way is to use the harmonic potential that mimics the behavior of a ideal spring and is modeled after Hooke's law:
 
 \begin{equation}
   U^{H}_{i,j}(\vec{x}_{i,j}) = \frac{1}{2}K(\vec{x}_{i,j} - \vec{x}_0)^2,
 \end{equation}
-where K is the energy per squared distance, $\vec{x}_{i,j}$ is the distance between particle \textit{i}, and \textit{j}, and $x_0$ is the equilibrium distance point.
+where K is the spring constant, $\vec{x}_{i,j}$ is the distance between particle \textit{i}, and \textit{j}, and $x_0$ is the equilibrium distance point.
 %%%%%%%%
 
 \section{System Overview and Workflow}
@@ -224,11 +224,11 @@ The first parameters to be defined are the ones from the circular-ratchet geomet
 \hline
 Parameter & Symbol & Ratchet A & Ratchet B & Units \\
 \hline
-Lattice constant & \(a\) & 1 & 1 & \(\mu m\) \\
+Lattice constant & \(a\) & 1 & 1 & \(\mu \mathrm{m}\) \\
 Radius & \( r\) & 8 & 8 & \( \mu m\) \\
-Sawtooth amplitude & \( A\) & 4 & 4 & \( \mu m\) \\
+Sawtooth amplitude & \( A\) & 4 & 4 & \( \mu \mathrm{m}\) \\
 Sawtooth frequency & \( N\) & 5 & 3 & Dimensionless\\
-Bond coefficient & \( K_b\) & 0.1 & 0.1 & \( \mu N\) \\ 
+Bond coefficient & \( K_b\) & 0.1 & 0.1 & \( \mu \mathrm{N}\) \\ 
 Density & \(\rho\) & 1 & 1 & kgm\(^{-3}\) \\
 \hline
 \end{tabular}
@@ -253,9 +253,9 @@ As shown in the previous table, there were 2 ratchets with only a difference in 
 \hline
 Axis & lo  & hi & Units \\
 \hline
-\textit{x} & -27 & 27 & \( \mu m\) \\
-\textit{y} & -27 & 27 & \( \mu m\) \\
-\textit{z} & -2  & 2   & \( \mu m\)\\ 
+\textit{x} & -27 & 27 & \( \mu \mathrm{m}\) \\
+\textit{y} & -27 & 27 & \( \mu \mathrm{m}\) \\
+\textit{z} & -2  & 2   & \( \mu \mathrm{m}\)\\ 
 \hline
 \end{tabular}
 \end{table}
@@ -272,16 +272,16 @@ Finally, the parameters for the paramagnetic particles, and since they deppend o
 \hline
 Parameter & Symbol  & Value & Units \\
 \hline
-Radius & $r_{mag}$ &  1.25 &\( \mu m\) \\
+Radius & $r_{mag}$ &  1.25 &\( \mu \mathrm{m}\) \\
 Susceptibility & $\chi$ & 0.4 & Dimensionless\\
-Field angle & $\theta$ & 27 & °\\
+Field angle & $\theta$ & 27 & degree\\
 Frequency & $f$ & [0 - 10] & Hz\\
 Field magnitude & $B$ & 7.28 & mT\\
 \hline
 \end{tabular}
 \end{table}
 
-With these values, we can run simulations for a period of $50 \cross 10^6$ frames, with a timestep of 10 $\mu s$ which corresponds to a total real time of $500 s$ ($8.33\bar{3} \mathrm{min})$. Since these systems are of random nature, it is recommended to perform multiple simulations in order to be able to obtain reliable averaged observables, therefore we ran it 10 different times for each frequency.
+With these values, we can run simulations for a period of $5 \cross 10^7$ frames, with a timestep of 10 $\mu s$ which corresponds to a total real time of $500 s$ ($8.33\bar{3} \mathrm{min})$. Since these systems are of random nature, it is recommended to perform multiple simulations in order to be able to obtain reliable averaged observables, therefore we ran it 10 different times for each frequency.
 
 \subsection{Data Analysis}
 
@@ -294,20 +294,14 @@ Since all particles share the same center of mass, the angular velocity can be d
 %%%%%
 
 \begin{equation}
-  (x_{\mathrm{COM}}, y_{\mathrm{COM}}) = \displaystyle\frac{\sum^{n}_{i=1} m_i * r_i}{\sum^{n}_{i=1} m_i},
+  \vec{r}_{\mathrm{COM}}= \displaystyle\frac{\sum^{n}_{i=1} m_i\vec{r_i}}{\sum^{n}_{i=1} m_i},
   \label{eq:centerofmass}
 \end{equation}
 being $m_i$ the mass of the particle \textit{i}, and $r_i$ the position of the particle respect a frame of reference. The best way to calculate the angular velocity is by using polar coordinates, once we have the center of mass, we convert the positions to polar coordinates:
 
 \begin{align}
-  r_i & = \sqrt{(x - x_{\mathrm{COM}})^2 + (y - y_{\mathrm{COM}})^2},\\ 
+  r_i &= \norm{\vec{r} - \vec{r}_{\mathrm{COM}}},\\ 
   \theta _i &= \arctan{\frac{y - y_{\mathrm{COM}}}{x - x_{\mathrm{COM}}}},
 \end{align}
-then we can calculate the angular velocity of each particle for each timestep of the simulation:
-\begin{equation}
-  \omega _i = \frac{\Delta \theta _i}{\Delta t},
-  \label{eq:angularvelocity}
-\end{equation}
-
-then obtaining an average angular velocity of all particles. We average over all particles to obtain the angular velocity of the solid object.
+then we can calculate the angular frequency of each particle for each timestep of the simulation with $\omega _i = \frac{\Delta \theta _i}{\Delta t}$, then obtaining an average angular velocity of all particles. We average over all particles to obtain the angular velocity of the solid object.
 
