@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  1 NOV 2025 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  3 NOV 2025 11:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,7 +704,7 @@ Package todonotes Warning: The length marginparwidth is less than 2cm and will m
 File: pics/LogoTec.pdf Graphic file (type pdf)
 <use pics/LogoTec.pdf>
 Package pdftex.def Info: pics/LogoTec.pdf  used on input line 13.
-(pdftex.def)             Requested size: 348.0903pt x 126.276pt.
+(pdftex.def)             Requested size: 278.46162pt x 101.01695pt.
 
 
 [1
@@ -712,7 +712,7 @@ Package pdftex.def Info: pics/LogoTec.pdf  used on input line 13.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./pics/LogoTec.pdf>]
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 92.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 90.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -720,7 +720,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [3]
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
@@ -1527,15 +1527,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5269307B8E74D7011B258A01557A0DDD;6306.
  ) 
 Here is how much of TeX's memory you used:
- 27286 strings out of 475171
- 501193 string characters out of 5767094
+ 27287 strings out of 475171
+ 501201 string characters out of 5767094
  886512 words of memory out of 5000000
- 49426 multiletter control sequences out of 15000+600000
+ 49427 multiletter control sequences out of 15000+600000
  592921 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,12n,93p,1290b,828s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (91 pages, 13606507 bytes).
+Output written on main.pdf (91 pages, 13606710 bytes).
 PDF statistics:
  1609 PDF objects out of 1728 (max. 8388607)
  1332 compressed objects within 14 object streams
