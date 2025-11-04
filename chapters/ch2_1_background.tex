@@ -10,7 +10,7 @@
 
 At the mesoscale, where objects such as bacteria and colloidal particles operate, the physical world is governed by a regime in which viscous forces dominate over inertial ones. This regime is characterized by a small Reynolds number (Re), a dimensionless quantity that compares inertial to viscous effects. Consequently, the motion of an object at low Reynolds number is determined solely by the force acting on it at that instant; past forces have no influence on its present state. This lack of inertia is a defining feature of overdamped dynamics. In his seminal lecture, ``Life at Low Reynolds Number''~\cite{purcell2014life}, Purcell highlighted the surprising and often counterintuitive behaviors that emerge in such environments. For instance, time-reversible motion, common at macroscopic scales, is ineffective for propulsion at low Re, necessitating non-reciprocal strategies like flagellar rotation or body undulation. This leads to the scallop theorem, that states that an object with a single degree of freedom, such as a scallop in a viscous regime, will not have net displacement. 
 
-Microswimmer dynamics can be described by the Navier–Stokes equations in the absence of inertia, reducing them to a purely viscous form without time-dependent terms, as shown in Eq.~(\ref{eq:Navier-Stokes}). This simplification reflects the highly overdamped nature of motion at the microscale. Understanding how to generate and control movement under these conditions has therefore become a central question for researchers seeking efficient propulsion and transport mechanisms at small scales. However, overcoming viscous dominance is not the only challenge faced in these environments—other factors, such as thermal fluctuations and hydrodynamic interactions, also play crucial roles.
+Microswimmer dynamics can be described by the Navier–Stokes equations in the absence of inertia, reducing them to a purely viscous form without time-dependent terms, as shown in Eq.~(\ref{eq:Navier-Stokes}). This simplification reflects the highly overdamped nature of motion at the microscale. Understanding how to generate and control movement under these conditions has therefore become a central question for researchers seeking efficient propulsion and transport mechanisms at small scales. However, overcoming viscous dominance is not the only challenge faced in these environments, other factors, such as thermal fluctuations and hydrodynamic interactions, also play crucial roles.
 
 \begin{equation}
   - \nabla p + \eta \nabla ^2 \vec{v} = 0
@@ -88,7 +88,7 @@ Solving for $v(t + dt)$ gives:
   \label{eq:velocityplusone}
 \end{equation}
 
-Now, assuming no deterministic force ($F = 0$) — as is the case for free passive particles:
+Now, assuming no deterministic force ($F = 0$), as is the case for free passive particles:
 
 \begin{equation}
   v(t + dt) = v(t) - \frac{\gamma dt}{m} v(t) + g\, dW\text{.}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  3 NOV 2025 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.25)  4 NOV 2025 08:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -989,22 +989,12 @@ Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [31 <./figures/randomwalk.pdf>]
-Overfull \hbox (10.19032pt too wide) in paragraph at lines 162--163
-\OT1/ptm/m/n/12 achieve mo-tion in en-vi-ron-ments dom-i-nated by vis-cous forces. Each of these mech-a-nisms|flagellar
- []
-
-
-Overfull \hbox (25.47809pt too wide) in paragraph at lines 162--163
-\OT1/ptm/m/n/12 beat-ing in al-gae, cil-iary co-or-di-na-tion in pro-to-zoa, or actin-driven crawl-ing in im-mune cells|highlights
- []
-
-
 
 
 Overfull \vbox (8.18385pt too high) has occurred while \output is active []
 
  [32]
-<figures/harnessWork.pdf, id=826, 472.76625pt x 283.0575pt>
+<figures/harnessWork.pdf, id=827, 472.76625pt x 283.0575pt>
 File: figures/harnessWork.pdf Graphic file (type pdf)
 <use figures/harnessWork.pdf>
 Package pdftex.def Info: figures/harnessWork.pdf  used on input line 177.
@@ -1529,7 +1519,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  27287 strings out of 475171
  501201 string characters out of 5767094
- 886512 words of memory out of 5000000
+ 886511 words of memory out of 5000000
  49427 multiletter control sequences out of 15000+600000
  592921 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
