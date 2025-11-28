@@ -163,7 +163,7 @@ where $\gamma$ is the viscous drag coefficient, $\vec{F}_i ^{\mathrm{collision}}
 
 \begin{equation}
 \dot{\vec{x}}_i =
-\mu \bigl(\vec{F}^{\mathrm{collision}}_i + \vec{F}^{\mathrm{dd}}_i\bigr)
+\mu \bigl(\vec{F}^{\mathrm{collision}}_i + \vec{F}^{\mathrm{dd}}_i\bigr)+
 \sqrt{2D}\vec{\xi} _i(t),
 \label{eq:sde-final}
 \end{equation}
@@ -174,7 +174,7 @@ To integrate Eq.~(\ref{eq:sde-final}), we usethe Euler-Maruyama method~\cite{pla
 \begin{equation}
 \vec{x}_i^{n+1}
 = \vec{x}_i^{n}
-\mu \bigl[\vec{F}^{\mathrm{WCA}}_i(\vec{x}^n)
+\mu \bigl[\vec{F}^{\mathrm{collision}}_i(\vec{x}^n)
 + \vec{F}^{\mathrm{dd}}_i(\vec{x}^n,t_n)
 \bigr] \Delta t
 +\sqrt{2D\Delta t}\vec{\xi}_i^n,

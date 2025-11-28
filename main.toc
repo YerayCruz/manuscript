@@ -38,5 +38,6 @@
 \contentsline {chapter}{\numberline {7}Results}{61}{chapter.7}%
 \contentsline {part}{V\hspace {1em}Conclusions}{67}{part.5}%
 \contentsline {chapter}{\numberline {8}Conclusions}{69}{chapter.8}%
-\contentsline {chapter}{Bibliography}{71}{chapter.8}%
-\contentsline {chapter}{Curriculum Vitae}{81}{chapter*.35}%
+\contentsline {paragraph}{Future work}{70}{section*.35}%
+\contentsline {chapter}{Bibliography}{71}{section*.35}%
+\contentsline {chapter}{Curriculum Vitae}{81}{chapter*.36}%
