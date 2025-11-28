@@ -149,25 +149,39 @@ and adding all the interaction expected by each particle, we obtain:
 
 We want to see how the positions of the particles evolve over time with certain initial conditions, and to solve Eq. (\ref{eq:langevindipole}) this is why we need an integration method.
 
-\section{Euler-Maruyama Integration Method}
-%%%%%%%%
-The Euler-Maruyama is a numerical method used for stochastic differential equations which helps solve systems with Brownian motion~\cite{platen2010numerical,higham2001algorithmic}.
+\subsection{Numerical Scheme}
 
-The overdamped Langevin equation for a particle reads
-\[
-  \dot{x}(t)= \frac{1}{\gamma} F(x,t)+\sqrt{2D}\,\eta(t),
-\]
-where $\gamma$ is the dynamic viscous drag, \(D=k_BT/\gamma\) the diffusion coefficient,
-and \(\eta(t)\) is normalized Gaussian white noise:
-\(\langle\eta_i(t)\rangle=0,\ \langle\eta_i(t)\eta_j(t')\rangle=\delta_{ij}\delta(t-t')\).
-Discretizing with timestep \(\Delta t\) and Wiener increments \(\Delta W\sim\mathcal N(0, 1)\),
-the Euler--Maruyama update is
+The evolution of each particle is governed by the overdamped Langevin equation
 \begin{equation}
-x_{n+1} =  x_n + \mu\, F( x_n,t_n)\,\Delta t
-  + \sqrt{2D \Delta t}\;\Delta W_n.
-\label{eq:em_overdamped}
+\gamma \dot{\vec{x}}_i =
+\vec{F}^{\mathrm{collision}}_i +
+\vec{F}^{\mathrm{dd}}_i +
+\vec{\eta}_i(t),
+\label{eq:langevin-final}
 \end{equation}
-%%%%%%%%
+where $\gamma$ is the viscous drag coefficient, $\vec{F}_i ^{\mathrm{collision}}$ and $\vec{F}^{\mathrm{dd}}_i$ are the total WCA and dipolar forces obtained from Eqs.~(\ref{eq:wcasum}) and~(\ref{eq:dipolesum}), and $\vec{\eta} _i (t)$ is a Gaussian random force with \( \expval{\eta _i (t)} = 0\), \(\expval{\eta _i(t)\eta _j(t')} = \delta _{i,j}\delta(t-t')\). Dividing Eq.~(\ref{eq:langevin-final}) by $\gamma$ and defining $\mu = 1/\gamma$ and diffusion coefficient $D = k_{\mathrm{B}}T/\gamma$ gives the stochastic differential equation
+
+\begin{equation}
+\dot{\vec{x}}_i =
+\mu \bigl(\vec{F}^{\mathrm{collision}}_i + \vec{F}^{\mathrm{dd}}_i\bigr)
+\sqrt{2D}\vec{\xi} _i(t),
+\label{eq:sde-final}
+\end{equation}
+where $\vec{\xi} _i (t)$ is normalized white noise.
+
+To integrate Eq.~(\ref{eq:sde-final}), we usethe Euler-Maruyama method~\cite{platen2010numerical, higham2001algorithmic}. For a timestep $\Delta t$, the discretized update for each particle is
+
+\begin{equation}
+\vec{x}_i^{n+1}
+= \vec{x}_i^{n}
+\mu \bigl[\vec{F}^{\mathrm{WCA}}_i(\vec{x}^n)
++ \vec{F}^{\mathrm{dd}}_i(\vec{x}^n,t_n)
+\bigr] \Delta t
++\sqrt{2D\Delta t}\vec{\xi}_i^n,
+\label{eq:full-update}
+\end{equation}
+where $\vec{\xi}_i^n$ is a three-dimensional vector sampled independently from $\mathcal N(0,1)$.
+
 \section{Definition of the Solid Ratchet}
 
 To create the solid ratchet we used basis vectors (or lattice vectors) which are the fundamental building blocks used to generate the entire crystal lattice by translation. These vectors define the geometry of the unit cell, and by repeating the unit cell across space, we can form the overall lattice structure. Here, a body-centered cubic (BCC) lattice was chosen since the stability which proved to be stable under thermal fluctuations.

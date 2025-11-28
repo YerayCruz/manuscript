@@ -29,11 +29,11 @@
 \contentsline {chapter}{\numberline {6}Simulations}{47}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Paramegnetic Colloids Dynamics}{47}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Molecular Dynamics}{49}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Euler-Maruyama Integration Method}{53}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Definition of the Solid Ratchet}{54}{section.6.4}%
-\contentsline {section}{\numberline {6.5}System Overview and Workflow}{55}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}System's Physical Definition}{55}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Data Analysis}{57}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.2.1}Numerical Scheme}{53}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Definition of the Solid Ratchet}{54}{section.6.3}%
+\contentsline {section}{\numberline {6.4}System Overview and Workflow}{55}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}System's Physical Definition}{55}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Data Analysis}{57}{subsection.6.4.2}%
 \contentsline {part}{IV\hspace {1em}Results}{59}{part.4}%
 \contentsline {chapter}{\numberline {7}Results}{61}{chapter.7}%
 \contentsline {part}{V\hspace {1em}Conclusions}{67}{part.5}%
