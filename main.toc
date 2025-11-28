@@ -4,39 +4,39 @@
 \contentsline {chapter}{List of Tables}{ix}{chapter*.3}%
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
-\contentsline {part}{II\hspace {1em}Background}{5}{part.2}%
-\contentsline {chapter}{\numberline {2}Physics at the mesoscale}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Low Renolds Number Regime}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Brownian Motion and Thermal Fluctuations}{8}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Stochastic Representation}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Velocity Statistics and Energy Equipartition}{10}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Overdamped Dynamics and Diffussion}{11}{subsection.2.2.3}%
-\contentsline {paragraph}{Mean Position}{11}{section*.5}%
-\contentsline {paragraph}{Mean Square Displacement (MSD)}{12}{section*.6}%
-\contentsline {chapter}{\numberline {3}Ratchets and Rectification Mechanisms}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The Feynman-Smoluchowski Ratchet}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Optical Brownian ratchets}{17}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Active Matter Systems}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{23}{section.4.1}%
-\contentsline {paragraph}{Working definition.}{24}{section*.13}%
-\contentsline {section}{\numberline {4.2}Macroscopic Agents}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Microscopic Agents}{26}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{28}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Natural Systems}{30}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{32}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{37}{chapter.5}%
-\contentsline {part}{III\hspace {1em}Methods}{43}{part.3}%
-\contentsline {chapter}{\numberline {6}Simulations}{45}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Paramegnetic Colloids Dynamics}{45}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Molecular Dynamics}{47}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Euler-Maruyama Integration Method}{51}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Definition of the Solid Ratchet}{52}{section.6.4}%
-\contentsline {section}{\numberline {6.5}System Overview and Workflow}{53}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}System's Physical Definition}{53}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Data Analysis}{55}{subsection.6.5.2}%
-\contentsline {part}{IV\hspace {1em}Results}{57}{part.4}%
-\contentsline {chapter}{\numberline {7}Results}{59}{chapter.7}%
-\contentsline {part}{V\hspace {1em}Conclusions}{65}{part.5}%
-\contentsline {chapter}{\numberline {8}Conclusions}{67}{chapter.8}%
-\contentsline {chapter}{Bibliography}{69}{chapter.8}%
-\contentsline {chapter}{Curriculum Vitae}{79}{chapter*.35}%
+\contentsline {part}{II\hspace {1em}Background}{7}{part.2}%
+\contentsline {chapter}{\numberline {2}Physics at the mesoscale}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Low Renolds Number Regime}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Brownian Motion and Thermal Fluctuations}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Stochastic Representation}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Velocity Statistics and Energy Equipartition}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Overdamped Dynamics and Diffussion}{13}{subsection.2.2.3}%
+\contentsline {paragraph}{Mean Position}{13}{section*.5}%
+\contentsline {paragraph}{Mean Square Displacement (MSD)}{14}{section*.6}%
+\contentsline {chapter}{\numberline {3}Ratchets and Rectification Mechanisms}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Feynman-Smoluchowski Ratchet}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Optical Brownian ratchets}{19}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Active Matter Systems}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Fundamentals of Active Matter}{25}{section.4.1}%
+\contentsline {paragraph}{Working definition.}{26}{section*.13}%
+\contentsline {section}{\numberline {4.2}Macroscopic Agents}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Microscopic Agents}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Artificial Systems}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Natural Systems}{32}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Obtaining Work from Active Matter}{34}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Magnetically Driven Colloidal Systems}{39}{chapter.5}%
+\contentsline {part}{III\hspace {1em}Methods}{45}{part.3}%
+\contentsline {chapter}{\numberline {6}Simulations}{47}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Paramegnetic Colloids Dynamics}{47}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Molecular Dynamics}{49}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Euler-Maruyama Integration Method}{53}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Definition of the Solid Ratchet}{54}{section.6.4}%
+\contentsline {section}{\numberline {6.5}System Overview and Workflow}{55}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}System's Physical Definition}{55}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Data Analysis}{57}{subsection.6.5.2}%
+\contentsline {part}{IV\hspace {1em}Results}{59}{part.4}%
+\contentsline {chapter}{\numberline {7}Results}{61}{chapter.7}%
+\contentsline {part}{V\hspace {1em}Conclusions}{67}{part.5}%
+\contentsline {chapter}{\numberline {8}Conclusions}{69}{chapter.8}%
+\contentsline {chapter}{Bibliography}{71}{chapter.8}%
+\contentsline {chapter}{Curriculum Vitae}{81}{chapter*.35}%
